@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<title>Tämä on html-tiedosto</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Eka kokeilu</h2>
+		<p>Tämä on eka kokeilu lisätyllä html-tiedostolla. Ehkä joskus tulee jotain parempaa...</p>
+	</body>
+</html>
