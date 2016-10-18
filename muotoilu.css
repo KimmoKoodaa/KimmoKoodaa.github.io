@@ -1,0 +1,191 @@
+/* Muotoilut */
+.osoitus{
+	border: 2px solid green;
+	color: black;
+	background-color: white;
+	padding: 1px;
+	text-align: center;
+	margin-left: 0%;
+	margin-right: 0%;
+	font-size: 14pt;
+}
+
+body { 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;					
+	background-image: url(taustakuva-2.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+h1 { 
+	border: 2px solid blue;
+	background-color: #FDFEFE;
+	padding: 5px;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h2 { 
+	border: 2px solid red;
+	background-color: #FDFEFE;
+	padding: 5px;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h3 { 
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	margin-left: 3%;
+	margin-right: 3%;
+	background-color: #AED6F1;
+	
+}
+
+h4 { 
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #D5F5E3;
+
+}
+
+p {
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+ul {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+section#tiedotYhdestaPelaajastaDivId {
+	background-color: white;
+}
+
+#sahlytId {
+	background-color: white;
+}
+
+#sahlytId th {
+	background: #922b21;
+	color: white;
+}
+
+#pelaajatId {
+	background-color: #FDFEFE;
+}
+
+#pelaajanOsallistuminenPieId {
+	background-color: #FDFEFE;
+}
+
+#pelaajienLkmId {
+	background-color: white;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#pelaajaVoittoprosenttiKuvaaja {
+	background-color: #FDFEFE;
+}
+
+#paritilastoToveriId {
+	background-color: white;
+}
+
+#paritilastoToveriId th {
+	background:DarkCyan;
+	color: white;
+}
+
+#paritilastoVastustajaId {
+	background-color: white;
+}
+
+#paritilastoVastustajaId th {
+	background-color: #e74c3c;
+	color: white;
+}
+
+#joukkueetId th {
+	background-color: #A5FF23;
+}
+
+section#aloitus {
+	background: white;
+	border: solid white;
+}
+
+div#kaikkiPelaajat {
+	background: white;
+	border: solid white;
+}
+
+.ui-dialog .ui-dialog-content {
+  border: 0;
+	padding: .5em 1em;
+	background: white;
+	overflow: auto;
+	
+}
+
+/* Dialogin muotoilu: otsikon taustaväri ainakin*/
+.ui-dialog > .ui-widget-header {
+	background: #CCFFFF;
+	color: black;
+}
+
+#pelaajaVoittoprosenttiKuvaaja {
+    height: 100px;
+		text-align: center;
+}
+
+/* Taulukoihin liittyviä muotoiluja */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 12pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 12pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #8dbdd8;
+}

@@ -1,0 +1,4153 @@
+<?xml version='1.0' ?> 
+<tilastot>
+	<pelikaudet>
+		<pelikausi nimi="Talvikausi 2014-2015" nimiLyhyt="Talvi 14-15" pvmAloitus="2014-12-09" pvmLopetus="2015-06-02"></pelikausi>
+		<pelikausi nimi="Kesäkausi 2015" nimiLyhyt="Kesä 15" pvmAloitus="2015-06-09" pvmLopetus="2015-08-04"></pelikausi>
+		<pelikausi nimi="Talvikausi 2015-2016" nimiLyhyt="Talvi 15-16" pvmAloitus="2015-08-11" pvmLopetus="2016-05-31"></pelikausi>
+		<pelikausi nimi="Kesäkausi 2016" nimiLyhyt="Kesä 16" pvmAloitus="2016-06-07" pvmLopetus="2016-08-02"></pelikausi>
+		<pelikausi nimi="Talvikausi 2016-2017" nimiLyhyt="Talvi 16-17" pvmAloitus="2016-08-09" pvmLopetus="2017-05-31"></pelikausi>
+	</pelikaudet>
+	<pelaajat>
+		<pelaaja kutsumanimi="Antoni" tilastonimi="Antoni" kuvaus="Antoni on se yks huipputyyppi. Nuorehko. Pelaa aika täysillä. Ei varmaa, onko kenenkään tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Antti" tilastonimi="Antti" kuvaus="Antti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Daniel" tilastonimi="Daniel" kuvaus="Daniel on se yks huipputyyppi. Melko uusi mies. Hyvä pelaaja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Dimitri" tilastonimi="Dimitri" kuvaus="Dimitri on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Erik" tilastonimi="Erik" kuvaus="Erik on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu" kuvaus="Hannu on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Henkka" tilastonimi="Henkka" kuvaus="Henkka on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Iltsu" tilastonimi="Iltsu" kuvaus="Iltsu on se yks huipputyyppi. Käy harvoin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Ipa" tilastonimi="Ipa" kuvaus="Ipa on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Ilmaveivi" tilastonimi="Ilmaveivi" kuvaus="Ilmaveivi on se yks huipputyyppi. Ei ole oikeasti Ilmaveivi nimeltään, mutta tunnistaa ilmaveivistä. Se, joka loukkasi nilkkaansa silloin kerran. En tiedä nimeä." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jaakko" tilastonimi="Jaakko" kuvaus="Jaakko on se yks huipputyyppi. Oiskohan Ipan kavereita?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jani" tilastonimi="Jani" kuvaus="Jani on se yks huipputyyppi. Antin ja Ville2:n kaveri." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Janne" tilastonimi="Janne" kuvaus="Janne on se yks huipputyyppi. Kronologisesti ansioituneempi Janne.." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Janne" tilastonimi="Janne2" kuvaus="Janne2 on se yks huipputyyppi. Nuorempi Janne." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jari" tilastonimi="Jari" kuvaus="Jari on se yks huipputyyppi. Vähän vanhempi peluri. Liekö Jounin kaveri tai ilmestyivät ainakin samaan aikaan." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jartsa" tilastonimi="Jartsa" kuvaus="Jartsa on se yks huipputyyppi. Antin, Ipan, Jannen kaveri." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Joel" tilastonimi="Joel" kuvaus="Joel on se yks huipputyyppi. Otto2:n tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Joni" tilastonimi="Joni" kuvaus="Joni on se yks huipputyyppi. Se silmälasipäinen" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jorma" tilastonimi="Jorma" kuvaus="Jorma on se yks huipputyyppi. Jos Tapsaa ei oteta huomioon, Jorma lienee palvelusvuosiltaan (eli pelivuosiltaan) vanhin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jose" tilastonimi="Jose" kuvaus="Jose on se yks huipputyyppi. Yksi ulkomaalaisvahvistuksista." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jouni" tilastonimi="Jouni" kuvaus="Jouni on se yks huipputyyppi. Vähän vanhempi peluri. Sellainen isokokoinen jässikkä. Liekö Jarin kaveri, kun ilmestyivät samalla kerralla." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jude" tilastonimi="Jude" kuvaus="Jude on se yks huipputyyppi. Vanhaa kaartia." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Juha" tilastonimi="Juha" kuvaus="Juha on se yks huipputyyppi. Sen pisimmän Markuksen (joka ei ole näissä tilastoissa) kavereita." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Kalle" tilastonimi="Kalle" kuvaus="Kalle on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Kari" tilastonimi="Kari" kuvaus="Kari on se yks huipputyyppi. Nuorempi Kari." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Kari" tilastonimi="Kari2" kuvaus="Kari2 on se yks huipputyyppi. Silmälasipäinen jässikkä. Pelaa aika hyvin ja aika kovaa. Markuksen tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Kimmo" tilastonimi="Kimmo" kuvaus="Kimmo on se yks huipputyyppi. Vanhempi Kimmo" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Kimmo" tilastonimi="Kimmo2" kuvaus="Kimmo2 on se yks huipputyyppi. Nuorempi Kimmo." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Kimmo" tilastonimi="Kimmo3" kuvaus="Kimmo3 on se yks huipputyyppi. Uusin Kimmo, ihan hyvä pelaaja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Kjäll" tilastonimi="Kjäll" kuvaus="Kjäll on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Lasse" tilastonimi="Lasse" kuvaus="Lasse on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Laurent" tilastonimi="Laurent" kuvaus="Laurent on se yks huipputyyppi. Yksi ulkomaalaisvahvistuksista." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Lauri" tilastonimi="Lauri" kuvaus="Lauri on se yks huipputyyppi. Vanhempi Lauri. Tummat hiukset. Pelaa maalissa useina maassa ja ihan hyvin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Lauri" tilastonimi="Lauri2" kuvaus="Lauri2 on se yks huipputyyppi. Lienee Kimmo2:n kaveri." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Make" tilastonimi="Make" kuvaus="Make on se yks huipputyyppi. Tekee joukkueet aina kun on paikalla. Osaako mennä itse parempaan joukkueeseen?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Markus" tilastonimi="Markus" kuvaus="Markus on se yks huipputyyppi. Kutsuvieraat ja Markus on aina myöhässä." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Martti" tilastonimi="Martti" kuvaus="Martti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Martti" tilastonimi="Martti2" kuvaus="Martti2 on se yks huipputyyppi. Ipan jonkilainen tuttu. Hyvä pelaaja, kuten ensimmäinen Marttikin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Matti" tilastonimi="Matti" kuvaus="Matti on se yks huipputyyppi. Olisko Antin tuttuja. Aika nopea ja hyvä pelaamaan." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Mika" tilastonimi="Mika" kuvaus="Mika on se yks huipputyyppi. Hyvä pelaaja. Käy aina silloin tällöin ja sitten ei pitkään aikaan. Kjällin tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="MikiAntinkaveri" tilastonimi="MikiAntinkaveri" kuvaus="MikiAntinkaveri on se yks huipputyyppi. Antin kaveri, jonka nimi oli vissiin Miki tai jotain. Oli kerran pelaamassa." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas" kuvaus="Niclas on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
+<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas2" kuvaus="Niclas2 on se yks huipputyyppi. Ilmeiseti Kimmo2:n tuttuja. Aiemmin tilastoissa tuntematon11. Pelaa aika usein maalivahtina." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Otto" tilastonimi="Otto" kuvaus="Otto on se yks huipputyyppi. Pitä, pitää, pitää, pitää ... ja sitten tekee aika usein maalin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Pekka" tilastonimi="Pekka" kuvaus="Pekka on se yks huipputyyppi. Pelaa aina täysillä." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Saku" tilastonimi="Saku" kuvaus="Saku on se yks huipputyyppi. Sellainen partasuu, joka pelaa enimmäkseen kesäisin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Sami" tilastonimi="Sami" kuvaus="Sami on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Samu" tilastonimi="Samu" kuvaus="Samu on se yks huipputyyppi. Vanhimpaa kaartia. Lienee aloittanut nämä pelit jo 90-luvulla?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Sergei" tilastonimi="Sergei" kuvaus="Sergei on se yks huipputyyppi. Yksi ulkomaalaisvahvistuksista. Vai oliko nimi Serg? Markuksen tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Tapsa" tilastonimi="Tapsa" kuvaus="Tapsa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Timo" tilastonimi="Timo" kuvaus="Timo on se yks huipputyyppi. Hoikempi Timo. Palvelusvuosiltaan vanhempi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Timo" tilastonimi="Timo2" kuvaus="Timo2 on se yks huipputyyppi. Jykevämpi Timo. Maken kaveri. Palvelusvuosiltaan nuorempi Timo." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi" kuvaus="Tommi on se yks huipputyyppi. Markuksen serkku. Pyörähtelee tosi nopeasti ja pelaa muutenkin tosi hyvin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi2" kuvaus="Tommi2 on se yks huipputyyppi. Se, joka ei juuri talvella käy, mutta joinakin kesinä aina ilmestyy jossain vaiheessa. Ihan hyvä pelaaja. Pelaakohan se myös futsalia?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon1" tilastonimi="tuntematon1" kuvaus="Tuntematon1 on se yks huipputyyppi. Oisko ollut Kimmo2:n kaveri. Tummat kiharat hiukset. Sininen paita. Oli kerran eikä sen jälkeen ole näkynyt." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon2" tilastonimi="tuntematon2" kuvaus="Tuntematon2 on se yks huipputyyppi. Ei vissiin ollut kenenkään tuttu? Vai oliko Markuksen tuttu. Pelasi Jokeripaidassa ekalla kerralla." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon3" tilastonimi="tuntematon3" kuvaus="Tuntematon3 on se yks huipputyyppi. Kimmo2:n kaveri. Özil-paita." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon4" tilastonimi="tuntematon4" kuvaus="Tuntematon4 on se yks huipputyyppi. Kimmo2:n kaveri." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon5" tilastonimi="tuntematon5" kuvaus="Tuntematon5 on se yks huipputyyppi. Ei tietoa oliko kenenkään kaveri. Sellainen tosi pitkä ja innokas pelaaja." ominaisuudet="" muuta=""/>		
+		<pelaaja kutsumanimi="tuntematon8" tilastonimi="tuntematon8" kuvaus="Tuntematon8 on se yks huipputyyppi. Hyvä pelaaja. Olisiko Kimmo2:n tuttuja?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon9" tilastonimi="tuntematon9" kuvaus="Tuntematon9 on se yks huipputyyppi. Nuorehko. Hyvä pelaaja. Olisiko Jonin tuttuja? Ainakin ne jutteli ennen peliä?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon10" tilastonimi="tuntematon10" kuvaus="Tuntematon10 on se yks huipputyyppi. Ilmeiseti Joelin tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Tuomas" tilastonimi="Tuomas" kuvaus="Tuomas on se yks huipputyyppi. Se vähän Niclaksen tai Antin näköinen sälli." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Ville" tilastonimi="Ville" kuvaus="Ville on se yks huipputyyppi. Kimmo2:n koulukaveri. Pitkä. Hyvä. Pelaa vähän kuin Pekka." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Ville" tilastonimi="Ville2" kuvaus="Ville2 on se yks huipputyyppi. Antin ja Janin kaveri. Huutelee joskus hämäilymielessä vastustajille: 'Täällä'" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Visa" tilastonimi="Visa" kuvaus="Visa on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
+	</pelaajat>
+
+	<sahlyt>
+	<sahly pvm="2012-01-03" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-01-10" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-01-17" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-01-24" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-01-31" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>7</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-02-07" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>3</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-02-14" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>6</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-02-21" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-02-28" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-03-06" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-03-13" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-03-20" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-03-27" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-04-03" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>6</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-04-10" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-04-17" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-04-24" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-05-01" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Ilmeisesti Vappu, joten ei varmaankaan pelattu.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-05-08" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-05-15" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-05-22" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-05-29" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-06-05" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-06-12" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-06-19" paikka="" alkoi="" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-06-26" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>4</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-07-03" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>18</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-07-10" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>20</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-07-17" paikka="" alkoi="" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-07-24" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-07-31" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-08-07" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-08-14" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-08-21" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-08-28" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>6</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta>6 pelaajaa, ei pelattu.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-09-04" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-09-11" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-09-18" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-09-25" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-10-02" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-10-09" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Pelaajia noin 12.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-10-16" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-10-23" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-10-30" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-11-06" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>6</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-11-13" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-11-20" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-11-27" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-12-04" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-12-11" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-12-18" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2012-12-25" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Joulupäivä, joten oletettavasti ei pelattu.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-01-01" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>0</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Ei pelattu: uusi vuosi.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-01-08" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-01-15" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>14</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-01-22" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-01-29" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-02-05" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-02-12" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-02-19" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-02-26" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-03-05" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-03-12" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-03-19" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>6</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-03-26" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>7</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-04-02" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-04-09" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-04-16" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-04-23" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-04-30" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>0</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Ei pelattu: vappu.</muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-05-07" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-05-14" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-05-21" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-05-28" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>16</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-06-04" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>7</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-06-11" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>7</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Ei pelattu: liian vähän pelaajia.</muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-06-18" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-06-25" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Rainerkin oli pelaamassa.</muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-07-02" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>4</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta>Ei pelattu, liian vähän pelaajia.</muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-07-09" paikka="" alkoi="" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-07-16" paikka="" alkoi="" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-07-23" paikka="" alkoi="" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-07-30" paikka="" alkoi="" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-08-06" paikka="" alkoi="" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-08-13" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-08-20" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-08-27" paikka="" alkoi="" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-09-03" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-09-10" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-09-17" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-09-24" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-10-01" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-10-08" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-10-15" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-10-22" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-10-29" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2013-11-05" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>19</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-11-12" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-11-19" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>18</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-11-26" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-12-03" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-12-10" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>16</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-12-17" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>22</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-12-24" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>0</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+		<muuta>Ei pelejä, jouluaatto.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2013-12-31" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>0</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Ei pelejä, uuden vuoden aatto.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-01-07" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo peli1="voitto" peli2="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-01-14" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>17</pelaajia>
+			<kimmo peli1="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-01-21" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-01-28" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-02-04" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>18</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-02-11" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto" peli3="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-02-18" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta>10 vuotta tuli pelejä täyteen Kimmolle.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-02-25" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>21</pelaajia>
+			<kimmo peli1="voitto" peli2="voitto" peli3="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-03-04" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>16</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-03-11" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>18</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-03-18" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-03-25" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-04-01" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Ei tietoa oliko Visa paikalla. Ilmeisesti kuitenkin pelasivat.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-04-08" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Ei tietoa oliko Visa paikalla.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-04-15" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>14</pelaajia>
+			<kimmo peli1="voitto" peli2="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>	
+
+	<sahly pvm="2014-04-22" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>14</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-04-29" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo peli1="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-05-06" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo peli1="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-05-13" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo peli1="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-05-20" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-05-27" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-06-03" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta>Viimeinen kerta klo 22 alkaen.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-06-10" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta>Kesän ensimmäinen kerta klo 20 alkaen.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-06-17" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-06-24" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>17</pelaajia>
+			<kimmo peli1="voitto" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>		
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-07-01" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo peli1="voitto" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-07-08" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-07-15" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-07-22" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>7</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-07-29" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Ei tietoa pelattiinko.</muuta>
+		</perustiedot>
+	</sahly>	
+
+	<sahly pvm="2014-08-05" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Kesän viimeinen kerta klo 20.</muuta>
+		</perustiedot>
+	</sahly>	
+
+	<sahly pvm="2014-08-12" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Syksyn ensimmäinen kerta klo 22.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-08-19" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>18</pelaajia>
+			<kimmo peli1="voitto" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-08-26" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="voitto" peli2="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-09-02" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-09-09" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-09-16" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="voitto" peli2="tappio">paikalla</kimmo>
+			<visa>poissa</visa>		
+			<muuta>Oltiin 12-21 tappiolla, mutta voitettiin 25-24.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-09-23" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="voitto" peli2="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-09-30" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>16</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-10-07" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>20</pelaajia>
+			<kimmo peli1="tappio" peli2="tappio" peli3="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Jormakin oli. (Olikohan eka kerta sitten v. 2010)</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-10-14" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-10-21" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>14</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-10-28" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>17</pelaajia>
+			<kimmo peli1="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Jormakin oli</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-11-04" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="voitto">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-11-11" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>14</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta>Jormakin oli</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-11-18" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo peli1="tappio" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+	
+	<sahly pvm="2014-11-25" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo peli1="tappio">paikalla</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Jormakin oli</muuta>
+		</perustiedot>
+	</sahly>
+		
+	<sahly pvm="2014-12-02" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo peli1="voitto" peli2="voitto">paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta>Jormakin oli</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2014-12-09" paikka="" alkoi="22:00" loppui="" muuta=""  pelattiinko="kyllä">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Juha</pelaaja>
+				<pelaaja joukkue="paidat">Pekka</pelaaja>
+
+				<pelaaja joukkue="liivit">Laurent</pelaaja>
+				<pelaaja joukkue="liivit">Niclas</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+			</pelaajat>
+		</peli>	
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Juha</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+		
+				<pelaaja joukkue="liivit">Pekka</pelaaja>
+				<pelaaja joukkue="liivit">Laurent</pelaaja>
+				<pelaaja joukkue="liivit">Niclas</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2014-12-16" paikka="" alkoi="22:00" loppui="" muuta=""  pelattiinko="kyllä">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="Nuoret vastaan vanhat, vanhat voitti.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Pekka</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>
+
+	<sahly pvm="2014-12-23" paikka="" alkoi="22:00" loppui="" muuta="Kuulemma oli joku neljäskin. Timo ja Markus tulivat myöhässä, joten eivät tavanneet niitä kahta muuta." pelattiinko="ei">
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu">
+			<pelaajat>
+				<pelaaja joukkue="">Kjäll</pelaaja>
+				<pelaaja joukkue="">Timo</pelaaja>
+				<pelaaja joukkue="">Markus</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>
+
+	<sahly pvm="2014-12-30" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="tasapeli" maalit1="14" maalit2="14" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Janne2</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	
+	<sahly pvm="2015-01-06" paikka="" alkoi="13:00" loppui="15:00" muuta="Loppiaisen takia oli keskellä päivää." pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Kjäll, Visa ja Joni olivat.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2015-01-13" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="Jorma aloitti paidoilla, mutta tilanteessa 13-18 se uusi mies (Kimmo2:n kaveri) lähti ja Jorma meni liivien puolelle. Paidat voitti lopulta 25-noin20.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Juha</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon1</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-01-20" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="Dimitri lähti kesken pois, jolloin Martti meni paidoilta liiveille.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Dimitri</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="9" muuta="Paidoilla oli selvä johto, mutta liivit kiri, mutta voittoon ei riittänyt.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-01-27" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="24" muuta="Joni lähti kesken pois, jolloin Jorma meni liiveiltä paidoille.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Jorma</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="4" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Jorma</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+	<sahly pvm="2015-02-03" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="Markus tuli myöhässä, jolloin Kjäll meni liiveiltä paidoille.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="6" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-02-10" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">tuntematon2</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Sergei</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="4" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">tuntematon2</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Sergei</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-02-17" paikka="" alkoi="22:00" loppui="" muuta="Kimmolle tuli 11 vuotta ensimmäisestä sählystä." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Jorma</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Sergei</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Jorma</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Sergei</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="4" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Jorma</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Sergei</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-02-24" paikka="" alkoi="22:00" loppui="" muuta="Saku lähti, jolloin Ipa meni paidoilta liiveille." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="21" maalit2="25" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Janne</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Jorma</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Saku</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+				<pelaaja joukkue="liivit">Jartsa</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+				<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Janne</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Jorma</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Saku</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+				<pelaaja joukkue="liivit">Jartsa</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+<sahly pvm="2015-03-03" paikka="" alkoi="22:00" loppui="" muuta="Tapsa tuli myöhässä ja pelasi hetken liiveillä. Sitten vaihtoi paidoille ja Saku meni liiveille, koska Sakulla oli punaiset shortsit. Markus sanoi, että on voittanut yhden pelin tänä vuonna. Lopussa Markus haki ensimmäisen kerran Tapsan pokaalin, jonka kanssa voittajat ravasivat ympäri kenttää." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Jose</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Janne2</pelaaja>
+				<pelaaja joukkue="liivit">Saku</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-03-10" paikka="" alkoi="22:00" loppui="" muuta="Lopussa juhlittiin Tapsan pokaalin kanssa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Saku</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Laurent</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="7" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Laurent</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-03-17" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-03-24" paikka="" alkoi="22:00" loppui="" muuta="Saku lähti ajoissa, jolloin Sami meni liiveiltä paidoille." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Saku</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-03-31" paikka="" alkoi="22:00" loppui="" muuta="Martti alotti paidoilla ja Pekka liiveillä. Koska peli oli epätasainen, he vaihtoivat puolia. Pekka loukkasi nilkkansa grandessa. Kun Iltsu lähti kesken pois, Antti meni paidoille." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Iltsu</pelaaja>
+				<pelaaja joukkue="paidat">Janne</pelaaja>
+				<pelaaja joukkue="paidat">Pekka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Iltsu</pelaaja>
+				<pelaaja joukkue="paidat">Janne</pelaaja>
+				<pelaaja joukkue="paidat">Pekka</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-04-07" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kalle</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Saku</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-04-14" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="25" maalit2="24" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Tuomas</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="10" maalit2="4" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Tuomas</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-04-21" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Saku</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+				<pelaaja joukkue="liivit">MikiAntinkaveri</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Jorma</pelaaja>
+				<pelaaja joukkue="liivit">MikiAntinkaveri</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-04-28" paikka="" alkoi="22:00" loppui="" muuta="Todettiin, että kahden viikon päästä ei ehkä kannata tulla pelaamaan, koska lätkän MM-kisoissa on FIN-RUS. Lisäksi samana iltana on Mestareiden liigaa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-05-05" paikka="" alkoi="22:00" loppui="" muuta="Päätettiin, että viikon päästä jäädään katsomaan FIN-RUS ottelua, koska porukkaa ei varmaan tule tarpeeksi. Tosin jotkut olivat sitä mieltä, että vois tullakin." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="23" maalit2="25" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-05-12" paikka="" alkoi="" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>0</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Ilmeisesti ei pelattu, koska samaan aikaan oli FIN-RUS MM-lätkää ja Barcelona-Bayern jalkapallossa</muuta>
+		</perustiedot>
+	</sahly>
+	
+	<sahly pvm="2015-05-19" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="23" maalit2="25" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Jose</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="5" maalit2="1" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Jose</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-05-26" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="24" maalit2="25" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-06-02" paikka="" alkoi="22:00" loppui="" muuta="Talvikauden viimeiset pelit." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="9" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-06-09" paikka="" alkoi="20:00" loppui="" muuta="Kesän eka peli klo 20 eikä porukka tullut." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Joni</pelaaja>
+				<pelaaja joukkue="">Martti</pelaaja>
+				<pelaaja joukkue="">Otto</pelaaja>
+				<pelaaja joukkue="">Make</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-06-16" paikka="" alkoi="20:00" loppui="" muuta="Ei pelattu. Taaskaan ei tarpeeksi pelaajia. Markus tuli, kun oltiin lähdössä. Mainittujen lisäksi kävi joku Antin kaveri, joka lähti ennen kuin Markus tuli." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Joni</pelaaja>
+				<pelaaja joukkue="">Antti</pelaaja>
+				<pelaaja joukkue="">Henkka</pelaaja>
+				<pelaaja joukkue="">Make</pelaaja>
+				<pelaaja joukkue="">Markus</pelaaja>
+				<pelaaja joukkue="">Visa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-06-23" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2015-06-30" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2015-07-07" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="23" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Tuomas</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Timo2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+				<pelaaja joukkue="liivit">Janne2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-07-14" paikka="" alkoi="20:00" loppui="" muuta="Janne2 voitti ensimmäisen kerran tänä vuonna! Hilkulla sekin oli. Ipa liukastui kulmassa ja Henkalta meni silloin nilkka. Sellaisia ne ikämiesurheilijat on. Liivit joutuivat pelaamaan ilman Henkkaa loppuajan. Voidaan spekuloida olisiko liivit saaneet ne viimeiset maalit, jos se vanha ukonrähjä olisi pelannut loppuun asti eikä vain huudellut sieltä vaihtopenkiltä." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="16" maalit2="14" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">tuntematon2</pelaaja>
+				<pelaaja joukkue="paidat">Kari2</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+				<pelaaja joukkue="liivit">Jaakko</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Jose</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-07-21" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="24" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Lauri2</pelaaja>
+				<pelaaja joukkue="paidat">Kari2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Timo2</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	
+	<sahly pvm="2015-07-28" paikka="" alkoi="20:00" loppui="" muuta="Pelattiin poikittain. Aika moni kehui, että oli ihan hyvä, mutta on se kuitenkin erilaista." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Timo2</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-08-04" paikka="" alkoi="20:00" loppui="" muuta="Kesän viimeinen peli klo 20. Kimmolla oli mahdollisuus uusia ennätyksellinen yhdeksän peräkkäisen tappion putki, mutta hän epäonnistui." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="21" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Timo2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Martti2</pelaaja>
+
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Kari2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-08-11" paikka="" alkoi="22:00" loppui="" muuta="Talvikauden ensimmäiset pelit. Hellepäivä, ehkä sen takia porukkaa ei oikein ollut." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="24" maalit2="25" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="4" maalit2="2" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2015-08-18" paikka="" alkoi="22:00" loppui="" muuta="Judekin oli monen vuoden jälkeen. Ilmaveivi loukkasi nilkkansa aika pahasti, mutta onnistui nilkuttelemaan kotiin. Kimmo aloitti ekan pelin paidoilla, mutta vaihtoi liiveille, kun Ilmaveivi loukkaantui. Kimmo palasi toiseen peliin paidoille, kun Jude ja Timo lähti ekan pelin loputtua. Timo2 lopetti samaan aikaan kuin Ilmaveivi eli vähän ennen ekan pelin loppua." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Lauri2</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Timo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">Ilmaveivi</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon3</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon4</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon5</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Lauri2</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon3</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon4</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon5</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-08-25" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Joni ja Jude ainakin oli. Make ei ollut. Muista ei tietoa.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2015-09-01" paikka="" alkoi="22:00" loppui="" muuta="Hannu (ennen tuntematon6) aloitti paidoilla, mutta siirtyi liiveille, kun Timo2 lähti." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="22" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Olli</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Timo2</pelaaja>
+				<pelaaja joukkue="liivit">Hannu</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-09-08" paikka="" alkoi="22:00" loppui="" muuta="Paidat voitti selvästi ekan pelin. Timo2 lähti ekan pelin jälkeen. Toisessa pelissä liivit johti 9-4, mutta paidat kavensi tilanteeseen 9-8. Jäätävien hermojen ansiosta liivit kuitenkin voitti." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Martti2</pelaaja>
+
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Timo2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Hannu</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon8</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Martti2</pelaaja>
+
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Hannu</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon8</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-09-15" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="23" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Lauri2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Olli</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-09-22" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="22" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Antoni</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-09-29" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="18" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Olli</pelaaja>
+				<pelaaja joukkue="liivit">Antoni</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-10-06" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>15</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Joni ja Jude ainakin oli. Ipa myös. Ilmeisesti Olli ja Make myös. Muista ei tietoa.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2015-10-13" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="25" muuta="Markus aloitti liiveillä, mutta vaihtoi loppuvaiheessa paidoille, koska Ollille tuli jotain kenkäongelmaa. Peli oli silloin 23-9. Paidat aloitti hirmu nousun, mutta se ei riittänyt.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Olli</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Antoni</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon9</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-10-20" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="18" maalit2="21" muuta="Make juoksi ja teki hienon maalin. Uudeksi lempinimeksi Makelle tuli vinttikoira.">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Antoni</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-10-27" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="21" maalit2="25" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>			
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">tuntematon10</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>			
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">tuntematon10</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+<sahly pvm="2015-11-03" paikka="" alkoi="22:00" loppui="" muuta="Kentällä oli uusi tulostaulu, jossa suurin numero oli 20. Tästä alkaen ensimmäinen peli pelataan ilmeisesti kahteenkymmeneen." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="17" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="5" maalit2="2" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	<sahly pvm="2015-11-10" paikka="" alkoi="22:00" loppui="" muuta="Ei pelattu. Pelaajia oli klo 22:15 vain 7, joten lähdettiin pois. Timo tuli klo 22:30." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Henkka</pelaaja>
+				<pelaaja joukkue="">Ipa</pelaaja>
+				<pelaaja joukkue="">Kjäll</pelaaja>
+				<pelaaja joukkue="">Make</pelaaja>
+				<pelaaja joukkue="">Antoni</pelaaja>
+				<pelaaja joukkue="">Joel</pelaaja>
+				<pelaaja joukkue="">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+<sahly pvm="2015-11-17" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="19" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Antoni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Antoni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-11-24" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Antoni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="5" maalit2="2" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Antoni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-12-01" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Paikalla oli ainakin Make, Jude, Kjäll, Henkka ja ilmeisesti Markuskin.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2015-12-08" paikka="" alkoi="22:00" loppui="" muuta="Melko historialliset pelit. Liiveillä meni kaikki sisään. Paidat taistelivat urhoollisesti, mutta sekään ei riittänyt. Maaleja erityisesti mättänyt Kari2 lähti kesken toisen peli, jolloin Tapsa vaihtoi liiveille. Hetken jo näytti, että paidat pääsevät peliin mukaan, mutta ei päässytkään." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="6" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Antoni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Kari2</pelaaja>
+			</pelaajat>
+		</peli>
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Antoni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Kari2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+			</pelaajat>
+		</peli>
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="1" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Antoni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	<sahly pvm="2015-12-15" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Antoni</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Antoni</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Martti2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2015-12-22" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>7</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Paikalla oli ainakin Kjäll ja Joni.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2015-12-29" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>11</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Paikalla oli ainakin Kjäll, Joni ja Visa. Jonin mukaan toisella joukkueella oli vaihtomies, joten oletetaan, että pelaajia oli 11. Ilmeisesti Marttikin oli pitkästä aikaa pelaamassa.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2016-01-05" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="ei">
+		<perustiedot>
+			<pelaajia>1</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Kuulemma joku oli käynyt ja ilmeisesti joku toinenkin, mutta kääntynyt heti pois. Muita ei ollut, koska Suomi pelasi U20 lätkäfinaalissa ja voitti Venäjän. Suomi on uusi maailmanmestari hei, maailmanmestari hei, maailmanmestari!</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2016-01-12" paikka="" alkoi="22:00" loppui="" muuta="Kimmo2 oli koulusta lomalla. Seuraavan kerran sanoi tulevansa huhtikuussa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="6" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	
+	<sahly pvm="2016-01-19" paikka="" alkoi="22:00" loppui="" muuta="Ei pelattu. Pelaajia oli vain 7, vaikka moni edellisellä viikolla ollut lupasi tulla." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Visa</pelaaja>
+				<pelaaja joukkue="">Henkka</pelaaja>
+				<pelaaja joukkue="">Martti</pelaaja>
+				<pelaaja joukkue="">Markus</pelaaja>
+				<pelaaja joukkue="">Antoni</pelaaja>
+				<pelaaja joukkue="">Lauri2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-01-26" paikka="" alkoi="22:00" loppui="" muuta="Toista kertaa tilastoinnin historiassa peli päättyi tasan." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="11" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="tasapeli" maalit1="5" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-02-02" paikka="" alkoi="22:00" loppui="" muuta="Kimmo2 oli lentänyt Suomeen ihan vain tätä peliä varten. Niin ainakin kerrottiin. Siinäpä meille muille osoitus todellisesta sitoutumisesta. Otto ja Joni lähtivät toisen pelin ollessa paidoille 17-15, koska erään tulkinnan mukaan siihen asti piti pelata." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="11" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="17" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-02-09" paikka="" alkoi="22:00" loppui="" muuta="Tapsa lopetti kesken, syynä vanhat vammat. Kari2 lähti, kun liivit johti 10-9." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Kari2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-02-16" paikka="" alkoi="22:00" loppui="" muuta="Yllättävän hyvät pelit oli, vaikka oli vain 6 pelaajaa" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="18" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-02-23" paikka="" alkoi="22:00" loppui="" muuta="Markus, Martti ja Tuomas taisteli urhoollisesti alivoimalla kunnes Tuomas lähti vähän etuajassa. Kjäll aloitti liiveillä, mutta vaihtoi paidoille, kun Tuomas lähti. Silloin liivit johti 16-15." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Tuomas</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-03-01" paikka="" alkoi="22:00" loppui="" muuta="Lopetettiin vähän etuajassa, koska Otto2 loukkasi nivusensa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="17" maalit2="15" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-03-08" paikka="" alkoi="22:00" loppui="" muuta="Ei pelattu, koska pelaajia oli vain 3." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Kjäll</pelaaja>
+				<pelaaja joukkue="">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-03-15" paikka="" alkoi="22:00" loppui="" muuta="Paidat voitti ensimmäisen pelin ylivoimaisesti. Kaikki meni sisään. Toisessa pelissä liivit kuitenkin sai pelin jollain ihme konstilla käännettyä." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="8" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Erik</pelaaja>
+				<pelaaja joukkue="paidat">Mika</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Erik</pelaaja>
+				<pelaaja joukkue="paidat">Mika</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-03-22" paikka="" alkoi="22:00" loppui="" muuta="Paidat voitti ensimmäisen pelin melko selvästi, koska liivien vahvistukset (Antti ja Tapsa) olivat myöhässä. Toinen peli oli tarkoitus pelata kymmeneen. Liivit aloittivat sen erittäin vahvasti ja paidat olivat köysissä kuin pyykkinarulla. Koska liivit saivat 10 maalia melko nopeasti, suostuivat he Markuksen anelun jälkeen jatkamaan viiteentoista. Siitä alkoikin paitojen hidas nousu. Ja jotenkin paidat saivat lopulta raavittua kasaan 15 maalia ennen liivejä." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Mika</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="15" maalit2="14" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Mika</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-03-29" paikka="" alkoi="22:00" loppui="" muuta="Tehtiin mailajaot, ja tuloksena oli vähän epätasaiset joukkueet. Ensimmäisessä pelissä Paidat taisteli, mutta se oli kuin kevyen prikaatin hyökkäys. Liivit voitti ensimmäisen pelin suurin numeroin ja henkisesti vielä selvemmin. Sitten tehtiin uudet mailajaot, mutta ainoastaan Antti sekä Martti ja Kjäll vaihtoivat puolta. Toisessa pelissä Paitojen joukossa tappiomieliala eli edelleen vahvana. Kapinakenraali (Markus) olisi halunnut pelata mieluummin edellisellä jaolla, mutta uudella kokoonpanolla peli oli kuitenkin tasaisempaa. Urhoollisesti Paidat taisteli, mutta ainoastaan tappion karvasta kalkkia oli tarjolla." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="12" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+
+				<pelaaja joukkue="liivit">Ipa</pelaaja>			
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-04-05" paikka="" alkoi="22:00" loppui="" muuta="Oli vähän epätasaiset taas. Markus lupasi, että paidat voittaisivat granden, mutta ei ne voittaneetkaan. Mikähän siinä nyt oli? Niin kovasti kun se lupaili." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="12" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Erik</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="6" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Erik</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Make</pelaaja>			
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-04-12" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="18" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Erik</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Erik</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-04-19" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="18" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Mika</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="2" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Mika</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-04-26" paikka="" alkoi="22:00" loppui="" muuta="Vähän epävarmaa saiko paidat ensimmäisessä pelissä 16 maalia vai 14. Jotain sinne päin kuitenkin." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Erik</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="7" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Erik</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	
+	<sahly pvm="2016-05-03" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>10</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Paikalla oli ainakin Make ja Tapsa. Kjäll oli poissa. Pelattiin puuveskoilla.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2016-05-10" paikka="" alkoi="22:00" loppui="" muuta="Timo teki toisessa pelissä varmaan melkein kaikki paitojen maalit. Joku (Make?) teki ainakin yhden, mutta melkein loput teki Timo." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-05-17" paikka="" alkoi="22:00" loppui="" muuta="Ei pelattu, koska jääkiekon MM-kisoissa oli FIN-CAN peli, jonka Suomi voitti 4-0. Lopulta Suomi sijoittui turnauksessa hienosti toiseksi." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="">
+			<pelaajat>				
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-05-24" paikka="" alkoi="22:00" loppui="" muuta="Kenties Suomen hienon jääkiekon MM-kisamenestyksen takia paikalla oli enemmän pelaajia kuin kertaakaan koko vuonna. Ipa lähti heti ekan pelin päätyttyä. Tuomas lähti, kun toista peliä oltiin pelattu vähän, jonka jälkeen Joni siirtyi liiveille (eli Joni alotti toisen pelin paidoilla)." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="18" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Daniel</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Tuomas</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="7" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Daniel</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Tuomas</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-05-31" paikka="" alkoi="22:00" loppui="" muuta="Talvikauden finaalipeli, joka vähän kyllä lässähti: liivit eivät olleet kaikkea mitä he voisivat olla. Paidat olivat ylivoimaisempia kuin numerot osoittavat." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="17" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Lauri2</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-06-07" paikka="" alkoi="20:00" loppui="" muuta="Eka peli oli vähän epätasainen. Paidat oli selvästi parempi. Toiseen peliin Antti ja Martti vaihtoivat puoli, mutta se vain teki pelistä epätasaisemman. Liivit johti toista peliä noin 9-1. Uusia pelaajia Antin kavereita: Jani ja Ville2." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="17" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Jani</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="10" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Jani</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-06-14" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>16</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Pelaajia ilmeisesti suunnilleen 16. Paikalla ainakin Make.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2016-06-21" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>16</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Molemmilla kaksi vaihtopelaajaa. Paikalla ainakin Make ja Henkka.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2016-06-28" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="17" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+
+	<sahly pvm="2016-07-05" paikka="" alkoi="20:00" loppui="" muuta="Niclas2 oli maalivahtina jokaisessa pelissä, joten pelattiin pelit aina kymmeneen ja vaihdettiin Niclas2. Siksi pelejä pelattiin neljä." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Samu</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Sami</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Samu</pelaaja>
+
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Samu</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="4" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="9" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Sami</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-07-12" paikka="" alkoi="20:00" loppui="" muuta="Niclas2 oli taas maalivahtina jokaisessa pelissä. Pelattiin taas 10:een ja vaihdettiin mokea. Markus tuli vasta toiseen peliin. Tosi tasaiset pelit: eka päättyi kahden erolla ja kaksi muuta maalin erolla." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Tommi2</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Tommi2</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Janne2</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Tommi2</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-07-19" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Kimmo2 arvioi, että oli 11-13 pelaajaa ja Martti, että yli 10. Paikalla siis ainakin Martti ja Kimmo2. Saattoi olla myös Joni. Poissa ainakin Henkka.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2016-07-26" paikka="" alkoi="20:00" loppui="" muuta="Oli aika lämmin keli, joten porukkaa ei tullut." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="">Kimmo2</pelaaja>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Henkka</pelaaja>
+				<pelaaja joukkue="">Timo2</pelaaja>
+				<pelaaja joukkue="">Martti</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-08-02" paikka="" alkoi="20:00" loppui="" muuta="Kesäkausi sai hienon päätöksen. Peli 2 pelattiin klo 22:een. Liivit johtivat 5-0, kunnes paidat saivat pelinsä toimimaan ja toivat pelin melkein tasoihin. Taistelu jatkui tasaisena ja kiivaanakin viime sekunneille asti, kunnes kello lopetti pelin. " pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Jouni</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Timo2</pelaaja>
+				<pelaaja joukkue="liivit">Jari</pelaaja>
+				<pelaaja joukkue="liivit">Samu</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="4" maalit2="6" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Jouni</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Timo2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-08-09" paikka="" alkoi="22:00" loppui="" muuta="Talvikauden ensimmäinen peli. Kaksi maalivahtia samaan aikaan! Ensimmäistä kertaa vuosiin. Joel ja Niclas2 olivat maalivahteina ja vaihtoivat puolia ekan pelin jälkeen. Timot lähtivät vähän ennen toisen pelin loppua, jolloin Kimmo2 korvasi Joelin maalissa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="4" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Timo2</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Timo2</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-08-16" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 oli maalilla. Liiveillä maalilla oli ensin Ipa ja sitten Kimmo2. Vaihtoivat muistaakseni toisen pelin aikana. Timo lähti ensimmäisen pelin jälkeen, joilloin Make tuli paidoille ja Kjäll meni liiveille. Peli 1 oli liivien ylivoimaista hallintaa, peli 2 oli jo vähän tasaisempi. Lasse oli ensimmäistä kertaa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>			
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>			
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Mika</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+<sahly pvm="2016-08-23" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Ipa olivat maalilla. Ekassa pelissä Antti aloitti liiveillä ja Kjäll paidoilla. Liivit olivat ihan ylivoimaisia, koska Tommi ja Antti olivat samalla puolella. Ekan peli loppupuolella Antti ja Kjäll vaihtoivat puolia, jolloin peli tasoittui selvästi. Mitä tästä opimme? Antti ja Tommi eri joukkueisiin. Liivit voitti selvästi ensimmäisen pelin. Timo lähti ekan pelin loputtua." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>			
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="7" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>			
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-08-30" paikka="" alkoi="22:00" loppui="" muuta="Kimmo3 ensimmäistä kertaa paikalla. Niclas2 ja Kimmo2 olivat maalivahteina. Liivit hallitsi, pallo ei oikein pomppinut paidoille. Timo lähti ekan pelin loputtua. Daniel lähti toisen pelin aikana. Toinen peli pelattiin ensin kymmeneen, jolloin Antti ja Joni lähtivät. Koska porukkaa oli riittävästi, jatkettiin toista peliä vielä viiteentoista. Kimmo3 siirtyi silloin paidoille." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo3</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="12" maalit2="15" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+
+				<pelaaja joukkue="liivit">Martti</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Daniel</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-09-06" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>paikalla</visa>
+			<muuta>Ainakin paikalla oli Visa, Antti ja Timo. Ilmeisesti pelattiin kaksi peliä ja Timo voitti molemmat. Poissa ainakin Make.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2016-09-13" paikka="" alkoi="22:00" loppui="" muuta="Markus lupasi Kimmolle, että tänään voitetaan. Jostain kumman syystä kerrankin niin myös tapahtui. Paidoilla oli aluksi pelaajamaalivahti. Niclas2 aloitti liivien maalivahtina, mutta vaihtoi paidoille maalivahdiksi, kun liivit johtivat 10-6. Samalla Matti siirtyi liiveille. Kimmo2 pelasi siitä lähtien liivien maalivahtina. Timo lähti pois, kun peli 1 loppui. Liiveillä oli molemmissa peleissä tukeva johto, mutta paidat lopulta voittivat." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="18" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Matti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo3</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Matti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo3</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	
+	<sahly pvm="2016-09-20" paikka="" alkoi="22:00" loppui="" muuta="Koska Suomi pelasi Ruotsia vastaan jääkiekon World Cupissa, isänmaalliset kansalaiset olivat kannustamassa Leijonia. Paikalla oli kuitenkin 3 pelaajaa, Henkka, Lasse ja joku kolmas. Eivät ilmeisesti pelanneet. Suomi hävisi." pelattiinko="ei">
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu">
+			<pelaajat>
+				<pelaaja joukkue="">Henkka</pelaaja>
+				<pelaaja joukkue="">Lasse</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>
+
+	<sahly pvm="2016-09-27" paikka="" alkoi="22:00" loppui="" muuta="Ilmeisesti World Cupin innoittamana porukkaa oli enemmän kuin pitkiin aikoihin. Molemmilla oli 4 vaihtomiestä, mikä oli jo vähän liikaa. Markus lupasi Kimmolle, että tänään voitetaan ja niin he voittivatkin. Lupaus oli peli kerrallaan. Ei siis ollut uskoa, että voitettaisiin  kaikki pelit. Joukkueet olivat vähän epätasaiset, joten paidat olivat aika ylivoimaisia. Timo ja Antti lähtivät kesken toisen pelin. Niclas2 oli maalilla koko ajan. Ipa aloitti maalilla ja puolivälissä Daniel korvasi Ipan maalilla. Martti2 oli pitkästä aikaa pelaamassa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Daniel</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Martti2</pelaaja>
+
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Daniel</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Martti2</pelaaja>
+
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2016-10-04" paikka="" alkoi="22:00" loppui="" muuta="Paidoilta lähti toisen pelin aikana ensimmäisenä Visa. Otto lähti vähän myöhemmin, jolloin paidat pelasivat toisen pelin loppuun alivoimalla. Lasse oli ensimmäistä kertaa maalilla. Pelasi paidoilla koko pelin maalivahtina. Niclas2 oli liiveillä maalivahtina koko pelin. Markus ei luvannut Kimmolle voittoa. Markus ja Kimmo eivät edes pelanneet samassa joukkueessa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="13" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="19" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+<sahly pvm="2016-10-11" paikka="" alkoi="22:00" loppui="" muuta="Martti aloitti paidoilla ja Timo liiveillä. Peli oli epätasainen, joten he vaihtoivat puolia ja epli alkuvaiheessa. Niclas2 oli maalilla koko pelin ajan. Hän aloitti liiveillä ja vaihtoi puolivälissä paidoille. Markus oli myöhässä ja tuli vasta pelin puolivälissä. Pelin lopulla ensin lähti Timo ja sitten Make. Paidat pelasivat sen jälkeen alivoimalla mutta voittivat silti." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="19" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>			
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>
+	</sahlyt>
+</tilastot>

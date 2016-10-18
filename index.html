@@ -1,11 +1,338 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html  lang="fi">
 	<head>
-		<title>Sahlytilastojen pääsivu</title>
+		<title>Sählytilastot</title>
 		<meta charset="UTF-8">
+
+		<script type="text/javascript" src="jquery-2.0.0.min.js"></script>		
+		<script type="text/javascript" src="jquery-ui.min.js"></script>
+		<!-- <link rel="stylesheet" href="jquery-ui.js" />  -->
+		<script src="jquery-ui.js"></script> 
+		<link rel="stylesheet" href="jquery-ui.css" />
+		
+		<!-- Datatables-taulukko-->
+		<!-- <script type="text/javascript" charset="utf8" src="DataTables/DataTables-1.10.5/media/js/jquery.dataTables.js"></script> -->
+		<script type="text/javascript" charset="utf8" src="jquery.dataTables.js"></script>
+		<script class="include" type="text/javascript" src="jquery.dataTables.min.js"></script>	
+		<!-- <link rel="stylesheet" type="text/css" href="DataTables/DataTables-1.10.5/media/css/jquery.dataTables.css"> -->
+		<link rel="stylesheet" type="text/css" href="jquery.dataTables.css">
+		<!-- DataTables CSS -->
+		<!-- <link rel="stylesheet" type="text/css" href="../DataTables/DataTables-1.10.5/media/css/jquery.dataTables.css">  -->
+		<!-- DataTables -->
+		<!-- <script type="text/javascript" charset="utf8" src="../DataTables/DataTables-1.10.5/media/js/jquery.dataTables.js"></script> -->
+
+		<!-- Tablesorter on sitä taulukkoa varten, jossa on kaikkien pelaajien tiedot -->
+		<script src="jquery.tablesorter.min.js" type="text/javascript"/></script> 
+		<script type="text/javascript" src="jquery.tablesorter.pager.js"></script> 
+		
+		<!-- Omat koodit -->
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="napit.js"></script>
+		<script type="text/javascript" src="funktiot.js"></script>
+		<script type="text/javascript" src="pelaaja.js"></script>
+		<script type="text/javascript" src="kaaviot.js"></script>
+		<script type="text/javascript" src="sahly.js"></script>
+		<script type="text/javascript" src="peli.js"></script>
+		<script type="text/javascript" src="pelikausi.js"></script>
+		<script type="text/javascript" src="perustiedot.js"></script>
+		<script type="text/javascript" src="ennatykset.js"></script>
+		<script type="text/javascript" src="taulukot.js"></script>
+		<!-- Omia taulukoiden muotoiluja-->
+		<link href="muotoilu.css" rel="stylesheet" type="text/css" />
+
+		<!-- jqPlot koodit -->
+		<script class="include" type="text/javascript" src="jquery.jqplot.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.dateAxisRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.canvasTextRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.canvasAxisLabelRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.canvasAxisTickRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.cursor.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.pieRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.donutRenderer.min.js"></script>
+
+		<script class="include" type="text/javascript" src="jqplot.canvasOverlay.min.js"></script>
+		<script class="include" type="text/javascript" src="jqplot.canvasOverlay.js"></script>
+		<script type="text/javascript" src="jqplot.highlighter.js"></script>
+    <script type="text/javascript" language="javascript" src="jqplot.dateAxisRenderer.js"></script>
+
+
+		<link class="include" rel="stylesheet" type="text/css" href="jquery.jqplot.min.css" />	
 	</head>
-	<body>
-		<h1>Toinen kokeilu sählytilastoista (18.10.2016 klo 11:30)</h2>
-		<p>Tämä olisi siis sählytilastojen pääsivu. Nyt on vain melkein tyhjä.</p>
+
+	<body>	
+
+		<section id="aloitus">
+
+	 		<H1>Sählytilastoja</H1>
+
+			<H3>No mitä tää ny sit on?</H3>
+			<p>
+				<ul>
+					<li>Tällä sivulla on meidän sählypelien tuloksia.</li>
+					<li><b>Toistaiseksi</b> tämä toimii varmuudella <b>vain Firefox-selaimella</b>. Ei tietoa toimiiko Internet Explorerilla, mutta tulevaisuudessa varmaankin toimii.</li>
+					<li>Tavoitteena on ollut tehdä havainnollisia tilastoja, joten hienoon grafiikkaan, muotoiluun, väreihin sun muihin ei ole juurikaan panostettu. Ehkä sitten tulevaisuudessa.</li>
+				</ul>
+				<ul>
+					<li>Vuoden 2012 alusta alkaen on pelaajien lukumäärät sekä Kimmon osallistuminen (paikalla/poissa/ei tietoa).</li>
+					<li>Vuoden 2013 alusta alkaen on Visan osallistuminen (paikalla/poissa/ei tietoa).</li> 
+					<li>Vuoden 2014 alusta alkaen on Kimmon pelien voitot ja tappiot.</li> 
+					<li>Alkaen 9.12.2014 on kaikkien pelattujen pelien tulokset niiltä kerroilta jolloin tilastojen tekijä (Kimmo) on ollut paikalla.</li>
+				</ul>
+				<ul>
+					<li>Alla olevat tiedot on jaettu kahteen osaan: Yhden pelaajan tiedot ja kaikkien pelaajien tiedot.</li>
+				</ul>
+			</p>
+
+			<H3>Sekalaisia ohjeita</H3>
+			<p>
+				<ul>
+					<li>Kaikkia taulukoita voidaan järjestää halutun sarakkeen mukaan klikkaamalla sarakkeen otsikkoa.</li> 
+					<li>Useita sarakkeita voidaan järjestää pitämällä shift-nappia pohjassa kun klikkaillaan sarakkeiden otsikkoja.</li>
+					<li>Viivakaaviota voi zoomata vetämällä hiirellä halutun alueen. Kaksoisklikkaamalla aluetta kaavio palautuu takaisin.</li>
+				</ul>
+			</p>
+
+			<H3>Aloita tästä</H3>
+			<p>Tuloksia voi rajata määrittelemällä päivämäärät, joiden väliltä tilastoja haetaan. Lisäksi voidaan tarkastella halutun pelaajan tietoja valitsemalla pelaaja.</p>
+
+			<H4>Hae tuloksia määrätyltä aikaväliltä</H4>
+			<p>
+				Koska pelaajilta Kimmo ja Visa on tietoja pidemmältä ajalta kuin muilta, voit asettaa alla oleviin kenttiin päivämäärät, joiden väliltä tilastoja haetaan.
+				Kaikkien pelaajien tietoja on alettu tallentamaan alkaen 9.12.2014, joten jos haluat kaikki samalle viivalle, laita vasemmanpuoleiseen kenttään 2014-12-09.				
+				Jos päivämäärää ei ole määritelty, haetaan kaikki tiedot.
+				<b>HUOM!</b> Päivämäärä on muodossa vvvv-kk-pp eli esimerkiksi 2014-03-17.<br/><br/>
+
+				Muista hakea tiedot painamalla <i>Hae tiedot</i>-nappia.<br/><br/>
+
+				Tilastot vain väliltä (vvvv-kk-pp): 
+				<input type="text" id="pieninPaivaInput" title="min päivä muodossa vvvv-kk-pp" value="" maxlength="10" size="4"> - 
+				<input type="text" id="suurinPaivaInput" title="max päivä muodossa vvvv-kk-pp" value="" maxlength="10" size="4">
+				<button title="Hakee tiedot annetulta aikaväliltä" id="valitseAikavaliNappi">Hae tiedot</button><div id="haetaanPvmId"></div>
+
+				<p>Voit myös hakea pelikausittain valitsemalla kauden alla olevasta listasta. Tämän jälkeen pitää vielä painaa 
+				<i><b>Hae tiedot</b></i> nappia. Meneillään olevasta pelikaudesta saattaa puuttua lopetuspäivä, jos se ei ole tiedossa.</p>
+
+				<p>
+					<select id="kausiValinta" onchange="vaihdaKausi()"></select> 
+				</p>
+			</p>
+
+			<div id="haetaanDialogi"></div>
+
+			<H4>Tarkastele yhden pelaajan tuloksia</H4>
+			<p>
+				Valitse alla olevasta nimilistasta pelaaja ja paina <i>Näytä pelaajan tiedot</i>-nappia, jolloin pelaajan osallistuminen 
+				ja voitot näkyvät alla olevassa taulukkossa ja kahdessa ensimmäisessä kaaviossa (osallistuminen ja voittoprosentin kehittyminen).
+			</p>
+			<p>
+				<select title="Valitse pelaaja tästä" id="pelaajatSelectTag"></select>
+				<button title="Näyttää valitun pelaajan tiedot" id="valitsePelaajaNappi">Näytä pelaajan tiedot</button>
+			</p>
+		
+		</section>
+
+		<!-- Dialogi-ikkuna, jossa on yhden pelaajan tilastot -->
+		<div id="dialogiPelaajasta"></div>
+
+		<!-- Dialogi-ikkuna, jossa on yhden sählykerran tilastot -->
+		<div id="dialogiSahlysta"></div>
+	
+		<section id="tiedotYhdestaPelaajastaDivId">	
+			<H2 id="sahlytOtsikkoId">Sählykerrat</H2>
+
+			<p>Alla olevassa taulukossa on sählykertojen tiedot sekä valitun pelaajan menestyminen. Taulukossa on ainoastaan sählykerran kolmen ensimmäisen pelin tulokset, 
+			koska kolmea peliä useampaa ei yleensä pelata. Lisäksi paljon kolmea peliä enempää ei ole "soveliasta" kirjata ylös, 
+			koska muuten kerralla saatujen voittojen määrä voi kasvaa huomattavasti, mikä vääristää vertailua muihin kertoihin. 
+			Lisäksi montaa peliä on vaikea muistaa jälkeenpäin, jos joukkueet muuttuvat jatkuvasti. 
+			Vaikka tässä taulukossa on enintään kolme peliä, kirjataan voittoihin kuitenkin kaikki pelit.
+			<br><b>Klikkaa taulukon riviä</b>, jos kaipaat lisätietoa sählykerrasta 
+				<ul>
+					<li>Pelin väri <font color="green">vihreä</font>: pelaaja oli voitti</li>
+					<li>Pelin väri <font color="red">punainen</font>: pelaaja oli hävisi</li>
+					<li>Pelin väri <font color="blue">sininen</font>: peli päättyi tasan</li>
+					<li>Pelaajan joukkueen nimi on pelin tuloksen vieressä sulkeissa (yleensä "paidat" tai "liivit"). </li>
+				</ul>
+				<ul>
+					<li>Jos pelaaja ei ollut paikalla, on ensimmäisen pelin sarakkeessa "poissa". </li>
+					<li>Jos pelaaja oli paikalla, mutta yhtään peliä ei pelattu tai tarkkoja pelitietoja ei ole, on ensimmäisen pelin sarakkeessa "paikalla". </li>
+					<li>Jos ei tiedetä oliko pelaaja paikalla vai ei, on enimmäisen pelin sarakkeessa "ei tietoa" ja väri on tumman harmaa.</li>
+				</ul>
+			</p>		
+
+			<!-- Taulukko, jossa kunkin sählykerran tiedot ja valitun pelaajan voitot/tappiot.-->
+			<div title="Jos haluat yhdestä sählykerrasta lisää tietoa, klikkaa kyseistä riviä." id="sahlytId"></div>
+		</section>
+
+		<!-- Piirakkakaavio valitun pelaajan osallistumisesta-->
+		<div title="Kuinka monena tiistaina pelaaja on ollut paikalla. Jos aikaa ei ole rajattu, Kimmo 1.1.2012 jälkeen, Visa 1.1.2013 jälkeen ja muut 9.12.2014 jälkeen." 
+					id="pelaajanOsallistuminenPieId" style="margin-top:20px; margin-left:20px; width:500px; height:400px;"></div>
+
+		<p></p>
+	
+		<!-- Viivakaavio, jossa on valitun pelaajan voittoprosentin kehittyminen ajan funktiona    -->
+		<div title="Paina hiiren vasen nappi pohjaan ja vedä alue, jonka haluat zoomata. Kaksoisklikkaamalla aluetta palautuu takaisin." 
+					id="pelaajaVoittoprosenttiKuvaaja" style="height:500px; width:1200px;"></div>
+
+		<p></p>		
+
+		<div id="kaikkiPelaajat">
+	
+			<H2>Kaikkien pelaajien tiedot</H2>
+
+			<p>Tästä eteenpäin näytetään kaikkien pelaajien tiedot. Eli ei ole väliä, kenet valitsit sivun yläosassa, aina näytetään samat tiedot.
+			</p>
+			<p>
+				Paina alla olevaa nappia niin näet jokaisesta vuodesta oman käyrät tai vuodet peräkkäin. Kaaviota voi zoomata vetämällä 
+				hiirellä haluttu alue. Kaksoisklikkaamalla aluetta palautuu takaisin.
+			</p>
+			<p>
+				<button title="Näyttää pelaajien määrän vuosittain tai vuodet peräkkäin" id="pelaajienLkmNappiId">Pelaajat vuosittain</button>
+			</p>
+
+			<!-- Viivakaavio, jossa pelaajien määrät ajan funktiona-->
+			<div id="pelaajienLkmId" style="margin-top:20px; margin-left:20px;height:500px; width:1200px"></div>
+
+			<p><br/></p>
+
+			<H3>Sählykerrat</H3>
+
+			<p>Yksi sählykerta on yksi tiistai. Jos et rajannut päiväystä, alla olevan talukon tiedot ovat vuoden 2012 alusta alkaen. Miten voi olla epävarmaa pelattiinko vai ei? 
+			Jos tilastojen ylläpitäjä on ollut monta viikkoa peräkkäin poissa peleistä, ei sitä aina jaksa kysyä, että pelasitteko neljä viikkoa sitten.</p>
+			<div id="sahlytyypitId"></div>
+			<p><br/></p>
+		
+			<H3>Pelit</H3>
+			<p>Peli loppuu, kun maalit nollataan. Jos et rajannut päiväystä, pelien tiedot ovat alkaen 9.12.2014 ja vain niiltä sählykerroilta, 
+			joista on tarkat tiedot.</p>
+			<p>Nykysin yksi peli pelataan yleensä 20:een ja toinen peli on <i>grande finale</i>. Molemmat ovat yhtä arvokkaita tuloksissa. Molemmat <i>ovat</i> 
+			yhtä arvokkaita tuloksissa!	Vanhan kansa muistaa vielä ajat, jolloin peli pelattiin 25:een, mutta nykyisin on käytössä uusi 
+			tulostaulu, jossa suurin numero on 20. 
+			Jos tämä on Sinulle uutta tietoa, kannattaa käydä vähän useammin pelaamassa. Se on ihan kivaa.</p>	
+			<div id="pelitJoukkueittainIntroId"></div>
+			<div id="pelitJoukkueittainId"></div>		
+	
+			<H3>Pelaajat</H3>
+			<p>Alla olevassa taulukossa on kaikkien tiedettyjen pelaajien tietoja. <b>Klikkaamalla pelaajan riviä</b> avautuu ikkuna, 
+				jossa on lisää tietoja pelaajasta.<br><br>
+				Jos et rajannut päivämäärää sivun yläosassa, alla olevassa taulukossa Kimmon <i>Sählyt</i> on vuoden 2012 alusta alkaen, 
+				Visan <i>Sählyt</i> vuoden 2013 alusta alkaen 
+				ja Kimmon <i>Pelit</i>, <i>Voitot</i>, <i>Tappiot</i>, <i>Tasapelit</i>, <i>Voittoputket</i>, <i>Tappioputket</i>, <i>Voittoprosentti</i> 
+				ovat vuoden 2014 alusta alkaen. Muut tiedot ovat alkaen 9.12.2014. Siis, jos et rajannut päivämäärää.<br><br>
+				Jos tilastoija ei ole paikalla, voitto- ja tappioputket katkeavat. Eli putket ovat varmoja putkia,
+				mutta todellisuudessa voi olla pidempiäkin voitto-/tappioputkia.
+			</p>
+		
+			<p>
+				<b>Valitse tästä, mitä tietoja taulukossa näytetään:</b><br/>
+				<input type='checkbox' id='sahlykerrat' name='sahlykerrat' value='sahlyt' checked='yes' />Sählykerrat: kuinka monena tiistaina on ollut paikalla<br/>
+				<input type='checkbox' id='pelikerrat' name='pelikerrat' value='pelit' checked='yes' />Pelikerrat: moneenko peliin on osallistunut<br/>
+				<input type='checkbox' id='voitotLkm' name='voitotLkm' value='voitot' checked='yes' />Voitot: montako peliä on voittanut<br/>
+				<input type='checkbox' id='tappiotLkm' name='tappiotLkm' value='tappiot' checked='yes' />Tappiot: montako peliä on hävinnyt<br/>
+				<input type='checkbox' id='tasapelitLkm' name='tasapelitLkm' value='tasapelit' checked='yes' />Tasapelit: kuinka moni peli on päättynyt tasan<br/>
+				<input type='checkbox' id='pelikaverit' name='pelikaverit' value='toverit'  checked='yes' />Pelikaverit: monenko ihmisen kanssa on pelannut<br/>
+				<input type='checkbox' id='vastustajat' name='vastustajat' value='viholliset'  checked='yes' />Vastustajat: montako pelaajaa vastaan on pelannut<br/>
+				<input type='checkbox' id='voittoputkiPuhdas' name='voittoputkiPuhdas' value='voittoPuhdas' />Voittoputki (puhdas): pisin puhdas voittoputki eli osallistunut kaikkiin peleihin putken aikana<br/>
+				<input type='checkbox' id='voittoputki' name='voittoputki' value='voitto' checked='yes' />Voittoputki: pisin voittoputki niistä peleistä, joihin on osallistunut<br/>
+				<input type='checkbox' id='tappioputkiPuhdas' name='tappioputkiPuhdas' value='tappioPuhdas' />Tappioputki (puhdas): pisin puhdas tappioputki eli osallistunut kaikkiin peleihin putken aikana<br/>
+				<input type='checkbox' id='tappioputki' name='tappioputki' value='tappio' checked='yes' />Tappioputki: pisin tappioputki niistä peleistä, joihin on osallistunut<br/>
+				<input type='checkbox' id='voittopros' name='voittopros' value='tappio' checked='yes' />Voittoprosentti: kuinka monta prosenttia peleistä on voittanut<br/>
+			</p>
+
+			<p>Näytä vain pelaajat, jotka ovat pelanneet vähintään tämän verran pelejä: <input type="text" id="naytaPelaajiaInputId" value="" maxlength="5" size="3">
+				<button title="Näytä pelaajat, jotka ovat pelanneet vähintään annetun määrän pelejä" id="naytaPelaajiaButtonId">Näytä pelaajat</button>
+			</p>
+
+			<div title="Klikkaa pelaajan riviä, jos haluat tarkempia tietoja pelaajasta." id="pelaajatId"></div>
+
+			<p>
+				<br/>
+			</p>
+
+			<H4>Pelattujen pelien määrän vaikutus voittoprosenttiin</H4>
+			<p>Alla olevassa kaaviossa on pelaajien pelien lukumäärä ja voittoprosentti. Kaavio antaa myös jonkinlaisen käsityksen siitä, 
+			kuinka usein eri pelaajat käyvät pelaamassa. 
+			Tässä on siis pelien lukumäärä eikä sählykertojen lukumäärä. Koska eri sählykerroilla pelataan eri määrä pelejä, ei kaavio kerro ihan tarkasti, 
+			kuka käy useimmin pelaamassa.
+			Tiedot on otettu yllä olevasta taulukosta, joten jos taulukko muuttuu, muuttuu myös kaavio. 
+			Voittoprosentti on kaikilla välillä 0 - 100%.</p>
+
+			<p>Jos osoitat hiirellä kaavion pistettä, ilmestyy pelaajan nimi kursorin viereen. Jos kaksi tai useampia pisteitä on päällekkäin, 
+			eli pelaajilla on yhtä paljon pelejä ja voittoja, ilmestyy vain yhden pelaajan nimi. Vika ei ole ohjelmassa, ei suinkaan. Vika on näissä 
+			pelaajissa, koska he käyvät pelaamassa liian harvoin. Mitä enemmän pelejä pelataan, sitä epätodennäköisempää on, että pelaajilla on yhtä
+			paljon pelejä ja voittoja. Älä siis syytä tietokonetta, kun vika on aivan selkeästi ihmisessä :)</p>
+
+			<p>Monet pelaajat voittavat aluksi todella usein tai todella harvoin. Tällöin saatetaan kuvitella, että putki jatkuu loputtomiin. Tämän
+			kaavion tarkoituksena on osoittaa, että pelien määrän lisääntyessä voittoprosentti yleensä lähestyy arvoa 50%. Tosin, täysin varmaahan se ei ole.</p>
+
+			<!-- Scatter-plot, jossa voittoprosentti pelattujen pelian funktiona -->
+			<div id="korrelaatioPelitVoittoprosenttiId" style="height:500px; width:1200px"></div>
+
+			<p>
+				<br/>
+			</p>
+
+			<H3>Tapsa-cup finaalit</H3>
+			<p>Tapsa-cup finaali on kesäkauden ja talvikauden viimeinen peli. Jo finaaliin selviytyminen on pelaajien uran suurimpia saavutuksia, 
+			ja voittajista tulee legendoja. (No ihan oikeasti mitään Tapsa-cupia ei ole olemassakaan. Kunhan vain pistin omiani lisätäkseni 
+			glamouria päämäärättömään pallon jahtaamiseen.) 
+			Jos kauden viimeisellä kerralla ei pelata, jää finaali kokonaan pelaamatta eikä sitä edeltänyttä kertaa lueta finaaliksi.
+			Jos viimeinen peli päättyy tasan ovat molemmat joukkueet ja joukkueiden pelaajat voittajia.
+			
+			Alla olevissa taulukoissa on tietoja finaaleista.</p>
+
+			<p><b>Tapsa-cup finaalit:</b></p>
+			<div title="Finaalipelit" id="finaalitId"></div>
+
+			<br>
+			<p><b>Tapsa-cup finalistit:</b></p>
+			<div title="Finaaleissa pelanneet pelaajat" id="finaalitPelaajatId"></div>
+		
+			<p>
+				<br/>
+			</p>
+
+			<H3>Parit: Kaksi pelaajaa samassa joukkueessa</H3>
+			<p>Taulukko kertoo siis kuinka voitokkaita pelaajat ovat olleet, kun parina olevat pelaajat ovat pelanneet samassa joukkueessa.</p>
+
+			<div id="paritilastoToveriId" title="Klikkaa sarakkeen otsikkoa, jos haluat järjestellä sen mukaan."></div>
+			
+			<p>Alla oleva kaavio havainnollistaa yllä olevan taulukon tiedot. Kaaviossa on parien pelaamien pelien lukumäärä ja voittoprosentti. 
+			Kun valitset pelaajan alla olevasta listasta, näytetään kaaviossa korostettuna (yhtenäinen keltainen viiva) ne parit, joissa valittu pelaaja on mukana. 
+			Valitsemalla listasta tyhjän, korostukset häviävät.</p>
+			<p>
+				<select title="Valitse pelaaja tästä" id="pelaajatSelectTag2" onchange="piirraPelienMaaraJaVoittoprosenttiParilleKorostuksella()"></select>
+			</p>
+
+			<div id="paritilastoToveriKaavioId" title="" style="height:500px; width:1200px;"></div>
+			<p><br/></p>
+
+			<H3>Parit: Kaksi pelaajaa vastakkaisissa joukkueissa</H3>
+			<p>Pari eli "pelaaja1 - pelaaja2". Taulukko kertoo, kuinka pelaaja1 pärjäsi kun pelaaja2 oli vastajoukkueessa. 
+			Eli kuinka monta peliä, pelaaja1 voitti, hävisi tai tasan, kun pelaaja2 oli vastajoukkueessa.</p>
+			<div id="paritilastoVastustajaId" title="Klikkaa sarakkeen otsikkoa, jos haluat järjestellä sen mukaan."></div>
+
+			<p>
+				<br/>
+			</p>
+
+			<H3>Joukkueiden menestys eri kokoonpanoilla</H3>
+			<p>Luo taulukko eri joukkueista painamalla alla olevaa nappia:</p>
+			<p>
+				<button title="Luo taulukko joukkueista" id="luoJoukkueetTaulukkoNappi">Luo taulukko</button>
+			</p>
+			<p>Jos painoit nappia, on alla olevassa taulukossa tiedot eri joukkueiden menestyksestä eri kokoonpanoilla. Sarakkeessa <i>Pelipäivät (pelejä)</i>
+			on pelipäivä ja sinä päivänä näillä pelaajilla pelattujen pelien lukumäärä. Kuten taulukosta nähdään, on erittäin epätodennäköistä, 
+			että täsmälleen sama porukka pelaisi samassa joukkueessa useampana päivänä.</p>
+			<p>Hakukentästä (Search) voi hakea pelaajia. Myös useita pelaajia voi hakea.</p>
+			<p>Jos haluat, että kaikki antamasi pelaajat ovat samassa joukueessa, kirjoita pelaajien nimet välilyönnillä eroteltuna. 
+			Esimerkiksi: <i>Kimmo Kjäll</i></p>
+			<p>Jos haluat, että jokin antamistasi pelaajista on joukkueessa, laita nimien väliin pystyviiva |. Se löytyy näppäimillä 
+			<i>[alt gr]</i> ja <i>[> < |]</i>.
+			Tällöin nimien välissä ei saa olla välilyöntiä, vaan ainoastaan pystyviiva. Esimerkiksi: <i>Kimmo|Kjäll</i></p>
+			<div id="joukkueetId"></div>
+		</div> <!-- END  <div id="kaikkiPelaajat"> -->
+		
 	</body>
+
 </html>
+
