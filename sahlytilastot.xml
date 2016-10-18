@@ -4149,5 +4149,50 @@
 			</pelaajat>
 		</peli>	
 	</sahly>
+	<sahly pvm="2016-10-18" paikka="" alkoi="22:00" loppui="" muuta="Pelissä 1 Ipa aloitti maalilla. Pelin puolivälissä Ipa tuli kentälle ja Antti siirtyi liiveiltä paidoille maalivahdiksi. Markus saapui ekan pelin loppupuolella. Ekan pelin päätyttyä Timo lähti, eli ei pelannut toisessa pelissä. Toisen pelin loppupuolella Visa ja Joni lähtivät paidoilta kotiin. Samaan aikaan myös Tapsa lopetti, joten Otto siirtyi paidoille. Lasse oli koko ajan liivien maalivahtina. Paidat saivat pelissä 2 maaleja 15, mutta liivien maalimäärää en muista. " pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>				
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>				
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>	
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
