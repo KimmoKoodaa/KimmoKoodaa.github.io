@@ -4194,5 +4194,27 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+	<sahly pvm="2016-10-25" paikka="" alkoi="22:00" loppui="" muuta="Markus lupasi Kimmolle voiton, mutta sitä ei tullut. Lase ja Ipa olivat maalilla." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="18" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+
+				<pelaaja joukkue="liivit">Visa</pelaaja>			
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>
+
 	</sahlyt>
 </tilastot>
