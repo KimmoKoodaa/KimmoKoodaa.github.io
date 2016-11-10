@@ -4253,5 +4253,65 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+	<sahly pvm="2016-11-08" paikka="" alkoi="22:00" loppui="" muuta="Lasse oli ainut maalivahti ja pelasi koko pelin maalissa. Lasse vaihtoi puolta, kun toinen joukkue oli saanut 10 maalia. Peli 2 oli sen takia noin lyhyt. Markus lupasi Kimmolle toisen pelin aikana, että tänään voitetaan ja niin he voittivatkin. Ei uusinut lupausta komannessa pelissä, koska ilmeisesti unohti. Janne teki ratkaisumaalin kolmannessa pelissä." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="18" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="7" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+	<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="5" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>		
+		
 	</sahlyt>
 </tilastot>
