@@ -9,6 +9,7 @@
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Antoni" tilastonimi="Antoni" kuvaus="Antoni on se yks huipputyyppi. Nuorehko. Pelaa aika täysillä. Ei varmaa, onko kenenkään tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Antonis" tilastonimi="Antonis" kuvaus="Antonis on se yks huipputyyppi. Nuori uusi pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antti" tilastonimi="Antti" kuvaus="Antti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Daniel" tilastonimi="Daniel" kuvaus="Daniel on se yks huipputyyppi. Melko uusi mies. Hyvä pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Dimitri" tilastonimi="Dimitri" kuvaus="Dimitri on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -42,6 +43,7 @@
 		<pelaaja kutsumanimi="Laurent" tilastonimi="Laurent" kuvaus="Laurent on se yks huipputyyppi. Yksi ulkomaalaisvahvistuksista." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Lauri" tilastonimi="Lauri" kuvaus="Lauri on se yks huipputyyppi. Vanhempi Lauri. Tummat hiukset. Pelaa maalissa useina maassa ja ihan hyvin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Lauri" tilastonimi="Lauri2" kuvaus="Lauri2 on se yks huipputyyppi. Lienee Kimmo2:n kaveri." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Lauri" tilastonimi="Lauri3" kuvaus="Lauri3 on se yks huipputyyppi. Lassen kaveri. Tosi hyvä pelaaja." ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Make" tilastonimi="Make" kuvaus="Make on se yks huipputyyppi. Tekee joukkueet aina kun on paikalla. Osaako mennä itse parempaan joukkueeseen?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Markus" tilastonimi="Markus" kuvaus="Markus on se yks huipputyyppi. Kutsuvieraat ja Markus on aina myöhässä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Martti" tilastonimi="Martti" kuvaus="Martti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -4439,5 +4441,81 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2016-12-06" paikka="" alkoi="22:00" loppui="" muuta="Itsenäisyyspäivä, joten ei pelattu." pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu">
+			<pelaajat>
+			</pelaajat>
+		</peli>	
+	</sahly>
+
+	<sahly pvm="2016-12-13" paikka="" alkoi="22:00" loppui="" muuta="Make ei ollut tekemässä, joten joukkueet olivat aika epätasaiset. Pari uutta pelaajaa. Ratkaisumaalien tekijät: pelissä 1 Antti, pelissä 2 Henkka ja pelissä 3 Antti." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="5" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>	
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>				
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="8" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>	
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>	
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>		
 	</sahlyt>
 </tilastot>
