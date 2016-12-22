@@ -4517,5 +4517,48 @@
 			</pelaajat>
 		</peli>
 	</sahly>		
+	<sahly pvm="2016-12-20" paikka="" alkoi="22:00" loppui="" muuta="Kjäll teki tilastot, erittäin hyvää työtä. Hyvät ja tasaiset pelit. Lasse ja Niclas2 olivat maalivahteina." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+
+				<pelaaja joukkue="liivit">Joni</pelaaja>			
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="7" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo3</pelaaja>
+
+				<pelaaja joukkue="liivit">Joni</pelaaja>			
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>		
 	</sahlyt>
 </tilastot>
