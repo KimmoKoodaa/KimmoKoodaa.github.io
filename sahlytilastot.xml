@@ -8,12 +8,14 @@
 		<pelikausi nimi="Talvikausi 2016-2017" nimiLyhyt="Talvi 16-17" pvmAloitus="2016-08-09" pvmLopetus="2017-05-31"></pelikausi>
 	</pelikaudet>
 	<pelaajat>
+		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antoni" tilastonimi="Antoni" kuvaus="Antoni on se yks huipputyyppi. Nuorehko. Pelaa aika täysillä. Ei varmaa, onko kenenkään tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antonis" tilastonimi="Antonis" kuvaus="Antonis on se yks huipputyyppi. Nuori uusi pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antti" tilastonimi="Antti" kuvaus="Antti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Daniel" tilastonimi="Daniel" kuvaus="Daniel on se yks huipputyyppi. Melko uusi mies. Hyvä pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Dimitri" tilastonimi="Dimitri" kuvaus="Dimitri on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Erik" tilastonimi="Erik" kuvaus="Erik on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Heikki" tilastonimi="Heikki" kuvaus="Heikki on se yks huipputyyppi. Ville2:n tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu" kuvaus="Hannu on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Henkka" tilastonimi="Henkka" kuvaus="Henkka on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Iltsu" tilastonimi="Iltsu" kuvaus="Iltsu on se yks huipputyyppi. Käy harvoin." ominaisuudet="" muuta=""/>
@@ -65,6 +67,7 @@
 		<pelaaja kutsumanimi="Tapsa" tilastonimi="Tapsa" kuvaus="Tapsa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Timo" tilastonimi="Timo" kuvaus="Timo on se yks huipputyyppi. Hoikempi Timo. Palvelusvuosiltaan vanhempi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Timo" tilastonimi="Timo2" kuvaus="Timo2 on se yks huipputyyppi. Jykevämpi Timo. Maken kaveri. Palvelusvuosiltaan nuorempi Timo." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Toivo" tilastonimi="Toivo" kuvaus="Toivo on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi" kuvaus="Tommi on se yks huipputyyppi. Markuksen serkku. Pyörähtelee tosi nopeasti ja pelaa muutenkin tosi hyvin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi2" kuvaus="Tommi2 on se yks huipputyyppi. Se, joka ei juuri talvella käy, mutta joinakin kesinä aina ilmestyy jossain vaiheessa. Ihan hyvä pelaaja. Pelaakohan se myös futsalia?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon1" tilastonimi="tuntematon1" kuvaus="Tuntematon1 on se yks huipputyyppi. Oisko ollut Kimmo2:n kaveri. Tummat kiharat hiukset. Sininen paita. Oli kerran eikä sen jälkeen ole näkynyt." ominaisuudet="" muuta=""/>
@@ -4594,5 +4597,54 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+	<sahly pvm="2017-01-03" paikka="" alkoi="22:00" loppui="" muuta="Uusi vuosi ja paljon pelaajia. Hyvät ja tasaiset pelit. Niclas2 ja Lasse olivat maalivahteina. Pelin1 ratakisumaalin teki Otto ja pelin2 ratkaisumaalin teki Heikki. Ipa lähti kesken toisen peli, jolloin Toivo meni paidoille. Joel lähti hetkeä myöhemmin." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="16" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Heikki</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="20" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Joel</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Heikki</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>		
+		
 	</sahlyt>
 </tilastot>
