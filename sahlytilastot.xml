@@ -4690,6 +4690,50 @@
 				<pelaaja joukkue="liivit">Osku</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>		
+	</sahly>
+	<sahly pvm="2017-01-17" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Lasse olivat maalivahteina. Matti teki ratkaisumaalin pelissä 1. Pelin 2 ratkaisumaalin teki Ipa." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="10" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Matti</pelaaja>
+
+				<pelaaja joukkue="liivit">Janne</pelaaja>			
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="16" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Matti</pelaaja>
+
+				<pelaaja joukkue="liivit">Janne</pelaaja>			
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
