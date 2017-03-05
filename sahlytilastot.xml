@@ -68,6 +68,7 @@
 		<pelaaja kutsumanimi="Timo" tilastonimi="Timo" kuvaus="Timo on se yks huipputyyppi. Hoikempi Timo. Palvelusvuosiltaan vanhempi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Timo" tilastonimi="Timo2" kuvaus="Timo2 on se yks huipputyyppi. Jykevämpi Timo. Maken kaveri. Palvelusvuosiltaan nuorempi Timo." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Toivo" tilastonimi="Toivo" kuvaus="Toivo on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="ToivonAatoksenIsa" tilastonimi="ToivonAatoksenIsa" kuvaus="ToivonAatoksenIsa on se yks huipputyyppi. Toivon ja Aatoksen isä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi" kuvaus="Tommi on se yks huipputyyppi. Markuksen serkku. Pyörähtelee tosi nopeasti ja pelaa muutenkin tosi hyvin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi2" kuvaus="Tommi2 on se yks huipputyyppi. Se, joka ei juuri talvella käy, mutta joinakin kesinä aina ilmestyy jossain vaiheessa. Ihan hyvä pelaaja. Pelaakohan se myös futsalia?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon1" tilastonimi="tuntematon1" kuvaus="Tuntematon1 on se yks huipputyyppi. Oisko ollut Kimmo2:n kaveri. Tummat kiharat hiukset. Sininen paita. Oli kerran eikä sen jälkeen ole näkynyt." ominaisuudet="" muuta=""/>
@@ -4857,6 +4858,114 @@
 				<pelaaja joukkue="liivit">Jude</pelaaja>
 				<pelaaja joukkue="liivit">Ipa</pelaaja>
 				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	<sahly pvm="2017-02-14" paikka="" alkoi="22:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>16</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta>Pari vaihtomiestä, sanoivat paikallaolleet, joten merkataan 16 pelaajaa, mikä ei siis ole tarkka luku. Joni ja Jude ainakin olivat paikalla.</muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2017-02-21" paikka="" alkoi="22:00" loppui="" muuta="Jude oli paikalla, joten ei tietenkään yhtään oikeata maalivahtia. Porukkaa oli tosi paljon, joten oli vähän hässäkkää. Ekan pelin ratkaisijaa ei muistettu kirjata. Tokan pelin ratkaisumaalin teki Tommi." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="" ratkaisija="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Olli</pelaaja>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>			
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+				<pelaaja joukkue="liivit">ToivonAatoksenIsa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="15" maalit2="9" muuta="" ratkaisija="Tommi">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+				<pelaaja joukkue="liivit">ToivonAatoksenIsa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2017-02-28" paikka="" alkoi="22:00" loppui="" muuta="Jude oli poissa, joten tietysti oli 2 maalivahtia eli Lasse ja Kimmo2. Ekan pelin ratkaisumaalin teki Henkka ja toisen pelin Janne. Ekassa pelissä paidoilla oli kaksi 3-0 hyökkäystä eikä kummastakaan tullut maalia. Silti paidat voittivat. Toisessa pelissä liivit olivat ylivoimaisia." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="18" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="1" maalit2="5" muuta="" ratkaisija="Janne">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>		
