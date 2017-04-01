@@ -12,15 +12,15 @@ function alustaPeliTaulukko(){
 	$('#' + taulukko).dataTable( {
 		
 		"columns": [
-						{ "title": "Pvm" },
-						{ "title": "Pelin nro" },
-            { "title": "Joukkue1" },
-            { "title": "Joukkue1:n maalit" },
-						{ "title": "Joukkue2:n maalit" },
-            { "title": "Joukkue2" },           
-            { "title": "Voittaja" },
-            { "title": "Maaliero (J1-J2)" }
-        ],
+			{ "title": "Pvm" },
+			{ "title": "Pelinro" },
+            		{ "title": "Joukkue1" },
+            		{ "title": "Joukkue1 maalit" },
+			{ "title": "Joukkue2 maalit" },
+            		{ "title": "Joukkue2" },           
+            		{ "title": "Voittaja" },
+            		{ "title": "Maaliero" }
+        	],
  		"columnDefs": [
     	{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5, 6, 7 ] }
   	]
