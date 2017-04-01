@@ -12,8 +12,8 @@ function alustaPeliTaulukko(){
 	$('#' + taulukko).dataTable( {
 		
 		"columns": [
-			{ "title": "Pvm" },
-			{ "title": "Pelinro" },
+			{ "title": "Päiväys" },
+			{ "title": "Pelin nro" },
             		{ "title": "Joukkue1" },
             		{ "title": "Joukkue1 maalit" },
 			{ "title": "Joukkue2 maalit" },
