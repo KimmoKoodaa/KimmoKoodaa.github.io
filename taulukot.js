@@ -2367,9 +2367,9 @@ function alustaRatkaisijatTaulukko(){
 		
 		"columns": [
 			{ "title": "Nimi" },
-			{ "title": "Ratkaisumaaleja [lkm]" },
+			{ "title": "Voittomaaleja [lkm]" },
 			{ "title": "Voittajajoukkueessa [lkm]" },
-			{ "title": "Ratkaisuprosentti [%]" },
+			{ "title": "Voittomaaliprosentti [%]" },
 		],
 		"columnDefs": [
 			{ className: "dt-head-center", "targets": [ 0, 1, 2, 3 ] }
