@@ -16,6 +16,9 @@ function Peli(pelinumero){
 	this.maalit2 = "";
 	// Muuta sekalaista tietoa pelistä
 	this.muuta = "";
+	// Ratkaisumaalin tekijä
+	this.ratkaisija = "";
+
 	// Joukkueiden pelaajien nimet
 	this.pelaajatJoukkue1 = [];
 	this.pelaajatJoukkue2 = [];
@@ -55,6 +58,9 @@ function Peli(pelinumero){
 	this.setMuuta = SetMuuta;
 	this.getMuuta = GetMuuta;
 
+	this.setRatkaisija = SetRatkaisija;
+	this.getRatkaisija = GetRatkaisija;
+
 	this.palautaPelaajatJoukkue1 = PalautaPelaajatJoukkue1;
 	this.palautaPelaajatJoukkue2 = PalautaPelaajatJoukkue2;
 
@@ -72,7 +78,28 @@ function Peli(pelinumero){
 	// Palauttaa sanakirjana molempien joukkueiden pelaajat
 	this.getOsallistujat = GetOsallistujat;
 
+	// 2017:
+	// Palauttaa voittajajoukkueen pelaajat taulukkona: [ , , ]
+	this.getVoittajajoukkueenPelaajat = GetVoittajajoukkueenPelaajat;
 }
+
+// Uusia 2017
+// -----------
+function GetVoittajajoukkueenPelaajat(){
+
+	// Voittajajoukkueen numero: 1 tai 2
+	var numero = this.getJoukkueenNumero(this.getVoittaja());
+
+	if(numero === 1){
+		return this.getPelaajatJoukkue1Array();
+	} else if(numero === 2){
+		return this.getPelaajatJoukkue2Array();
+	} else {
+		alert("Peli-luokka: Piti palauttaa voittajajoukkueen eli joukkue " + numero + " pelaajat, mutta ei selvinnyt kumpi voitti.");
+	}
+	
+}
+
 
 // Uusia vuonna 2016
 // -----------------
@@ -207,6 +234,14 @@ function SetMuuta(muuta){
 
 function GetMuuta(){
 	return this.muuta;
+}
+
+function SetRatkaisija(ratkaisija){
+	this.ratkaisija = ratkaisija;
+}
+
+function GetRatkaisija(){
+	return this.ratkaisija;
 }
 
 // Palauttaa joukkuueen 1 pelaajat

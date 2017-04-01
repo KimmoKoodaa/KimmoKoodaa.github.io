@@ -2,12 +2,21 @@
 	Päätiedosto, joka lukee xml-tiedostosta sählytilastot ja kutsuu funktioita, jotka täyttävät HTML-tiedoston.
 */
 
+// Päivitetäänkö tabit vai ei
+var paivitaSahlytTab = true;
+var paivitaValittuTab = true;
+var paivitaPelaajatTab = true;
+var paivitaParitTab = true;
+var paivitaJoukkueetTab = true;
+var paivitaTapsacupTab = true;
+
+
 // 2D-taulukko, jossa [pelejä, voittoprosentti, "nimi1-nimi2"]
 var paritSamassa;
 
 
 
-// Tidosto, jossa sählyjen tiedot eli tilastot
+// Tiedosto, jossa sählyjen tiedot eli tilastot
 var tilastojenTiedostonNimi = "sahlytilastot.xml";
 
 var pelikaudetOliot = {};
@@ -57,8 +66,26 @@ $(document).ready(function(){
 	// Hakee sählytiedot xml-tiedostosta
 	haeTiedot();
 
+	// Tyhjennetään pelien määrä -kenttä
+	$('#naytaPelaajiaInputId').val("");
+
+	// Tiedot on luettu xml-tiedostosta, 
+	// muutetaan taulukkojen ja kaavioiden tarvitsemaan muotoon, kun välilehtiä avataan
+
+
+
+
+
+// Nämä oli aiemmin - ja edelleen - haeTiedot()-funktion lopussa:
+		// Lisätään tiedot kaavioihin ja taulukoihin
+//		luoKaaviotTaulukot();
+		// Lisätään tiedot Tapsa-cup finaaleista
+//		lisaaFinaalitaulukot();
+
 });	//END ready()
  
+
+
 
 function lisaaFinaalitaulukot(){
 
@@ -73,7 +100,7 @@ function lisaaFinaalitaulukot(){
 	finaalitTable += '<thead><tr>';
 	// Lisätään otsikot
 	finaalitTable += '<th align="center">Kausi</th><th align="center">Päivämäärä</th>';
-	finaalitTable +=	'<th align="center">Joukkue 1</th><th align="center">Maalit</th><th align="center">Joukkue2</th><th align="center">Voittaja</th>';		
+	finaalitTable +='<th align="center">Joukkue 1</th><th align="center">Maalit</th><th align="center">Joukkue2</th><th align="center">Voittaja</th>';		
 	finaalitTable += '</tr></thead>';
 	finaalitTable += '<tbody>';
 
@@ -249,6 +276,8 @@ function lisaaFinaalitaulukot(){
 		if( !(finalisti in pelaajaOliot) ){
 			alert("main.js: Virhe! Pelaajatiedoissa ei ole finalistia: " + finalisti);
 		}
+
+//	alert("Lisätään cup-tiedot");
 		// Lisätään pelaajan cup-menestys hänen oliooonsa
 		pelaajaOliot[finalisti].setCupOsallistumiset(voitot+tappiot);
 		pelaajaOliot[finalisti].setCupVoitot(voitot);
@@ -393,7 +422,7 @@ function asetaSuomalaisetAjat(){
 	// Kaavioita varten aikojen käännökset suomeksi
 	$.jsDate.regional['fi'] = {
 		monthNames: ['Tammikuu','Helmikuu','Maaliskuu','Huhtikuu','Toukokuu','Kesäkuu','Heinäkuu','Elokuu','Syyskuu','Lokakuu','Marraskuu','Joulukuu'],
-		monthNamesShort: ['Tammi','Helmi','Maalis','Huhti','Touko','Kesä','Heinä','Elo','Syys','Loka','Marras','Joulu'],
+		monthNamesShort: ['Tammikuu','Helmikuu','Maaliskuu','Huhtikuu','Toukokuu','Kesäkuu','Heinäkuu','Elokuu','Syyskuu','Lokakuu','Marraskuu','Joulukuu'],
 		dayNames: ['maanantai','tiistai','keskiviikko','torstai','perjantai','lauantai','sunnuntai'],
 		dayNamesShort: ['ma','ti','ke','to','pe','la','su'],
 		formatString: '%Y-%m-%d %H:%M:%S'
@@ -426,7 +455,7 @@ function haeTiedot(){
 	tasapelijoukkueetJaMaarat = {};
 
 	// Luetaan xml-tiedosto
-	$.get("sahlytilastot.xml",{},function(xml){
+	$.get(tilastojenTiedostonNimi,{},function(xml){
 
 		// Eri sählykertojen lukumääriä
 		sahlykerratLkmPelattiin = 0;
@@ -550,11 +579,36 @@ function haeTiedot(){
 
 
 		// Lisätään tiedot kaavioihin ja taulukoihin
-		luoKaaviotTaulukot();
+		//		luoKaaviotTaulukot();
+		
 		// Lisätään tiedot Tapsa-cup finaaleista
 		lisaaFinaalitaulukot();
+		// Välilehti on päivitetty, joten ei tarvitse enää päivittää
+		paivitaTapsacupTab = false;
 
 	});	// END get()
+
+	var ekaPvm = document.getElementById("pieninPaivaInput").value;
+	var vikaPvm = document.getElementById("suurinPaivaInput").value;
+	var elementti = document.getElementById('haetaanPvmId');
+
+	// Lisätään hakunapin viereen tieto, miltä aikaväliltä on tiedot haettu
+
+	// Jos puuttuu min ja max -päivät
+	if(ekaPvm === "" && vikaPvm === ""){
+		elementti.innerHTML = "Haettu kaikki tiedot";		
+	
+	} else if(ekaPvm === ""){ // min päivä puuttuu
+		elementti.innerHTML = "Haettu tiedot ennen: " + vikaPvm;		
+
+	} else if(vikaPvm === ""){ // max päivä puuttuu
+		elementti.innerHTML = "Haettu tiedot alkaen: " + ekaPvm;		
+
+	} else {
+		elementti.innerHTML = "Haettu tiedot aikaväliltä: "+ ekaPvm  + " - " + vikaPvm;		
+	}
+
+	
 
 } //END haeTiedot()
 
@@ -569,12 +623,13 @@ function luoKaaviotTaulukot(){
 	// Päivitetään sählyt-taulukkoon oikea nimi otsikkoon
 	$("#sahlytOtsikkoId").text("Sählykerrat ja pelien tulokset pelaajalle " + listaltaValittuNimi);
 	// Sählyt-taulukko, jossa on sählykertojen tiedot ja valitun pelaajan voitot/tappiot
-	alustaSahlytaulukko();
+	alustaSahlytaulukkoPelaajatiedot();
 	taytaSahlytaulukkoPelaajatiedot(pelaajaOliot, sahlyOliot, listaltaValittuNimi);
 
 	// Piirakkakaavio valitun pelaajan tiedoista: paikalla, poissa, ei tietoa
 	osallistuminenPie(listaltaValittuNimi, 'pelaajanOsallistuminenPieId');
 
+//alert("Valittu: " + listaltaValittuNimi)
 	// Viivakaavio valitun pelaajan voittoprosentin kehittymisestä
 	pelaajanVoittoprosentti(listaltaValittuNimi, 'pelaajaVoittoprosenttiKuvaaja');
 
@@ -590,13 +645,25 @@ function luoKaaviotTaulukot(){
 	tulostaJoukkueidenTaulukko();
 
 	// Tulostaa taulukon, jossa on kaikkien pelaajien tärkeimmät tiedot
-	tulostaKaikkienPelaajienTaulukko(pelaajaOliot);		
+	//tulostaKaikkienPelaajienTaulukko(pelaajaOliot);		
+alustaKaikkienPelaajienTaulukko();
+taytaKaikkienPelaajienTaulukko(pelaajaOliot);		
 
-	piirraPelienMaaraJaVoittoprosentti();
+// Tätä kutsutaan ym. funtkiosta
+//	piirraPelienMaaraJaVoittoprosentti();
 
 	// Luo tilastot, joissa on pelaajat pareittain samoissa ja eri joukkueissa
-	paritSamassa = luoParitilasto(sahlyOliot);	
-	luoParitilastoVastustaja(sahlyOliot);	
+	paritSamassa = 	getParitilastoToveritData();
+//alert("main() " + paritSamassa[0][1]);
+//	luoParitilasto(sahlyOliot, paritSamassa);	
+alustaParitilastoToveritKaikkiTaulukko();
+taytaParitilastoToveritKaikkiTaulukko(paritSamassa);
+
+	var paritVastakkain = getParitilastoVastustajatData();
+	alustaParitilastoVastustajatKaikkiTaulukko();
+	taytaParitilastoVastustajatKaikkiTaulukko(paritVastakkain);
+// vanha, toimiva:
+//	luoParitilastoVastustaja(sahlyOliot);	
 
 
 	// Piirtää kaaviot paritilastoista:
@@ -894,6 +961,8 @@ function getTarkatTiedotPelista(elem, pelattiinko, pvm, peliInd){
 	peliOlio.setMaalit1($(elem).attr("maalit1"));
 	peliOlio.setMaalit2($(elem).attr("maalit2"));
 	peliOlio.setMuuta($(elem).attr("muuta"));
+	peliOlio.setRatkaisija($(elem).attr("ratkaisija"));
+	
 
 	// Pelin numero tilastoissa:
 	var pelinNro = $(elem).attr("nro");
@@ -973,4 +1042,61 @@ function vaihdaKausi(){
 	$('#pieninPaivaInput').val(pelikaudetOliot[$('#kausiValinta').val()].getAloitusPvm());
 	$('#suurinPaivaInput').val(pelikaudetOliot[$('#kausiValinta').val()].getLopetusPvm());
 
+}
+
+function getRatkaisijat(){
+
+	// Avain: Pelaajan nimi, Arvo: taulukko[monestiko oli ratkaisujoukkueessa, ratkaisuja]
+	var palautus = {};
+
+	// Käydään läpi sählykerrat
+	for(var pvm in sahlyOliot){
+
+		// Ratkaisijat voi olla vain tarkkojen tietojen peleistä
+		if(sahlyOliot[pvm].getTietojenTyyppi() === "tarkat"){
+
+			// Käydään läpi pelit
+			var pelit = sahlyOliot[pvm].getPelit();
+
+			for(var i=0; i<pelit.length; i++){
+
+				var peli = pelit[i];
+				var rat = peli.getRatkaisija();
+
+				// Jos on ratkaisija
+				if(typeof rat !== 'undefined'){
+					
+					var voittajat = peli.getVoittajajoukkueenPelaajat();
+					
+					// Lisätään voittajajoukkueen pelaajille 1 osallistuminen lisää
+					for(var j=0; j<voittajat.length; j++){
+						
+						// Jos tämä voittajajoukkueessa ollut on jo palautuksissa
+						if(voittajat[j] in palautus ){
+							// Lisätään yksi osallistuminen lisää
+							var data = palautus[voittajat[j]];								
+							palautus[voittajat[j]] = [data[0]+1, data[1]];
+
+						}	else {
+
+							// Ei ole aikaisempaa tietoa, joten lisätään nyt
+							palautus[voittajat[j]] = Array();
+							palautus[voittajat[j]] = [1,0];
+//								alert("Lisättiin " + voittajat[j]);
+						}			
+					} //END for(voittajat)
+
+					// Lisätään ratkaisija
+					var ratkaisija = palautus[rat];
+//	alert("lisätään: " + rat);
+					palautus[rat] = [ ratkaisija[0], ratkaisija[1]+1 ];
+				}//END if(typeof rat !== 'undefined')
+			}
+		}
+
+	}
+
+	// Tulostetaan
+	//alert(JSON.stringify(palautus));
+	return palautus;
 }

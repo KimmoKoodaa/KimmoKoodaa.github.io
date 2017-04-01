@@ -1,4 +1,90 @@
 /* Muotoilut */
+
+
+
+
+.container {
+    font-size: 115%;
+}
+
+
+.container-fluid {
+    font-size: 120%;
+}
+
+
+#paritilastoToveritKaikkiTaulukkoId th {
+	background-color: #5dd55d;
+	color: white;
+}
+/*
+#paritilastoVastustajaTable th{
+	background-color: #ff1a40;
+	color: white;
+}
+*/
+/* Keskitetään kaikki taulukkojen otsikot */
+table th {
+	text-align: center;	
+}
+
+
+#pelitTaulukkoId {
+	max-width: 1220px;
+	margin:0 auto;
+}
+
+#valitunPareinaMaaratTaulukkoId, #valitunToveritTaulukkoId, #valitunVastustajatTaulukkoId{
+	max-width: 1050px;
+	margin:0 auto;
+}
+
+#valitunToveritTaulukkoTable th{
+	background-color: #5dd55d;
+
+}
+
+#valitunPareinaMaaratTaulukkoTable th{
+	background-color: #819cff;	
+	color: white;
+}
+
+#valitunVastustajatTaulukkoTable th, #paritilastoVastustajaTable th{
+	background-color: #ff1a40;
+	color: white;
+}
+
+#ratkaisijatId {
+	max-width: 920px;
+	margin:0 auto;	
+}
+
+#ratkaisijatTable th{
+	background-color:#ffd700;
+}
+
+/* Yleinen sählykertojen taulukko ja valitun pelaajan sählytaulukko */
+#sahlytYleinenId th, #sahlytValittuId th{
+	background-color:#b0494d;
+	color: white;
+}
+
+/* Yleinen pelien taulukko */
+#pelitTaulukkoId th{
+	background-color: #4cba83;
+	color: white;
+}
+
+/* Kaikkien pelaajien taulukko */
+#kaikkiPelaajatId th{
+	background-color:	#F2AB45;
+}
+
+
+
+
+/* Alkuperäiset   */
+
 .osoitus{
 	border: 2px solid green;
 	color: black;
@@ -14,13 +100,13 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #000000;
 	background-color: white;
-	margin-left: 5%;
-	margin-right: 5%;					
-	background-image: url(taustakuva-2.jpg);
+	/*margin-left: 5%;
+	margin-right: 5%;					*/
+/*	background-image: url(hallikuva.jpg);*/
 	background-attachment: fixed;
-	background-size: 100% 100%;
+/*	background-size: 100% 100%;*/
 }
-
+/*
 h1 { 
 	border: 2px solid blue;
 	background-color: #FDFEFE;
@@ -54,36 +140,26 @@ h4 {
 	margin-left: 5%;
 	margin-right: 5%;
 	background-color: #D5F5E3;
-
 }
-
+*/
 p {
 	background-color: white;
-	margin-left: 5%;
-	margin-right: 5%;
+	
 }
 
 ul {
-	margin-left: 3%;
-	margin-right: 3%;
 }
 
 section#tiedotYhdestaPelaajastaDivId {
 	background-color: white;
 }
 
-#sahlytId {
-	background-color: white;
-}
 
 #sahlytId th {
-	background: #922b21;
+	/*background: #922b21;*/
 	color: white;
 }
 
-#pelaajatId {
-	background-color: #FDFEFE;
-}
 
 #pelaajanOsallistuminenPieId {
 	background-color: #FDFEFE;
@@ -96,7 +172,7 @@ section#tiedotYhdestaPelaajastaDivId {
 }
 
 #pelaajaVoittoprosenttiKuvaaja {
-	background-color: #FDFEFE;
+	background-color: #FFFFFF;
 }
 
 #paritilastoToveriId {
@@ -104,7 +180,7 @@ section#tiedotYhdestaPelaajastaDivId {
 }
 
 #paritilastoToveriId th {
-	background: #5dd55d;
+	background:DarkCyan;
 	color: white;
 }
 
@@ -126,11 +202,12 @@ section#aloitus {
 	border: solid white;
 }
 
+/*
 div#kaikkiPelaajat {
 	background: white;
 	border: solid white;
 }
-
+*/
 .ui-dialog .ui-dialog-content {
   border: 0;
 	padding: .5em 1em;
@@ -145,12 +222,9 @@ div#kaikkiPelaajat {
 	color: black;
 }
 
-#pelaajaVoittoprosenttiKuvaaja {
-    height: 100px;
-		text-align: center;
-}
 
-/* Taulukoihin liittyviä muotoiluja */
+
+/* Näitä tarvitaan tablersorter-taulukkojen muotoiluun */
 table.tablesorter {
 	font-family:arial;
 	background-color: #CDCDCD;
@@ -158,24 +232,29 @@ table.tablesorter {
 	font-size: 12pt;
 	width: 100%;
 	text-align: left;
+border: 1px solid #dad9c7;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 	background-color: #e6EEEE;
 	border: 1px solid #FFF;
 	font-size: 12pt;
 	padding: 4px;
+	text-align:center;
+border: 1px solid #dad9c7;
 }
 table.tablesorter thead tr .header {
 	background-image: url(bg.gif);
 	background-repeat: no-repeat;
 	background-position: center right;
 	cursor: pointer;
+border: 1px solid #dad9c7;
 }
 table.tablesorter tbody td {
 	color: #3D3D3D;
 	padding: 4px;
 	background-color: #FFF;
 	vertical-align: top;
+border: 1px solid #dad9c7;
 }
 table.tablesorter tbody tr.odd td {
 	background-color:#F0F0F6;
@@ -189,3 +268,4 @@ table.tablesorter thead tr .headerSortDown {
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
 	background-color: #8dbdd8;
 }
+

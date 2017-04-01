@@ -46,6 +46,7 @@ function Sahly(pvm, paikka, alkoi, loppui, muuta, pelattiinko){
 	this.setMuuta = SetMuuta;
 	this.getMuuta = GetMuuta;
 
+	// "tarkat" tai "perus"
 	this.setTietojenTyyppi = SetTietojenTyyppi;
 	this.getTietojenTyyppi = GetTietojenTyyppi;
 

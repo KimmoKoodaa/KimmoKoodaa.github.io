@@ -1,5 +1,912 @@
+
+//2017:
+
+// Alustaa taulukon, jossa on pelien tietoja
+function alustaPeliTaulukko(){
+
+	var id = "pelitTaulukkoId";
+	var taulukko = "pelitTaulukkoTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+		
+		"columns": [
+						{ "title": "Pvm" },
+						{ "title": "Pelin nro" },
+            { "title": "Joukkue1" },
+            { "title": "Joukkue1:n maalit" },
+						{ "title": "Joukkue2:n maalit" },
+            { "title": "Joukkue2" },           
+            { "title": "Voittaja" },
+            { "title": "Maaliero (J1-J2)" }
+        ],
+ 		"columnDefs": [
+    	{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5, 6, 7 ] }
+  	]
+	} );  
+
+//alert("pelit-taulukko alustus leveys: " + $( document ).width());
+	return;
+}
+
+function taytaPeliTaulukko(){
+
+	var taulunimi = "pelitTaulukkoTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 0, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää pelaajat _START_ - _END_. Pelaajien lukumäärä on yhteensä _TOTAL_.",
+		},
+		"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },
+			{ "targets": 3 },			
+			{ "targets": 4 },			
+			{ "targets": 5 },			
+			{ "targets": 6 },			
+			{ "targets": 7 },						
+			{ className: "dt-center", "targets": [1,2,3,4,5,6,7] },
+		]
+
+	});	
+
+
+	// Käydään läpi sählyt
+	for(var pvm in sahlyOliot){
+
+		// Jos sählykerrasta on vain perustiedot, siirrytään seuraavaan sählykertaan
+		if(sahlyOliot[pvm].getTietojenTyyppi() !== "tarkat"){
+			continue;
+		}
+
+		// Jos ei pelattu, siirrytään seuraavaan sählykertaan
+		if(!sahlyOliot[pvm].getPelattiinko()){
+			continue;
+		}
+		
+		// Pelit
+		var pelit = sahlyOliot[pvm].getPelit();
+
+		// Käydään läpi sählykerran pelit
+		for(var i=0; i<pelit.length; i++){
+
+			// Jos maalitietoja ei ole, siirrytään seuraavaan sählykertaan
+			if(typeof pelit[i].getMaalit1() === 'undefined' || pelit[i].getMaalit1() === "" || pelit[i].getMaalit1() === null){
+				continue;
+			}
+
+			taulu.row.add( [
+			pvm,
+			(i+1),
+			pelit[i].getJoukkue1(),
+			pelit[i].getMaalit1(),
+			pelit[i].getMaalit2(),
+			pelit[i].getJoukkue2(),
+			pelit[i].getVoittaja(),
+			(pelit[i].getMaalit1() - pelit[i].getMaalit2()),
+		] ).draw();
+
+		}
+
+	}
+}//END taytaPeliTaulukko()
+
+
+// Alustaa taulukon, jossa on yhden pelaajan kanssa samalla puolella ja vastapuolella pelanneiden lukumäärät
+function alustaParitilastoLukumaaratTaulukko(){
+
+	var id = "valitunPareinaMaaratTaulukkoId";
+	var taulukko = "valitunPareinaMaaratTaulukkoTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+		
+		"columns": [
+						{ "title": "Pelaaja" },
+						{ "title": "Joukkuetoverina [kpl]" },
+            { "title": "Vastustajana [kpl]" },
+        ],
+ 		"columnDefs": [
+    	{ className: "dt-head-center", "targets": [ 0, 1, 2 ] }
+  	]
+	} );  
+
+	return;
+
+}
+
+function taytaParitilastoLukumaaratTaulukko(nimi){
+
+	var taulunimi = "valitunPareinaMaaratTaulukkoTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 1, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää pelaajat _START_ - _END_. Pelaajien lukumäärä on yhteensä _TOTAL_.",
+		},
+			"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },			
+			{ className: "dt-center", "targets": [1,2] },
+
+		]
+		
+	});	
+
+	for(toverinNimi in pelaajaOliot){
+				
+		var toveriKpl = pelaajaOliot[nimi].getJoukkuetoverit()[toverinNimi];
+		var vastustajaKpl = pelaajaOliot[nimi].getVastustajat()[toverinNimi];
+
+		// Korvataan undefined nollalla
+		if(toveriKpl == null){
+			toveriKpl = 0;
+		} 
+		if(vastustajaKpl == null){
+			vastustajaKpl = 0;
+		}
+
+		//toveriTiedot +=  '<tr><td>' + toverinNimi + '</td><td align="center">' + toveriKpl + '</td><td align="center">' + vastustajaKpl + '</td></tr>';
+
+		taulu.row.add( [
+			toverinNimi,
+			toveriKpl,
+			vastustajaKpl,
+		] ).draw();
+	}
+
+}
+
+
+// Alustaa taulukon, jossa on yhden pelaajan paritilastot samalla puolella pelanneille
+function alustaParitilastoToveritTaulukko(){
+
+	var id = "valitunToveritTaulukkoId";
+	var taulukko = "valitunToveritTaulukkoTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+		
+		"columns": [
+						{ "title": "Pelaaja joukkuetoverina" },
+						{ "title": "Voitot" },
+            { "title": "Tasapelit" },
+            { "title": "Tappiot" },
+            { "title": "Yhteensä" },
+            { "title": "Suorituskyky" },
+        ],
+ 		"columnDefs": [
+    	{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5 ] }
+  	]
+    } );  
+
+	return;
+
+}
+
+function taytaParitilastoToveritTaulukko(paritilasto, pelaajanNimi){
+
+	var taulunimi = "valitunToveritTaulukkoTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 4, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää pelaajat _START_ - _END_. Pelaajien lukumäärä on yhteensä _TOTAL_.",
+		},
+			"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },			
+			{ "targets": 3 },		
+			{ "targets": 4 },		
+			{ "targets": 5 },		
+			{ className: "dt-center", "targets": [1,2,3,4,5] },
+		]
+		
+	});	
+
+
+	// valitun pelaajan voittoprosentti
+	var voittopros1 = pelaajaOliot[pelaajanNimi].getVoitot() / pelaajaOliot[pelaajanNimi].getPeleihinOsallistunut();
+
+	var suorituskykySumma = 0;
+	
+	// Tulostetaan paritilasto
+	for(var pari in paritilasto){
+
+		// Erotetaan parista pelaajien nimet
+		var osat = pari.split(";");
+
+		// Jos jompi kumpi on haluttu nimi
+		if(osat[0] == pelaajanNimi || osat[1] == pelaajanNimi){
+
+			// Selvitetään toisen pelaajan nimi
+			var toisenNimi = "";
+			if(osat[0] == pelaajanNimi){
+				toisenNimi = osat[1];
+			} else {
+				toisenNimi = osat[0];
+			}
+			
+			// tulokset on: "voitot;tasapelit;tappiot"
+			var tulokset = paritilasto[pari].split(";");
+			var voitot = parseInt(tulokset[0]);
+			var tasapelit = parseInt(tulokset[1]);
+			var tappiot = parseInt(tulokset[2]);
+			var yhteensa = parseInt(voitot+tasapelit+tappiot);
+
+			// Suorituskyky kuvaa kuinka hyvin pelaaja pärjäsi toisen pelaajan kanssa/vastaan verrattuna heidän normaaliin tasoon
+			// Se lasketaan:
+			// ((valitun pelaajan voitto% + toisen pelaajan voitto%) / 2) - heidän parina pelaama voitto%
+			var suorituskyky = "";
+			var voittopros2 = "";
+
+
+				// toisen pelaajan voittoprosentti
+				voittopros2 = pelaajaOliot[toisenNimi].getVoitot() / pelaajaOliot[toisenNimi].getPeleihinOsallistunut();
+				suorituskyky = ((voitot/yhteensa) - ((voittopros1 + voittopros2) / 2)) * 100;
+				// suorituskyky = ( Math.round(suorituskyky * 100) / 100 );
+				suorituskyky = Math.floor(suorituskyky);
+	
+				suorituskykySumma += suorituskyky * (yhteensa/pelaajaOliot[pelaajanNimi].getPeleihinOsallistunut());
+
+
+
+			taulu.row.add( [
+				toisenNimi,
+				voitot,
+				tasapelit,
+				tappiot,
+				yhteensa,
+				suorituskyky
+		] ).draw();
+		}
+	}
+
+	
+}
+
+
+
+
+
+
+
+// Alustaa taulukon, jossa on yhden pelaajan paritilastot samalla puolella pelanneille
+function alustaParitilastoVastustajatTaulukko(){
+
+	var id = "valitunVastustajatTaulukkoId";
+	var taulukko = "valitunVastustajatTaulukkoTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+		
+		"columns": [
+						{ "title": "Pelaaja vastustajana" },
+						{ "title": "Voitot" },
+            { "title": "Tasapelit" },
+            { "title": "Tappiot" },
+            { "title": "Yhteensä", },
+        ],
+ 		"columnDefs": [
+    	{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4 ] }
+  	]
+    } );  
+
+	return;
+}
+
+
+
+function taytaParitilastoVastustajatTaulukko(paritilasto, pelaajanNimi){
+
+	var taulunimi = "valitunVastustajatTaulukkoTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 1, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää parit _START_ - _END_. Parien lukumäärä on yhteensä _TOTAL_.",
+		},
+			"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },			
+			{ "targets": 3 },		
+			{ "targets": 4 },		
+			{ className: "dt-center", "targets": [1,2,3,4] },
+		]		
+	});	
+
+	// valitun pelaajan voittoprosentti
+	var voittopros1 = pelaajaOliot[pelaajanNimi].getVoitot() / pelaajaOliot[pelaajanNimi].getPeleihinOsallistunut();
+
+	// Tulostetaan paritilasto
+	for(var pari in paritilasto){
+
+		// Erotetaan parista pelaajien nimet
+		var osat = pari.split(";");
+
+		// Jos jompi kumpi on haluttu nimi
+		if(osat[0] == pelaajanNimi || osat[1] == pelaajanNimi){
+
+			// Selvitetään toisen pelaajan nimi
+			var toisenNimi = "";
+			if(osat[0] == pelaajanNimi){
+				toisenNimi = osat[1];
+			} else {
+				toisenNimi = osat[0];
+			}
+			
+			// tulokset on: "voitot;tasapelit;tappiot"
+			var tulokset = paritilasto[pari].split(";");
+			var voitot = parseInt(tulokset[0]);
+			var tasapelit = parseInt(tulokset[1]);
+			var tappiot = parseInt(tulokset[2]);
+			var yhteensa = parseInt(voitot+tasapelit+tappiot);
+
+			// Suorituskyky kuvaa kuinka hyvin pelaaja pärjäsi toisen pelaajan kanssa/vastaan verrattuna heidän normaaliin tasoon
+			// Se lasketaan:
+			// ((valitun pelaajan voitto% + toisen pelaajan voitto%) / 2) - heidän parina pelaama voitto%
+			var suorituskyky = "";
+			var voittopros2 = "";
+
+			taulu.row.add( [
+				toisenNimi,
+				voitot,
+				tasapelit,
+				tappiot,
+				yhteensa,
+		] ).draw();
+		}
+	}
+
+	
+}
+
+
+
+
+
+
+// Alustaa taulukon, jossa on kaikkien samassa joukkueessa pelanneiden parien tilastot
+function alustaParitilastoToveritKaikkiTaulukko(){
+
+	var id = "paritilastoToveritKaikkiTaulukkoId";
+	var taulukko = "paritilastoToveritKaikkiTaulukkoTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+		
+		"columns": [
+			{ "width": "20%", "title": "Pari" },
+			{ "width": "15%", "title": "Voitot" },
+			{ "width": "15%", "title": "Tasapelit" },
+			{ "width": "15%", "title": "Tappiot" },
+			{ "width": "15%", "title": "Yhteensä" },
+			{ "width": "20%", "title": "Voittoprosentti [%]" },
+		],
+ 		"columnDefs": [
+			{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5 ] }
+		]
+	});  
+
+	return;
+}
+
+
+function taytaParitilastoToveritKaikkiTaulukko(paritilasto){
+
+	var taulunimi = "paritilastoToveritKaikkiTaulukkoTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 0, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää parit _START_ - _END_. Parien lukumäärä on yhteensä _TOTAL_.",
+		},
+			"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },			
+			{ "targets": 3 },		
+			{ "targets": 4 },		
+			{ "targets": 5 },	
+			{ className: "dt-center", "targets": [1,2,3,4,5] },
+		]		
+	});	
+
+for(var i=0; i<paritilasto.length; i++){
+	taulu.row.add( [
+//		"0","1","2","3","4",
+			paritilasto[i][0],
+			paritilasto[i][1],
+			paritilasto[i][2],
+			paritilasto[i][3],
+			paritilasto[i][4],
+			paritilasto[i][5],
+		] ).draw();
+}
+}
+
+
+// Alustaa taulukon, jossa on kaikkien samassa joukkueessa pelanneiden parien tilastot
+function alustaParitilastoVastustajatKaikkiTaulukko(){
+
+	var id = "paritilastoVastustajatKaikkiTaulukkoId";
+	var taulukko = "paritilastoVastustajatKaikkiTaulukkoTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+		
+		"columns": [
+			{ "width": "20%", "title": "Pari" },
+			{ "width": "15%", "title": "Voitot" },
+			{ "width": "15%", "title": "Tasapelit" },
+			{ "width": "15%", "title": "Tappiot" },
+			{ "width": "15%", "title": "Yhteensä" },
+			{ "width": "20%", "title": "Voittoprosentti [%]" },
+		],
+ 		"columnDefs": [
+			{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5 ] }
+		]
+	});  
+
+	return;
+}
+
+
+
+function taytaParitilastoVastustajatKaikkiTaulukko2(paritilasto){
+
+	var taulunimi = "paritilastoVastustajatKaikkiTaulukkoTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 0, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää parit _START_ - _END_. Parien lukumäärä on yhteensä _TOTAL_.",
+		},
+			"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },			
+			{ "targets": 3 },		
+			{ "targets": 4 },		
+			{ "targets": 5 },	
+			{ className: "dt-center", "targets": [1,2,3,4,5] },
+		]		
+	});	
+
+for(var i=0; i<paritilasto.length; i++){
+	taulu.row.add( [
+//		"0","1","2","3","4",
+			paritilasto[i][0],
+			paritilasto[i][1],
+			paritilasto[i][2],
+			paritilasto[i][3],
+			paritilasto[i][4],
+			paritilasto[i][5],
+		] ).draw();
+}
+}
+
+// Toinen version, jossa paritilasto on sanakirja
+function taytaParitilastoVastustajatKaikkiTaulukko2(paritilasto){
+
+	var taulunimi = "paritilastoVastustajatKaikkiTaulukkoTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 0, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää parit _START_ - _END_. Parien lukumäärä on yhteensä _TOTAL_.",
+		},
+			"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },			
+			{ "targets": 3 },		
+			{ "targets": 4 },		
+			{ "targets": 5 },	
+			{ className: "dt-center", "targets": [1,2,3,4,5] },
+		]		
+	});	
+
+for(var avain in paritilasto){
+
+// Tulokset 
+		var tulokset = paritilasto[avain];
+
+		// avain on kaksi nimeä eroteltuna puolipisteellä		
+		var nimet = avain.split(";");
+		var pari = nimet[0] + " - " + nimet[1];
+		
+		var voitot = parseInt(tulokset[0]);
+		var tasurit = parseInt(tulokset[1]);
+		var tappiot = parseInt(tulokset[2]);
+		var yhteensa = parseInt(voitot+tasurit+tappiot);
+		var voittoPros = Math.round( (voitot/yhteensa)*100 ); 				
+		
+		var uusiRivi = [pari, voitot, tasurit, tappiot, yhteensa,voittoPros];
+	taulu.row.add( uusiRivi ).draw();
+}
+}
+
+
+
+
+
+
+// Yleisfunktio, jolla luodaan datatables-taulukko
+function luoParitilastoVastustaja(taulukonNimi, taulukonId, otsikot, data){
+
+	// Kahden pelaajan tilasto, jossa avain: "pelaaja1" arvo:"pelaaja2(vastustajan joukkueesta),voitot(pelaaja1),tappiot(pelaaja1),tasurit(pelaaja1)"
+	// Huom. pelaaja1 on se, joka on ennemmin aakkosissa
+	paritilastoVastustaja = {};
+
+	
+
+
+	// Jos haluat sorterin, lisää class="tablesorter"
+	partil = '<table id="'+taulukonNimi+'" class="stripe" width="40%" border="1" cellpadding="0" cellspacing="0"> <col width="400"> <col width="400">';
+	partil += "<thead><tr><th>Pari</th><th>Voitot</th><th>Tasapelit</th><th>Tappiot</th><th>Yhteensä</th><th>Voittoprosentti [%]</th></tr></thead>";
+
+	partil +="<tbody>";
+
+	// Tulostetaan paritilastoVastustaja	
+	for(par in paritilastoVastustaja){
+		
+		// par on kaksi nimeä eroteltuna puolipisteellä		
+		var t12 = paritilastoVastustaja[par].split(";");
+		var v1 = parseInt(t12[0]);
+		var tas1 = parseInt(t12[1]);
+		var tap1 = parseInt(t12[2]);
+		var yhteensa = parseInt(v1+tas1+tap1);
+		var voittoPros = Math.round( (v1/yhteensa)*100 ); 
+
+		//partil += "<tr><td>" + par.replace(";", " - ") + "</td><td>" + v1 + "</td><td>" + tas1 + "</td><td>" + tap1 + "</td><td><b>" + parseInt(v1+tas1+tap1) + "</b></td><tr>";
+		partil += "<tr><td>" + par.replace(";", " - ") +"</td>";
+		partil += "<td align='center'>" + v1 + "</td>";
+		partil += "<td align='center'>" + tas1 + "</td>";
+		partil += "<td align='center'>" + tap1 + "</td>";
+		partil += "<td align='center'><b>" + yhteensa + "</b></td>";
+		partil += "<td align='center'>" + voittoPros + "</td>";
+		partil += "</tr>";
+	}
+	partil +="</tbody></table>";
+
+	$("#"+taulukonId).empty();
+	$("#"+taulukonId).append(partil);
+
+	$("#"+taulukonNimi).dataTable({
+		 "autoWidth": false	
+	});
+
+}
+
+// 2017:
+function alustaKaikkienPelaajienTaulukko(){
+
+
+
+	var id = "kaikkiPelaajatId";
+	var taulukko = "kaikkiPelaajatTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+
+		"autoWidth": false,
+		"columns": [
+						{ "title": "Nimi" },
+						{ "title": "Sählyt" },
+            { "title": "Pelit" },
+            { "title": "Voitot" },
+            { "title": "Tappiot", },
+            { "title": "Tasapelit" },
+            { "title": "Pelikaverit" },
+            { "title": "Vastustajat" },
+            { "title": "Voittoputki (puhdas)" },
+            { "title": "Voittoputki" },
+            { "title": "Tappioputki (puhdas)" },
+            { "title": "Tappioputki" },
+            { "title": "Voittoprosentti" },
+        ],
+ 		"columnDefs": [
+    	{ className: "dt-center", "targets": [  1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] }
+  	],
+
+	} );  
+
+	//alert("KAikki pelaajat alustus leveys: " + $( document ).width());
+	return;
+
+}
+
+function taytaKaikkienPelaajienTaulukko(pelaajaOliot){
+
+
+	var taulunimi = "kaikkiPelaajatTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+"autoWidth": false,
+		"order": [[ 0, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää pelaajat _START_ - _END_. Pelaajien lukumäärä on yhteensä _TOTAL_.",
+		},
+"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },			
+			{ "targets": 3 },		
+			{ "targets": 4 },		
+			{ "targets": 5 },	
+			{ className: "dt-center", "targets": [1,2,3,4,5,6,7,8,9,10,11,12] },
+			],
+	/*		"columnDefs": [
+			{ "targets": 0 , "width": "8%"},
+			{ "targets": 1 , "width": "8%"},
+			{ "targets": 2 , "width": "7%"},
+			{ "targets": 3 , "width": "7%"},
+			{ "targets": 4 , "width": "7%"},
+			{ "targets": 5 , "width": "8%"},
+			{ "targets": 6 , "width": "8%"},
+			{ "targets": 7 , "width": "8%"},
+			{ "targets": 8 , "width": "8%"},
+			{ "targets": 9 , "width": "8%"},
+			{ "targets": 10 , "width": "8%"},
+			{ "targets": 11 , "width": "8%"},
+			{ "targets": 12 , "width": "8%"},
+
+			{ className: "dt-center", "targets": [1,2,3,4,5,6,7,8,9,10,11,12] },
+
+		]
+		*/
+	});	
+
+// Palauttaa taulukon, jossa alkiossa on yhden putken sanakirja
+	//[voittoputket, tappioputket]
+	var ennatykset = new Ennatykset();
+	var putket = ennatykset.getPisimmatVoittoputket();
+
+	var voittoputket = putket[0];
+	var tappioputket = putket[1];
+
+	var voittoputketPuhtaat = putket[2];
+	var tappioputketPuhtaat = putket[3];
+
+
+// Käydään pelaajat läpi
+	for(nimi in pelaajaOliot){
+		
+		var joukkuetoverit = pelaajaOliot[nimi].getJoukkuetoverit();
+		var vastustajat = pelaajaOliot[nimi].getVastustajat();
+		var pelitYhteensa	= pelaajaOliot[nimi].getVoitot() + pelaajaOliot[nimi].getTappiot() + pelaajaOliot[nimi].getRatkaisemattomat();
+
+		var voittopros = 0;
+		if(pelitYhteensa !== 0 && pelaajaOliot[nimi].getVoitot() !== 0 && pelaajaOliot[nimi].getVoitot() !== ""){
+			voittopros = Math.round( (pelaajaOliot[nimi].getVoitot()/pelitYhteensa)*100 );
+		}
+
+
+		taulu.row.add( [
+			nimi,
+			pelaajaOliot[nimi].getSahlykerrat(),
+			pelaajaOliot[nimi].getPeleihinOsallistunut(),
+			pelaajaOliot[nimi].getVoitot(),
+			pelaajaOliot[nimi].getTappiot(),
+			pelaajaOliot[nimi].getRatkaisemattomat(),
+			Object.keys(joukkuetoverit).length,
+			Object.keys(vastustajat).length,
+			voittoputketPuhtaat[nimi],
+			voittoputket[nimi],
+			tappioputketPuhtaat[nimi],
+			tappioputket[nimi],
+			voittopros,
+		] ).draw();
+
+	}
+
+
+	// Vaihtelee ym sarakkeen näkyvyyttä: näkyy, ei näy
+	$("input:checkbox").click(function(e){
+
+      // Get the column API object
+      var column = taulu.column( $(this).attr('data-column') );
+
+      // Toggle the visibility
+      column.visible( ! column.visible() );
+
+	});	
+
+	// Poistaa sarakkeen, jos check boxia ei ole ruksattu
+	$("input:checkbox:not(:checked)").each(function() {
+		var column = taulu.column( $(this).attr('data-column') );
+		column.visible(false);	
+		
+	});
+
+
+
+	//Piirtää kaavion alla olevan kaavion: Voittoporsentit pelien määrän funktiona
+	piirraPelienMaaraJaVoittoprosentti();
+}
+
+
+// 2017:
+// Alustaa sählykertojen taulukon, joka on kaikille pelaajille
+function alustaSahlytaulukkoYleinen(){
+
+	var id = "sahlytYleinenId";
+	var taulukko = "sahlytYleinenTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+			
+        "columns": [
+						{ "title": "Pvm" },
+            { "title": "Pelaajia" },
+            { "title": "Pelattiinko" },
+            { "title": "Peli 1 (voittaja ensin)", "class": "peli1" },
+            { "title": "Peli 2 (voittaja ensin)", "class": "peli2" },
+            { "title": "Peli 3 (voittaja ensin)", "class": "peli3" },
+        ]
+    } );  
+
+	return;
+}
+
+
+// 2017:
+// Täyttää DataTables-taulukkoon, jossa on sählykertojen yleiset tiedot
+function taytaSahlytaulukkoYleisetTiedot(taulunimi, pelaajaOliot, sahlyOliot, tarkasteltavaPelaaja){
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+
+		"order": [[ 0, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ sählykertaa",
+			"info":           "Näyttää sählykerrat _START_ - _END_. Sählykertojen lukumäärä on yhteensä _TOTAL_.",
+		},
+
+		"columnDefs": [
+			{ "width": "10%", "targets": 0 },
+			{ "width": "8%", "targets": 1 },
+			{ "width": "7%", "targets": 2 },
+			{ className: "dt-body-center", "targets": [1,2,3,4,5] }
+
+		]
+	});	
+
+	var data = getSahlytaulukkoData();
+
+	// Lisätään sisältö taulukkoon
+	for(var i=0; i<data.length; i++){
+		
+		taulu.row.add( [
+			data[i][0],
+			data[i][1],
+			data[i][2],
+			data[i][3],
+			data[i][4],
+			data[i][5],
+		] ).draw();
+
+	}
+} // END function taytaSahlytaulukkoYleisetTiedot()
+
+
+// 2017: Palauttaa yhdestä pelistä merkkijonon, joka lisätään yllä olevaan taulukkoon
+function getPeliString(peli){
+
+	var peli1 = "";
+	var joukkue1 = "";
+	var joukkue2 = "";
+	var maalit1 = "";
+	var maalit2 = "";
+	var maaliString = " - ";
+
+	
+		maalit1 = peli.getMaalit1();
+		maalit2 = peli.getMaalit2();
+
+		if((maalit1 !== 0 && maalit1 !== "")|| (maalit2 !== 0 && maalit2 !== "")){
+			maaliString = " (" + Math.max(maalit1, maalit2) + ") - ("+ Math.min(maalit1, maalit2) +") "
+		}
+
+		if(peli.onkoTasapeli()){
+			joukkue1 = peli.getJoukkue1();
+			joukkue2 = peli.getJoukkue2();
+		} else {
+			joukkue1 = peli.getVoittaja();
+			joukkue2 = peli.getHaviaja();
+		}
+
+		return joukkue1 + maaliString + joukkue2;		
+}
+
+
 // 2016:
 // Alustaa sählykertojen taulukon
+/*
 function alustaSahlytaulukko(){
 
 	// Lisätään tyhjä taulukko
@@ -23,18 +930,46 @@ function alustaSahlytaulukko(){
 
 	return;
 }
+*/
 
+// Alustaa sählykertojen taulukon
+function alustaSahlytaulukkoPelaajatiedot(){
+
+	var id = "sahlytValittuId";
+	var taulukko = "sahlytValittuTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+		"columns": [
+						{ "title": "Pvm" },
+						{ "title": "Pelaajia" },
+            { "title": "Peli 1 (joukkue)" },
+            { "title": "Peli 2 (joukkue)" },
+						{ "title": "Peli 3 (joukkue)" },
+            { "title": "Voittoja" },           
+            { "title": "Pelejä" }
+        ],
+ 		"columnDefs": [
+    	{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5, 6 ] }
+  	]
+	} );  
+
+	return;
+
+
+}
 
 // 2016:
 // Täyttää DataTables-taulukkoon, jossa on sählykertojen ja valitun pelaajan tiedot
 function taytaSahlytaulukkoPelaajatiedot( pelaajaOliot, sahlyOliot, tarkasteltavaPelaaja){
 
-	$('#sahlytTable').DataTable().clear();
+	$('#sahlytValittuTable').DataTable().clear();
 
 	// Tyhjentää taulukon
-	$('#sahlytTable').dataTable().fnDestroy();
+	$('#sahlytValittuTable').dataTable().fnDestroy();
 
-	var taulu = $('#sahlytTable').DataTable( {
+	var taulu = $('#sahlytValittuTable').DataTable( {
 
 		"order": [[ 0, "desc" ]],
 		language: {
@@ -75,17 +1010,18 @@ function taytaSahlytaulukkoPelaajatiedot( pelaajaOliot, sahlyOliot, tarkasteltav
 			}			
 		},
 
-		"columns": [            
+/*		"columns": [            
 		    { "title": "Pvm" },
 		    { "title": "Pelaajia" },
-		    { "title": "Peli 1 (joukkue)",/* "class": "peli1"*/ },
-		    { "title": "Peli 2 (joukkue)",/* "class": "peli2"*/ },
-		    { "title": "Peli 3 (joukkue)",/* "class": "peli3"*/ },
+		    { "title": "Peli 1 (joukkue)", },
+		    { "title": "Peli 2 (joukkue)", },
+		    { "title": "Peli 3 (joukkue)",},
 				{ "title": "Voittoja" },
 				{ "title": "Pelejä" },
 		],
+*/
  "columnDefs": [
-    { className: "dt-body-center", "targets": [ 0, 1, 2, 3, 4, 5, 6 ] }
+    { className: "dt-body-center", "targets": [ 1, 2, 3, 4, 5, 6 ] }
   ]
 	});	
 
@@ -160,8 +1096,8 @@ function tulostaSahlykerratTyypit(sahlykerratLkmPerus, sahlykerratLkmTarkat, sah
 
 
 		var taulukkoSahlykerroista = '<table id="sahlytyypitTable" align="center" border="1" cellpadding="3" cellspacing="0">';
-		taulukkoSahlykerroista += '<col align="left"><col align="center"><col align="center">';
-		taulukkoSahlykerroista += '<th>Sählykerran tyyppi</th><th>Määrä</th><th>Määrä</th>';
+		taulukkoSahlykerroista += '<col align="left" width="500"><col align="center" width="100"><col align="center" width="100">';
+		taulukkoSahlykerroista += '<th style="text-align:center">Sählykerran tyyppi</th><th style="text-align:center">Määrä</th><th style="text-align:center">Määrä</th>';
 		taulukkoSahlykerroista += "<tr><td>perustiedot sählystä (pelaajamäärä, Kimmo ja Visa osallistuminen)</td><td align='center'>" + sahlykerratLkmPerus + "</td><td></td></tr>"
 
 		taulukkoSahlykerroista += "<tr><td>tarkat tiedot sählystä, kun pelattiin (kaikkien pelaajien tiedot)</td><td align='center'>" + sahlykerratLkmTarkatTiedotPelattiin + "</td><td></td></tr>"
@@ -197,7 +1133,8 @@ function tulostaJoukkueidenTaulukko(){
 
 	// Tarkat tiedot peleistä: voitot, tappiot ja ratkaisemattomat joukkueittain
 	var pelitiedot = '<table id="pelitJoukkueittainTable" align="center" width="40%" border="1" cellpadding="3" cellspacing="0">';
-	pelitiedot += '<th>Joukkue</th><th>Voitot</th><th>Tasapelit</th><th>Tappiot</th><th>Pelejä yht.</th>';
+	pelitiedot += '<th style="text-align:center">Joukkue</th><th style="text-align:center">Voitot</th><th style="text-align:center">Tasapelit</th>';
+	pelitiedot += '<th style="text-align:center">Tappiot</th><th style="text-align:center">Pelejä yht.</th>';
 
 	// Käydään läpi joukkueet
 	for(joukkue in joukkueTilasto){
@@ -216,13 +1153,14 @@ function tulostaJoukkueidenTaulukko(){
 	$("#pelitJoukkueittainId").append(pelitiedot);
 }
 
-
+/*
 // 2016:
 // Luo taulukon, jossa on kaikkien pelaajien oleelliset tiedot
 function tulostaKaikkienPelaajienTaulukko(pelaajaOliot){		
 
+alert("funktio tulostaKaikkienPelaajienTaulukko()");
 	// Taulukko, jossa on kaikkien pelaajien oleellisimmat tiedot
-	var muutPelaajat = '<table id="pelaajatTable" class="tablesorter" width="98%" border="1" cellpadding="0" cellspacing="0">';
+	var muutPelaajat = '<table id="pelaajatTable">';
 	muutPelaajat += "<thead><tr><th class='nimi' align='center'>Nimi</th>"+
 		"<th class='sahlykerrat' align='center'>Sählyt</th>"+
 		"<th class='pelikerrat' align='center'>Pelit</th>"+
@@ -287,6 +1225,35 @@ function tulostaKaikkienPelaajienTaulukko(pelaajaOliot){
 
 	muutPelaajat += "</tbody></table>";
 
+
+
+$("#pelaajatId").html(muutPelaajat);
+
+	$('#pelaajatTable').dataTable( {
+			
+
+        "columns": [
+						{ "title": "Nimi" },
+            { "title": "Sählyt" },
+						{ "title": "Pelit" },
+            { "title": "Voitot" },
+						{ "title": "Tappiot" },
+            { "title": "Tasapelit" },
+						{ "title": "Pelikaverit" },
+            { "title": "Vastustajat" },
+						{ "title": "Voitoputki (puhdas)" },
+            { "title": "Voittoputki" },
+						{ "title": "Tappioputki (puhdas)" },
+            { "title": "Tappioputki" },
+            { "title": "Voittoprosentti" },
+        ]
+    } );  
+
+
+
+
+
+
 	if ($('#pelaajatId').is(':empty')){
 		
 
@@ -314,11 +1281,10 @@ function tulostaKaikkienPelaajienTaulukko(pelaajaOliot){
 		$(column).hide();
 	});
 }
+*/
 
-
-// Luo HTML-taulukon, jossa on kahden pelaajan samassa joukkueessa saavuttamat voitot, tappiot ja tasapelit.
-// Palauttaa 2D-taulukon, jossa on vastaavat tiedot.
-function luoParitilasto(sahlyOliot){
+// Palauttaa datan, joka tulee taulukkoon, jossa on parit samalla puolella
+function getParitilastoToveritData(){
 
 	// 2D-taulukko, johon tulee palautettavat paritilastot
 	var palautus = new Array(new Array());
@@ -369,64 +1335,160 @@ function luoParitilasto(sahlyOliot){
 
 	} // END sähly
 
-	// 
-	var partil = '<table id="paritilastoToveriTable" class="display" width="40%" border="1" cellpadding="0" cellspacing="0"> <col width="400"> <col width="400">';
-	partil += "<thead><tr><th>Pari</th><th>Voitot</th><th>Tasapelit</th><th>Tappiot</th><th>Pelejä yhteensä</th><th>Voittoprosentti [%]</th></tr></thead>";
-
-	partil +="<tbody>";
-
-	var palInd = 0;
-	// Tulostetaan paritilasto	
+var i=0;
+// Tulostetaan paritilasto	
 	for(par in paritilasto){
-		
-		// par on kaksi nimeä eroteltuna puolipisteellä		
+
+// par on kaksi nimeä eroteltuna puolipisteellä		
 		var t12 = paritilasto[par].split(";");
 
+		var nimet = par.replace(";", " - ");
 		var v1 = parseInt(t12[0]);
 		var tas1 = parseInt(t12[1]);
 		var tap1 = parseInt(t12[2]);
 		var pelejaYht = parseInt(v1+tas1+tap1);
 		var voittoPros = Math.round( (v1/pelejaYht)*100 );
 
-		palautus.push( [ pelejaYht, voittoPros, par.replace(";", " - ") ] );
+		palautus.push( [par.replace(";", " - "), v1, tas1, tap1, pelejaYht, voittoPros] );
+		palautus[i][0] = par.replace(";", " - ");
+		palautus[i][1] = v1;
+		palautus[i][2] = tas1;
+		palautus[i][3] = tap1;
+		palautus[i][4] = pelejaYht;
+		palautus[i][5] = voittoPros;
+		i++;
+	}
 
-		partil += "<tr><td>" + par.replace(";", " - ") +"</td>";
-		partil += "<td align='center'>" + v1 + "</td>";
-		partil += "<td align='center'>" + tas1 + "</td>";
-		partil += "<td align='center'>" + tap1 + "</td>";
-		partil += "<td align='center'><b>" + pelejaYht + "</b></td>";
-		partil += "<td align='center'>" + voittoPros + "</td>";
+	return palautus;
+}
+
+
+function getParitilastoVastustajatData(){
+
+	// 2D-taulukko, johon tulee palautettavat paritilastot
+	var palautus = new Array();
+
+// Kahden pelaajan tilasto, jossa avain: "pelaaja1" arvo:"pelaaja2(vastustajan joukkueesta),voitot(pelaaja1),tappiot(pelaaja1),tasurit(pelaaja1)"
+	// Huom. pelaaja1 on se, joka on ennemmin aakkosissa
+	var paritilastoVastustaja = {};
+
+	// Käydään läpi sählyt
+	for(sahlyKerta in sahlyOliot){
+
+		// Jos ei pelattu, siirrytään seuraavaan
+		if(!sahlyOliot[sahlyKerta].getPelattiinko()){
+			continue;
+		}
+
+		var sahlynPelit = sahlyOliot[sahlyKerta].getPelit();
+
+		// Käydään yhden sählykerran pelit läpi
+		for(yksiPeli in sahlynPelit){
+	
+			// Otetaan joukkueiden pelaajat
+			var pelaajatJ1 = sahlynPelit[yksiPeli].palautaPelaajatJoukkue1();
+			var pelaajatJ2 = sahlynPelit[yksiPeli].palautaPelaajatJoukkue2();
+
+			// Joukkue1 voitti
+			if(sahlynPelit[yksiPeli].getVoittaja() == sahlynPelit[yksiPeli].getJoukkue1()){
+
+				var haluttuJoukkue = pelaajatJ1.split(",");
+				// Käydään joukkueen 1 pelaajat läpi ja lisätään j2:n pelaajien tiedot
+				for(var f=0; f < haluttuJoukkue.length; f++){					
+					paritilastoVastustaja = kayJoukkueLapiVastustaja(pelaajatJ2, "voitto", paritilastoVastustaja, haluttuJoukkue[f].trim());					
+				}
+
+				var haluttuJoukkue = pelaajatJ2.split(",");
+				// Käydään joukkueen 2 pelaajat läpi ja lisätään j1:n pelaajien tiedot
+				for(var f=0; f < haluttuJoukkue.length; f++){
+					paritilastoVastustaja = kayJoukkueLapiVastustaja(pelaajatJ1, "tappio", paritilastoVastustaja, haluttuJoukkue[f].trim());
+				}
+
+			// Joukkue2 voitti
+			} else if(sahlynPelit[yksiPeli].getHaviaja() == sahlynPelit[yksiPeli].getJoukkue1()){
+
+				var haluttuJoukkue = pelaajatJ1.split(",");
+				// Käydään joukkueen 1 pelaajat läpi ja lisätään j2:n pelaajien tiedot
+				for(var f=0; f < haluttuJoukkue.length; f++){					
+					paritilastoVastustaja = kayJoukkueLapiVastustaja(pelaajatJ2, "tappio", paritilastoVastustaja, haluttuJoukkue[f].trim() );
+				}
+
+				var haluttuJoukkue = pelaajatJ2.split(",");
+				// Käydään joukkueen 2 pelaajat läpi ja lisätään j1:n pelaajien tiedot
+				for(var f=0; f < haluttuJoukkue.length; f++){					
+					paritilastoVastustaja = kayJoukkueLapiVastustaja(pelaajatJ1, "voitto", paritilastoVastustaja,  haluttuJoukkue[f].trim() );
+				}
+
+			} else { // Ratkaisematon peli
+				var haluttuJoukkue = pelaajatJ1.split(",");
+				// Käydään joukkueen 1 pelaajat läpi ja lisätään j2:n pelaajien tiedot
+				for(var f=0; f < haluttuJoukkue.length; f++){					
+					paritilastoVastustaja = kayJoukkueLapiVastustaja(pelaajatJ2, "ratkaisematon", paritilastoVastustaja, haluttuJoukkue[f].trim() );
+				}
+
+				var haluttuJoukkue = pelaajatJ2.split(",");
+				// Käydään joukkueen 2 pelaajat läpi ja lisätään j1:n pelaajien tiedot
+				for(var f=0; f < haluttuJoukkue.length; f++){					
+					paritilastoVastustaja = kayJoukkueLapiVastustaja(pelaajatJ1, "ratkaisematon", paritilastoVastustaja, haluttuJoukkue[f].trim() );
+				}
+			}
+
+		} // END peli
+
+	} // END sähly
+
+
+	for(par in paritilastoVastustaja){
+
+		var t12 = paritilastoVastustaja[par].split(";");
+		var nimet = par.replace(";", " - ");
+		var voitot = parseInt(t12[0]);
+		var tasan = parseInt(t12[1]);
+		var tappiot = parseInt(t12[2]);
+		var peleja = voitot + tasan + tappiot;
+		var voittopros = Math.round( (voitot/peleja)*100 );
+
+	var rivi = new Array(nimet, voitot, tasan, tappiot, peleja, voittopros);
+	palautus.push(rivi);
+		i++;
+	}
+
+	return palautus;
+}
+
+// Luo HTML-taulukon, jossa on kahden pelaajan samassa joukkueessa saavuttamat voitot, tappiot ja tasapelit.
+// Palauttaa 2D-taulukon, jossa on vastaavat tiedot.
+function luoParitilasto(sahlyOliot, paritilasto){
+
+	var partil = '<table id="paritilastoToveriTable" class="stripe" width="40%" border="1" cellpadding="0" cellspacing="0"> ';
+
+	partil += "<thead><tr><th>Pari</th><th>Voitot</th><th>Tasapelit</th><th>Tappiot</th><th>Pelejä yhteensä</th><th>Voittoprosentti [%]</th></tr></thead>";
+
+	partil +="<tbody>";
+
+	var palInd = 0;
+	// Tulostetaan paritilasto	
+	for(var i=0; i<paritilasto.length; i++){
+		
+		partil += "<tr><td>" + paritilasto[i][0] +"</td>";
+		partil += "<td align='center'>" + paritilasto[i][1] + "</td>";
+		partil += "<td align='center'>" + paritilasto[i][2] + "</td>";
+		partil += "<td align='center'>" + paritilasto[i][3] + "</td>";
+		partil += "<td align='center'><b>" + paritilasto[i][4] + "</b></td>";
+		partil += "<td align='center'>" + paritilasto[i][5] + "</td>";
 
 		partil += "</tr>";
-
-		palInd++;
 	}
 	partil +="</tbody></table>";
 
-	$("#paritilastoToveriId").empty();
-	$("#paritilastoToveriId").append(partil);
+	$("#paritilastoToveritKaikkiTaulukkoId").empty();
+	$("#paritilastoToveritKaikkiTaulukkoId").append(partil);
 
+	$("#paritilastoToveriTable").dataTable({
+		"autoWidth": false,
+		"order": [[ 1, "desc" ]]
+	});
 
- $("#paritilastoToveriTable").dataTable({
-			"autoWidth": false, 
-			sClass: "alignRight",
-			"columns": [
-    		{ className: "pari" },
-		    null,
-    		null,
-    		null,
-    		null,
-				null
-  		],
-			"pari" : [   
-				{ sWidth: '40%' },   
-				{ sWidth: '60%', sClass: "alignRight" }  
-			]
-		});
-
-	// Jostain syystä ensimmäinen on tyhjä, joten poistetaan se
-	palautus.shift();
-	return palautus;
 }
    
 
@@ -631,7 +1693,7 @@ function luoParitilastoVastustaja(sahlyOliot){
 	} // END sähly
 
 	// Jos haluat sorterin, lisää class="tablesorter"
-	partil = '<table id="paritilastoVastustajaTable" class="stripe" width="40%" border="1" cellpadding="0" cellspacing="0"> <col width="400"> <col width="400">';
+	partil = '<table id="paritilastoVastustajaTable" class="stripe" width="40%" border="1" cellpadding="0" cellspacing="0">';
 	partil += "<thead><tr><th>Pari</th><th>Voitot</th><th>Tasapelit</th><th>Tappiot</th><th>Yhteensä</th><th>Voittoprosentti [%]</th></tr></thead>";
 
 	partil +="<tbody>";
@@ -658,8 +1720,8 @@ function luoParitilastoVastustaja(sahlyOliot){
 	}
 	partil +="</tbody></table>";
 
-	$("#paritilastoVastustajaId").empty();
-	$("#paritilastoVastustajaId").append(partil);
+	$("#paritilastoVastustajatKaikkiTaulukkoId").empty();
+	$("#paritilastoVastustajatKaikkiTaulukkoId").append(partil);
 
 	$("#paritilastoVastustajaTable").dataTable({
 		 "autoWidth": false	
@@ -710,6 +1772,83 @@ function getPelitulosTeksti(numero, pelitulokset){
 
 	return [peli, voittoja];
 }
+
+
+
+// Palauttaa otsikkotekstin ja HTML-taulukon yhden pelin tiedoista (joukkueiden nimet, maalit, voittajan ja joukueiden pelaajat)
+function luoJoukkueTaulukko(taulukonID, peli, peliNro){
+
+	var palautus = "<p>Peli " + peliNro + ". Voittaja oli " + peli.getVoittaja() + "<p>";
+
+	palautus += '<table id="' + taulukonID + '" class="tablesorter" width="40%" border="1" cellpadding="0" cellspacing="0"> <col width="400"> <col width="400">';
+
+	// Pelaajat merkkijonona pilkulla eroteltuna
+	var pelaajat1 = peli.palautaPelaajatJoukkue1();	
+	var pelaajat2 = peli.palautaPelaajatJoukkue2();	
+
+	var pelaajat1T = pelaajat1.split(",");
+	var pelaajat2T = pelaajat2.split(",");
+	
+	palautus += "<thead><tr><th>" + peli.getJoukkue1() + " (maaleja = "+ peli.getMaalit1()+ ")</th><th>" + peli.getJoukkue2() + " (maaleja = "+ peli.getMaalit2()+  ")</th></tr></thead>";
+
+	palautus += '<tbody>';
+
+	// Pelaajalistoissa on lopussa yksi tyhjä, koska string loppui pilkuun
+	for(var i=0; i< Math.max(pelaajat1T.length, pelaajat2T.length)-1; i++){
+		palautus += "<tr><th>";
+
+		// Jos on pelaajia joukkueessa 1
+		if(i < pelaajat1T.length){
+			palautus += pelaajat1T[i] + "</th><th>" ;
+		} else {
+			palautus +=  "</th><th>" ;
+		}
+
+		// Jos on pelaajia joukkueessa 2
+		if(i < pelaajat2T.length){
+			palautus += pelaajat2T[i] + "</th><th></tr>" ;
+		} else {
+			palautus +=  "</th><th></tr>" ;
+		}			
+	}
+
+	palautus += '</tbody></table>';
+
+	return palautus;
+}
+
+
+// Alustaa joukkueiden taulukon.
+// Taulukossa on joukkueen pelaajat (aakkosjärjestyksessä), voitot, tappiot, tasapelit ja pelien määrä
+function alustaJoukkuetaulukko(){
+
+	// Lisätään tyhjä taulukko
+	var eka = [];
+
+	$("#joukkueetId").html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="joukkueetTable"></table>');
+
+	$('#joukkueetTable').dataTable( {
+			
+        "data": eka,
+        "columns": [
+						{ "title": "Pelaajat" },
+						{ "title": "Pelipäivät (pelejä)" },			
+            { "title": "Voitot" },
+            { "title": "Tasapelit" },
+            { "title": "Tappiot"},
+            { "title": "Pelejä" },
+        ]
+    } );  
+
+//	alert("Joukkueet -taulukko alustus leveys: " + $( document ).width());
+	return;
+}
+
+
+
+
+
+
 
 
 
@@ -1050,74 +2189,6 @@ function kayJoukkueLapiVastustaja(yksiJoukkueString, joukkueenTulos, paritilasto
 }
 
 
-// Palauttaa otsikkotekstin ja HTML-taulukon yhden pelin tiedoista (joukkueiden nimet, maalit, voittajan ja joukueiden pelaajat)
-function luoJoukkueTaulukko(taulukonID, peli, peliNro){
-
-	var palautus = "<p>Peli " + peliNro + ". Voittaja oli " + peli.getVoittaja() + "<p>";
-
-	palautus += '<table id="' + taulukonID + '" class="tablesorter" width="40%" border="1" cellpadding="0" cellspacing="0"> <col width="400"> <col width="400">';
-
-	// Pelaajat merkkijonona pilkulla eroteltuna
-	var pelaajat1 = peli.palautaPelaajatJoukkue1();	
-	var pelaajat2 = peli.palautaPelaajatJoukkue2();	
-
-	var pelaajat1T = pelaajat1.split(",");
-	var pelaajat2T = pelaajat2.split(",");
-	
-	palautus += "<thead><tr><th>" + peli.getJoukkue1() + " (maaleja = "+ peli.getMaalit1()+ ")</th><th>" + peli.getJoukkue2() + " (maaleja = "+ peli.getMaalit2()+  ")</th></tr></thead>";
-
-	palautus += '<tbody>';
-
-	// Pelaajalistoissa on lopussa yksi tyhjä, koska string loppui pilkuun
-	for(var i=0; i< Math.max(pelaajat1T.length, pelaajat2T.length)-1; i++){
-		palautus += "<tr><th>";
-
-		// Jos on pelaajia joukkueessa 1
-		if(i < pelaajat1T.length){
-			palautus += pelaajat1T[i] + "</th><th>" ;
-		} else {
-			palautus +=  "</th><th>" ;
-		}
-
-		// Jos on pelaajia joukkueessa 2
-		if(i < pelaajat2T.length){
-			palautus += pelaajat2T[i] + "</th><th></tr>" ;
-		} else {
-			palautus +=  "</th><th></tr>" ;
-		}			
-	}
-
-	palautus += '</tbody></table>';
-
-	return palautus;
-}
-
-
-// Alustaa joukkueiden taulukon.
-// Taulukossa on joukkueen pelaajat (aakkosjärjestyksessä), voitot, tappiot, tasapelit ja pelien määrä
-function alustaJoukkuetaulukko(){
-
-	// Lisätään tyhjä taulukko
-	var eka = [];
-
-	$("#joukkueetId").html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="joukkueetTable"></table>');
-
-	$('#joukkueetTable').dataTable( {
-			
-        "data": eka,
-        "columns": [
-						{ "title": "Pelaajat" },
-						{ "title": "Pelipäivät (pelejä)" },			
-            { "title": "Voitot" },
-            { "title": "Tasapelit" },
-            { "title": "Tappiot"},
-            { "title": "Pelejä" },
-        ]
-    } );  
-
-	return;
-}
-
 // Täyttää joukkueiden tiedot taulukkoon
 function taytaJoukkueTaulukko(){
 
@@ -1281,4 +2352,118 @@ function taytaJoukkueTaulukko(){
 		taulu.row.add([pelaajat, pelipaivat, tulokset[0], tulokset[1], tulokset[2], peleja]).draw();
 	}
 		
+}
+
+// Alustaa taulukon, jossa on pelien ratkaisijat
+function alustaRatkaisijatTaulukko(){
+
+	var id = "ratkaisijatId";
+	var taulukko = "ratkaisijatTable";
+
+	$("#" + id).html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="' + taulukko + '"></table>');
+
+	$('#' + taulukko).dataTable( {
+
+		
+		"columns": [
+			{ "title": "Nimi" },
+			{ "title": "Ratkaisumaaleja [lkm]" },
+			{ "title": "Voittajajoukkueessa [lkm]" },
+			{ "title": "Ratkaisuprosentti [%]" },
+		],
+		"columnDefs": [
+			{ className: "dt-head-center", "targets": [ 0, 1, 2, 3 ] }
+		]
+	});  
+
+//	alert("ratkaisijat alustus leveys: " + $( document ).width());
+	return;
+}
+
+function taytaRatkaisijatTaulukko(ratkaisijat){
+
+	var taulunimi = "ratkaisijatTable";
+
+	$('#'+taulunimi).DataTable().clear();
+
+	// Tyhjentää taulukon
+	$('#'+taulunimi).dataTable().fnDestroy();
+
+	var taulu = $('#'+taulunimi).DataTable( {
+		"order": [[ 1, "desc" ], [ 3, "desc" ]],
+		language: {
+			"search": "Hae:",
+			searchPlaceholder: "Hae hakusanalla taulukosta",
+			"lengthMenu":     "Näytä _MENU_ pelaajaa",
+			"info":           "Näyttää pelaajat _START_ - _END_. Pelaajien lukumäärä on yhteensä _TOTAL_.",
+		},
+			"columnDefs": [
+			{ "targets": 0 },
+			{ "targets": 1 },
+			{ "targets": 2 },
+			{ "targets": 3 },
+
+			{ className: "dt-center", "targets": [1,2,3] },
+		]		
+	});	
+
+
+	for(var rat in ratkaisijat){
+
+		var data = ratkaisijat[rat];
+
+		var prosentti = Math.round( (data[1]/data[0])*100 );
+
+		taulu.row.add( [
+			rat,
+			data[1],
+			data[0],
+			prosentti,
+		] ).draw();
+
+	}
+}
+
+function taytaFinaalitiedot(data){
+
+	// Luodaan taulukko finaalipeleistä
+	var finaalitTable = '<table id="finaalitTable" class="tablesorter" width="98%" >';
+	finaalitTable += '<thead><tr>';
+	// Lisätään otsikot
+	finaalitTable += '<th align="center">Kausi</th><th align="center">Päivämäärä</th>';
+	finaalitTable +='<th align="center">Joukkue 1</th><th align="center">Maalit</th><th align="center">Joukkue2</th><th align="center">Voittaja</th>';		
+	finaalitTable += '</tr></thead>';
+	finaalitTable += '<tbody>';
+
+	// Käydään data läpi ja lisätään tiedot
+	for(var i=0; i<data.length; i++){
+	
+		// Lisätään finaalitaulukkoon rivi tälle finaalille
+		finaalitTable += '<tr>';
+		// Kauden nimi
+		finaalitTable += '<td align="center">' + data[i][0] + '</td>';		
+		// Päiväys
+		finaalitTable += '<td align="center">' + data[i][1] + '</td>';		
+		// Joukkue 1
+		finaalitTable += '<td align="center">' + data[i][2] + '</td>';		
+		// Joukkueiden maalit
+		finaalitTable += '<td align="center">' + data[i][3] + '</td>';	
+		// Joukkue 2
+		finaalitTable += '<td align="center">' + data[i][4] + '</td>';		
+		// Voittaja
+		finaalitTable += '<td align="center">' + data[i][5] + '</td>';		
+		// Lopetetaan taulukon rivi
+		finaalitTable += '</tr>';
+	}
+
+	finaalitTable += '</tbody></table>';
+	
+	// Lisätään HTML-taulukko HTML-sivulle
+	$("#finaalitId").empty();
+	$("#finaalitId").append(finaalitTable);
+
+	$("#finaalitTable").tablesorter({ 
+			sortList: [[1,0]],
+			widgets: ['zebra']
+		});
 }

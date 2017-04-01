@@ -4302,7 +4302,7 @@
 			</pelaajat>
 		</peli>
 
-	<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="5" muuta="">
+	<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="5" muuta="" ratkaisija="Janne">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Make</pelaaja>
 				<pelaaja joukkue="paidat">Martti</pelaaja>
@@ -4321,7 +4321,7 @@
 	</sahly>		
 	<sahly pvm="2016-11-15" paikka="" alkoi="22:00" loppui="" muuta="Lasse oli toinen maalivahti koko pelin. Ipa aloitti liiveillä maalilla. Jossain vaiheessa Kimmo2 meni liivien maalille. Jossain vaiheessa Kjäll aloitti pelin kulmalyönnillä vastustajan päädyssä. Aloitus epäonnistui, koska pallo meni suoraan vastustajan maalin takaa laidan yli. Jotkut ehkä tekivät vähän pilkkaa ;) Joni teki ekan pelin ratkaisumaalin ja Ville2 toisen pelin." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="15" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="15" muuta="" ratkaisija="Joni">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Osku</pelaaja>
@@ -4341,7 +4341,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="9" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="9" muuta="" ratkaisija="Ville2">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Osku</pelaaja>
@@ -4404,7 +4404,7 @@
 	</sahly>
 	<sahly pvm="2016-11-29" paikka="" alkoi="22:00" loppui="" muuta="Markus tuli myöhässä, joten hänelle ei voi merkitä kokonaista tappiota :) Kyllä voi. Lasse ja Niclas2 olivat urheasti maalilla koko ajan. Kimmo2 teki ratkaisumaalit sekä peliin 1 että peliin 2. Visa lähti heti ekan pelin jälkeen, joten pelissä 2 Tapsa oli paidoilla." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="8" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="8" muuta="" ratkaisija="Kimmo2">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Kimmo</pelaaja>
 				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
@@ -4425,7 +4425,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="" ratkaisija="Kimmo2">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Kimmo</pelaaja>
 				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
@@ -4456,7 +4456,7 @@
 
 	<sahly pvm="2016-12-13" paikka="" alkoi="22:00" loppui="" muuta="Make ei ollut tekemässä, joten joukkueet olivat aika epätasaiset. Pari uutta pelaajaa. Ratkaisumaalien tekijät: pelissä 1 Antti, pelissä 2 Henkka ja pelissä 3 Antti." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="5" maalit2="10" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="5" maalit2="10" muuta="" ratkaisija="Antti">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
 				<pelaaja joukkue="paidat">Joni</pelaaja>
@@ -4478,7 +4478,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="8" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="8" muuta="" ratkaisija="Henkka">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
@@ -4500,7 +4500,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="">
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="" ratkaisija="Antti">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
@@ -4544,7 +4544,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="7" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="7" muuta="" ratkaisija="Timo">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Tapsa</pelaaja>
 				<pelaaja joukkue="paidat">Make</pelaaja>
@@ -4566,7 +4566,7 @@
 	</sahly>
 	<sahly pvm="2016-12-27" paikka="" alkoi="22:00" loppui="" muuta="Kjäll teki taas tilastot, erittäin hyvää työtä. Lasse ja Niclas2 olivat maalivahteina. Ekan pelin ratkaisumaalin teki Martti ja toisen peli Kjäll (eli sama kuin tilastojen tekijä!)." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="4" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="4" muuta="" ratkaisija="Martti">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Martti</pelaaja>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
@@ -4582,7 +4582,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="12" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="12" muuta="" ratkaisija="Kjäll">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Martti</pelaaja>
 				<pelaaja joukkue="paidat">Kjäll</pelaaja>
@@ -4598,9 +4598,9 @@
 			</pelaajat>
 		</peli>
 	</sahly>
-	<sahly pvm="2017-01-03" paikka="" alkoi="22:00" loppui="" muuta="Uusi vuosi ja paljon pelaajia. Hyvät ja tasaiset pelit. Niclas2 ja Lasse olivat maalivahteina. Pelin1 ratakisumaalin teki Otto ja pelin2 ratkaisumaalin teki Heikki. Ipa lähti kesken toisen peli, jolloin Toivo meni paidoille. Joel lähti hetkeä myöhemmin." pelattiinko="kyllä">
+	<sahly pvm="2017-01-03" paikka="" alkoi="22:00" loppui="" muuta="Uusi vuosi ja paljon pelaajia. Hyvät ja tasaiset pelit. Niclas2 ja Lasse olivat maalivahteina. Pelin1 ratakaisumaalin teki Otto ja pelin2 ratkaisumaalin teki Heikki. Ipa lähti kesken toisen peli, jolloin Toivo meni paidoille. Joel lähti hetkeä myöhemmin." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="16" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="16" muuta="" ratkaisija="Otto">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
@@ -4623,7 +4623,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="20" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="20" muuta="" ratkaisija="Heikki">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
@@ -4648,7 +4648,7 @@
 	</sahly>		
 	<sahly pvm="2017-01-10" paikka="" alkoi="22:00" loppui="" muuta="Henkka tuli pelin 1 ollessa jo käynnissä, joten Henkan pitäisi saada vain osatappio ekasta pelistä :). Lasse ja Niclas2 olivat maalivahteina. Vaihtoivat puolia ekan pelin jälkeen. Antti teki pelin 1 ratkaisumaalin ja Osku pelin 2 ratkaisumaalin." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="13" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="13" muuta="" ratkaisija="Antti">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Antti</pelaaja>
 				<pelaaja joukkue="paidat">Joni</pelaaja>
@@ -4670,7 +4670,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="12" maalit2="20" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="12" maalit2="20" muuta="" ratkaisija="Osku">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Antti</pelaaja>
 				<pelaaja joukkue="paidat">Joni</pelaaja>
@@ -4694,7 +4694,7 @@
 	</sahly>
 	<sahly pvm="2017-01-17" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Lasse olivat maalivahteina. Matti teki ratkaisumaalin pelissä 1. Pelin 2 ratkaisumaalin teki Ipa." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="10" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="10" muuta="" ratkaisija="Matti">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Antti</pelaaja>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
@@ -4715,7 +4715,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="16" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="16" muuta="" ratkaisija="Ipa">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Antti</pelaaja>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
@@ -4739,7 +4739,7 @@
 		
 	<sahly pvm="2017-01-24" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Lasse olivat maalivahteina. Paidat johtivat aluksi ja sitten liivit menivät menojaan. Liivit johtivat 19 - noin 10, jolloin paitojen kiri alkoi. Lopulta liivit kuitenkin voittivat 20-19. Henkka teki ratkaisumaalin. Kukaan ei halunnut jatkaa pelaamista." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="" ratkaisija="Henkka">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Antti</pelaaja>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
@@ -4766,7 +4766,7 @@
 	</sahly>
 	<sahly pvm="2017-01-31" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Lasse olivat maalivahteina. Timo teki ratkaisumaalin pelissä 1. Pelin 2 ratkaisumaalin teki Joni." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="" ratkaisija="Timo">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Janne</pelaaja>
@@ -4788,7 +4788,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="15" maalit2="12" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="15" maalit2="12" muuta="" ratkaisija="Joni">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Janne</pelaaja>
@@ -4812,7 +4812,7 @@
 	</sahly>
 	<sahly pvm="2017-02-07" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Lasse olivat maalivahteina. Kimmo2 teki ratkaisumaalin pelissä 1. Pelin 2 ratkaisumaalin teki Aatos." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="17" maalit2="20" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="17" maalit2="20" muuta="" ratkaisija="Kimmo2">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Lauri3</pelaaja>
 				<pelaaja joukkue="paidat">Ville2</pelaaja>
@@ -4837,7 +4837,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="13" maalit2="15" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="13" maalit2="15" muuta="" ratkaisija="Aatos">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Lauri3</pelaaja>
 				<pelaaja joukkue="paidat">Ville2</pelaaja>
@@ -4872,7 +4872,7 @@
 
 	<sahly pvm="2017-02-21" paikka="" alkoi="22:00" loppui="" muuta="Jude oli paikalla, joten ei tietenkään yhtään oikeata maalivahtia. Porukkaa oli tosi paljon, joten oli vähän hässäkkää. Ekan pelin ratkaisijaa ei muistettu kirjata. Tokan pelin ratkaisumaalin teki Tommi." pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="" ratkaisija="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Kimmo</pelaaja>
 				<pelaaja joukkue="paidat">Kjäll</pelaaja>
@@ -5133,3 +5133,4 @@
 	</sahly>		
 	</sahlyt>
 </tilastot>
+
