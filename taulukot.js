@@ -942,17 +942,17 @@ function alustaSahlytaulukkoPelaajatiedot(){
 
 	$('#' + taulukko).dataTable( {
 		"columns": [
-						{ "title": "Pvm" },
-						{ "title": "Pelaajia" },
-            { "title": "Peli 1 (joukkue)" },
-            { "title": "Peli 2 (joukkue)" },
-						{ "title": "Peli 3 (joukkue)" },
-            { "title": "Voittoja" },           
-            { "title": "Pelejä" }
-        ],
+			{ "title": "Päiväys" },
+			{ "title": "Pelaajia" },
+            		{ "title": "Peli 1 (joukkue)" },
+            		{ "title": "Peli 2 (joukkue)" },
+			{ "title": "Peli 3 (joukkue)" },
+            		{ "title": "Voittoja" },           
+            		{ "title": "Pelejä" }
+        	],
  		"columnDefs": [
-    	{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5, 6 ] }
-  	]
+    			{ className: "dt-head-center", "targets": [ 0, 1, 2, 3, 4, 5, 6 ] }
+  		]
 	} );  
 
 	return;
