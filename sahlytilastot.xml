@@ -4363,7 +4363,7 @@
 	</sahly>
 	<sahly pvm="2016-11-22" paikka="" alkoi="22:00" loppui="" muuta="Lasse ja Niclas2 olivat maalivahteina. Vaihtoivat puolia ekan pelin jälkeen. Henkka teki voittomaalin peliin 1 ja Tommi peliin 2. Peli 2 oli tarkoitus pelata kymmeneen, mutta Tommi loukkasi jalkaansa, joten peli loppui siihen. Olisiko pitänyt olla ratkaisematon tai tasapeli?" pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="14" muuta="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="14" muuta="" ratkaisija="Henkka">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Kimmo</pelaaja>
 				<pelaaja joukkue="paidat">Visa</pelaaja>
@@ -4383,7 +4383,7 @@
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="6" maalit2="4" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="6" maalit2="4" muuta="" ratkaisija="Tommi">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Kimmo</pelaaja>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
