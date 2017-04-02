@@ -422,6 +422,8 @@ function avaaOdotusikkuna2(tab){
  			$("#hakuKaynnissaDialogi").html("<br><h3  style='text-align:center;color:green;'>Haetaan, oottele rauhassa ...<h3>")
 		);
 	$("#hakuKaynnissaDialogi").siblings('div.ui-dialog-titlebar').remove();
+
+
 }
 
 function suljeOdotusikkuna(){

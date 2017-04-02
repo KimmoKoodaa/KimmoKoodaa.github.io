@@ -30,12 +30,12 @@ table th {
 
 /* Datatables-taulukoita */
 #sahlytyypitTable th{
-	background-color:#dbdbff;
+	background-color:#be6b6e;
   border-color: black;
 }
 
 #pelitJoukkueittainTable th{
-	background-color: #dbdbff;
+	background-color: #6fc79b;
   border-color: black;
 }
 

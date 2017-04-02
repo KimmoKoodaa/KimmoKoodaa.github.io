@@ -935,6 +935,7 @@ function piirraPelienMaaraJaVoittoprosentti2(dataAP){
 		}
 	}
 
+
 	// Pyöristetään seuraavaan kymppiin
 	maxPeleja = (Math.round(maxPeleja / 10) * 10 ) + 10;
 
@@ -990,8 +991,11 @@ function piirraPelienMaaraJaVoittoprosentti2(dataAP){
 
 
 function piirraPelienMaaraJaVoittoprosenttiParilleKorostuksella(){
+
 	// paritSamassa on tiedostossa main.js. Se on taulukko, jonka yksi rivi sisältää taulukon: [ voittoprosentti, pelien määrä, nimi1-nimi2]
+
 	piirraPelienMaaraJaVoittoprosenttiParille('paritilastoToveriKaavioId', paritSamassa, $('#pelaajatSelectTag2').val());
+
 }
 
 
@@ -1012,8 +1016,10 @@ function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 	});
 
 	// Taulukko, jossa valitun pelaajan voittoprosentit muiden kanssa (keltainen viiva)
+// var valitunTiedot
 	var valitunTulos = [[]];	// [[pelit, voittoprosentti,"nimi1-nimi2"]];
 	// Taulukko, jossa on kaikkien parien voittoprosentit
+// var kaikkienTiedot
 	var tulos = [[]];
 
 	// Tätä ei ilmeisesti käytetä missään
@@ -1033,6 +1039,7 @@ function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 
 		// Jos funktion parametrina annettu nimi on jompi kumpi nyt löydetystä parista
 		if(nimi.length > 1 && (pari[0] === nimi || pari[1] === nimi) ){
+
 			// Lisätään valitun pelaajan tietoihin
 			valitunTulos.push([data[i][4], data[i][5], data[i][0]]);
 		} 
@@ -1058,7 +1065,8 @@ function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 				label: "Pelien lukumäärä",
        	min: 0,
 				max: maxPeleja,	
-				tickInterval: 10,        
+				tickInterval: 10,
+        
 			},
 			yaxis: {
 				//label: "Voittoprosentti [%]",
@@ -1098,8 +1106,10 @@ function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 }
 
 
+
 // Palauttaa muodossa Date, kun input on "kuukausi-päivä"
 function parseDate(input) {
+
     var parts = input.split('-');
     return new Date(0, parts[0]-1, parts[1]).getTime();
 }
