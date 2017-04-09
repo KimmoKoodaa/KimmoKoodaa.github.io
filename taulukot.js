@@ -953,6 +953,7 @@ function taytaSahlytaulukkoPelaajatiedot( pelaajaOliot, sahlyOliot, tarkasteltav
 			var peli2 = getPelitulosTeksti(2, pelitulokset);
 			var peli3 = getPelitulosTeksti(3, pelitulokset);
 			var peli4 = getPelitulosTeksti(4, pelitulokset);
+			var peli5 = getPelitulosTeksti(5, pelitulokset);
 
 			// Peleistä ei ole tieto, joten laitetaan oliko paikalla
 			if(peli1[0] === ""){
@@ -961,7 +962,7 @@ function taytaSahlytaulukkoPelaajatiedot( pelaajaOliot, sahlyOliot, tarkasteltav
 			}
 
 			// Montako peliä tarkasteltava pelaaja voitti tällä sählykerralla
-			tarkasteltavanVoitot = peli1[1] + peli2[1] + peli3[1] + peli4[1];
+			tarkasteltavanVoitot = peli1[1] + peli2[1] + peli3[1] + peli4[1] + peli5[1];
 
 			// Jos oli paikalla, mutta ei pelattu, laitetaan voittojen määräksi tyhjä
 			var pelattiinko = sahlyOliot[sahlypaiva].getPelattiinko();	
