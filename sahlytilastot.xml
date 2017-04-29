@@ -5303,7 +5303,50 @@
 				<pelaaja joukkue="liivit">Otto2</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>			
+	</sahly>
+	<sahly pvm="2017-04-25" paikka="" alkoi="22:00" loppui="" muuta="Kjäll teki tilastot. Hienoa työtä taas kerran! Lasse ja Niclas2 olivat maalivahteina. Ratkaisija pelissä 1 oli Kimmo2 ja pelissä 2 Ville2." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="19" muuta="" ratkaisija="Kimmo2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo3</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Visa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="1" muuta="" ratkaisija="Ville2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo3</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>						
 	</sahlyt>
 </tilastot>
 
