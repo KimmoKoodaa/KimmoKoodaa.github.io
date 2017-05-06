@@ -5346,7 +5346,50 @@
 				<pelaaja joukkue="liivit">Kjäll</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>						
+	</sahly>
+	<sahly pvm="2017-05-02" paikka="" alkoi="22:00" loppui="" muuta="Kjäll teki tilastot. Hienoa työtä taas kerran! Lasse ja Niclas2 olivat maalivahteina. Ratkaisija pelissä 1 oli Markus ja pelissä 2 Lauri3. Visa lähti ekan pelin jälkeen." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="" ratkaisija="Markus">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="" ratkaisija="Lauri3">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>					
 	</sahlyt>
 </tilastot>
 
