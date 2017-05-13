@@ -55,6 +55,7 @@
 		<pelaaja kutsumanimi="MikiAntinkaveri" tilastonimi="MikiAntinkaveri" kuvaus="MikiAntinkaveri on se yks huipputyyppi. Antin kaveri, jonka nimi oli vissiin Miki tai jotain. Oli kerran pelaamassa." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas" kuvaus="Niclas on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas2" kuvaus="Niclas2 on se yks huipputyyppi. Ilmeiseti Kimmo2:n tuttuja. Aiemmin tilastoissa tuntematon11. Pelaa aika usein maalivahtina." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Niko" tilastonimi="Niko" kuvaus="Niko on se yks huipputyyppi. Uusi vuonna 2017, vissiin jonkun kaveri." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto" kuvaus="Otto on se yks huipputyyppi. Pitä, pitää, pitää, pitää ... ja sitten tekee aika usein maalin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
@@ -64,6 +65,7 @@
 		<pelaaja kutsumanimi="Sami" tilastonimi="Sami" kuvaus="Sami on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Samu" tilastonimi="Samu" kuvaus="Samu on se yks huipputyyppi. Vanhimpaa kaartia. Lienee aloittanut nämä pelit jo 90-luvulla?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Sergei" tilastonimi="Sergei" kuvaus="Sergei on se yks huipputyyppi. Yksi ulkomaalaisvahvistuksista. Vai oliko nimi Serg? Markuksen tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Tanel" tilastonimi="Tanel" kuvaus="Tanel on se yks huipputyyppi. Uusi vuonna 2017. Antin tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tapsa" tilastonimi="Tapsa" kuvaus="Tapsa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Timo" tilastonimi="Timo" kuvaus="Timo on se yks huipputyyppi. Hoikempi Timo. Palvelusvuosiltaan vanhempi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Timo" tilastonimi="Timo2" kuvaus="Timo2 on se yks huipputyyppi. Jykevämpi Timo. Maken kaveri. Palvelusvuosiltaan nuorempi Timo." ominaisuudet="" muuta=""/>
@@ -5387,6 +5389,57 @@
 				<pelaaja joukkue="liivit">Henkka</pelaaja>
 				<pelaaja joukkue="liivit">Lauri3</pelaaja>
 				<pelaaja joukkue="liivit">Aatos</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	<sahly pvm="2017-05-09" paikka="" alkoi="22:00" loppui="" muuta="Kjäll teki tilastot. Hienoa työtä taas kerran! Lasse ja Niclas2 olivat maalivahteina. Ratkaisija pelissä 1 oli Henkka ja pelissä 2 myöskin Henkka. Visa lähti ekan pelin jälkeen." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="5" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Niko</pelaaja>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Tanel</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="15" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Niko</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Tanel</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>					
