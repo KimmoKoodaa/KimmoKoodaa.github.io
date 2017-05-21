@@ -5442,6 +5442,78 @@
 				<pelaaja joukkue="liivit">Joni</pelaaja>
 			</pelaajat>
 		</peli>
+	</sahly>
+	<sahly pvm="2017-05-16" paikka="" alkoi="22:00" loppui="" muuta="Samaan aikaan oli MM-lätkässä Suomi vastaan Kanada, mutta silti oli runsaasti pelaajia. Ehkä nyt Maken Sveitsi-trauma helpotti. Lasse oli maalilla ja toisella oli pelaaja tai levy maalivahtina. Oli vähän epätasaiset pelit. Ratkaisumaalin tekijät: pelissä 1 MAKE, pelissä 2 Otto, pelissä 3 Tommi ja pelissä 4 Henkka." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="5" maalit2="10" muuta="" ratkaisija="Make">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="" ratkaisija="Otto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="5" maalit2="1" muuta="" ratkaisija="Tommi">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+			</pelaajat>
+		</peli>
+
+	<peli nro="4" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="5" maalit2="2" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+			</pelaajat>
+		</peli>
 	</sahly>					
 	</sahlyt>
 </tilastot>
