@@ -5515,7 +5515,7 @@
 			</pelaajat>
 		</peli>
 	</sahly>
-	<sahly pvm="2017-05-23" paikka="" alkoi="22:00" loppui="" muuta="Lasse ja Niclas2 olivat maalivahteina. Ratkaisija pelissä 1 oli Make ja pelissä 2 Heikki." pelattiinko="kyllä">
+	<sahly pvm="2017-05-23" paikka="" alkoi="22:00" loppui="" muuta="Lasse ja Niclas2 olivat maalivahteina. Ratkaisija pelissä 1 oli Make ja pelissä 2 Heikki. Markus lupasi Kimmolle voiton pelin 1 aikana ja voitto tuli." pelattiinko="kyllä">
 
 		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="8" muuta="" ratkaisija="Make">
 			<pelaajat>
@@ -5562,6 +5562,56 @@
 				<pelaaja joukkue="liivit">Ville2</pelaaja>
 				<pelaaja joukkue="liivit">Heikki</pelaaja>
 				<pelaaja joukkue="liivit">Niko</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	<sahly pvm="2017-05-30" paikka="" alkoi="22:00" loppui="" muuta="Lasse ja Niclas2 olivat maalivahteina. Ratkaisija pelissä 1 oli Kjäll ja pelissä 2 Henkka." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="14" muuta="" ratkaisija="Kjäll">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Niko</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="15" maalit2="12" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Niko</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>			
