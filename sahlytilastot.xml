@@ -5,7 +5,7 @@
 		<pelikausi nimi="Kesäkausi 2015" nimiLyhyt="Kesä 15" pvmAloitus="2015-06-09" pvmLopetus="2015-08-04"></pelikausi>
 		<pelikausi nimi="Talvikausi 2015-2016" nimiLyhyt="Talvi 15-16" pvmAloitus="2015-08-11" pvmLopetus="2016-05-31"></pelikausi>
 		<pelikausi nimi="Kesäkausi 2016" nimiLyhyt="Kesä 16" pvmAloitus="2016-06-07" pvmLopetus="2016-08-02"></pelikausi>
-		<pelikausi nimi="Talvikausi 2016-2017" nimiLyhyt="Talvi 16-17" pvmAloitus="2016-08-09" pvmLopetus="2017-05-31"></pelikausi>
+		<pelikausi nimi="Talvikausi 2016-2017" nimiLyhyt="Talvi 16-17" pvmAloitus="2016-08-09" pvmLopetus="2017-06-06"></pelikausi>
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
