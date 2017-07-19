@@ -26,6 +26,7 @@
 		<pelaaja kutsumanimi="Jani" tilastonimi="Jani" kuvaus="Jani on se yks huipputyyppi. Antin ja Ville2:n kaveri." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Janne" tilastonimi="Janne" kuvaus="Janne on se yks huipputyyppi. Kronologisesti ansioituneempi Janne.." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Janne" tilastonimi="Janne2" kuvaus="Janne2 on se yks huipputyyppi. Nuorempi Janne." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Janne" tilastonimi="Janne3" kuvaus="Janne3 on se yks huipputyyppi. Antin tuttuja. Antin ikäluokkaa. Oli kesällä 2017 ekan kerran." ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Jari" tilastonimi="Jari" kuvaus="Jari on se yks huipputyyppi. Vähän vanhempi peluri. Liekö Jounin kaveri tai ilmestyivät ainakin samaan aikaan." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jartsa" tilastonimi="Jartsa" kuvaus="Jartsa on se yks huipputyyppi. Antin, Ipan, Jannen kaveri." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joel" tilastonimi="Joel" kuvaus="Joel on se yks huipputyyppi. Otto2:n tuttu." ominaisuudet="" muuta=""/>
@@ -5862,7 +5863,101 @@
 				<pelaaja joukkue="liivit">Ville2</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>			
+	</sahly>
+		
+	<sahly pvm="2017-07-11" paikka="" alkoi="20:00" loppui="" muuta="Henkka teki tilastot. Ei ole ihan varmaa kumpi joukkue oli paidat/liivit, mutta todennäköisesti näin. Kuulemma vähän pelaajia, mutta hyvä tempo. Voittoomaalit: peli1=Ville2, peli2=Ville2, peli3=Joel, peli4=Martti. Niclas2 ja Lasse olivat maalilla." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="4" muuta="" ratkaisija="Ville2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="" ratkaisija="Ville2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="5" muuta="" ratkaisija="Joel">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+		<peli nro="4" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="9" muuta="" ratkaisija="Martti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2017-07-18" paikka="" alkoi="20:00" loppui="" muuta="Niclas2 ja Lasse olivat maalilla. Kjäll loukkasi kinttuaan pelissä 1, joten ei pelannut enää toisessa pelissä." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="12" maalit2="20" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Janne3</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Niko</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="17" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Janne3</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Niko</pelaaja>
+
+			</pelaajat>
+		</peli>
+	</sahly>				
 	</sahlyt>
 </tilastot>
 
