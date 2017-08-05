@@ -49,9 +49,11 @@
 		<pelaaja kutsumanimi="Lauri" tilastonimi="Lauri2" kuvaus="Lauri2 on se yks huipputyyppi. Lienee Kimmo2:n kaveri." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Lauri" tilastonimi="Lauri3" kuvaus="Lauri3 on se yks huipputyyppi. Lassen kaveri. Tosi hyvä pelaaja." ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Make" tilastonimi="Make" kuvaus="Make on se yks huipputyyppi. Tekee joukkueet aina kun on paikalla. Osaako mennä itse parempaan joukkueeseen?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Make" tilastonimi="Make2" kuvaus="Make2 on se yks huipputyyppi. Oisko Ville2:n kaveri. Harmaa paita, kun oli kesällä 2017 ekan kerran." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Markus" tilastonimi="Markus" kuvaus="Markus on se yks huipputyyppi. Kutsuvieraat ja Markus on aina myöhässä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Martti" tilastonimi="Martti" kuvaus="Martti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Martti" tilastonimi="Martti2" kuvaus="Martti2 on se yks huipputyyppi. Ipan jonkilainen tuttu. Hyvä pelaaja, kuten ensimmäinen Marttikin." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Matias" tilastonimi="Matias" kuvaus="Matias on se yks huipputyyppi. Antin kaveri. Kesällä 2017 ekan kerran." ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Matti" tilastonimi="Matti" kuvaus="Matti on se yks huipputyyppi. Olisko Antin tuttuja. Aika nopea ja hyvä pelaamaan." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Mika" tilastonimi="Mika" kuvaus="Mika on se yks huipputyyppi. Hyvä pelaaja. Käy aina silloin tällöin ja sitten ei pitkään aikaan. Kjällin tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="MikiAntinkaveri" tilastonimi="MikiAntinkaveri" kuvaus="MikiAntinkaveri on se yks huipputyyppi. Antin kaveri, jonka nimi oli vissiin Miki tai jotain. Oli kerran pelaamassa." ominaisuudet="" muuta=""/>
@@ -63,6 +65,7 @@
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Osku" tilastonimi="Osku" kuvaus="Osku on se yks huipputyyppi. Maken tuttuja. Hyvä pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Pekka" tilastonimi="Pekka" kuvaus="Pekka on se yks huipputyyppi. Pelaa aina täysillä." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Rainer" tilastonimi="Rainer" kuvaus="Rainer on se yks huipputyyppi. Kimmon, Visan ja Otto2:n tuttuja. Ulkomaanvahvistus. Oli ekan kerran kesällä 2013." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Roni" tilastonimi="Roni" kuvaus="Roni on se yks huipputyyppi. Uusi mies kesällä 2017." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Saku" tilastonimi="Saku" kuvaus="Saku on se yks huipputyyppi. Sellainen partasuu, joka pelaa enimmäkseen kesäisin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Sami" tilastonimi="Sami" kuvaus="Sami on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
@@ -76,6 +79,7 @@
 		<pelaaja kutsumanimi="ToivonAatoksenIsa" tilastonimi="ToivonAatoksenIsa" kuvaus="ToivonAatoksenIsa on se yks huipputyyppi. Toivon ja Aatoksen isä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi" kuvaus="Tommi on se yks huipputyyppi. Markuksen serkku. Pyörähtelee tosi nopeasti ja pelaa muutenkin tosi hyvin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi2" kuvaus="Tommi2 on se yks huipputyyppi. Se, joka ei juuri talvella käy, mutta joinakin kesinä aina ilmestyy jossain vaiheessa. Ihan hyvä pelaaja. Pelaakohan se myös futsalia?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Toni" tilastonimi="Toni" kuvaus="Toni on se yks huipputyyppi. Oisko Maken tuttuja. Kesällä 2017 ekan kerran. Silloin valkoinen t-paita." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon1" tilastonimi="tuntematon1" kuvaus="Tuntematon1 on se yks huipputyyppi. Oisko ollut Kimmo2:n kaveri. Tummat kiharat hiukset. Sininen paita. Oli kerran eikä sen jälkeen ole näkynyt." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon2" tilastonimi="tuntematon2" kuvaus="Tuntematon2 on se yks huipputyyppi. Ei vissiin ollut kenenkään tuttu? Vai oliko Markuksen tuttu. Pelasi Jokeripaidassa ekalla kerralla." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon3" tilastonimi="tuntematon3" kuvaus="Tuntematon3 on se yks huipputyyppi. Kimmo2:n kaveri. Özil-paita." ominaisuudet="" muuta=""/>
@@ -5957,7 +5961,63 @@
 
 			</pelaajat>
 		</peli>
-	</sahly>				
+	</sahly>
+<sahly pvm="2017-07-25" paikka="" alkoi="20:00" loppui="" muuta="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>8</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Pelasivat kuulemma 3+3. Lisäksi taisivat sanoa, että oli 2 maalivahtia. Paikalla ainakin Ville2. Poissa ainakin Henkka, Kjäll ja Lauri3.</muuta>
+		</perustiedot>
+	</sahly>	
+
+	<sahly pvm="2017-08-01" paikka="" alkoi="20:00" loppui="" muuta="Niclas2 ja Lasse olivat maalilla. Paljon pelaajia, joita kaivattiinkin, kun oli niin kuuma. 3 uutta pelaajaa (Matias, Make2,Toni) ja Rainer, joka oli edellisen kerran 25.6.2013. Toni lähti ekan peli aikana. Antti ja Ville2 vaihtoivat puolia ekan pelin jälkeen." pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="16" muuta="" ratkaisija="Lauri3">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Rainer</pelaaja>
+				<pelaaja joukkue="paidat">Make2</pelaaja>
+				<pelaaja joukkue="paidat">Toni</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Matias</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="2" maalit2="5" muuta="" ratkaisija="Antonis">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Rainer</pelaaja>
+				<pelaaja joukkue="paidat">Make2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Matias</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>	
 	</sahlyt>
 </tilastot>
 
