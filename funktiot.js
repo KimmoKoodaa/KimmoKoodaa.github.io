@@ -6,7 +6,19 @@
 
 /**********************/
 
+function finaalimainos1(){
 
+
+	$("#teaserteksti2").delay(1000).slideDown(1000);
+	$("#teaserteksti3").delay(2500).slideDown(1000);
+	$("#teaserteksti4").delay(4000).slideDown(1000);
+	$("#teaseralue").delay(6000).slideUp();
+
+	$("#kaboom").delay(6500).slideDown(10);
+	$("#kaboom").delay(1000).slideUp();
+
+	$("#finaaliteksti").delay(8000).slideDown(1000);
+}
 
 
 
