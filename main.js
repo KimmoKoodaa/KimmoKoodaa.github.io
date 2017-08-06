@@ -49,7 +49,6 @@ var sahlykerratLkmTarkatTiedotEiPelattu = 0;
 
 // Pääfunktio
 $(document).ready(function(){ 
-	finaalimainos1();
 	
 	// Nollataan hakupäivät
 	$('#pieninPaivaInput').val("");
@@ -60,6 +59,8 @@ $(document).ready(function(){
 
 	// Hakee pelaajien tiedot xml-tiedostosta
 	haePelaajat();
+
+	finaalimainos1();
 
 	// Vaihtaa kaavioiden kuukaudet suomenkielelle
 	asetaSuomalaisetAjat();
