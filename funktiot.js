@@ -8,7 +8,6 @@
 
 function finaalimainos1(){
 
-	alert("a");
 	$("#teaserteksti2").delay(1000).slideDown(1000);
 	$("#teaserteksti3").delay(2500).slideDown(1000);
 	$("#teaserteksti4").delay(4000).slideDown(1000);
