@@ -1,7 +1,10 @@
 /* Muotoilut */
 
-
-
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
 
 .container {
     font-size: 110%;
