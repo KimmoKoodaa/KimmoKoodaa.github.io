@@ -49,7 +49,8 @@ var sahlykerratLkmTarkatTiedotEiPelattu = 0;
 
 // Pääfunktio
 $(document).ready(function(){ 
-
+	finaalimainos1();
+	
 	// Nollataan hakupäivät
 	$('#pieninPaivaInput').val("");
 	$('#suurinPaivaInput').val("");
