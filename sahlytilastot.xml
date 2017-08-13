@@ -6017,7 +6017,30 @@
 				<pelaaja joukkue="liivit">Matias</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>	
+	</sahly>
+	<sahly pvm="2017-08-08" paikka="" alkoi="20:00" loppui="" muuta="Antti ja Lasse olivat maalilla. Tapsa cup finaali. Ei ihan yhtä hyvä kuin kesäkuussa, mutta ihan jees. Kjäll ratkaisi, hienoa!" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="" ratkaisija="Kjäll">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Matias</pelaaja>
+				<pelaaja joukkue="paidat">Toni</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kari2</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>			
 	</sahlyt>
 </tilastot>
 
