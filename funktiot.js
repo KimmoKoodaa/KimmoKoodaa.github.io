@@ -6,6 +6,32 @@
 
 /**********************/
 
+
+function juttu1(){
+
+	var intervalli = 2000;
+	var intervalli2 = 3000;
+	var slideaika = 500;
+
+	$("#looppi1").delay(1000).slideDown(slideaika, function(){siirra("#looppi1")});
+	$("#looppi2").delay(intervalli).slideDown(slideaika, function(){siirra("#looppi2")});
+	$("#looppi3").delay(2*intervalli).slideDown(slideaika, function(){siirra("#looppi3")});
+	$("#looppi4").delay(3*intervalli).slideDown(slideaika, function(){siirra("#looppi4")});
+	$("#looppi5").delay(4*intervalli).slideDown(slideaika, function(){siirra("#looppi5")});
+	$("#looppi6").delay(5*intervalli).slideDown(slideaika, function(){siirra("#looppi6")});
+	$("#finaaliteksti").delay(6*intervalli).slideDown(1000, function(){siirra("#kokosivu")});
+
+}
+
+function siirra(id){
+		
+		$('html, body').animate({
+			scrollTop: $(id).offset().top
+    }, 200);
+    return false;
+}
+
+
 function finaalimainos1(){
 
 	$("#teaserteksti2").delay(1000).slideDown(1000);
