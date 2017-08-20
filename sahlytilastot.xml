@@ -7,6 +7,7 @@
 		<pelikausi nimi="Kesäkausi 2016" nimiLyhyt="Kesä 16" pvmAloitus="2016-06-07" pvmLopetus="2016-08-02"></pelikausi>
 		<pelikausi nimi="Talvikausi 2016-2017" nimiLyhyt="Talvi 16-17" pvmAloitus="2016-08-09" pvmLopetus="2017-06-06"></pelikausi>
 		<pelikausi nimi="Kesäkausi 2017" nimiLyhyt="Kesä 17" pvmAloitus="2017-06-13" pvmLopetus="2017-08-08"></pelikausi>
+		<pelikausi nimi="Talvikausi 2017-2018" nimiLyhyt="Talvi 17-18" pvmAloitus="2017-08-15" pvmLopetus="2018-06-01"></pelikausi>
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
@@ -6040,7 +6041,46 @@
 				<pelaaja joukkue="liivit">Antonis</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>			
+	</sahly>
+	<sahly pvm="2017-08-15" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Lasse olivat poissa, joten oli pelaajamaalivahdit. Syksyn eka kerta klo 22. Aika vähän porukkaa. Markus tuli vasta toiseen peliin, joten ei pelannut ekassa. Lupasi Kimmolle voiton toisen pelin alkupuolella, mutta sitä ei tullut." maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="15" maalit2="6" muuta="" ratkaisija="Ville2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="13" maalit2="11" muuta="" ratkaisija="Aatos">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>	
 	</sahlyt>
 </tilastot>
 
