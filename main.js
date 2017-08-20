@@ -50,7 +50,7 @@ var sahlykerratLkmTarkatTiedotEiPelattu = 0;
 // Pääfunktio
 $(document).ready(function(){ 
 	
-	juttu1();
+	//juttu1();
 	
 	// Nollataan hakupäivät
 	$('#pieninPaivaInput').val("");
