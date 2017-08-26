@@ -1,5 +1,15 @@
 /* Muotoilut */
 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+	color:white;
+	background-color:#66ff99;
+}
+
+.nav-tabs > li.active > a:hover{
+	color:white;
+  	background-color:#6699ff;
+}
+
 img {
     display: block;
     margin: auto;
