@@ -6140,7 +6140,24 @@
 				<pelaaja joukkue="liivit">Visa</pelaaja>
 			</pelaajat>
 		</peli>
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="tasapeli" maalit1="6" maalit2="6" muuta="" >
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
 
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Tommi2</pelaaja>
+			</pelaajat>
+		</peli>
 		
 	</sahly>	
 	</sahlyt>
