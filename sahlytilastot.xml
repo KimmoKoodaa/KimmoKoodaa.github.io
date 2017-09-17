@@ -6159,6 +6159,61 @@
 			</pelaajat>
 		</peli>
 		
+	</sahly>
+	<sahly pvm="2017-09-05" paikka="" alkoi="22:00" loppui="" muuta="" maalivahteja="1" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>9</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa>poissa</visa>
+			<muuta>Samaan aikaan oli Suomen peli EM-koriksessa, joten vähän porukkaa. Make muisteli, että 9 pelaajaa. Paikalla ainakin Make, Markus, Martti ja Antonis. Make sanoi, että Antonis oli maalivahtina, mutta ilmeisesti toista mokea ei ollut.</muuta>
+		</perustiedot>
+	</sahly>
+	<sahly pvm="2017-09-12" paikka="" alkoi="22:00" loppui="" muuta="Lasse oli Liivien maalivahtina koko ajan. Ipa aloitti Paitojen maalivahtina. Antti ja Antonis aloittivat Liiveillä, ja Ipa ja Kjäll Paidoilla. Ensimmäisen pelin loppuvaiheella Ipa lopetti maalilla ja siirtyi Kjällin kanssa Liiveille. Antonis meni Paitojen maalivahdiksi ja Antti Paitojen kenttäpelaajaksi. Visa, Timo ja Ipa lähtivät ensimmäisen pelin loputtua. Toinen peli (Lasse ja Antonis maalivahteina) piti pelata summeriin asti, mutta summeri oli rikki, joten lopetettiin vähän yli puolen yön." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="20" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Ilmaveivi</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="10" muuta="Ville2" >
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Ilmaveivi</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjäll</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
 	</sahly>	
 	</sahlyt>
 </tilastot>
