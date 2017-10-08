@@ -89,6 +89,7 @@
 		<pelaaja kutsumanimi="tuntematon8" tilastonimi="tuntematon8" kuvaus="Tuntematon8 on se yks huipputyyppi. Hyvä pelaaja. Olisiko Kimmo2:n tuttuja?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon9" tilastonimi="tuntematon9" kuvaus="Tuntematon9 on se yks huipputyyppi. Nuorehko. Hyvä pelaaja. Olisiko Jonin tuttuja? Ainakin ne jutteli ennen peliä?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon10" tilastonimi="tuntematon10" kuvaus="Tuntematon10 on se yks huipputyyppi. Ilmeiseti Joelin tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon11" tilastonimi="tuntematon11" kuvaus="Tuntematon11 on se yks huipputyyppi. Kiharapää, tatuointeja. Oli kerran, ei huomattu kysyä nimeä."
 		<pelaaja kutsumanimi="Tuomas" tilastonimi="Tuomas" kuvaus="Tuomas on se yks huipputyyppi. Se vähän Niclaksen tai Antin näköinen sälli." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville" kuvaus="Ville on se yks huipputyyppi. Kimmo2:n koulukaveri. Pitkä. Hyvä. Pelaa vähän kuin Pekka." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville2" kuvaus="Ville2 on se yks huipputyyppi. Antin ja Janin kaveri. Huutelee joskus hämäilymielessä vastustajille: 'Täällä'" ominaisuudet="" muuta=""/>
@@ -6302,6 +6303,51 @@
 				<pelaaja joukkue="liivit">Aatos</pelaaja>
 				<pelaaja joukkue="liivit">Antonis</pelaaja>
 				<pelaaja joukkue="liivit">Lauri</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	<sahly pvm="2017-10-03" paikka="" alkoi="22:00" loppui="" muuta="Kjäll teki tilastot, hienoa työtä jälleen kerran. Lasse oli maalivahti ja toisessa maalissa oli puulevy." maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="" ratkaisija="Ipa">
+			<pelaajat>
+				<pelaaja joukkue="paidat">tuntematon11</pelaaja>
+				<pelaaja joukkue="paidat">Janne3</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="11" maalit2="10" muuta="" ratkaisija="Otto2" >
+			<pelaajat>
+				<pelaaja joukkue="paidat">tuntematon11</pelaaja>
+				<pelaaja joukkue="paidat">Janne3</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+				<pelaaja joukkue="paidat">Ville2</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>	
