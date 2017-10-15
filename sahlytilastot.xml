@@ -17,6 +17,7 @@
 		<pelaaja kutsumanimi="Daniel" tilastonimi="Daniel" kuvaus="Daniel on se yks huipputyyppi. Melko uusi mies. Hyvä pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Dimitri" tilastonimi="Dimitri" kuvaus="Dimitri on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Erik" tilastonimi="Erik" kuvaus="Erik on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Foto" tilastonimi="Foto" kuvaus="Foto on se yks huipputyyppi. Janne3:n tuttuja. Ei tunne Anttia. Tatuointeja." ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu" kuvaus="Hannu on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Heikki" tilastonimi="Heikki" kuvaus="Heikki on se yks huipputyyppi. Ville2:n tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Henkka" tilastonimi="Henkka" kuvaus="Henkka on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -6310,7 +6311,7 @@
 
 		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="" ratkaisija="Ipa">
 			<pelaajat>
-				<pelaaja joukkue="paidat">tuntematon11</pelaaja>
+				<pelaaja joukkue="paidat">Foto</pelaaja>
 				<pelaaja joukkue="paidat">Janne3</pelaaja>
 				<pelaaja joukkue="paidat">Kjäll</pelaaja>
 				<pelaaja joukkue="paidat">Otto2</pelaaja>
@@ -6331,7 +6332,7 @@
 		</peli>
 		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="11" maalit2="10" muuta="" ratkaisija="Otto2" >
 			<pelaajat>
-				<pelaaja joukkue="paidat">tuntematon11</pelaaja>
+				<pelaaja joukkue="paidat">Foto</pelaaja>
 				<pelaaja joukkue="paidat">Janne3</pelaaja>
 				<pelaaja joukkue="paidat">Kjäll</pelaaja>
 				<pelaaja joukkue="paidat">Otto2</pelaaja>
@@ -6350,7 +6351,49 @@
 				<pelaaja joukkue="liivit">Joni</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>	
+	</sahly>
+	<sahly pvm="2017-10-10" paikka="" alkoi="22:00" loppui="" muuta="Niclas2 ja Lasse olivat maalivahteina. Markus oli vähän myöhässä, mutta osallistui myös ensimmäiseen peliin. Kari (se Kari, joka on Ipan tuttu) oli pitkästä aikaa." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="13" maalit2="20" muuta="" ratkaisija="Foto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Janne3</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Foto</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="5" muuta="" ratkaisija="Foto" >
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjäll</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niclas2</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Janne3</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kari</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Foto</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>			
 	</sahlyt>
 </tilastot>
 
