@@ -25,6 +25,7 @@
 		<pelaaja kutsumanimi="Ipa" tilastonimi="Ipa" kuvaus="Ipa on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ilmaveivi" tilastonimi="Ilmaveivi" kuvaus="Ilmaveivi on se yks huipputyyppi. Ei ole oikeasti Ilmaveivi nimeltään, mutta tunnistaa ilmaveivistä. Se, joka loukkasi nilkkaansa silloin kerran. En tiedä nimeä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jaakko" tilastonimi="Jaakko" kuvaus="Jaakko on se yks huipputyyppi. Oiskohan Ipan kavereita?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jaakko" tilastonimi="Jaakko2" kuvaus="Jaakko2 on se yks huipputyyppi. Otto2:n tuttu. Hyvä pelaaja. Pelannut juniorina korkealla tasolla, mutta sen jälkeen laiskemmin. Taidot edelleen tallessa." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jani" tilastonimi="Jani" kuvaus="Jani on se yks huipputyyppi. Antin ja Ville2:n kaveri." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Janne" tilastonimi="Janne" kuvaus="Janne on se yks huipputyyppi. Kronologisesti ansioituneempi Janne.." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Janne" tilastonimi="Janne2" kuvaus="Janne2 on se yks huipputyyppi. Nuorempi Janne." ominaisuudet="" muuta=""/>
@@ -6433,7 +6434,60 @@
 				<pelaaja joukkue="liivit">Lasse</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>	
+	</sahly>
+	<sahly pvm="2017-10-24" paikka="" alkoi="22:00" loppui="" muuta="Lasse ja Niclas2 maalivahteina. Visa lähti heti ekan pelin jälkeen, joten ei pelannut toisessa. Muuten samat joukkueet peleissä. Ville2 oli taas ihan pitelemätön ja teki jatkuvasti maaleja. Jostain syystä hirveesti pelaajia." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="17" maalit2="20" muuta="" ratkaisija="Ville2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Visa</pelaaja>
+				<pelaaja joukkue="paidat">Jaakko2</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="6" muuta="" ratkaisija="Make" >
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Jaakko2</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Janne</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Niclas2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Ville2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>			
 	</sahlyt>
 </tilastot>
 
