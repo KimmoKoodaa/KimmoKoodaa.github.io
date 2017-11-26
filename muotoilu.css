@@ -1,5 +1,11 @@
 /* Muotoilut */
 
+.jumbotron > ul{
+
+	list-style-type: none;
+
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
 	color:white;
 	background-color:#6699ff;
