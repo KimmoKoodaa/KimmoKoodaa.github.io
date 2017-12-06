@@ -6697,14 +6697,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 		</peli>
 	</sahly>	
 
-	<sahly pvm="2017-12-05" paikka="" alkoi="22:00" loppui="" muuta="Itsenäisyyspäivän aatto, joten oletettiinkin, että pelaajia on vähän. Kimmo ja Martti vain paikalla." maalivahteja="0" pelattiinko="ei">
-		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu">
-			<pelaajat>
-				<pelaaja joukkue="">Kimmo</pelaaja>
-				<pelaaja joukkue="">Martti</pelaaja>
-			</pelaajat>
-		</peli>	
-	</sahly>
+	
 
 	</sahlyt>
 </tilastot> 
