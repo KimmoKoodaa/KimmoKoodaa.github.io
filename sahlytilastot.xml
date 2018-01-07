@@ -6790,6 +6790,49 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Ville</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>			
+	</sahly>
+	<sahly pvm="2017-12-26" paikka="" alkoi="22:00" loppui="" muuta="Joulu, joten halli oli kiinni eikä pelattu." pelattiinko="ei">
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu">
+			<pelaajat>
+			</pelaajat>
+		</peli>	
+	</sahly>
+
+	<sahly pvm="2018-01-02" paikka="" alkoi="22:00" loppui="" muuta="Lasse oli maalivahtina ja toisessa maalissa oli puuveska." maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="6" maalit2="10" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="6" maalit2="5" muuta="" ratkaisija="Kjell" >
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>	
 	</sahlyt>
 </tilastot>
