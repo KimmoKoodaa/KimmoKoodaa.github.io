@@ -6877,7 +6877,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
-	<sahly pvm="2018-01-16" paikka="" alkoi="22:00" loppui="" muuta="Lasse oli maalivahtina. Kjell teki tilastot." maalivahteja="1" pelattiinko="kyllä">
+	<sahly pvm="2018-01-16" paikka="" alkoi="22:00" loppui="" muuta="Lasse oli maalivahtina ja toisella puolella oli puulevy. Kjell teki tilastot." maalivahteja="1" pelattiinko="kyllä">
 
 		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="11" maalit2="20" muuta="" ratkaisija="Henkka">
 			<pelaajat>
