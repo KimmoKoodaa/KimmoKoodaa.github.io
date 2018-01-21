@@ -6897,19 +6897,19 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="14" maalit2="1" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="14" maalit2="1" muuta="" ratkaisija="Antonis">
 			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
 				<pelaaja joukkue="paidat">Ipa</pelaaja>
 				<pelaaja joukkue="paidat">Joni</pelaaja>
 				<pelaaja joukkue="paidat">Lasse</pelaaja>
 				<pelaaja joukkue="paidat">Martti</pelaaja>
 				<pelaaja joukkue="paidat">Otto</pelaaja>
-				<pelaaja joukkue="paidat">Otto2</pelaaja>
-
-				<pelaaja joukkue="liivit">Antonis</pelaaja>
+						
 				<pelaaja joukkue="liivit">Henkka</pelaaja>
 				<pelaaja joukkue="liivit">Kjell</pelaaja>
 				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
 				<pelaaja joukkue="liivit">Timo</pelaaja>
 				<pelaaja joukkue="liivit">Ville</pelaaja>
 			</pelaajat>
