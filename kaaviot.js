@@ -1039,7 +1039,9 @@ function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 		
 		tulos.push( [data[i][4], data[i][5], data[i][0]] );		
 	}
-
+	// Uutta 2018: Sortataan
+	tulos.sort(function(a,b){return a[0]-b[0]});
+	
 	// Pyöristetään seuraavaan kymppiin
 	maxPeleja = (Math.round(maxPeleja / 10) * 10 ) + 10;
 
