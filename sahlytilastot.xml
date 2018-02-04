@@ -6960,6 +6960,48 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Ville</pelaaja>
 			</pelaajat>
 		</peli>
+	</sahly>
+	<sahly pvm="2018-01-30" paikka="" alkoi="22:00" loppui="" muuta="Antti ja Kimmo2 olivat maalivahteina." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="17" maalit2="20" muuta="" ratkaisija="Ville">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="1" maalit2="2" muuta="" ratkaisija="Ville">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
 	</sahly>		
 	</sahlyt>
 </tilastot>
