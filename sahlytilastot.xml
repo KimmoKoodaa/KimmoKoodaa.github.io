@@ -7087,6 +7087,40 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
-		
+	<sahly pvm="2018-02-20" paikka="" alkoi="22:00" loppui="" muuta="Niklas oli maalivahtina ja toisella oli puuveska. Pelissä 1 Paidoilla oli kentällä 5 pelaajaa ja Liiveillä 4, mutta silti liivit voittivat. Tämä on kuitenkin salaisuus, joten elä kerro kellekään. Pelissä 2 Niklas pelasi Liiveillä ja Paidoilla oli puuveska." maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="20" muuta="" ratkaisija="Otto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="11" muuta="" ratkaisija="Ville">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>					
 	</sahlyt>
 </tilastot>
