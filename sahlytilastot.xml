@@ -7208,6 +7208,38 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Toivo</pelaaja>
 			</pelaajat>
 		</peli>
-	</sahly>				
+	</sahly>
+	<sahly pvm="2018-03-13" paikka="" alkoi="22:00" loppui="" muuta="Paidat ei oikein pärjänneet, joten ekan pelin jälkeen arvottiin joukkueet uudestaan. Arvonnan tuloksena oli, että vain Timo ja Make vaihtoivat joukkueita. Siksi päätettiin pelata toinenkin peli sanoilla jaoilla. Liivit ottivat toisen pelin aikana kaikki 5 pelaajaa kentälle (eli ylivoima), mutta silti eivät pärjänneet. Puuveskat molemmilla joukkueilla koko ajan." maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="10" maalit2="20" muuta="" ratkaisija="Ipa">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="7" maalit2="10" muuta="" ratkaisija="Ipa">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>						
 	</sahlyt>
 </tilastot>
