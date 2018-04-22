@@ -50,6 +50,11 @@ var sahlykerratLkmTarkatTiedotEiPelattu = 0;
 // Pääfunktio
 $(document).ready(function(){ 
 	
+	// Varoittaa jos käyttää IE:tä
+	if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )){
+		alert("Varoitus! Käytätkö Internet Explorer -selainta? Tämä sivusto ei toimi IE:llä vaan sivun antamat virheilmoitukset saattavat jumittaa selaimesi. Käytä sen sijaan Chrome- tai Firefox-selainta."); 
+	}  
+	
 	//juttu1();
 	
 	// Nollataan hakupäivät
