@@ -7458,7 +7458,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 	</sahly>
 	<sahly pvm="2018-05-15" paikka="" alkoi="22:00" loppui="Markukselta tuli tilastot. Ei varmuutta oliko muitakin, mutta ainakin nämä. Niklas Liivien maalilla ja Paidoilla oli puuveska." muuta="" maalivahteja="1" pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="" ratkaisija="Otto2">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="15" muuta="" ratkaisija="Otto2">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Aatos</pelaaja>
 				<pelaaja joukkue="paidat">Antonis</pelaaja>
