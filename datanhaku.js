@@ -1,4 +1,4 @@
-//	Funktioita, joilla haetaan data, joka laitetaan taulukoihin ja kaavioihin
+// Funktioita, joilla haetaan data, joka laitetaan taulukoihin ja kaavioihin
 
 
 // Hakee sählykerrat-taulukon datan
@@ -11,7 +11,6 @@ function getSahlytaulukkoData(){
 	for(var sahlypaiva in sahlyOliot){
 
 		if(typeof sahlypaiva  == "undefined"){
-//			alert("tyhjä");
 		}
 	
 		var sahly = sahlyOliot[sahlypaiva];
@@ -58,22 +57,8 @@ function getPelaajienMaaratData(){
 	// Pelien määrä on myös 2D-taulukko: [pvm, pelejä]
 	var peleja = Array();
 	
-	// Alustetaan taulukot
-/*	var riveja = Object.keys(sahlyOliot).length;
-	for(var i=0; i<=riveja; i++){
-		pelaajaLkm[i] = Array();
-		peleja[i] = Array();
-	}
-*/
-	// Sählykerran numero
-//	var i=0;
-
 	// Käydään sählykerrat läpi
 	for(var sahlypaiva in sahlyOliot){
-
-		// Sijotetaan päivämäärä
-//		pelaajaLkm[i][0] = sahlypaiva;
-//		peleja[i][0] = sahlypaiva;
 
 		var pelaajia = null;
 		// Pelaajien määrä
@@ -85,20 +70,7 @@ function getPelaajienMaaratData(){
 
 		var rivi = new Array(sahlypaiva, pelaajia);
 		pelaajaLkm.push(rivi);
-/*
-		//Pelien määrä
-		if(sahlyOliot[sahlypaiva].getPelitLkm() === ""){
-			peleja[i][1] = null;
-		} else {
-			peleja[i][1] = sahlyOliot[sahlypaiva].getPelitLkm();
-		}	
-*/
-		// Siirytään seuraavaan sählykertaan		
-//		i++;
-
-		
-	}
-	
+	}	
 	return pelaajaLkm;
 }
 
@@ -130,17 +102,12 @@ function getPelienMaaratData(){
 
 function getPelaajienMaaratVuosittainData(vuodet){
 
-//	alert("Haetaan vuosittain data");
-
-// Sanakirja, jossa avain on vuosi 
+	// Sanakirja, jossa avain on vuosi 
 	var pelaajat = {};
 
-
-// Sählypäivät ja järjestetään ne
+	// Sählypäivät ja järjestetään ne
 	var paivat = Object.keys(sahlyOliot);
 	paivat.sort();
-
-	
 	
 	// Luodaan sanakirjaan jokaiselle löydetylle vuodelle taulukko, jonka yhteen alkioon tulee yhden viikon pelaajien lkm
 	for(var i=0; i<vuodet.length; i++){
@@ -178,12 +145,11 @@ function getPelaajienMaaratVuosittainData(vuodet){
 // Palauttaa vuodet jolloin on pelattu
 function getPelatutVuodet(){
 
-
-// Sählypäivät ja järjestetään ne
+	// Sählypäivät ja järjestetään ne
 	var paivat = Object.keys(sahlyOliot);
 	paivat.sort();
 
-// Selvitetään vuodet, jolloin on pelattu
+	// Selvitetään vuodet, jolloin on pelattu
 	var vuodet = [];
 	for(var i=0; i<paivat.length; i++){
 		var vuosi = paivat[i].split("-");
@@ -198,15 +164,7 @@ function getPelatutVuodet(){
 }
 
 
-
-
-
-
-
-
-
-
-// Palauttaa 2D-taulukon, jossa sarakkeet: pvm, pelaajien lukumäärä, pelien lukumäärä
+// Palauttaa 2D-taulukon, jossa sarakkeet: pvm, pelaajien lukumäärä, pelien lukumäärä, maalivahtien määrä
 function getPelaajienJaPelienMaarat(){
 
 	// Palautettava taulukko
@@ -220,8 +178,8 @@ function getPelaajienJaPelienMaarat(){
 		var eka = "";
 		var toka = "";
 		var kolmas = "";
+		var neljas = "";
 		
-
 		// Sijotetaan päivämäärä
 		eka = sahlypaiva;
 
@@ -229,7 +187,7 @@ function getPelaajienJaPelienMaarat(){
 		if(sahlyOliot[sahlypaiva].getPelaajia() === ""){
 			toka = null;
 		} else {
-			toka = sahlyOliot[sahlypaiva].getPelaajia();
+			toka = sahlyOliot[sahlypaiva].getPelaajia();			
 		}
 
 		//Pelien määrä
@@ -237,16 +195,22 @@ function getPelaajienJaPelienMaarat(){
 			kolmas = null;
 		} else {
 			kolmas = sahlyOliot[sahlypaiva].getPelitLkm();
+			//kolmas = sahlyOliot[sahlypaiva].getMaalivahteja();
 		}	
 
-		var uusi = new Array(eka, toka, kolmas);
+		// Maalivahtien määrä
+		if(sahlyOliot[sahlypaiva].getMaalivahteja() === ""){
+			neljas = null;
+		} else {
+			neljas = sahlyOliot[sahlypaiva].getMaalivahteja();
+		}	
+
+		var uusi = new Array(eka, toka, kolmas, neljas);
 
 		palautus.push(uusi);
 		// Siirytään seuraavaan sählykertaan		
 		i++;
 	}	
-
-
 	return palautus;
 }
 
@@ -454,7 +418,6 @@ function getParitilastoVastustajatKaikkiData2(){
 						avain = pelaajatJ2[j2] +";"+ pelaajatJ1[j1];
 						rivi = [avain,0,1,0];
 						alkuData.push(rivi);
-
 					}
 
 				} //END for(j1)
@@ -539,29 +502,112 @@ function getParitilastoVastustajatKaikkiData2(){
 		}
 	}
 
-/*
-	// Muutetaan sanakirja 2d-taulukoksi
-	var palautus = new Array();	
-
-	// Käydään läpi sanakirja
-	for(var avain in data){
-
-		// Tulokset 
-		var tulokset = data[avain];
-
-		// avain on kaksi nimeä eroteltuna puolipisteellä		
-		var nimet = avain.split(";");
-		var pari = nimet[0] + " - " + nimet[1];
-		
-		var voitot = parseInt(tulokset[0]);
-		var tasurit = parseInt(tulokset[1]);
-		var tappiot = parseInt(tulokset[2]);
-		var yhteensa = parseInt(voitot+tasurit+tappiot);
-		var voittoPros = Math.round( (voitot/yhteensa)*100 ); 				
-		
-		var uusiRivi = [pari, voitot, tasurit, tappiot, yhteensa,voittoPros];
-		palautus.push(uusiRivi);
-	}
-*/
 	return data;
+}
+
+
+// Palauttaa sanakirjan pelien ratkaisupelaajista
+function getRatkaisijat(){
+
+	// Avain: Pelaajan nimi, Arvo: taulukko[monestiko oli ratkaisujoukkueessa, ratkaisuja]
+	var palautus = {};
+
+	// Käydään läpi sählykerrat
+	for(var pvm in sahlyOliot){
+
+		// Ratkaisijat voi olla vain tarkkojen tietojen peleistä
+		if(sahlyOliot[pvm].getTietojenTyyppi() === "tarkat"){
+
+			// Käydään läpi pelit
+			var pelit = sahlyOliot[pvm].getPelit();
+
+			for(var i=0; i<pelit.length; i++){
+
+				var peli = pelit[i];
+				var rat = peli.getRatkaisija();
+
+				// Jos on ratkaisija
+				if(typeof rat !== 'undefined'){
+					
+					var voittajat = peli.getVoittajajoukkueenPelaajat();
+					
+					// Lisätään voittajajoukkueen pelaajille 1 osallistuminen lisää
+					for(var j=0; j<voittajat.length; j++){
+						
+						// Jos tämä voittajajoukkueessa ollut on jo palautuksissa
+						if(voittajat[j] in palautus ){
+							// Lisätään yksi osallistuminen lisää
+							var data = palautus[voittajat[j]];								
+							palautus[voittajat[j]] = [data[0]+1, data[1]];
+
+						}	else {
+
+							// Ei ole aikaisempaa tietoa, joten lisätään nyt
+							palautus[voittajat[j]] = Array();
+							palautus[voittajat[j]] = [1,0];
+						}			
+					} //END for(voittajat)
+
+					// Lisätään ratkaisija
+					var ratkaisija = palautus[rat];
+					palautus[rat] = [ ratkaisija[0], ratkaisija[1]+1 ];
+				}//END if(typeof rat !== 'undefined')
+			}
+		}
+	}
+
+	return palautus;
+}
+
+
+// Palauttaa 2D-taulukon, jossa on kaikkien pelaajien taulukon data
+function getKaikkienPelaajienData(){
+
+	var palautus = new Array();
+	var rivi = [];
+
+	// Palauttaa taulukon, jossa alkiossa on yhden putken sanakirja
+	//[voittoputket, tappioputket]
+	var ennatykset = new Ennatykset();
+	var putket = ennatykset.getPisimmatVoittoputket();
+
+	var voittoputket = putket[0];
+	var tappioputket = putket[1];
+
+	var voittoputketPuhtaat = putket[2];
+	var tappioputketPuhtaat = putket[3];
+
+	// Käydään pelaajat läpi
+	for(nimi in pelaajaOliot){
+		
+		var joukkuetoverit = pelaajaOliot[nimi].getJoukkuetoverit();
+		var vastustajat = pelaajaOliot[nimi].getVastustajat();
+		var pelitYhteensa	= pelaajaOliot[nimi].getVoitot() + pelaajaOliot[nimi].getTappiot() + pelaajaOliot[nimi].getRatkaisemattomat();
+
+		var voittopros = 0;
+		if(pelitYhteensa !== 0 && pelaajaOliot[nimi].getVoitot() !== 0 && pelaajaOliot[nimi].getVoitot() !== ""){
+			voittopros = Math.round( (pelaajaOliot[nimi].getVoitot()/pelitYhteensa)*100 );
+		}
+
+
+		rivi = [
+			nimi,
+			pelaajaOliot[nimi].getSahlykerrat(),
+			pelaajaOliot[nimi].getPeleihinOsallistunut(),
+			pelaajaOliot[nimi].getVoitot(),
+			pelaajaOliot[nimi].getTappiot(),
+			pelaajaOliot[nimi].getRatkaisemattomat(),
+			Object.keys(joukkuetoverit).length,
+			Object.keys(vastustajat).length,
+			voittoputketPuhtaat[nimi],
+			voittoputket[nimi],
+			tappioputketPuhtaat[nimi],
+			tappioputket[nimi],
+			voittopros,
+		];
+
+		palautus.push(rivi);
+	}
+	
+	return palautus;
 }

@@ -45,7 +45,6 @@
 		<script type="text/javascript" src="ennatykset.js"></script>
 		<script type="text/javascript" src="taulukot.js"></script>
 		<script type="text/javascript" src="datanhaku.js"></script>
-		<script type="text/javascript" src="uutinen.js"></script>
 		<!-- Omia taulukoiden muotoiluja-->
 		<link href="muotoilu.css" rel="stylesheet" type="text/css" /> 
 
@@ -74,30 +73,22 @@
 
 	<body>	
 
-	<div id="kokosivu" class="container-fluid">
+	<div  class="container-fluid">
 
-		<div class="row">	
-			<div class="alert alert-success" >
-					<strong>Näytetään tilastot: &nbsp; </strong> <span id="naytettavatTilastotId">kaikki tilastot</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<button class="btn btn-default" onclick="vaihdaTab('#paivamaaraTab')">Vaihda</button>
-				</div>
-		</div>
-		
-		<ul class="nav nav-tabs nav-justified ylavalikko">
-			<li class="active"><a data-toggle="tab" href="#uutisetTab">Uutiset</a></li>
-			<li><a data-toggle="tab" href="#ohjeetTab">Ohjeet</a></li>
-			<li><a data-toggle="tab" href="#paivamaaraTab">Päivämäärän rajaus</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('sahlytTab')" href="#sahlytTab">Sählyt</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('valittuTab')" href="#valittuTab">Valittu pelaaja</a></li>	
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('pelaajatTab')" href="#pelaajatTab">Kaikki pelaajat</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('paritTab')" href="#paritTab">Pareittain</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('joukkueetTab')" href="#joukkueetTab">Joukkueet</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('tapsaCupTab')" href="#tapsaCupTab">Tapsa cup</a></li>
-		</ul>
+	<ul class="nav nav-tabs nav-justified">
+		<li class="active"><a data-toggle="tab" href="#uutisetTab">Uutiset</a></li>
+		<li><a data-toggle="tab" href="#ohjeetTab">Aloitus</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('sahlytTab')" href="#sahlytTab">Sählyt</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('valittuTab')" href="#valittuTab">Valittu pelaaja</a></li>	
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('pelaajatTab')" href="#pelaajatTab">Kaikki pelaajat</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('paritTab')" href="#paritTab">Pareittain</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('joukkueetTab')" href="#joukkueetTab">Joukkueet</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('tapsaCupTab')" href="#tapsaCupTab">Tapsa cup</a></li>
+	</ul>
 
-		<div class="row">
-
-		
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
 	<!-- Välilehdet -->
 
 	<div class="tab-content">
@@ -105,117 +96,292 @@
 		<!-- Uutiset -välilehti -->  
 		<div id="uutisetTab" class="tab-pane fade in active" style="font-size:110%;">
 
-			<div class="col-md-1">
-				
+			<div id="teaseralue" >
+				<h2 id="teaserteksti1" style="display:none;">Oletko valmis suuriin tekoihin?</h2>
+				<h2 id="teaserteksti2" style="display:none;">Oletko valmis haasteeseen?</h2>
+				<h2 id="teaserteksti3" style="display:none;">Onko sinulla 8€?</h2>	
+			</div>
+
+
+			<div id="finaaliteksti" style="display:none;">
+
+				<h2>Tapsa-cup finaali ensi tiistaina</h2>							
+
+			</div>
+
+
+
+			<h2 class="text-success">Talvikauden 2016-17 tilastot tiivistetysti <small>(julkaistu 21.6.2017)</small></h2>
+
+			<p>Kausi alkoi 9.8.2016 ja päättyi 6.6.2017. Kausi käsitti siis ne kerrat, jolloin aloitettiin klo 22.</p>
+
+			<h3>Yleiset tiedot</h3>
+		<div class="row">
+			<div class="col-md-3">
+			<h4>Sählykertojen määrät</h4>
+
+			<ul>
+				<li>Yksi sählykerta on yksi tiistai</li>
+				<li>Kauden aikana sählykertoja oli yhteensä 44</li>
+				<li>Kahtena sählykertana ei pelattu: toinen oli lätkän World Cup ja toinen oli itsenäisyyspäivä</li>
+				<li>Lisäksi kahtena kertana kukaan ei ollut tekemässä tilastoja, vaikka kyllä pelattiin</li>
+				<li>40 sählykerrasta on siis tarkat tilastot</li>
+				<li>Pelejä oli yhteensä 85 eli kekimäärin 2,1 per kerta</li>
+			</ul>
+			</div>
+			
+			<div class="col-md-3">			
+			<h4>Joukkueiden menestyminen</h4>	
+			<ul>
+				<li>Joukkueet olivat joko paidat (pelaajat omissa paidoissa) tai liivit (pelaajat punaisissa liiveissä)</li>
+				<li>Paidat voittivat 49 peliä ja hävisivät 36 peliä</li>
+				<li>Liivit voittivat 36 peliä ja hävisivät 49 peliä</li>
+				<li>Aiemmilla kausilla on ollut tasapelejä, mutta ei tällä kaudella.</li>
+			</ul>
+			</div>
 		
+			<div class="col-md-3">			
+			<h4>Pelaajien lukumäärät</h4>	
+			<ul>
+				<li>Pienin määrä pelaajia: 10</li>
+				<li>Suurin määrä pelaajia: 23</li>
+				<li>Pelaajia keskimäärin: 15,1</li>
+				<li>Eri pelaajia kävi kauden aikana 42 kpl</li>
+			</ul>
 			</div>
 
-			<div class="col-md-9">
-				<div class="jumbotron text-center">
-					<h1>Sählytilastoja</h1>
-					<ul>
-						<li>Sählytilastoja ja uutisia</li>
-						<li>Toimii selaimilla: Chrome ja Firefox</li>
-						<li>Ei toimii: Internet Explorer</li>
-					</ul>
-				</div>
-
-				<!-- Alkkurilinkki, jotta siirrytään sivun alkuun, kun uutinen valitaan -->
-				<a id="uutisetAlkaa" name="uutisetAlkaa"></a>
-				
-				<!-- Tekstit -->
-				<div id="finaaliteksti">
-					
-					<p>Tervetuloa maailman kovatasoisimman yöllä Suomessa pelattavan kuntosählyliigan verkkosivuille. Tällä pääsivulla on uutisia ja varsinainen numeropuoli löytyy sivun yläosassa olevilta välilehdiltä.</p>
-
-					<h3>Ajankohtaiset asiat ja uutisarkisto</h3>
-					<p>Sivun oikeassa reunassa (tai alareunassa, jos luet kännykällä) on ajankohtaiset asiat. Sen alapuolella on uutisarkisto. Klikkaa uutista, niin se ilmestyy tähän alle.</p>
-
-					<h3>Välilehdet</h3>
-					<ul>
-						<li>Uutiset - Sekalaisia uutisia. Uutisarkisto löytyy sivun oikeasta reunasta.</li>
-						<li>Ohjeet - Yleisiä ohjeita ja tietoa sivustosta</li>
-						<li>Päivämäärän rajaus - Rajaa aikaväliltä, jolta tilastot esitetään</li>
-						<li>Sählyt - Yleisiä tilastoja sählykerroista</li>
-						<li>Valittu pelaaja - Valitsemasi pelaajan tiedot</li>
-						<li>Kaikki pelaajat - Kaikkien pelaajien tietoja</li>
-						<li>Pareittain - Paritilastoja: kaksi pelaajaa samalla tai vastakkaisella puolella</li>
-						<li>Joukkueet - Joukkuetietoja</li>
-						<li>Tapsa Cup - Tapsa Cup finaalien tiedot</li>
-					</ul>
-
-				</div>
+			<div class="col-md-3">	
+			<h4>Maalivahdit</h4>
+			<ul>
+				<li>Lasse ja Niclas2 olivat yleensä maalivahteina</li>
+				<li>Lasse oli pois 2 kertaa ja Niclas2 8 kertaa</li>
+				<li>Maalivahteina pelasivat ainakin osassa peliä myös Antti, Ipa, Joel ja Kimmo2</li>
+				<li>Maalivahteja ei ollut: 1 tiistai</li>
+				<li>Maalivahteja oli yksi: 3 tiistaita</li>
+				<li>Maalivahteja oli kaksi: 36 tiistaita</li>
+				<li>Kaudella 2015-16 ei maalivahteja ollut vissiin kertaakaan</li>
+			</ul>
 			</div>
+		</div>
 
-			<div class="col-md-2">
-				<!-- <div class="alert alert-success" >
-					<strong>Valittu tilastot:</strong><br>Talvikausi 2017 - 18<br>15.8.2016 - 31.5.2018
-				</div> -->
-				<div style="Background-color: #ffd1b3; padding-left:10px; padding-right:10px; padding-top:5px; border-radius: 5px;">
-					<h2>Ajankohtaista</h2>
-					<p>&#10030; 29.5. Viimeiset pudotuspelit</p>
-					<p>&#10030; 2.6. Hornet-lento Tapsa Cup finaalin kunniaksi <a href="http://puolustusvoimat.fi/sata">Lisätietoja</a></p>
-					<p>&#10030; 5.6. Tapsa Cup finaali</p>
-					<p><br></p>
-				</div>					
+			
 
-				<h2>Uutisarkisto</h2>
-				<div id="uutisotsikotDiv"></div>
-			</div>
+			<h3>Kauden pelaajaennätykset</h3>	
+			
+	<div class="row">
+		<div class="col-md-3">	
+			<h4>Eniten paikallaoloja</h4>
+			<p> Eli monenako tiistaina oli paikalla, kun pelattiin ja tilastoitiin. Maksimi 40.</p>
+			<ul>
+				<li>1. Lasse: 38 kertaa</li>
+				<li>2. Martti: 37 kertaaa</li>
+				<li>3. Kjäll: 35 kertaaa</li>
+			</ul>
+		</div>
 
-		</div> <!-- uutisetTab loppuu -->
+		<div class="col-md-3">	
+			<h4>Eniten pelejä</h4>
+			<p>Kauden aikana pelattiin 85 tilastoitua peliä.</p>
+			<ul>
+				<li>1. Lasse: 81 peliä</li>
+				<li>2. Martti: 78 peliä</li>
+				<li>3. Kjäll: 74 peliä</li>
+			</ul>
+		</div>
+
+		<div class="col-md-3">	
+			<h4>Eniten peräkkäisiä tappioita (tappioputki)</h4>
+			<ul>
+				<li>1. Martti: 9 tappiota</li>
+				<li>2. Joni: 8 tappiota</li>
+				<li>Edellinen ennätys: Kimmolla 9 tappiota</li>
+			</ul>
+		</div>
+
+		<div class="col-md-3">	
+			<h4>Eniten tehtyjä ratkaisumaaleja</h4>
+			<ul>
+				<li>1. Henkka = 11</li>
+				<li>2. Kimmo2 = 7</li>
+				<li>2. Ville2 = 7</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">	
+			<h4>Eniten voittoja</h4>
+			<ul>
+				<li>1. Lasse: 52 voittoa</li>
+				<li>2. Ville2: 47 voittoa</li>
+				<li>3. Kimmo: 37 voittoa</li>
+			</ul>
+		</div>
+
+
+		<div class="col-md-3">	
+			<h4>Eniten peräkkäisiä voittoja (voittoputki)</h4>
+			<ul>
+				<li>1. Ville2: 17 voittoa</li>
+				<li>2. usealla pelaajalla: 6 voittoa</li>
+				<li>Edellinen ennätys: Ipalla 10 voittoa</li>
+			</ul>
+		</div>
+
+		<div class="col-md-3">	
+			<h4>Voittoprosentti</h4>
+			<p>Mitä enemmän pelejä pelaa sitä vaikeampi on saavuttaa korkeaa voittoprosenttia. Alla on suurimmat voittoprosentit ja pelattujen pelien määrä.
+			Alle 20 peliä pelanneita ei huomioida.</p>
+			<ul>
+				<li>1. Tommi 75%, pelejä 20</li>
+				<li>2. Ville2 71%, pelejä 66</li>
+				<li>3. Lasse 64%, pelejä 81</li>
+			</ul>
+		</div>
+
+		<div class="col-md-3">	
+			<h4>Eniten voittoja saavuttaneet parit:</h4>
+			
+			<ul>
+				<li>1. Lasse ja Ville2: 30 voittoa, 37 peliä, voittoprosentti 81%</li>
+				<li>2. Henkka ja Lasse: 25 voittoa, 36 peliä, voittoprosentti 69%</li>
+				<li>2. Kimmo ja Lasse: 25 voittoa, 38 peliä, voittoprosentti 66%</li>
+			</ul>
+		</div>
+	</div>
+			
+
+
 
 		
+<!--
+
+			<ul>
+				<li></li>
+			</ul>
+
+
+
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+			<h2>Huipputasainen finaali kruunasi kauden</h2>
+
+			<p>Superkausi sai arvoisensa huipennuksen hyperfinaalissa kesäkuun ensimmäisenä tiistaina. 
+			Pelaajia oli 23 eli enemmän kuin koskaan viimeisen 5,5 vuoden aikana. 
+			Kokonaisuutena finaalipelit olivat erittäin hyvät, mutta kiihkeä tunnelma meni välillä vähän överiksi, 
+			kun maaleja hylättiin lähinnä erilaisten sääntötulkintojen takia.</p>
+
+			<h3>Onnistumiset</h3>
+			<ul>
+				<li>Make teki erittäinen tasaiset joukkueet: molemmat pelit ratkesivat maalin erolla</li>
+				<li>Ennätymäärä pelaajia: 23</li>
+				<li>Vaihtomiesten suuren lukumäärän ansiosta peli tempo pysyi erittäin kiivaana loppuun asti</li>
+				<li>Vaihdot toimivat sujuvasti (ainakin Liiveillä)</li>
+				<li>Moket pelasivat erittäin hyvin</li>
+			</ul>
+
+
+			<h3>Erimielisyyksiä jo harjoitusfinaalissa</h3>
+			<p>Koska tämänkeväinen Tapsa cup finaali oli ensimmäinen finaali, jossa ihmiset tiesivät pelaavansa, oli jo heti ensimmäisessä pelissä tunnetta kuin Suomi-Ruotsi-maaottelussa silloin ennen vanhaan kun ihmiset vielä olivat kiinnostuneita Suomi-Ruotsi-maaotteluista. Jo illan ensimmäisessä ottelussa nähtiin episodi, josta puhuttiin vielä pelien jälkeen.</p> 
+
+<p>Pelin ratkaisuhetkillä tilanteessa 19-19 Paidoilla oli hyökkäystilanne Liivien maalin kulmilla. Pallo pomppasi pelin tuoksinassa ilmaan ja osui Liivien pelaajaa käteen. Vieressä seissyt Paitojen edustaja piti rikettä vaparin arvoisena. Seurasi suoraa huutoa, jolloin "leppoisasti pohdiskeltiin" pitäisikö tilanteesta tuomita vapari vai ei. Lopulta vapari myönnettiin ja Paidat tekivät maalin. Mutta koska Liivien mielestä maalintekijä oli maalivahdin alueella, vaativat Liivit maalin hylkäämistä. Maali siis hylättiin. Lopulta Liivit tekivät maalin ja voittivat ensimmäisen pelin.</p>
+	
+			<p>Jälkipuinnissa jotkut olivat sitä mieltä, että tuollaisesta tilanteesta ei maalia normaalisti hylätä maalivahdin alueella olemisen takia. Liivit puolestaan tarjosivat vaihtoehtoisen faktan, jonka mukaan vaparia ei olisi pitänyt edes saada pelkästä pallon käteen osumisesta. Ilman vaparia ei olisi myöskään maalia tullut. No, tuomari oli päätöksensä tehnyt, joten peli oli ohi. Sitten päästiin illan kohokohtaan eli finaaliin.</p>
+
+			<h3>Skandaalinkäyryinen finaali</h3>
+			<p>Varsinaisen finaali voittoon vaadittiin 10 maalia. Peli oli äärimmäisen tasainen ja maaleja tuli tosi hitaasti. Finaalin loppuhetkillä ensin Paitojen maali hylättiin. Sitten Liivit luulivat hetken jo tehneensä voittomaalin, mutta sekin hylättiin melko lailla samoista syistä kuin hetkeä aikaisemmin kuin Paitojen maali. Lopulta Tommi lämäsi voittomaalin Liiveille, joka siten voitti Talvikauden 2016-2017 Tapsa Cup finaalin mahdollisimman pienellä maalierolla lukemin 10-9. Siinä vaiheessa kello oli jo pitkälti yli puolen yhden, joten kukaan ei jaksanut pokaalia nostella. Tässä näkee kuntosählyn eron muihin sarjoihin: kyllä niissä muissa sarjoissa pelaajat jaksavat juhlia, mutta kuntosählyssä kaikki jätetään kentälle.</p>
+
+			<h3>Finaalitilastoja lyhyesti</h3>
+			<ul>
+				<li>11 pelaajaa pelasi ensimmäistä kertaa finaalissa</li>
+				<li>Make voitti neljän perättäisen tappion jälkeen ensimmäistä kertaa finaalin</li>
+				<li>Tommi teki ensimmäisen tilastoidun ratkaisumaalin finaalissa</li>
+				<li>Ensimmäinen finaali, jossa oli maalivahteja</li>
+				<li>Lasse oli eka maalivahti, joka voitti finaalin</li>			
+			</ul>
+			
+			<h3>Kesäkauden finaali elokuussa</h3>
+			<p>Kesällä pelit alkavat klo 20. Seuraava Tapsa Cup finaali on Kesäkauden 2017 finaali, joka pelataan elokuun alupuolella.</p>
+		
+-->
+<!--
+			<h2 style="color: #ff2323;">Tapsa cup finaali ensi tiistaina!</h2>
+			<p>Ensi tiistaina 6.6. klo 22 pelataan talvikauden 2016-2017 viimeinen peli eli Tapsa cup finaali! Kesällä pelit alkavat jo klo 20. 
+			</p>			
+
+			<h3>Paidat vastaan Liivit</h3>
+			<p>Finaalissa Normandian maihinnousun vuosipäivänä iskevät yhteen runkosarjan ylivoimaisesti voittanut Paidat ja 
+			edellinen Tapsa cup voittaja Liivit.
+			Paidat pitivät pelikenttiä yksinvaltaisen hallinnonsa alla vuosikausia kunnes viime elokuussa Liivit saavuttivat ensimmäisen finaalivoiton Paidoista. 
+			Onnistuuko Liivit tekemään ratkaisevan iskun, joka päättää Paitojen valtakauden lopullisesti vai
+			jatkaako Paidat pelikenttien hallintaa? Ratkaisutaistelu, jossa kaikki on sallittua - paitsi se, mikä on säännöissä kiellettyä - käydään ensi tiistaina.
+			</p>
+
+			<h3>Voittaako Make?</h3>
+			<p>Finaalissa Make jahtaa neljän perättäisen hävityn finaalin jälkeen ensimmäistä Tapsa-cup voittoaan. 
+			Luulisi miehen nyt voittavan, kun hän tekee joukkueetkin. Jonilla on myös pelkkiä finaalitappioita, tosin toistaiseksi vain kaksi.
+			Tuleeko tiistaina ensimmäinen voitto?
+			</p>
+			
+			<h3>Häviääkö Timo?</h3>
+			<p>Timo on ainut, joka on voittanut kolme finaalia. Tappioita Timolla ei ole! 
+			Tuleeko tiistaina ensimmäinen?!! Tuleeko Timo edes paikalle?!!! 
+			Mitä tahansa voi tapahtua!!!! Myös mm. Antilla on kaksi finaalivoittoa ja nolla tappiota.</p>
+
+			<h3>Kuka ratkaisee finaalin?</h3>
+			<p>Kuka tekee ratkaisumaalin finaalissa? Finaalin ratkaisumaalia ei ole ennen tilastoitu, joten ratkaisija saa paistatella kunniassa seuraavaan finaaliin asti.
+			Onko se Henkka, joka johtaa ylivoimaisesti ratkaisumaalipörssiä? Vai kenties Heikki, joka on ratkaissut kaikki pelit, jotka on voittanut? 
+			Vai joko nyt on Otto2:n vuoro?</p>
+
+			<h3>Finaalin säännöt</h3>
+			<ul>
+				<li>Varsinainen finaalipeli on tiistain <strong>viimeinen</strong> peli. Muut pelit tilastoidaan vain normaaleina peleinä.</li>
+				<li>Pelaaja edustaa sitä joukkuetta, jossa on pelin loppuessa tai lopettaessaan pelaamisen (lähtee pois kesken pelin)</li>
+				<li>Jos pelaaja lähtee pois kesken viimeisen pelin eli finaalin, hänet tilastoidaan finaaliin osallistuneeksi</li>
+				<li>Jos pelaaja lähtee pois ennen viimeisen peli alkua, hän ei ole mukana finaalissa eikä saa tilastomerkintää finaaliin</li>
+				<li>Aina on mahdollista, että aloitetaan vielä uusi peli, jos Markus oikein kinuaa ja muut antavat periksi (älkää antako sille periksi!). 
+					Siksi et voi olla varma, että saat finaalimerkinnän, jos lähdet kesken peli pois.</li>
+			</ul>
+
+			<h3>Lisätietoa aikaisemmista finaaleista</h3>
+			<p>Lisätietoa aikaisemmin pelatuista finaaleista löydät Tapsa cup -välilehdeltä (sivun yläosa).</p>
+-->
+
+		</div>
 
 		<!-- Ohjeet (eli Aloitus) -välilehti -->  
 		<div id="ohjeetTab" class="tab-pane fade">
 
-		<div class="col-md-1"></div>
-		<div class="col-md-10">
-			<h1>Sählytilastoja</h1>	
-
-			<p>Tällä sivulla on maailman kovatasoisimman yöllä Suomessa pelattavan kuntosählyliigan pelitilastoja ja uutisia.</p> 
-
-			<p>Liigassa pelataan talvi- ja kesäkausi. Talvikaudella pelit aloitetaan klo 22 ja kesäkaudella klo 20. Talvikausi alkaa elokuussa ja päättyy touko-kesäkuun vaihteessa. Kesäkausi alkaa heti talvikauden loputtua ja päättyy alokuussa. Sekä talvi- että kesäkausi päättyy Tapsa cup finaaliin, joka pelataan kauden viimeisenä päivänä.</p>
-	
-			<p>Liigassa pelaa tällä hetkellä kaksi joukkuetta. Paitojen joukkueessa pelaajat pelaavat omissa varusteissaan. Liivien joukkueessa pelaajilla on punainen huomioliivi. Ennen peliä joku jakaa paikalla olevat joukkueisiin, joten kukaan ei pelaa aina tietyssä joukkueessa.</p>
-
-			<h2>Sivun rakenne</h2>
-
-			<p>Sivu on jaettu välilehdille aihepiireittäin seuraavasti:</p>	
-			<ul>
-				<li>Uutiset - Sekalaisia uutisia. Uutisarkisto löytyy sivun oikeasta reunasta.</li>
-				<li>Ohjeet - Yleisiä ohjeita ja tietoa sivustosta</li>
-				<li>Päivämäärän rajaus - Rajaa aikaväliltä, jolta tilastot esitetään</li>
-				<li>Sählyt - Yleisiä tilastoja sählykerroista</li>
-				<li>Valittu pelaaja - Valitsemasi pelaajan tiedot</li>
-				<li>Kaikki pelaajat - Kaikkien pelaajien tietoja</li>
-				<li>Pareittain - Paritilastoja: kaksi pelaajaa samalla tai vastakkaisella puolella</li>
-				<li>Joukkueet - Joukkuetietoja</li>
-				<li>Tapsa Cup - Tapsa Cup finaalien tiedot</li>
-			</ul>
-
-			<h2>Tilastojen historia</h2>	
-	
+			<h2>Sählytilastoja</h2>		
 			<ul>
 				<li>Vuoden 2012 alusta alkaen on pelaajien lukumäärät sekä Kimmon osallistuminen (paikalla/poissa/ei tietoa).</li>
 				<li>Vuoden 2013 alusta alkaen on Visan osallistuminen (paikalla/poissa/ei tietoa).</li> 
 				<li>Vuoden 2014 alusta alkaen on Kimmon pelien voitot ja tappiot.</li> 
 				<li>Alkaen 9.12.2014 on kaikkien pelattujen pelien tulokset niiltä kerroilta kun tilastoja on tehty.</li>
 			</ul>			
-				
-		</div>
-		<div class="col-md-1"></div>
+		
 
-		</div> <!-- Ohjeet (eli Aloitus) -välilehti päättyy-->  
-
-
-<!-- Päivämäärän rajaus -välilehti -->  
-		<div id="paivamaaraTab" class="tab-pane fade">
-
-			<div class="col-md-1"></div>
-
-			<div class="col-md-10">
+			<h2>Sekalaisia ohjeita</h2>
+			<ul>
+				<li>Kaikkia taulukoita voidaan järjestää halutun sarakkeen mukaan klikkaamalla sarakkeen otsikkoa.</li> 
+				<li>Useita sarakkeita voidaan järjestää pitämällä <kbd>shift</kbd> -nappia pohjassa kun klikkaillaan sarakkeiden otsikkoja.</li>
+				<li>Viivakaaviota voi zoomata vetämällä hiirellä halutun alueen. Kaksoisklikkaamalla aluetta kaavio palautuu takaisin.</li>
+			</ul>
 
 			<h2>Päivämäärän rajaus</h2>
 			<p>Tästä voi rajata tuloksia määrittelemällä päivämäärät, joiden väliltä tilastoja haetaan.</p>
@@ -241,16 +407,13 @@
 			</p>
 
 			<div id="haetaanDialogi"></div>
+
 		</div>
 
-		<div class="col-md-1"></div>
-		</div>
 
-<!-- Sählyt-välilehti	-->
-		<div id="sahlytTab" class="tab-pane fade">
-			<div class="col-md-1"></div>
+		<!-- Sählyt-välilehti	-->
+		<div id="sahlytTab" class="tab-pane fade" >
 
-			<div class="col-md-10" id="sahlytTabKeskiosa">
 			<h2>Sählykerrat</h2>
 			<p>Tällä välisivulla on tietoja sählykerroista ja pelien lukumääristä.</p>
 
@@ -296,11 +459,13 @@
 			Jos tilastojen ylläpitäjä on ollut monta viikkoa peräkkäin poissa peleistä, ei sitä aina jaksa kysyä, että pelasitteko neljä viikkoa sitten.</p>
 
 			<div class="row">
-				<div class="col-md-2"></div>
+				<div class="col-md-2">
+				</div>
 				<div class="col-md-8">
 					<div id="sahlytyypitId"></div>			
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-2">
+				</div>
 			</div>
 
 
@@ -330,21 +495,11 @@
 			<!-- Taulukko jossa on pelien tiedot, mm. tehdyt maalit -->
 			<div id="pelitTaulukkoId"></div>
 			<p><br></p>
-
-			</div>
-
-			<div class="col-md-1"></div>
-
-	  </div> <!-- Sählyt-välilehti päättyy-->
+	  </div>
 
 
-
-<!-- Yksi pelaaja-välilehti -->
+		<!-- Yksi pelaaja-välilehti -->
 		<div id="valittuTab" class="tab-pane fade">
-
-			<div class="col-md-1"></div>
-
-			<div class="col-md-10" id="valittuTabKeskiosa">
 
 			<h2>Valitun pelaajan tiedot</h2>
 			<p>Tällä sivulla voit tarkastella yhden pelaajan tietoja. Valitse pelaaja alla olevasta nimilistasta ja paina <em>Hae pelaajan tiedot</em> -nappia.
@@ -368,22 +523,11 @@
 
 			<h3>Perustiedot</h3>
 
-			<div id="valittuPerustiedotId"></div>
-
-			<h3>Pelien määrät eri joukkueissa</h3>
-	
-			<p id="valitunEkaJoukkueId"></p>
 			<div class="row">
 				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<div title="Kuinka monta kertaa edustanut kutakin joukkuetta" id="valitunJoukkueEdustusId"></div>
-				</div>
+				<div class="col-md-8"><div id="valittuPerustiedotId"></div></div>
 				<div class="col-md-2"></div>
 			</div>
-
-
-
-			<p><br></p>	
 			
 			<h3>Sählykerrat</h3>
 			<p>Alla olevassa taulukossa yksi rivi on yksi sählykerta. Taulukossa on ainoastaan sählykerran kolmen ensimmäisen pelin tulokset, 
@@ -430,8 +574,7 @@
 				</div>
 			</div>
 
-			<p><br></p>					
-
+			<p><br></p>			
 			<h3>Pelien määrä muiden kanssa ja muita vastaan</h3>
 			<p>Alla oleva taulukko kertoo kuinka monta peliä valittu pelaaja on pelannut eri pelaajien kanssa samassa joukkueessa ja vastakkaisessa joukkueessa.</p>
 
@@ -464,18 +607,11 @@
 			<p><br></p>
 			<!-- Taulukko: pareittain, vastapuolella -->			
 			<div title="Otsikko" id="valitunVastustajatTaulukkoId"></div>
-
-			</div>
-			<div class="col-md-1"></div>
 	
   </div>
 
-<!-- Kaikki pelaajat-välilehti	-->
+	<!-- Kaikki pelaajat-välilehti	-->
 	<div id="pelaajatTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10" id="pelaajatTabKeskiosa">
 
 		<h2>Kaikki pelaajat</h2>
 		<p>Alla olevassa taulukossa on kaikkien tilastoitujen pelaajien tietoja. Klikkaamalla pelaajan riviä avautuu ikkuna, 
@@ -496,14 +632,13 @@
 			<input type='checkbox' id='voitotLkm' data-column='3' name='voitotLkm' value='voitot' checked='yes' />Voitot: montako peliä on voittanut<br/>
 			<input type='checkbox' id='tappiotLkm' data-column='4' name='tappiotLkm' value='tappiot' checked='yes' />Tappiot: montako peliä on hävinnyt<br/>
 			<input type='checkbox' id='tasapelitLkm' data-column='5' name='tasapelitLkm' value='tasapelit' />Tasapelit: kuinka moni peli on päättynyt tasan<br/>
-			<input type='checkbox' id='joukkue' data-column='7' name='joukkue' value='toverit'  checked='yes' />Joukkue: Joukkue, jossa on pelannnut eniten<br/>
-			<input type='checkbox' id='pelikaverit' data-column='6' name='pelikaverit' value='toverit'  checked='no' />Pelikaverit: monenko ihmisen kanssa on pelannut<br/>
-			<input type='checkbox' id='vastustajat' data-column='8' name='vastustajat' value='viholliset'  checked='no' />Vastustajat: montako pelaajaa vastaan on pelannut<br/>
-			<input type='checkbox' id='voittoputkiPuhdas' data-column='9' name='voittoputkiPuhdas' value='voittoPuhdas' />Voittoputki (puhdas): pisin puhdas voittoputki eli osallistunut kaikkiin peleihin putken aikana<br/>
-			<input type='checkbox' id='voittoputki' data-column='10' name='voittoputki' value='voitto' checked='yes' />Voittoputki: pisin voittoputki niistä peleistä, joihin on osallistunut<br/>
-			<input type='checkbox' id='tappioputkiPuhdas' data-column='11' name='tappioputkiPuhdas' value='tappioPuhdas' />Tappioputki (puhdas): pisin puhdas tappioputki eli osallistunut kaikkiin peleihin putken aikana<br/>
-			<input type='checkbox' id='tappioputki' data-column='12' name='tappioputki' value='tappio' checked='yes' />Tappioputki: pisin tappioputki niistä peleistä, joihin on osallistunut<br/>
-			<input type='checkbox' id='voittopros' data-column='13' name='voittopros' value='tappio' checked='yes' />Voittoprosentti: kuinka monta prosenttia peleistä on voittanut<br/>
+			<input type='checkbox' id='pelikaverit' data-column='6' name='pelikaverit' value='toverit'  checked='yes' />Pelikaverit: monenko ihmisen kanssa on pelannut<br/>
+			<input type='checkbox' id='vastustajat' data-column='7' name='vastustajat' value='viholliset'  checked='yes' />Vastustajat: montako pelaajaa vastaan on pelannut<br/>
+			<input type='checkbox' id='voittoputkiPuhdas' data-column='8' name='voittoputkiPuhdas' value='voittoPuhdas' />Voittoputki (puhdas): pisin puhdas voittoputki eli osallistunut kaikkiin peleihin putken aikana<br/>
+			<input type='checkbox' id='voittoputki' data-column='9' name='voittoputki' value='voitto' checked='yes' />Voittoputki: pisin voittoputki niistä peleistä, joihin on osallistunut<br/>
+			<input type='checkbox' id='tappioputkiPuhdas' data-column='10' name='tappioputkiPuhdas' value='tappioPuhdas' />Tappioputki (puhdas): pisin puhdas tappioputki eli osallistunut kaikkiin peleihin putken aikana<br/>
+			<input type='checkbox' id='tappioputki' data-column='11' name='tappioputki' value='tappio' checked='yes' />Tappioputki: pisin tappioputki niistä peleistä, joihin on osallistunut<br/>
+			<input type='checkbox' id='voittopros' data-column='12' name='voittopros' value='tappio' checked='yes' />Voittoprosentti: kuinka monta prosenttia peleistä on voittanut<br/>
 		</p>
 
 		<p>Näytä vain pelaajat, jotka ovat pelanneet vähintään tämän verran pelejä: <input type="text" id="naytaPelaajiaInputId" value="" maxlength="5" size="3">
@@ -552,18 +687,11 @@
 		<!-- Taulukko, jossa on pelien ratkaisumaalien tekijät -->
 		<div id="ratkaisijatId"></div>
 	
-		</div>
-		<div class="col-md-1"></div>
   </div>
 
 	
-<!-- Pelaajat pareittain-välilehti-->
+	<!-- Pelaajat pareittain-välilehti-->
 	<div id="paritTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10" id="paritTabKeskiosa">
-
 		<h2>Parit: Kaksi pelaajaa samassa joukkueessa</h2>
 		<p>Taulukko kertoo kuinka kaksi pelaajaa ovat pärjänneet, kun he ovat pelanneet samassa joukkueessa.</p>
 
@@ -594,18 +722,10 @@
 		<div id="paritilastoVastustajatKaikkiTaulukkoId" title="Klikkaa sarakkeen otsikkoa, jos haluat järjestellä sen mukaan."></div>
 
 		<p><br/></p>
-
-		</div>
-		<div class="col-md-1"></div>
-
 	</div>
 
-<!-- Joukkueet-välilehti -->
+	<!-- Joukkueet-välilehti -->
 	<div id="joukkueetTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10" id="joukkueetTabKeskiosa">
 
 		<h3>Joukkueiden menestys eri kokoonpanoilla</h3>
 
@@ -623,33 +743,20 @@
 		Tällöin nimien välissä ei saa olla välilyöntiä, vaan ainoastaan pystyviiva. Esimerkiksi: <i>Kimmo|Kjäll</i></p>
 
 		<div id="joukkueetId"></div>
-		</div>
-		<div class="col-md-1"></div>
 	</div>
 
 
-<!-- Tapsa-cup-välilehti -->
+	<!-- Tapsa-cup-välilehti -->
 	<div id="tapsaCupTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10">
 
 		<h3>Tapsa-cup finaalit</h3>
 
 		<p>Tapsa-cup finaali on kesäkauden ja talvikauden viimeinen peli. Jo finaaliin selviytyminen on kuntosählyn pelaajien uran suurimpia saavutuksia, 
 		ja voittajista tulee legendoja.</p>
-	
-		<h4>Finaalin säännöt</h4>
-			<ul>
-				<li>Varsinainen finaalipeli on päivän <strong>viimeinen</strong> peli. Muut pelit tilastoidaan vain normaaleina peleinä.</li>
-				<li>Jos kauden viimeisellä kerralla ei pelata, jää finaali kokonaan pelaamatta eikä sitä edeltänyttä kertaa lueta finaaliksi.</li>
-				<li>Jos viimeinen peli päättyy tasan, ovat molemmat joukkueet ja joukkueiden pelaajat voittajia.</li>
-				<li>Pelaaja edustaa sitä joukkuetta, jossa on pelin loppuessa tai lopettaessaan pelaamisen (lähtee pois kesken pelin)</li>
-				<li>Jos pelaaja lähtee pois kesken viimeisen pelin eli finaalin, hänet tilastoidaan finaaliin osallistuneeksi</li>
-				<li>Jos pelaaja lähtee pois ennen viimeisen peli alkua, hän ei ole mukana finaalissa eikä saa tilastomerkintää finaaliin</li>
-				<li>Aina on mahdollista, että aloitetaan vielä uusi peli. Siksi et voi olla varma, että saat finaalimerkinnän, jos lähdet kesken peli pois.</li>
-			</ul>
+		
+		<p>Jos kauden viimeisellä kerralla ei pelata, jää finaali kokonaan pelaamatta eikä sitä edeltänyttä kertaa lueta finaaliksi.
+		Jos viimeinen peli päättyy tasan, ovat molemmat joukkueet ja joukkueiden pelaajat voittajia.			
+		Alla olevissa taulukoissa on tietoja finaaleista.</p>
 
 		<p><br></p>
 
@@ -661,19 +768,13 @@
 		<h4>Tapsa-cup finalistit</h4>
 		<div title="Finaaleissa pelanneet pelaajat" id="finaalitPelaajatId"></div>
 		
-		</div>
-		<div class="col-md-1"></div>
+		<p><br/></p>
 	</div>
 
 </div>
 </div>
-
-
-<div class="col-md-1">
-
-	
 </div>
-
+<div class="col-md-1"></div>
 </div>
 
 	<div id="hakuKaynnissaDialogi"></div>

@@ -4,6 +4,45 @@
 $(document).ready(function(){ 
 
 
+	
+	// Klikataan uutisotsikoiden taulukkoa, jolloin näytetää klikattu uutinen
+	$("#uutisotsikotDiv").on('click','', function (e){
+
+		uutinenOliot[""] = new Uutinen("otsikko", "päivä", "sisältö");
+
+		//$(e.target).closest('tr').find('td:eq(0)').text()
+	//	var id = e.target.id.toString();
+		var id = $(e.target).attr("id");
+//		alert("_" + id + "_");
+
+		// 
+		if(!(id in uutinenOliot)){
+			//alert("id ei löydy");
+			//id ="";
+			return;
+		}
+
+		
+
+		// Haetaan valittu uutinen
+		var uutinen = uutinenOliot[id];//$(e.target).closest('tr').find('td:eq(0)').text()];
+
+		//$('#finaaliteksti').empty().append('<h1>'+uutinen.getOtsikko() + '</h1>');
+		$('#finaaliteksti').empty().append(uutinen.getSisalto());  
+
+		// Värjätään harmaaksi eli merkitään luetuksi
+		//document.getElementById(id).style.backgroundColor = "#D8D8D8";
+		//border-color: green
+		document.getElementById(id).style.borderColor = "#404040";
+
+		// Alkkuri uutisetAlkaa
+		siirra('#uutisetAlkaa');
+
+	});	
+
+
+
+
 	// Valitaan välilehti pääikkunassa
 	$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 
@@ -34,7 +73,7 @@ $(document).ready(function(){
 			
 		}	else if(valinta === "#pelaajatTab"){
 
-			$('#kaikkiPelaajatId').width($('#pelaajatTab').width() * 1);
+			$('#kaikkiPelaajatId').width($('#pelaajatTabKeskiosa').width() * 1);
 
 			// Jos pitää päivittää välilehden tiedot
 			if(paivitaPelaajatTab){
@@ -81,7 +120,7 @@ $(document).ready(function(){
 
 		} else if(valinta === "#pelaajatAjassaTab"){
 
-			$('#pelaajienLkmId').width($('#sahlytTab').width() * 0.96);
+			$('#pelaajienLkmId').width($('#sahlytTabKeskiosa').width() * 0.96);
 			// Piirretään pelaajien määärä
 			//			piirraPelaajat();	
 			var data = getPelaajienJaPelienMaarat();
@@ -91,12 +130,12 @@ $(document).ready(function(){
 
 		} else if(valinta === "#pelaajatViikoittainTab"){
 
-			$('#pelaajienLkm2Id').width($('#sahlytTab').width() * 0.96);
+			$('#pelaajienLkm2Id').width($('#sahlytTabKeskiosa').width() * 0.96);
 			// Piirretään pelaajien määärä vuosittain
 			piirraPelaajatVuosittain();	
 
 		} else if(valinta === "#pelaajatKuukausittainTab"){
-			$('#pelaajatKuukausittainKaavioId').width($('#sahlytTab').width() * 0.96);
+			$('#pelaajatKuukausittainKaavioId').width($('#sahlytTabKeskiosa').width() * 0.96);
 			//#pelaajatKuukausittainKaavioId
 			piirraPelaajatKuukaudenKeskiarvo();
 
@@ -164,7 +203,7 @@ $(document).ready(function(){
 	$("#sahlytYleinenId").on('click','tbody tr', function (e){
 		var pvm =  $(e.target).closest('tr').find('td:eq(0)').text();
 		// Funktio tiedostossa funktiot.js		
-		sahlyDialogille(pvm);
+		sahlyDialogille2(pvm);
 	});	
 
 	// Klikataan sählytaulukkoa, jolloin avautuu dialogi, jossa on sählykerran tietoja
@@ -248,7 +287,7 @@ function valitseSahlytTab(){
 
 	var pa = getPelaajienJaPelienMaarat();
 	
-	$('#pelaajienLkmId').width($('#sahlytTab').width() * 0.96);
+	$('#pelaajienLkmId').width($('#sahlytTabKeskiosa').width() * 0.96);
 	
 	var data = getPelaajienJaPelienMaarat();
 
@@ -272,7 +311,7 @@ function valitseValittuPelaajaTab(){
 
 	//alert("Leveys: " + $('#valittuTab').width());	
 
-	$('#pelaajaVoittoprosenttiKuvaaja').width($('#valittuTab').width() * 0.96);
+	$('#pelaajaVoittoprosenttiKuvaaja').width($('#valittuTabKeskiosa').width() * 0.96);
 	// Selvitetään, kenen pelaajan nimi on valittu nimilistalta
 	var pelaajatSelectTagElementti = document.getElementById("pelaajatSelectTag");
 	var listaltaValittuNimi = pelaajatSelectTagElementti.options[pelaajatSelectTagElementti.selectedIndex].text;
@@ -301,6 +340,9 @@ function paivitaValittuPelaajaTab(){
 	// Taulukko, jossa on sählykerrat (eka taulukko)
 	alustaSahlytaulukkoPelaajatiedot();
 	taytaSahlytaulukkoPelaajatiedot(pelaajaOliot, sahlyOliot, listaltaValittuNimi);
+
+// Joukkueet, joita valittu on edustanut
+lisaaPelaajanJoukkueEdustusTaulukko(listaltaValittuNimi);
 
 	// Parien kanssa/vastaan pelattujen pelien lukumäärät
 	alustaParitilastoLukumaaratTaulukko();
@@ -334,7 +376,7 @@ function valitseKaikkiPelaajatTab(){
 	taytaKaikkienPelaajienTaulukko(pelaajaOliot);
 
 	//id=korrelaatioPelitVoittoprosenttiId
-	$('#korrelaatioPelitVoittoprosenttiId').width($('#pelaajatTab').width() * 0.96);
+	$('#korrelaatioPelitVoittoprosenttiId').width($('#pelaajatTabKeskiosa').width() * 0.96);
 
 	var taulu = $('#kaikkiPelaajatTable').dataTable();
 	var data = taulu.fnGetData();
@@ -351,7 +393,7 @@ function valitseParitTab(){
 	//alert("Leveys: " + $('#paritTab').width());
 	// Luo tilastot, joissa on pelaajat pareittain samoissa ja eri joukkueissa
 
-	$('#paritilastoToveriKaavioId').width($('#paritTab').width() * 0.96);
+	$('#paritilastoToveriKaavioId').width($('#paritTabKeskiosa').width() * 0.96);
 
 	// Luo tilastot, joissa on pelaajat pareittain samoissa ja eri joukkueissa
 	paritSamassa = 	getParitilastoToveritData();

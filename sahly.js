@@ -1,5 +1,5 @@
 // Yhden sählykerran luokka
-function Sahly(pvm, paikka, alkoi, loppui, muuta, pelattiinko){
+function Sahly(pvm, paikka, alkoi, loppui, muuta, pelattiinko, maalivahteja){
 
 	// Pelipäivä
 	this.pvm = pvm;
@@ -11,6 +11,8 @@ function Sahly(pvm, paikka, alkoi, loppui, muuta, pelattiinko){
 	this.loppui = loppui;
 	// Tyyppiä boolean
 	this.pelattiinko = pelattiinko;
+
+	this.maalivahteja = maalivahteja;
 	this.muuta = muuta;
 
 	// Onko sählystä perustiedot vai tarkat tiedot:
@@ -42,6 +44,9 @@ function Sahly(pvm, paikka, alkoi, loppui, muuta, pelattiinko){
 
 	this.setPelattiinko = SetPelattiinko;
 	this.getPelattiinko = GetPelattiinko;
+
+this.setMaalivahteja = SetMaalivahteja;
+this.getMaalivahteja = GetMaalivahteja;
 
 	this.setMuuta = SetMuuta;
 	this.getMuuta = GetMuuta;
@@ -134,6 +139,14 @@ function SetPelattiinko(pelattiinko){
 
 function GetPelattiinko(){
 	return this.pelattiinko;
+}
+
+function SetMaalivahteja(maalivahteja){
+	this.muuta = maalivahteja;
+}
+
+function GetMaalivahteja(){
+	return this.maalivahteja;
 }
 
 function SetMuuta(muuta){

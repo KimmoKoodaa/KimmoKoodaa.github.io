@@ -178,6 +178,7 @@ function pelaajanVoittoprosentti(pelaaja, kaavioID){
 
 // UUSI:
 // Piirtää pelaajien määrän ja pelien määrän viikoittain
+// data: pvm, pelaajien lukumäärä, pelien lukumäärä, maalivahtien määrä
 function piirraPelaajatViikoittain(data){
 
 	// Kuvaajassa on pystyviiva jokaisen vuoden alussa.
@@ -191,7 +192,7 @@ function piirraPelaajatViikoittain(data){
 	}	
 
 	// 2D taulukko pelien määrästä: [pvm, pelien määrä] 	
-	var pelit = data.map(function(value,index) { return [value[0], value[2]]; });
+	var pelit = data.map(function(value,index) { return [value[0], value[3]]; });
 
 	// Selvitetään ensimmäinen ja viimeinen päivämäärä
 	var minPvm = data[0][0];
@@ -531,6 +532,8 @@ function piirraPelaajatVuosittain(){
 		varit[i] = kaikkiVarit[i];
 	}
 
+	var kuukaudet = ['Tammikuu','Helmikuu','Maaliskuu','Huhtikuu','Toukokuu','Kesäkuu','Heinäkuu','Elokuu','Syyskuu','Lokakuu','Marraskuu','Joulukuu'];
+
 	$.jqplot ('pelaajienLkm2Id', tiedot,{
 
 		// Animaatio päällä
@@ -559,16 +562,23 @@ function piirraPelaajatVuosittain(){
 		axes: {
 		
 			xaxis: {
+	/*			renderer: $.jqplot.CategoryAxisRenderer,
+				min: 1,
+				max: 13,
+        tickInterval: 1,
+				ticks: kuukaudet,	
+*/
 				labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
 				tickRenderer: $.jqplot.CanvasAxisTickRenderer, // Tämä mahdollistaa asteikon arvon kääntämisen kulmassa
 				tickOptions:{
-					formatString: '%b-%d',
+					formatString: '1. %Bta',//'%b-%d',
 					angle: -30 // Tämä aiheuttaa virheilmoituksen, koska ilmeisesti ei ole tilaa vaikka gridPaddingillä sitä laittaisi
 				},
 				min: parseDate("01-01"),
 				max: parseDate("12-30"),
 				renderer:$.jqplot.DateAxisRenderer, 			
         tickInterval:'1 month',		
+			//ticks: kuukaudet,	
 			},
 			yaxis: {
 				//label:'pelaajia',		 
@@ -844,7 +854,7 @@ function piirraPelienMaaraJaVoittoprosentti(){
 
 		tulos[j] = new Array();
 			tulos[j][0] = data[2];//$(this).find(".pelikerrat").html();	
-			tulos[j][1] = data[12];//$(this).find(".voittopros").html();
+			tulos[j][1] = data[13];//$(this).find(".voittopros").html();
 			tulos[j][2] = data[0];//$(this).find(".nimi").html();
 		
 	// Otetaan ylös, jos pelaaja on pelannut eniten pelejä
@@ -926,7 +936,7 @@ function piirraPelienMaaraJaVoittoprosentti2(dataAP){
 		var data = dataAP[j];
 		tulos[j] = new Array();
 		tulos[j][0] = data[0][2];
-		tulos[j][1] = data[0][12];
+		tulos[j][1] = data[0][13];
 		tulos[j][2] = data[0][0];
 		
 		// Otetaan ylös, jos pelaaja on pelannut eniten pelejä
@@ -1000,6 +1010,8 @@ function piirraPelienMaaraJaVoittoprosenttiParilleKorostuksella(){
 // 'nimi'=nimien sarake
 function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 
+	//alert("piirraPelienMaaraJaVoittoprosenttiParille(");
+
 	var voittopros = [];
 	var pelikerrat = [];
 
@@ -1039,9 +1051,10 @@ function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 		
 		tulos.push( [data[i][4], data[i][5], data[i][0]] );		
 	}
-	// Uutta 2018: Sortataan
+
+	// uutta 2018:  Sortataan: Tämä ei auta siihen, että näyttää väärän pisteen tiedot 
 	//tulos.sort(function(a,b){return a[0]-b[0]});
-	
+
 	// Pyöristetään seuraavaan kymppiin
 	maxPeleja = (Math.round(maxPeleja / 10) * 10 ) + 10;
 
@@ -1051,8 +1064,9 @@ function piirraPelienMaaraJaVoittoprosenttiParille(htmlId, data, nimi){
 		title:'Pelien määrän ja voittoprosentti',		
 					
 		series: [
-			{ label: 'Pelaajia' ,  showLine:false,  markerOptions: { size: 7, style:"circle" }},
-			{ label: 'Pelien määrä' }
+			// pointLabels näyttäisi parien nimet pisteen vieressä, mutta pisteitä on niin paljon, että se vain sotkee
+			{ label: 'Pelaajia' ,  showLine:false,  markerOptions: { size: 7, style:"circle" } /*, pointLabels: { show:true }*/ },
+			{ label: 'Pelien määrä' },
 		],
 	
 		axes: {

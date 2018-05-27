@@ -45,7 +45,6 @@
 		<script type="text/javascript" src="ennatykset.js"></script>
 		<script type="text/javascript" src="taulukot.js"></script>
 		<script type="text/javascript" src="datanhaku.js"></script>
-		<script type="text/javascript" src="uutinen.js"></script>
 		<!-- Omia taulukoiden muotoiluja-->
 		<link href="muotoilu.css" rel="stylesheet" type="text/css" /> 
 
@@ -74,30 +73,22 @@
 
 	<body>	
 
-	<div id="kokosivu" class="container-fluid">
+	<div  class="container-fluid">
 
-		<div class="row">	
-			<div class="alert alert-success" >
-					<strong>Näytetään tilastot: &nbsp; </strong> <span id="naytettavatTilastotId">kaikki tilastot</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<button class="btn btn-default" onclick="vaihdaTab('#paivamaaraTab')">Vaihda</button>
-				</div>
-		</div>
-		
-		<ul class="nav nav-tabs nav-justified ylavalikko">
-			<li class="active"><a data-toggle="tab" href="#uutisetTab">Uutiset</a></li>
-			<li><a data-toggle="tab" href="#ohjeetTab">Ohjeet</a></li>
-			<li><a data-toggle="tab" href="#paivamaaraTab">Päivämäärän rajaus</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('sahlytTab')" href="#sahlytTab">Sählyt</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('valittuTab')" href="#valittuTab">Valittu pelaaja</a></li>	
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('pelaajatTab')" href="#pelaajatTab">Kaikki pelaajat</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('paritTab')" href="#paritTab">Pareittain</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('joukkueetTab')" href="#joukkueetTab">Joukkueet</a></li>
-			<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('tapsaCupTab')" href="#tapsaCupTab">Tapsa cup</a></li>
-		</ul>
+	<ul class="nav nav-tabs nav-justified">
+		<li class="active"><a data-toggle="tab" href="#uutisetTab">Uutiset</a></li>
+		<li><a data-toggle="tab" href="#ohjeetTab">Aloitus</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('sahlytTab')" href="#sahlytTab">Sählyt</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('valittuTab')" href="#valittuTab">Valittu pelaaja</a></li>	
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('pelaajatTab')" href="#pelaajatTab">Kaikki pelaajat</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('paritTab')" href="#paritTab">Pareittain</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('joukkueetTab')" href="#joukkueetTab">Joukkueet</a></li>
+		<li><a data-toggle="tab" onclick="avaaOdotusikkuna2('tapsaCupTab')" href="#tapsaCupTab">Tapsa cup</a></li>
+	</ul>
 
-		<div class="row">
-
-		
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
 	<!-- Välilehdet -->
 
 	<div class="tab-content">
@@ -105,117 +96,77 @@
 		<!-- Uutiset -välilehti -->  
 		<div id="uutisetTab" class="tab-pane fade in active" style="font-size:110%;">
 
-			<div class="col-md-1">
-				
-		
+			<div id="teaseralue" >
+				<p><br></p>
+				<h2 id="teaserteksti1" style="text-align: center;" >Oletko valmis suuriin tekoihin?</h2>
+				<p><br></p>
+				<h2 id="teaserteksti2" style="display:none;text-align: center;">Otatko haasteen vastaan?</h2>
+				<p><br></p>
+				<h2 id="teaserteksti3" style="display:none;text-align: center;">Onko sinulla 8€?</h2>	
+				<h2 id="teaserteksti4" style="display:none;text-align: center;">Tai 7€ ja oikeus alennusryhmään?</h2>	
 			</div>
 
-			<div class="col-md-9">
-				<div class="jumbotron text-center">
-					<h1>Sählytilastoja</h1>
-					<ul>
-						<li>Sählytilastoja ja uutisia</li>
-						<li>Toimii selaimilla: Chrome ja Firefox</li>
-						<li>Ei toimii: Internet Explorer</li>
-					</ul>
-				</div>
-
-				<!-- Alkkurilinkki, jotta siirrytään sivun alkuun, kun uutinen valitaan -->
-				<a id="uutisetAlkaa" name="uutisetAlkaa"></a>
-				
-				<!-- Tekstit -->
-				<div id="finaaliteksti">
-					
-					<p>Tervetuloa maailman kovatasoisimman yöllä Suomessa pelattavan kuntosählyliigan verkkosivuille. Tällä pääsivulla on uutisia ja varsinainen numeropuoli löytyy sivun yläosassa olevilta välilehdiltä.</p>
-
-					<h3>Ajankohtaiset asiat ja uutisarkisto</h3>
-					<p>Sivun oikeassa reunassa (tai alareunassa, jos luet kännykällä) on ajankohtaiset asiat. Sen alapuolella on uutisarkisto. Klikkaa uutista, niin se ilmestyy tähän alle.</p>
-
-					<h3>Välilehdet</h3>
-					<ul>
-						<li>Uutiset - Sekalaisia uutisia. Uutisarkisto löytyy sivun oikeasta reunasta.</li>
-						<li>Ohjeet - Yleisiä ohjeita ja tietoa sivustosta</li>
-						<li>Päivämäärän rajaus - Rajaa aikaväliltä, jolta tilastot esitetään</li>
-						<li>Sählyt - Yleisiä tilastoja sählykerroista</li>
-						<li>Valittu pelaaja - Valitsemasi pelaajan tiedot</li>
-						<li>Kaikki pelaajat - Kaikkien pelaajien tietoja</li>
-						<li>Pareittain - Paritilastoja: kaksi pelaajaa samalla tai vastakkaisella puolella</li>
-						<li>Joukkueet - Joukkuetietoja</li>
-						<li>Tapsa Cup - Tapsa Cup finaalien tiedot</li>
-					</ul>
-
-				</div>
+			<div id="kaboom" style="display:none;">				
+				<img src="kaboom2.png" alt="Kaa - boom!!">
 			</div>
 
-			<div class="col-md-2">
-				<!-- <div class="alert alert-success" >
-					<strong>Valittu tilastot:</strong><br>Talvikausi 2017 - 18<br>15.8.2016 - 31.5.2018
-				</div> -->
-				<div style="Background-color: #ffd1b3; padding-left:10px; padding-right:10px; padding-top:5px; border-radius: 5px;">
-					<h2>Ajankohtaista</h2>
-					<p>&#10030; 29.5. Viimeiset pudotuspelit</p>
-					<p>&#10030; 2.6. Hornet-lento Tapsa Cup finaalin kunniaksi <a href="http://puolustusvoimat.fi/sata">Lisätietoja</a></p>
-					<p>&#10030; 5.6. Tapsa Cup finaali</p>
-					<p><br></p>
-				</div>					
-
-				<h2>Uutisarkisto</h2>
-				<div id="uutisotsikotDiv"></div>
+			<div id="teaseralue2" style="display:none;" >
+				<h2 id="teaserteksti21" style="display:none;text-align: center;" >Mikäli vastasit edellisiin kysymyksiin?</h2>
+				<p><br></p>
+				<h2 id="teaserteksti22" style="display:none;text-align: center;" ><em>"Täh?"</em></h2>
+				<p><br></p>
+				<h2 id="teaserteksti23" style="display:none;text-align: center;"><em>"Mitä tää nyt on?!"</em></h2>
+				<p><br></p>
+				<h2 id="teaserteksti24" style="display:none;text-align: center;"><em>"Mitä ne kysymykset oli?!!"</em></h2>	
+				<p><br></p>
+				<h2 id="teaserteksti25" style="display:none;text-align: center;">Tai jotain reippaampaa ... </h2>	
 			</div>
 
-		</div> <!-- uutisetTab loppuu -->
+			<div id="finaaliteksti" style="display:none;">
 
-		
+				<h2 style="color:red;">Tapsa cup -finaali tiistaina 8.8.2017</h2>	
+
+				<p>8.8.1918 alkoi <a href="https://fi.wikipedia.org/wiki/Amiensin_taistelu">Amiensin taistelu</a>, joka lopulta johti ensimmäisen maailmansodan päättymiseen. Tasan vuosisata - miinus yksi vuosi - myöhemmin alkaa Tapsa cup -finaali, joka päättää vähintään yhtä mielipuolisen Kesäkauden 2017. Finaalissa, kuten jo edellisessä finaalissa kesäkuussa, iskevät yhteen runkosarjan ylivoimaisesti voittanut Paidat ja hallitseva mestari Liivit. Paidat murskasivat Liivit runkosarjassa voitoin 14-3, mikä asettaa Paidoille ennätysmäisen kovat paineet voittaa mestaruus. Näiden paineiden alla vain teräshermoisimmat uskaltavat liittyä Paitojen joukkoihin! Uskallatko sinä?</p>
+
+				<h2>Voimakaksikko Lasse ja Ville2</h2>
+				<p>Lasse ja Ville2 olivat jo edellistä talvikautta hallinnut voimakaksikko. Tällä kesäkaudella he voittivat kaikki pelit, joissa pelasivat samalla puolella! Saakeli, mitä jos Make arpoo ne samalle puolelle?! Kestääkö Lassen hartiat finaalin paineet vai yllättääkö Niclasin nousukunto edellisen finaalimestarin? Voittaako kaiken muun voittanut Ville2 ensimmäisen mestaruutensa vai jäätyvätkö voittoputkilegendan herkät kädet ratkaisuhetkellä? Voittojen lisäksi he ovat ainoina pelanneet kaikki tämän kauden pelit, joten sitoutuminen pelisysteemiin on näillä herroilla täydellistä.</p>
+
+				<h2>Markus on yksinkertainen ...</h2>
+				<p>... Tapsa cup -voittaja. Onnistuuko hän tiistaina johdattamaan joukkonsa toiseen finaalivoittoon? Tilastojen mukaan ei, koska hänen voittoprosenttinsa on tältä kaudelta vain 25%. Voittaakseen mestaruuden Markukselle ei riitä enää vanha B3-kuvio vaan häneltä odotetaan jotain aivan uutta. Pelikuviota, joka uudistaa koko lajin. Pelikuviota, joka nousee lajissaan samalle tasolle kuin Derek Zoolanderin <em>Blue Steel</em> tai Chazz Michael Michaelsin <em>Iron Lotus</em>. Pystyykö Markus siihen? Se nähdään tiistaina!</p>
+
+				<h2>Missä on Kjäll Gretski?</h2>
+				<p>Männävuosien runkopelaaja Kjäll, jolla on edelleen toiseksi eniten osallistumisia tilastointihistorian ajalta, on kadonnut! Jätkä on käynyt vain kerran koko kesäkaudella! Silloinkin hän pelasi vain yhden pelin, mutta onnistui silti telomaan nilkkansa ihan itse. Huhupuheiden mukaan hän vetäytyi pelaamaan golfia jonnekin maaseudun rauhaan eikä hänestä ole mitään kuulunut sen koommin. Onko Kjäll enää edes hengissä? Tuskin.</p>
+
+				<h2>Kuka ratkaisee?</h2>
+				<p>Ratkaiseeko finaalin taas Tommi, joka on ratkaissut <em>kaikki</em> finaalit, joissa ratkaisija on tilastoitu (eli kerran)? Vai kenties Henkka, joka on tehnyt tälläkin kaudella eniten voittomaaleja? Vai Ville2, jolla on vain yksi vähemmän. Vai joko nyt on Otto2:n vuoro? Hänellä on eniten voitettuja otteluita niistä jotka eivät ole tehneet yhtään ratkaisumaalia (pois lukien maalivahdit). Eikö nyt olisi jo Otto2:n vuoro ratkaista peli?</p>
+
+				<h2>Urheilun hornankattila porisee jo</h2>
+				<p>Viime tiistaina ulkolämpötila oli 19 astetta ja sisälämpötila yleisen arvion mukaan noin 91 astetta. Sääennusteen mukaan läpötila on samaa luokkaa finaalipäivänäkin, joten jos jokin on varmaa, niin ainakin se, että finaalista tulee tukala ja vain vahvimmat selviävät siitä. Ota siis riittävästi juotavaa mukaan eläkä vedä itseäsi ihan piippuun heti pelin alussa.</p>
+
+			</div>
+
+
+
+		</div>
 
 		<!-- Ohjeet (eli Aloitus) -välilehti -->  
 		<div id="ohjeetTab" class="tab-pane fade">
 
-		<div class="col-md-1"></div>
-		<div class="col-md-10">
-			<h1>Sählytilastoja</h1>	
-
-			<p>Tällä sivulla on maailman kovatasoisimman yöllä Suomessa pelattavan kuntosählyliigan pelitilastoja ja uutisia.</p> 
-
-			<p>Liigassa pelataan talvi- ja kesäkausi. Talvikaudella pelit aloitetaan klo 22 ja kesäkaudella klo 20. Talvikausi alkaa elokuussa ja päättyy touko-kesäkuun vaihteessa. Kesäkausi alkaa heti talvikauden loputtua ja päättyy alokuussa. Sekä talvi- että kesäkausi päättyy Tapsa cup finaaliin, joka pelataan kauden viimeisenä päivänä.</p>
-	
-			<p>Liigassa pelaa tällä hetkellä kaksi joukkuetta. Paitojen joukkueessa pelaajat pelaavat omissa varusteissaan. Liivien joukkueessa pelaajilla on punainen huomioliivi. Ennen peliä joku jakaa paikalla olevat joukkueisiin, joten kukaan ei pelaa aina tietyssä joukkueessa.</p>
-
-			<h2>Sivun rakenne</h2>
-
-			<p>Sivu on jaettu välilehdille aihepiireittäin seuraavasti:</p>	
-			<ul>
-				<li>Uutiset - Sekalaisia uutisia. Uutisarkisto löytyy sivun oikeasta reunasta.</li>
-				<li>Ohjeet - Yleisiä ohjeita ja tietoa sivustosta</li>
-				<li>Päivämäärän rajaus - Rajaa aikaväliltä, jolta tilastot esitetään</li>
-				<li>Sählyt - Yleisiä tilastoja sählykerroista</li>
-				<li>Valittu pelaaja - Valitsemasi pelaajan tiedot</li>
-				<li>Kaikki pelaajat - Kaikkien pelaajien tietoja</li>
-				<li>Pareittain - Paritilastoja: kaksi pelaajaa samalla tai vastakkaisella puolella</li>
-				<li>Joukkueet - Joukkuetietoja</li>
-				<li>Tapsa Cup - Tapsa Cup finaalien tiedot</li>
-			</ul>
-
-			<h2>Tilastojen historia</h2>	
-	
+			<h2>Sählytilastoja</h2>		
 			<ul>
 				<li>Vuoden 2012 alusta alkaen on pelaajien lukumäärät sekä Kimmon osallistuminen (paikalla/poissa/ei tietoa).</li>
 				<li>Vuoden 2013 alusta alkaen on Visan osallistuminen (paikalla/poissa/ei tietoa).</li> 
 				<li>Vuoden 2014 alusta alkaen on Kimmon pelien voitot ja tappiot.</li> 
 				<li>Alkaen 9.12.2014 on kaikkien pelattujen pelien tulokset niiltä kerroilta kun tilastoja on tehty.</li>
 			</ul>			
-				
-		</div>
-		<div class="col-md-1"></div>
+		
 
-		</div> <!-- Ohjeet (eli Aloitus) -välilehti päättyy-->  
-
-
-<!-- Päivämäärän rajaus -välilehti -->  
-		<div id="paivamaaraTab" class="tab-pane fade">
-
-			<div class="col-md-1"></div>
-
-			<div class="col-md-10">
+			<h2>Sekalaisia ohjeita</h2>
+			<ul>
+				<li>Kaikkia taulukoita voidaan järjestää halutun sarakkeen mukaan klikkaamalla sarakkeen otsikkoa.</li> 
+				<li>Useita sarakkeita voidaan järjestää pitämällä <kbd>shift</kbd> -nappia pohjassa kun klikkaillaan sarakkeiden otsikkoja.</li>
+				<li>Viivakaaviota voi zoomata vetämällä hiirellä halutun alueen. Kaksoisklikkaamalla aluetta kaavio palautuu takaisin.</li>
+			</ul>
 
 			<h2>Päivämäärän rajaus</h2>
 			<p>Tästä voi rajata tuloksia määrittelemällä päivämäärät, joiden väliltä tilastoja haetaan.</p>
@@ -241,16 +192,13 @@
 			</p>
 
 			<div id="haetaanDialogi"></div>
+
 		</div>
 
-		<div class="col-md-1"></div>
-		</div>
 
-<!-- Sählyt-välilehti	-->
-		<div id="sahlytTab" class="tab-pane fade">
-			<div class="col-md-1"></div>
+		<!-- Sählyt-välilehti	-->
+		<div id="sahlytTab" class="tab-pane fade" >
 
-			<div class="col-md-10" id="sahlytTabKeskiosa">
 			<h2>Sählykerrat</h2>
 			<p>Tällä välisivulla on tietoja sählykerroista ja pelien lukumääristä.</p>
 
@@ -296,11 +244,13 @@
 			Jos tilastojen ylläpitäjä on ollut monta viikkoa peräkkäin poissa peleistä, ei sitä aina jaksa kysyä, että pelasitteko neljä viikkoa sitten.</p>
 
 			<div class="row">
-				<div class="col-md-2"></div>
+				<div class="col-md-2">
+				</div>
 				<div class="col-md-8">
 					<div id="sahlytyypitId"></div>			
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-2">
+				</div>
 			</div>
 
 
@@ -330,21 +280,11 @@
 			<!-- Taulukko jossa on pelien tiedot, mm. tehdyt maalit -->
 			<div id="pelitTaulukkoId"></div>
 			<p><br></p>
-
-			</div>
-
-			<div class="col-md-1"></div>
-
-	  </div> <!-- Sählyt-välilehti päättyy-->
+	  </div>
 
 
-
-<!-- Yksi pelaaja-välilehti -->
+		<!-- Yksi pelaaja-välilehti -->
 		<div id="valittuTab" class="tab-pane fade">
-
-			<div class="col-md-1"></div>
-
-			<div class="col-md-10" id="valittuTabKeskiosa">
 
 			<h2>Valitun pelaajan tiedot</h2>
 			<p>Tällä sivulla voit tarkastella yhden pelaajan tietoja. Valitse pelaaja alla olevasta nimilistasta ja paina <em>Hae pelaajan tiedot</em> -nappia.
@@ -368,22 +308,11 @@
 
 			<h3>Perustiedot</h3>
 
-			<div id="valittuPerustiedotId"></div>
-
-			<h3>Pelien määrät eri joukkueissa</h3>
-	
-			<p id="valitunEkaJoukkueId"></p>
 			<div class="row">
 				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<div title="Kuinka monta kertaa edustanut kutakin joukkuetta" id="valitunJoukkueEdustusId"></div>
-				</div>
+				<div class="col-md-8"><div id="valittuPerustiedotId"></div></div>
 				<div class="col-md-2"></div>
 			</div>
-
-
-
-			<p><br></p>	
 			
 			<h3>Sählykerrat</h3>
 			<p>Alla olevassa taulukossa yksi rivi on yksi sählykerta. Taulukossa on ainoastaan sählykerran kolmen ensimmäisen pelin tulokset, 
@@ -430,8 +359,7 @@
 				</div>
 			</div>
 
-			<p><br></p>					
-
+			<p><br></p>			
 			<h3>Pelien määrä muiden kanssa ja muita vastaan</h3>
 			<p>Alla oleva taulukko kertoo kuinka monta peliä valittu pelaaja on pelannut eri pelaajien kanssa samassa joukkueessa ja vastakkaisessa joukkueessa.</p>
 
@@ -464,18 +392,11 @@
 			<p><br></p>
 			<!-- Taulukko: pareittain, vastapuolella -->			
 			<div title="Otsikko" id="valitunVastustajatTaulukkoId"></div>
-
-			</div>
-			<div class="col-md-1"></div>
 	
   </div>
 
-<!-- Kaikki pelaajat-välilehti	-->
+	<!-- Kaikki pelaajat-välilehti	-->
 	<div id="pelaajatTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10" id="pelaajatTabKeskiosa">
 
 		<h2>Kaikki pelaajat</h2>
 		<p>Alla olevassa taulukossa on kaikkien tilastoitujen pelaajien tietoja. Klikkaamalla pelaajan riviä avautuu ikkuna, 
@@ -496,14 +417,13 @@
 			<input type='checkbox' id='voitotLkm' data-column='3' name='voitotLkm' value='voitot' checked='yes' />Voitot: montako peliä on voittanut<br/>
 			<input type='checkbox' id='tappiotLkm' data-column='4' name='tappiotLkm' value='tappiot' checked='yes' />Tappiot: montako peliä on hävinnyt<br/>
 			<input type='checkbox' id='tasapelitLkm' data-column='5' name='tasapelitLkm' value='tasapelit' />Tasapelit: kuinka moni peli on päättynyt tasan<br/>
-			<input type='checkbox' id='joukkue' data-column='7' name='joukkue' value='toverit'  checked='yes' />Joukkue: Joukkue, jossa on pelannnut eniten<br/>
-			<input type='checkbox' id='pelikaverit' data-column='6' name='pelikaverit' value='toverit'  checked='no' />Pelikaverit: monenko ihmisen kanssa on pelannut<br/>
-			<input type='checkbox' id='vastustajat' data-column='8' name='vastustajat' value='viholliset'  checked='no' />Vastustajat: montako pelaajaa vastaan on pelannut<br/>
-			<input type='checkbox' id='voittoputkiPuhdas' data-column='9' name='voittoputkiPuhdas' value='voittoPuhdas' />Voittoputki (puhdas): pisin puhdas voittoputki eli osallistunut kaikkiin peleihin putken aikana<br/>
-			<input type='checkbox' id='voittoputki' data-column='10' name='voittoputki' value='voitto' checked='yes' />Voittoputki: pisin voittoputki niistä peleistä, joihin on osallistunut<br/>
-			<input type='checkbox' id='tappioputkiPuhdas' data-column='11' name='tappioputkiPuhdas' value='tappioPuhdas' />Tappioputki (puhdas): pisin puhdas tappioputki eli osallistunut kaikkiin peleihin putken aikana<br/>
-			<input type='checkbox' id='tappioputki' data-column='12' name='tappioputki' value='tappio' checked='yes' />Tappioputki: pisin tappioputki niistä peleistä, joihin on osallistunut<br/>
-			<input type='checkbox' id='voittopros' data-column='13' name='voittopros' value='tappio' checked='yes' />Voittoprosentti: kuinka monta prosenttia peleistä on voittanut<br/>
+			<input type='checkbox' id='pelikaverit' data-column='6' name='pelikaverit' value='toverit'  checked='yes' />Pelikaverit: monenko ihmisen kanssa on pelannut<br/>
+			<input type='checkbox' id='vastustajat' data-column='7' name='vastustajat' value='viholliset'  checked='yes' />Vastustajat: montako pelaajaa vastaan on pelannut<br/>
+			<input type='checkbox' id='voittoputkiPuhdas' data-column='8' name='voittoputkiPuhdas' value='voittoPuhdas' />Voittoputki (puhdas): pisin puhdas voittoputki eli osallistunut kaikkiin peleihin putken aikana<br/>
+			<input type='checkbox' id='voittoputki' data-column='9' name='voittoputki' value='voitto' checked='yes' />Voittoputki: pisin voittoputki niistä peleistä, joihin on osallistunut<br/>
+			<input type='checkbox' id='tappioputkiPuhdas' data-column='10' name='tappioputkiPuhdas' value='tappioPuhdas' />Tappioputki (puhdas): pisin puhdas tappioputki eli osallistunut kaikkiin peleihin putken aikana<br/>
+			<input type='checkbox' id='tappioputki' data-column='11' name='tappioputki' value='tappio' checked='yes' />Tappioputki: pisin tappioputki niistä peleistä, joihin on osallistunut<br/>
+			<input type='checkbox' id='voittopros' data-column='12' name='voittopros' value='tappio' checked='yes' />Voittoprosentti: kuinka monta prosenttia peleistä on voittanut<br/>
 		</p>
 
 		<p>Näytä vain pelaajat, jotka ovat pelanneet vähintään tämän verran pelejä: <input type="text" id="naytaPelaajiaInputId" value="" maxlength="5" size="3">
@@ -552,18 +472,11 @@
 		<!-- Taulukko, jossa on pelien ratkaisumaalien tekijät -->
 		<div id="ratkaisijatId"></div>
 	
-		</div>
-		<div class="col-md-1"></div>
   </div>
 
 	
-<!-- Pelaajat pareittain-välilehti-->
+	<!-- Pelaajat pareittain-välilehti-->
 	<div id="paritTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10" id="paritTabKeskiosa">
-
 		<h2>Parit: Kaksi pelaajaa samassa joukkueessa</h2>
 		<p>Taulukko kertoo kuinka kaksi pelaajaa ovat pärjänneet, kun he ovat pelanneet samassa joukkueessa.</p>
 
@@ -594,18 +507,10 @@
 		<div id="paritilastoVastustajatKaikkiTaulukkoId" title="Klikkaa sarakkeen otsikkoa, jos haluat järjestellä sen mukaan."></div>
 
 		<p><br/></p>
-
-		</div>
-		<div class="col-md-1"></div>
-
 	</div>
 
-<!-- Joukkueet-välilehti -->
+	<!-- Joukkueet-välilehti -->
 	<div id="joukkueetTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10" id="joukkueetTabKeskiosa">
 
 		<h3>Joukkueiden menestys eri kokoonpanoilla</h3>
 
@@ -623,17 +528,11 @@
 		Tällöin nimien välissä ei saa olla välilyöntiä, vaan ainoastaan pystyviiva. Esimerkiksi: <i>Kimmo|Kjäll</i></p>
 
 		<div id="joukkueetId"></div>
-		</div>
-		<div class="col-md-1"></div>
 	</div>
 
 
-<!-- Tapsa-cup-välilehti -->
+	<!-- Tapsa-cup-välilehti -->
 	<div id="tapsaCupTab" class="tab-pane fade">
-
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10">
 
 		<h3>Tapsa-cup finaalit</h3>
 
@@ -661,19 +560,13 @@
 		<h4>Tapsa-cup finalistit</h4>
 		<div title="Finaaleissa pelanneet pelaajat" id="finaalitPelaajatId"></div>
 		
-		</div>
-		<div class="col-md-1"></div>
+		<p><br/></p>
 	</div>
 
 </div>
 </div>
-
-
-<div class="col-md-1">
-
-	
 </div>
-
+<div class="col-md-1"></div>
 </div>
 
 	<div id="hakuKaynnissaDialogi"></div>

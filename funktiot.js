@@ -2,12 +2,12 @@
 	Sekalaisia funktioita
 */
 
+function vaihdaTab(tabinNimi){
+		//alert("vaihdaTab " + tabinNimi);
+  	$('[href="' + tabinNimi + '"] ').tab('show');
+	}
 
-
-/**********************/
-
-
-function juttu1(){
+function naytaLoopit(){
 
 	var intervalli = 2000;
 	var intervalli2 = 3000;
@@ -31,27 +31,30 @@ function siirra(id){
     return false;
 }
 
-
 function finaalimainos1(){
-
 	$("#teaserteksti2").delay(1000).slideDown(1000);
 	$("#teaserteksti3").delay(2500).slideDown(1000);
 	$("#teaserteksti4").delay(4000).slideDown(1000);
 	$("#teaseralue").delay(6000).slideUp();
 
+/*	$("#teaseralue2").delay(5900).slideDown();
+
+	$("#teaserteksti21").delay(6000).slideDown(1000);
+	$("#teaserteksti22").delay(7500).slideDown(1000);
+	$("#teaserteksti23").delay(9000).slideDown(1000);
+	$("#teaserteksti24").delay(10500).slideDown(1000);
+	$("#teaserteksti25").delay(11000).slideDown(1000);
+
+	$("#teaseralue2").delay(6000).slideUp();
+*/
 	$("#kaboom").delay(6500).slideDown(10);
 	$("#kaboom").delay(1000).slideUp();
-
 	$("#finaaliteksti").delay(8000).slideDown(1000);
 }
-
-
-
 
 // Lisää pelaajan perustietoja välilehdelle
 function lisaaValitunPerustiedotTabille(nimi){
 
-	//var perustiedot = '<p><b>Tiedot aikavälillä:</b> ' + pvm1 + ' - ' + pvm2 + '<br>';
 	var perustiedot = '<p><b>Kutsumanimi:</b> ' + pelaajaOliot[nimi].getKutsumanimi() + '<br>';
 	perustiedot += '<b>Tilastonimi:</b> ' + pelaajaOliot[nimi].getTilastonimi() + '<br>';
 	perustiedot += '<b>Kuvaus:</b> ' + pelaajaOliot[nimi].getKuvaus() + '<br>';
@@ -62,7 +65,6 @@ function lisaaValitunPerustiedotTabille(nimi){
 	perustiedot += '<b>Tarkat tiedot peleistä:</b> ' + pelaajaOliot[nimi].getPeleihinOsallistunut() + '</p>'; 
 
 	$("#valittuPerustiedotId").html(perustiedot);
-
 }
 
 
@@ -106,13 +108,9 @@ function pelaajaDialogille(valittuNimi, pvm1, pvm2){
 	var paritVastustajana = palautaParitilastoVastustajaAnnetulle(sahlyOliot, valittuNimi);
 	// Lisää taulukon
 	pelaajanTiedot += lisaaParitilasto(paritVastustajana, "pelaajaDialogiVastakkainTable", valittuNimi, "Pelaaja vastustajana");
-	
-	// Taulukko, jossa sählykerrat ja pelien tietdot. Toimiiko?
-	//pelaajanTiedot += '<p>' + pelaajaOliot[valittuNimi].getOsallistumisetTaulukkona() + '</p>';
-	
+		
 	// Dialogi valitusta pelaajasta
 	$( "#dialogiPelaajasta" ).dialog({
-			//dialogClass: 'noTitleStuff' ,
 			modal: true,
 			title: "Yhden pelaajan tiedot (sulje ikkuna klikkaamalla laatikkoa ->)",
 			width: "50%",
@@ -131,8 +129,6 @@ function pelaajaDialogille(valittuNimi, pvm1, pvm2){
 		// Lisää tiedot
  		$("#dialogiPelaajasta").append(pelaajanTiedot)
 	); 
-
-//	$(".ui-dialog-titlebar").hide();
 
 	// Taulukko, jossa on pelikaverit ja vastustajat ja niiden määrät
 	$("#toveritJaKaveritTaulukko").tablesorter({ 
@@ -167,13 +163,6 @@ function pelaajaTabille(valittuNimi, pvm1, pvm2){
 	// Pelaajan kanssa samassa joukkueissa olleet pelaajat ja yhteisten pelien määrä
 	var toverit = pelaajaOliot[valittuNimi].getJoukkuetoverit();
 
-//	var pelaajanTiedot = '<H2>' + valittuNimi + '</H2>';
-
-	 
-	
-	// Taulukko, jossa eri pelaajien kannsa ja vastaan pelattujen pelien määrä (pelaaja.js)
-//	pelaajanTiedot += '<p>' + pelaajaOliot[valittuNimi].getJoukkuetoveritTaulukko("dialogiToveritJaKaveritTaulukko") + '</p>';
-
 	// Palauttaa taulukon, jossa on kaikkien pelaajien menestyminen muiden kanssa pelattaessa
 	var paritilasto = palautaParitilasto(sahlyOliot, valittuNimi);
 	var pelaajanTiedot = "<p><br></p><h3>Pelaajan " + valittuNimi + " menestyminen muiden kanssa</h3>";
@@ -193,34 +182,8 @@ function pelaajaTabille(valittuNimi, pvm1, pvm2){
 	// Lisää taulukon
 	pelaajanTiedot += lisaaParitilasto(paritVastustajana, "pelaajaDialogiVastakkainTable", valittuNimi, "Pelaaja vastustajana");
 	
-	// Taulukko, jossa sählykerrat ja pelien tietdot. Toimiiko?
-	//pelaajanTiedot += '<p>' + pelaajaOliot[valittuNimi].getOsallistumisetTaulukkona() + '</p>';
-	
-	// Dialogi valitusta pelaajasta
-/*	$( "#dialogiPelaajasta" ).dialog({
-			modal: true,
-			title: "Yhden pelaajan tiedot (sulje ikkuna klikkaamalla laatikkoa ->)",
-			width: "50%",
-			maxWidth: "700px",
-			height: "600",
-
-			position: { // Määrittelee mihin kohtaan ikkuna sijoitetaan
-				at: 'top',
-				of: $('#pelaajatId') // Pelaajien taulukon päälle
-			},
-
-			beforeClose: function (event, ui) { // Poistetaan pelaajan tiedot ikkunasta, kun se suljetaan
-				$("div#dialogiPelaajasta").empty();
-			},
- 		},
-
-		// Lisää tiedot
- 		$("#valitunPelaajanTiedotId").append(pelaajanTiedot)
-	); 
-*/
-
 	// Lisää tiedot
-		$("#valitunPelaajanTiedotId").append(pelaajanTiedot);
+	$("#valitunPelaajanTiedotId").append(pelaajanTiedot);
 
 	// Taulukko, jossa on pelikaverit ja vastustajat ja niiden määrät
 	$("#toveritJaKaveritTaulukko").tablesorter({ 
@@ -249,6 +212,75 @@ function pelaajaTabille(valittuNimi, pvm1, pvm2){
 } //END pelaajaTabille()
 
 
+// Uudempi versio:
+// Lisää yhden sählykerran tiedot dialogille (pelit, joukkueet, maalit, pelaajien nimet, jne.)
+function sahlyDialogille2(pvm){
+
+	// Dialogille laitettavat tiedot
+	var teksti = "";
+
+	var sahly = sahlyOliot[pvm];
+	var pelit = sahly.getPelit();
+
+	// Jokainen alkio on HTML-taulukko yhden pelin pelaajista
+	var pelitaulukot = [];
+
+	// Käydään pelit läpi ja otetaan niiden tiedot
+	for(var p=0; p < pelit.length; p++){
+		// Palauttaa otsikkotekstin ja HTML-taulukon yhden pelin tiedoista (joukkueiden nimet, maalit, voittajan ja joukueiden pelaajat)
+		// (taulukonID, peliolio, pelin numero)
+		var pelitaulukko = luoJoukkueTaulukko2('pelaajatPeli' + (p+1), pelit[p], p+1);
+		pelitaulukot.push(pelitaulukko);
+
+		teksti += '<h3 class="peliotsikko">Peli ' + (p+1) + '</h3>';
+	
+		teksti += '<p>Tulos: ' + pelit[p].getJoukkue1() + ' (' + pelit[p].getMaalit1() + '-' + pelit[p].getMaalit2() + ') ' + pelit[p].getJoukkue2() +'</p>';
+		teksti += '<p>Ratkaisija: ' + pelit[p].getRatkaisija() + '</p>'
+		teksti += "<p></p>" + pelitaulukko;		
+	}
+
+	// Sählykerran muuta-attribuutin sisältö
+	var muutaSahly = "";
+
+	// Jos on tarkat tiedot sählystä
+	if(sahlyOliot[pvm].getTietojenTyyppi() === "tarkat"){
+		if(sahlyOliot[pvm].getMuuta() != ""){
+			muutaSahly = "<p>" + sahlyOliot[pvm].getMuuta() + "</p>";
+		}
+	}	else{	// Jos on perustiedot sählystä
+		if(sahlyOliot[pvm].getPerustiedot().getMuuta() != ""){
+			muutaSahly = "<p>" + sahlyOliot[pvm].getPerustiedot().getMuuta() + "</p>";
+		}
+	}
+
+	// Luodaan dialogi-ikkuna
+  $( "#dialogiSahlysta" ).dialog({
+      modal: true,
+      title: "Pelitulokset ja joukkueet (sulje ikkuna ->)",
+			width: "35%",
+			maxWidth: "600px",
+			height: "700",
+
+			position: { 
+				my: 'top',
+				at: 'center',
+			},
+
+			beforeClose: function (event, ui) {
+				$("div#dialogiSahlysta").empty();
+			},
+ 		},
+
+		$("#dialogiSahlysta").append("<h2>Tiistain " + pvm + " tiedot</h2>"),
+		$("#dialogiSahlysta").append(muutaSahly),
+		$("#dialogiSahlysta").append(teksti)
+			
+	);
+}
+
+
+
+// Alkuperäinen ja toimiva: 
 // Lisää yhden sählykerran tiedot dialogille (pelit, joukkueet, maalit, pelaajien nimet, jne.)
 function sahlyDialogille(pvm){
 
@@ -256,7 +288,6 @@ function sahlyDialogille(pvm){
 	var dialogitiedot = "";
 
 	var sahly = sahlyOliot[pvm];
-
 	var pelit = sahly.getPelit();
 
 	// Luodaan jokaiselle pelille pelitaulukko ja lisätään se
@@ -291,7 +322,6 @@ function sahlyDialogille(pvm){
 			position: { 
 				my: 'top',
 				at: 'center',
-				//of: $('#sahlytYleinenId')
 			},
 
 			beforeClose: function (event, ui) {
@@ -303,7 +333,6 @@ function sahlyDialogille(pvm){
 		$("#dialogiSahlysta").append(dialogitiedot),
 		$("#dialogiSahlysta").append(sanottua)	
 	);
-
 }
 
 
@@ -446,8 +475,8 @@ function palautaParitilastoVastustajaAnnetulle(sahlyOliot, haluttuPelaaja){
 
 	// Palautetaan ne, joissa on parin eka pelaaja haluttu pelaaja
 	return palTau;
-
 }
+
 
 // 2017:
 // Palauttaa taulukon, jossa on Tapsa-cup finaalien tiedot
@@ -498,7 +527,7 @@ function getFinaalipelitData(){
 // Palauttaa taulukon, jossa on Tapsa-cup finaalien pelaajien tiedot
 function getFinaalipelitPelaajatData(){
 
-// Sanakirja sanakirjassa (2D-taulu), jossa finaalitiedot-sanakirjassa avain on pelaajan nimi 
+	// Sanakirja sanakirjassa (2D-taulu), jossa finaalitiedot-sanakirjassa avain on pelaajan nimi 
 	// ja arvo sanakirja, jossa avain on kauden lyhyt nimi ja arvo tulos: "voitto"|"tappio"
 	// esim:  finaalitiedot["Kimmo" : {"Kesä 14": "voitto", "Talvi 14-15": "tappio"}, "Antti" : {"Kesä 14": "tappio", "Talvi 14-15": ""}]
 	var finaalitiedot = {};
@@ -630,17 +659,12 @@ function getFinaalipelitPelaajatData(){
 
 	}); // END each(pelikaudet)
 	
-
-
-
-
-
 	// Sanakirja sanakirjassa (2D-taulu), jossa finaalitiedot-sanakirjassa avain on pelaajan nimi 
 	// ja arvo sanakirja, jossa avain on kauden lyhyt nimi ja arvo tulos: "voitto"|"tappio"
 	// esim:  finaalitiedot["Kimmo" : {"Kesä 14": "voitto", "Talvi 14-15": "tappio"}, "Antti" : {"Kesä 14": "tappio", "Talvi 14-15": ""}]
 	var finaalitiedot = {};
 
-// Luodaan taulukko pelaajien finaalitiedoista
+	// Luodaan taulukko pelaajien finaalitiedoista
 	var finaalitPelaajatTable = '<table id="finaalitPelaajatTable" class="tablesorter" width="98%">';
 	finaalitPelaajatTable += '<thead><tr>';
 	// Lisätään sarake pelaajan nimelle
@@ -707,4 +731,5 @@ function getFinaalipelitPelaajatData(){
 		});
 	}
 }
+
 

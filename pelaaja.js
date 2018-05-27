@@ -40,6 +40,23 @@ function Pelaaja(nimi) {
 	this.cupOsallistumiset = 0;
 	this.cupVoitot = 0;	
 
+	// 2018
+	this.ekaJoukkue = "";
+	this.getEkaJoukkue = GetEkaJoukkue;
+	this.setEkaJoukkue = SetEkaJoukkue;
+
+	// Montako kertaa ollut missäkin joukkuessa
+	// avain=joukkue (eli paidat/liivit), arvo=lukumäärä
+	this.joukkueEdustukset = {};
+	this.lisaaJoukkueEdustus = LisaaJoukkueEdustus;
+	this.getJoukkueEdustus = GetJoukkueEdustus;
+	this.getJoukkueEdustukset = GetJoukkueEdustukset;
+
+	this.getJoukkue = GetJoukkue;
+
+
+
+
 	this.getPelaajanNimi = GetPelaajanNimi;
 
 	// Lisätään voitto, tappio ja ratkaisematon
@@ -108,6 +125,76 @@ function Pelaaja(nimi) {
 	this.setCupVoitot = SetCupVoitot;
 	this.getCupVoitot = GetCupVoitot;
 	this.getCupMenestysString = GetCupMenestysString;
+}
+
+// Uusia funktioita vuodelta 2018
+// ------------------------------
+
+// Palauttaa joukkueen nimen, jota pelaaja edusti ekassa pelissään
+function GetEkaJoukkue(){
+
+	return this.ekaJoukkue;
+}
+
+// Lisää joukkueen nimen, jota pelaaja edusti ekassa pelissään
+function SetEkaJoukkue(joukkue){
+
+	// Jos ekaa joukkuetta ei ole vielä asetettu, tehdään se nyt
+	if(!this.ekaJoukkue){
+		this.ekaJoukkue = joukkue;
+
+	}
+}
+
+// Palauttaa kaikki joukkue-edustukset sanakirjana
+function GetJoukkueEdustukset(){
+
+	return this.joukkueEdustukset;
+}
+
+function GetJoukkueEdustus(joukkue){
+
+	if( !(joukkue in this.joukkueEdustukset) ){
+		return 0;
+	}
+	else {
+		return this.joukkueEdustukset[joukkue];
+	}
+}
+
+function LisaaJoukkueEdustus(joukkue){
+
+	// Jos joukkueella ei ole nimeä, poistutaan
+	if(!joukkue){
+		return;
+	}
+
+	// Jos on eka edustus
+	if( !(joukkue in this.joukkueEdustukset) ){
+		this.joukkueEdustukset[joukkue] = 1;
+	}
+	else {
+		this.joukkueEdustukset[joukkue] = this.joukkueEdustukset[joukkue] +1;
+	}
+}
+
+// Palauttaa sen joukkueen nimen, jossa on pelannut eniten
+function GetJoukkue(){
+
+	// Missä joukkueessa pelannut eniten ja montako peliä
+	var maxPelit = 0; 
+	var maxNimi = "---";
+
+	// Käydään läpi joukkueet, joissa on pelannut
+	for(var joukkue in this.joukkueEdustukset){
+		
+		if(this.joukkueEdustukset[joukkue] > maxPelit){
+			maxPelit = this.joukkueEdustukset[joukkue];
+			maxNimi = joukkue;
+		}
+	}
+
+	return maxNimi;
 }
 
 // Uusia funktioita vuodelta 2016

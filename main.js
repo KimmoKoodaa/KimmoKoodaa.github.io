@@ -19,10 +19,18 @@ var paritSamassa;
 // Tiedosto, jossa sählyjen tiedot eli tilastot
 var tilastojenTiedostonNimi = "sahlytilastot.xml";
 
+var uutinenOliot = {};
+
 var pelikaudetOliot = {};
 
-// Pelaajien oliot
+// Pelaajien oliot: kaikista sählykerroista
 var pelaajaOliot = {};
+
+// Pelaajien oliot: vai edellisen sählykerran tiedoista
+var pelaajaOliotEdellinen = {};
+
+
+
 // Pelaajien tilastonimet
 var pelaajaNimet = [];
 
@@ -49,280 +57,64 @@ var sahlykerratLkmTarkatTiedotEiPelattu = 0;
 
 // Pääfunktio
 $(document).ready(function(){ 
-	
+
 	// Varoittaa jos käyttää IE:tä
 	if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )){
 		alert("Varoitus! Käytätkö Internet Explorer -selainta? Tämä sivusto ei toimi IE:llä vaan sivun antamat virheilmoitukset saattavat jumittaa selaimesi. Käytä sen sijaan Chrome- tai Firefox-selainta."); 
 	}  
+		
+
+	// Näyttää lööpit
+	//naytaLoopit();
 	
-	//juttu1();
-	
-	// Nollataan hakupäivät
-	$('#pieninPaivaInput').val("");
-	$('#suurinPaivaInput').val("");
+	//finaalimainos1();
+
+	haeUutiset();
+
+	// Tyhjentää kaikki tekstikentät
+	tyhjennaTekstikentat();
+
+	// Vaihtaa kaavioiden kuukaudet suomenkielelle
+	asetaSuomalaisetAjat();
 
 	// Lisää pelikausien tiedot HTML-valintalistaan
 	lisaaPelikaudetValintalistaan();
 
 	// Hakee pelaajien tiedot xml-tiedostosta
 	haePelaajat();
-
-	//finaalimainos1();
-
-	// Vaihtaa kaavioiden kuukaudet suomenkielelle
-	asetaSuomalaisetAjat();
-
+	
 	// Hakee sählytiedot xml-tiedostosta
 	haeTiedot();
-
-	// Tyhjennetään pelien määrä -kenttä
-	$('#naytaPelaajiaInputId').val("");
-
-	// Tiedot on luettu xml-tiedostosta, 
-	// muutetaan taulukkojen ja kaavioiden tarvitsemaan muotoon, kun välilehtiä avataan
-
-
-
-
-
-// Nämä oli aiemmin - ja edelleen - haeTiedot()-funktion lopussa:
-		// Lisätään tiedot kaavioihin ja taulukoihin
-//		luoKaaviotTaulukot();
-		// Lisätään tiedot Tapsa-cup finaaleista
-//		lisaaFinaalitaulukot();
+	
+	// Sekalaisia alustuksia, kun sivu avataan
+	sekalaistaAlustusta();
 
 });	//END ready()
  
 
+function sekalaistaAlustusta(){
 
+	// Muutetaan kursosi, kun hiiri menee uutisarkisto-taulukon päälle
+	$("#uutisotsikotDiv").hover(function() {
+		$(this).css('cursor','pointer');
+	}, function() {
+		$(this).css('cursor','auto');
+	});
 
-function lisaaFinaalitaulukot(){
-
-	// Luodaan taulukko pelaajien finaalitiedoista
-	var finaalitPelaajatTable = '<table id="finaalitPelaajatTable" class="tablesorter" width="98%">';
-	finaalitPelaajatTable += '<thead><tr>';
-	// Lisätään sarake pelaajan nimelle
-	finaalitPelaajatTable += '<th align="center">Nimi</th>';		
-
-	// Luodaan taulukko finaalipeleistä
-	var finaalitTable = '<table id="finaalitTable" class="tablesorter" width="98%">';
-	finaalitTable += '<thead><tr>';
-	// Lisätään otsikot
-	finaalitTable += '<th align="center">Kausi</th><th align="center">Päivämäärä</th>';
-	finaalitTable +='<th align="center">Joukkue 1</th><th align="center">Maalit</th><th align="center">Joukkue2</th><th align="center">Voittaja</th>';		
-	finaalitTable += '</tr></thead>';
-	finaalitTable += '<tbody>';
-
-	// Sanakirja sanakirjassa (2D-taulu), jossa finaalitiedot-sanakirjassa avain on pelaajan nimi 
-	// ja arvo sanakirja, jossa avain on kauden lyhyt nimi ja arvo tulos: "voitto"|"tappio"
-	// esim:  finaalitiedot["Kimmo" : {"Kesä 14": "voitto", "Talvi 14-15": "tappio"}, "Antti" : {"Kesä 14": "tappio", "Talvi 14-15": ""}]
-	var finaalitiedot = {};
-
-	// Pelikausien lyhyet nimet
-	var kausienLyhyetNimet = [];
-
-	// Käydään läpi pelikaudet
-	$.each(pelikaudetOliot, function(avain, arvo){
-
-		// Jos finaalipäivän pelistä ei ole mitään tietoja, ei merkitä mitään
-		if( !( pelikaudetOliot[avain].getLopetusPvm() in sahlyOliot)){
-			return true;
-			
-		// Jos finaalipäivänä ei pelattu, merkitään "ei pelattu"
-		} else if(sahlyOliot[ pelikaudetOliot[avain].getLopetusPvm() ].getPelattiinko() == false){
-
-			// Merkitään, että ei pelattu
-			finaalitTable += '<tr><td align="center">' +pelikaudetOliot[avain].getNimi()+ '</td><td align="center">' +pelikaudetOliot[avain].getLopetusPvm();
-			finaalitTable += '</td><td align="center">(ei pelattu)</td><td></td><td></td><td></td></tr>';
-			
-			return true;
-
-		// Jos finaalipäivän pelistä ei ole tarkkoja tietoja, merkitään "ei tietoja"
-		} else if(sahlyOliot[ pelikaudetOliot[avain].getLopetusPvm() ].getTietojenTyyppi() != 'tarkat'){
-
-			// laitetaan tyhjät tiedot taulukoihin
-			finaalitTable += '<tr><td align="center">' +pelikaudetOliot[avain].getNimi()+ '</td><td align="center">' +pelikaudetOliot[avain].getLopetusPvm();
-			finaalitTable += '</td><td align="center">(ei tietoja)</td><td></td><td></td><td></td></tr>';
-			
-			return true;
-		}
-
-		// Otetaan finaalipäivän viimeinen peli
-		var finaali = sahlyOliot[ pelikaudetOliot[avain].getLopetusPvm() ].getPelit()[ sahlyOliot[pelikaudetOliot[avain].getLopetusPvm()].getPelit().length-1 ];
-
-		// Selvitetään voittajajoukkueen pelaajat
-		var voittajat = "";
-		var haviajat = "";
-
-		// Jos oli tasapeli
-		if(finaali.onkoTasapeli()){
-
-			// Molemmat joukkueet ovat voittajia
-			voittajat = finaali.getPelaajatJoukkue1Array();
-			voittajat = voittajat.concat(finaali.getPelaajatJoukkue2Array());
-			haviajat = [];
-		
-		} else if( finaali.getJoukkueenNumero(finaali.getVoittaja()) == 1){ // Jos j1 voitti
-			voittajat = finaali.getPelaajatJoukkue1Array();
-			haviajat = finaali.getPelaajatJoukkue2Array();
-		} else{ // muuten voitti j2
-			haviajat = finaali.getPelaajatJoukkue1Array();
-			voittajat = finaali.getPelaajatJoukkue2Array();
-		}
-
-		// Lisätään sarake nyt löydetylle finaalille		
-		finaalitPelaajatTable += '<th align="center">' + pelikaudetOliot[avain].getNimiLyhyt() + '</th>';		
-
-		// Lisätään pelikausi, jos sen finaali on annettujen päivämäärien välillä
-		// Päivämäärää ei ole määritelty, joten kaikki kelpaa
-		if(document.getElementById("pieninPaivaInput").value == "" && document.getElementById("pieninPaivaInput").value == ""){
-			kausienLyhyetNimet.push(pelikaudetOliot[avain].getNimiLyhyt());
-
-		} else if(document.getElementById("pieninPaivaInput").value === "" || pelikaudetOliot[avain].getLopetusPvm() >= document.getElementById("pieninPaivaInput").value){
-
-			if(document.getElementById("suurinPaivaInput").value === "" || pelikaudetOliot[avain].getLopetusPvm() <= document.getElementById("suurinPaivaInput").value){
-				kausienLyhyetNimet.push(pelikaudetOliot[avain].getNimiLyhyt());
-			}			
-		}
-
-		// Lisätään finaalitaulukkoon rivi tälle finaalille
-		finaalitTable += '<tr>';
-		// Kauden nimi
-		finaalitTable += '<td align="center">' + avain + '</td>';		
-		// Päiväys
-		finaalitTable += '<td align="center">' + pelikaudetOliot[avain].getLopetusPvm() + '</td>';		
-		// Joukkue 1
-		finaalitTable += '<td align="center">' + finaali.getJoukkue1() + '</td>';		
-		// Joukkueiden maalit
-		finaalitTable += '<td align="center">' + finaali.getMaalit1() + " - " + finaali.getMaalit2() + '</td>';	
-		// Joukkue 2
-		finaalitTable += '<td align="center">' + finaali.getJoukkue2() + '</td>';		
-		// Voittaja
-		// Jos oli tasapeli, molemmat ovat voittajia
-		if(finaali.onkoTasapeli()){
-			finaalitTable += '<td align="center">' + finaali.getJoukkue1() + ", " + finaali.getJoukkue2() + '</td>';		
-		} else { // muuten toinen joukkue on voittaja
-			finaalitTable += '<td align="center">' + finaali.getVoittaja() + '</td>';		
-		}
-
-		finaalitTable += '</tr>';
-
-		// Otetaan tämän finaalin tiedot muistiin
-		// Voittajat
-		for(var i=0; i<voittajat.length; i++){
-
-			// Jos tätä voittajajoukkueen pelaajaa ei ole vielä finaalitiedoissa, lisätään se nyt
-			if( !(voittajat[i] in finaalitiedot) ){
-				// Alustetaan uudelle pelaajalle tyhjä sanakirja
-				finaalitiedot[voittajat[i]] = {};
-				// Lisätään tämän finaalin lopputulos
-				finaalitiedot[voittajat[i]][pelikaudetOliot[avain].getNimiLyhyt()] = "voitto";
-
-			} else {	// Pelaaja on jo tiedossa, joten lisätään vain tieto			
-				finaalitiedot[voittajat[i]][pelikaudetOliot[avain].getNimiLyhyt()] = "voitto";
-			}
-		}
-
-		// Häviäjät, jos on
-		if(haviajat.length > 0){
-
-			for(var i=0; i<haviajat.length; i++){
-			
-				// Jos tätä tappiojoukkueen pelaajaa ei ole vielä finaalitiedoissa, lisätään se nyt
-				if( !(haviajat[i] in finaalitiedot) ){
-					// Alustetaan uudelle pelaajalle tyhjä sanakirja
-					finaalitiedot[haviajat[i]] = {};
-					// Lisätään tämän finaalin lopputulos
-					finaalitiedot[haviajat[i]][pelikaudetOliot[avain].getNimiLyhyt()] = "tappio";
-
-				} else {	// Pelaaja on jo tiedossa, joten lisätään vain tieto			
-					finaalitiedot[haviajat[i]][pelikaudetOliot[avain].getNimiLyhyt()] = "tappio";
-				}
-
-			}	//END for()
-
-		} //END if(haviajat.length > 0)
-
-	}); // END each(pelikaudet)
-
-	// Lisätään sarakkeiden otsikoita
-	finaalitPelaajatTable += '<th align="center">Voitot</th><th align="center">Tappiot</th><th align="center">Yhteensä</th></tr></thead><tbody>';
-
-	// Käydään finaalien pelaajat läpi
-	for(var finalisti in finaalitiedot){
-
-		// Lisätään pelaajan nimi
-		finaalitPelaajatTable += '<tr><td>' + finalisti + '</td>';
-		var voitot = 0;
-		var tappiot = 0;
-
-		// Käydään pelikaudet läpi
-		for(var i=0; i<kausienLyhyetNimet.length; i++){
-
-			// Jos pelaaja osallistui tämän kauden finaaliin
-			if(kausienLyhyetNimet[i] in finaalitiedot[finalisti]){
-				// Lisätään pelaajan tulos(voitto, tappio) HTML-taulukkoon
-				finaalitPelaajatTable += '<td align="center">' + finaalitiedot[finalisti][kausienLyhyetNimet[i]] + '</td>';
-
-				// Lasketaan pelaajan voittojen ja tappioiden määrään yksi lisää
-				if(finaalitiedot[finalisti][kausienLyhyetNimet[i]] == "voitto"){
-					voitot++;	
-				} else {
-					tappiot++;
-				}
-
-			} else {	// Tämä pelaaja ei osallistunut tähän finaaliin, joten lisätään tyhjä HTML-taulukkoon
-				finaalitPelaajatTable += '<td></td>';
-			}
-
-		} // END for(pelikausi)
-
-		// Lisätään pelaajan voittojen tappioiden ja pelattujen finaalien määrä
-		finaalitPelaajatTable += '<td align="center">' + voitot + '</td><td align="center">' + tappiot + '</td><td align="center">' + (voitot+tappiot) + '</td></tr>';
-
-
-		// Jos finalistia ei ole pelaajissa
-		if( !(finalisti in pelaajaOliot) ){
-			alert("main.js: Virhe! Pelaajatiedoissa ei ole finalistia: " + finalisti);
-		}
-
-//	alert("Lisätään cup-tiedot");
-		// Lisätään pelaajan cup-menestys hänen oliooonsa
-		pelaajaOliot[finalisti].setCupOsallistumiset(voitot+tappiot);
-		pelaajaOliot[finalisti].setCupVoitot(voitot);
-
-	} // END for(finaaleissa pelatut pelaajat)
-	
-	finaalitPelaajatTable += '</tbody></table>';
-	finaalitTable += '</tbody></table>';
-
-	// Lisätään HTML-taulukko HTML-sivulle
-	$("#finaalitPelaajatId").empty();
-	$("#finaalitPelaajatId").append(finaalitPelaajatTable);
-
-	// Jos finalisteja löytyi
-	if(Object.keys(finaalitiedot).length > 0){
-		// Lisätään sortteri
-		$("#finaalitPelaajatTable").tablesorter({ 
-				sortList: [[0,0]],
-				widgets: ['zebra']
-		});
-	}
-
-	// Lisätään HTML-taulukko HTML-sivulle
-	$("#finaalitId").empty();
-	$("#finaalitId").append(finaalitTable);
-
-	// Jos finaaleista löytyi tietoja
-	if(kausienLyhyetNimet.length > 0){
-		// Lisätään sortteri
-		$("#finaalitTable").tablesorter({ 
-			sortList: [[1,0]],
-			widgets: ['zebra']
-		});
-	}
+	// Lisätään "Haetaan kaikki tilastot" teksti
+	$("#naytettavatTilastotId").empty().append("kaikki tilastot");
 }
 
+// Tyhjentää kaikki tekstikentät
+function tyhjennaTekstikentat(){
+
+	// Nollaa hakupäivät
+	$('#pieninPaivaInput').val("");
+	$('#suurinPaivaInput').val("");
+
+	// Tyhjennetään pelien määrä -kenttä
+	$('#naytaPelaajiaInputId').val("");
+}
 
 // Lisää pelikausien tiedot HTML:n select-valintalistaan
 function lisaaPelikaudetValintalistaan(){
@@ -354,6 +146,47 @@ function lisaaPelikaudetValintalistaan(){
 	});
 }
 
+// 2018: Haetaan xml-tiedostosta uutiset
+function haeUutiset(){
+
+	$('#uutisotsikotDiv').append('<table id="uutisotsikotTaulukko">');
+
+	$.get("uutiset.xml", {}, function(xml){
+
+		// Käy läpi uutiset
+		$('uutiset', xml).each(function() {
+						
+			$(this).children('uutinen').each(function() {
+					
+					// Luetaan uutisen tiedot
+					var otsikko = $(this).attr('otsikko');
+					var pvm = $(this).attr('pvm');
+					var sisalto = $(this).find("sisalto").text();
+
+					// Asetetaan uutisen id:ksi otsikko+pvm
+					var uutinenId = otsikko+pvm;
+//	alert(uutinenId);
+					
+					// Luodaan olio
+					uutinenOliot[uutinenId] = new Uutinen(otsikko, pvm, sisalto);
+
+					// Lisätään valintalistaan
+					//$('#finaaliteksti').append(sisalto); 
+
+					var uutisotsikkoLinkki = '<a href="">' + otsikko + '</a><br>';
+					var uutisPvmTeksti = '<br><span>' + pvm+ ':</span><br>';
+					var uutisotsikkoNappi = '<tr><td id="' + uutinenId + '" style="border:3px solid green; padding:7px; border-radius: 5px;">' + otsikko + '<br><span style="color: #696969">' + pvm+ '</span></td></tr>';
+				
+		//			$('#uutisotsikotDiv').append(uutisPvmTeksti);
+					$('#uutisotsikotDiv').append(uutisotsikkoNappi);
+					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");					
+				});
+			
+		});
+	});
+
+	$('#uutisotsikotDiv').append('</table>');
+}
 
 // Hakee pelaajat xml-tiedostosta
 function haePelaajat(){
@@ -385,7 +218,7 @@ function haePelaajat(){
 						pelaajaNimet.push(tilastonimi);
 						pelaajaOliot[tilastonimi] = new Pelaaja(tilastonimi);
 						// Lisätään myös pelaajan olio
-						pelaajaOliot[tilastonimi].addKuvaustiedot(etunimi, sukunimi, kutsumanimi, tilastonimi, kuvaus, ominaisuudet, muuta)
+						pelaajaOliot[tilastonimi].addKuvaustiedot(etunimi, sukunimi, kutsumanimi, tilastonimi, kuvaus, ominaisuudet, muuta);
 					}
 				});	// END 'pelaaja'
 			});	// END 'pelaajat'
@@ -394,28 +227,34 @@ function haePelaajat(){
 			$('#pelaajatSelectTag').empty();
 			$('#pelaajatSelectTag2').empty();
 
-			// HTML-valintalista, jossa on pelaajien nimet
+			// HTML-valintalista, josta valitaan minkä pelaajan tarkat tiedot näytetään
 			var pelaajatSelectTag = document.getElementById('pelaajatSelectTag');
+			// Valintalista pelaajista: paritilastoissa voittoprosentti, jossa valittu mukana
+			var pelaajatSelectTag2 = document.getElementById('pelaajatSelectTag2');		
 
-var pelaajatSelectTag2 = document.getElementById('pelaajatSelectTag2');
-var option2 = document.createElement('option');
-option2.value = "";
-option2.innerHTML = "";
-pelaajatSelectTag2.appendChild(option2);
+			// option on HTML select-listan yksi elementti eli yksi nimi
+			var option = document.createElement('option');
+			var option2 = document.createElement('option');
 
+			// Voittoporsentti pareittain-listaan alustetaan tyhjä, jotta nähdään vain pisteet
+			option2.value = "";
+			option2.innerHTML = "";
+			pelaajatSelectTag2.appendChild(option2);
 
 			// Lisätään nimet ym. valintalistaan
 			for(var i=0; i<pelaajaNimet.length; i++){
-				// option on HTML select-listan yksi elementti eli yksi nimi
-				var option = document.createElement('option');
-option2 = document.createElement('option');
-				option.value = pelaajaNimet[i];
-option2.value = pelaajaNimet[i];
-				option.innerHTML = pelaajaNimet[i];
-option2.innerHTML = pelaajaNimet[i];
-				pelaajatSelectTag.appendChild(option);
+				
+				option = document.createElement('option');
+				option2 = document.createElement('option');
 
-pelaajatSelectTag2.appendChild(option2);
+				option.value = pelaajaNimet[i];
+				option2.value = pelaajaNimet[i];
+
+				option.innerHTML = pelaajaNimet[i];
+				option2.innerHTML = pelaajaNimet[i];
+		
+				pelaajatSelectTag.appendChild(option);
+				pelaajatSelectTag2.appendChild(option2);
 			}		
 			
 		});	// END 'tilastot'
@@ -431,7 +270,7 @@ function asetaSuomalaisetAjat(){
 	// Kaavioita varten aikojen käännökset suomeksi
 	$.jsDate.regional['fi'] = {
 		monthNames: ['Tammikuu','Helmikuu','Maaliskuu','Huhtikuu','Toukokuu','Kesäkuu','Heinäkuu','Elokuu','Syyskuu','Lokakuu','Marraskuu','Joulukuu'],
-		monthNamesShort: ['Tammikuu','Helmikuu','Maaliskuu','Huhtikuu','Toukokuu','Kesäkuu','Heinäkuu','Elokuu','Syyskuu','Lokakuu','Marraskuu','Joulukuu'],
+		monthNamesShort: ['Tammi','Helmi','Maalis','Huhti','Touko','Kesä','Heinä','Elo','Syys','Loka','Marras','Joulu'],
 		dayNames: ['maanantai','tiistai','keskiviikko','torstai','perjantai','lauantai','sunnuntai'],
 		dayNamesShort: ['ma','ti','ke','to','pe','la','su'],
 		formatString: '%Y-%m-%d %H:%M:%S'
@@ -480,11 +319,7 @@ function haeTiedot(){
 
 			// Käydään läpi sählyt
 			$(this).children('sahlyt').each(function() {
-
-				// Sählykerralla pelattuje pelien lukumäärä
-				// Jos ei tiedetä, tyhjä
-				//var pelitLkm = "";
-
+				
 				$(this).children('sahly').each(function() {
 
 					// Tämän sählykerran päiväys
@@ -502,6 +337,7 @@ function haeTiedot(){
 					var paikka = $(this).attr("paikka");
 					var alkoi = $(this).attr("alkoi");
 					var loppui = $(this).attr("loppui");
+					var maalivahteja = $(this).attr("maalivahteja");
 					var muuta = $(this).attr("muuta");
 					var pelattiinko = $(this).attr("pelattiinko");
 					
@@ -521,7 +357,7 @@ function haeTiedot(){
 					}
 
 					// Luodaan sähly-olio ja lisätään se sanakirjaan
-					var sahly = new Sahly(pvm, paikka, alkoi, loppui, muuta, pelattiinko);
+					var sahly = new Sahly(pvm, paikka, alkoi, loppui, muuta, pelattiinko, maalivahteja);
 					sahlyOliot[pvm] = sahly;
 					
 					// Sanakirja, jossa pelaajan nimi on avain ja 1 on arvo, jos osallistui tähän sählykertaan.
@@ -586,10 +422,6 @@ function haeTiedot(){
 			});	// END 'sahlyt'		
 		});	// END 'tilastot'
 
-
-		// Lisätään tiedot kaavioihin ja taulukoihin
-		//		luoKaaviotTaulukot();
-		
 		// Lisätään tiedot Tapsa-cup finaaleista
 		lisaaFinaalitaulukot();
 		// Välilehti on päivitetty, joten ei tarvitse enää päivittää
@@ -605,91 +437,24 @@ function haeTiedot(){
 
 	// Jos puuttuu min ja max -päivät
 	if(ekaPvm === "" && vikaPvm === ""){
-		elementti.innerHTML = "Haettu kaikki tiedot";		
+		elementti.innerHTML = "Haettu kaikki tiedot";	
+		$('#naytettavatTilastotId').empty().append(ekaPvm + " kaikki tilastot " + vikaPvm);	
 	
 	} else if(ekaPvm === ""){ // min päivä puuttuu
-		elementti.innerHTML = "Haettu tiedot ennen: " + vikaPvm;		
+		elementti.innerHTML = "Haettu tiedot ennen: " + vikaPvm;	
+		$('#naytettavatTilastotId').empty().append(ekaPvm + " tilastot ennen " + vikaPvm);		
 
 	} else if(vikaPvm === ""){ // max päivä puuttuu
 		elementti.innerHTML = "Haettu tiedot alkaen: " + ekaPvm;		
+		$('#naytettavatTilastotId').empty().append(" kaikki tilastot alkaen " + ekaPvm);		
 
 	} else {
-		elementti.innerHTML = "Haettu tiedot aikaväliltä: "+ ekaPvm  + " - " + vikaPvm;		
-	}
+		elementti.innerHTML = "Haettu tiedot aikaväliltä: "+ ekaPvm  + " - " + vikaPvm;	
+		$('#naytettavatTilastotId').empty().append(ekaPvm + " <strong> &#8212; </strong> " + vikaPvm);			
+	}	
 
 	
-
 } //END haeTiedot()
-
-
-// Luo HTML-tiedostoon sekalaisia kaavioita ja taulukoita
-function luoKaaviotTaulukot(){
-
-	// Selvitetään, kenen pelaajan nimi on valittu nimilistalta
-	var pelaajatSelectTagElementti = document.getElementById("pelaajatSelectTag");
-	var listaltaValittuNimi = pelaajatSelectTagElementti.options[pelaajatSelectTagElementti.selectedIndex].text;
-
-	// Päivitetään sählyt-taulukkoon oikea nimi otsikkoon
-	$("#sahlytOtsikkoId").text("Sählykerrat ja pelien tulokset pelaajalle " + listaltaValittuNimi);
-	// Sählyt-taulukko, jossa on sählykertojen tiedot ja valitun pelaajan voitot/tappiot
-	alustaSahlytaulukkoPelaajatiedot();
-	taytaSahlytaulukkoPelaajatiedot(pelaajaOliot, sahlyOliot, listaltaValittuNimi);
-
-	// Piirakkakaavio valitun pelaajan tiedoista: paikalla, poissa, ei tietoa
-	osallistuminenPie(listaltaValittuNimi, 'pelaajanOsallistuminenPieId');
-
-//alert("Valittu: " + listaltaValittuNimi)
-	// Viivakaavio valitun pelaajan voittoprosentin kehittymisestä
-	pelaajanVoittoprosentti(listaltaValittuNimi, 'pelaajaVoittoprosenttiKuvaaja');
-
-	// Viivakaavio pelaajien määristä kaikilta vuosilta
-	piirraPelaajat();
-
-	// Tulostaa eri sählykertojen tyyppien määrät
-	tulostaSahlykerratTyypit(sahlykerratLkmPerustiedot, sahlykerratLkmTarkatTiedot, sahlykerratLkmEiPelattu, sahlykerratLkmEiVarmaaPelattiinko, sahlykerratLkmPelattiin,	sahlykerratLkmTarkatTiedotPelattiin, sahlykerratLkmTarkatTiedotEiPelattu);
-
-	// Kertoo kuinka monelta sählykerralta pelien tulokset ovat
-	tulostaSahlykertojenMaaraTarkoillePeleille(sahlykerratLkmTarkatTiedotPelattiin);
-	// Tulostaa taulukon, jossa on kaikki joukkueet ja niiden voitot/tasapelit/tappiot ja pelien määrät
-	tulostaJoukkueidenTaulukko();
-
-	// Tulostaa taulukon, jossa on kaikkien pelaajien tärkeimmät tiedot
-	//tulostaKaikkienPelaajienTaulukko(pelaajaOliot);		
-alustaKaikkienPelaajienTaulukko();
-taytaKaikkienPelaajienTaulukko(pelaajaOliot);		
-
-// Tätä kutsutaan ym. funtkiosta
-//	piirraPelienMaaraJaVoittoprosentti();
-
-	// Luo tilastot, joissa on pelaajat pareittain samoissa ja eri joukkueissa
-	paritSamassa = 	getParitilastoToveritData();
-//alert("main() " + paritSamassa[0][1]);
-//	luoParitilasto(sahlyOliot, paritSamassa);	
-alustaParitilastoToveritKaikkiTaulukko();
-taytaParitilastoToveritKaikkiTaulukko(paritSamassa);
-
-	var paritVastakkain = getParitilastoVastustajatData();
-	alustaParitilastoVastustajatKaikkiTaulukko();
-	taytaParitilastoVastustajatKaikkiTaulukko(paritVastakkain);
-// vanha, toimiva:
-//	luoParitilastoVastustaja(sahlyOliot);	
-
-
-	// Piirtää kaaviot paritilastoista:
-	// Parit samassa joukkueessa: x=pelien määrä, y=voittoprosentti (osoittamalla parin pelaajat)
-	piirraPelienMaaraJaVoittoprosenttiParille('paritilastoToveriKaavioId', paritSamassa, "");
-	
-
-	// UUTTA: Luo taulukon, jossa on joukkueiden tiedot eli joukkueen pelaajat ja menestyminen
-//	alustaJoukkuetaulukko();
-	// Täyttää taulukon
-//	taytaJoukkueTaulukko();
-
-	// Jos "Haetaan"-dialogi-ikkuna on auki, suljetaan se
-	if( $("#haetaanDialogi").hasClass('ui-dialog-content') ){
-		$('#haetaanDialogi').dialog ('close');
-	}
-}
 
 
 // Lisää sählykerralle tiedot, kun peleistä oli tarkat tiedot
@@ -711,7 +476,6 @@ function lisaaSahlylleJaPelaajalleTarkatTiedot(osallistujat, pvm){
 }
 
 
-// 2016:
 // Hakee XML-tiedostosta perustiedot yhden sählykerran peleistä. 
 function lisaaSahlyllePerustiedotPelista(elem, pvm){
 
@@ -758,7 +522,7 @@ function lisaaSahlyllePerustiedotPelista(elem, pvm){
 		return pt;
 }
 
-// 2016:
+
 // Lisätään kaikille pelaajille perustiedot parametrina olevien perustietojen perusteella
 // Eli jotain tietoja Kimmolle ja Visalle, muille pelaajille merkintä "ei tietoa".
 function lisaaPelaajillePerustiedotPeleista(perustieto, pvm){
@@ -833,7 +597,6 @@ function lisaaPelaajillePerustiedotPeleista(perustieto, pvm){
 }	// END lisaaPelaajillePerustiedotPeleista()
 
 
-// 2016:
 // Tarkat tiedot, mutta peliä ei pelattu
 function lisaaTarkatTiedotPelaamattomastaPelista(elem, pvm){
 
@@ -862,7 +625,6 @@ function lisaaTarkatTiedotPelaamattomastaPelista(elem, pvm){
 }
 
 
-// 2016:
 // Jokkueelle voiton, tappion tai tasapelin
 function lisaaJoukkueTilasto(tilasto, joukkue, tulos, pvm){
 
@@ -888,7 +650,7 @@ function lisaaJoukkueTilasto(tilasto, joukkue, tulos, pvm){
 	return tilasto;
 }
 
-// 2016:
+
 // Palauttaa peli-olion yhdestä pelistä, josta on tarkat tiedot
 function getTarkatTiedotPelista(elem, pelattiinko, pvm, peliInd){
 
@@ -972,7 +734,6 @@ function getTarkatTiedotPelista(elem, pelattiinko, pvm, peliInd){
 	peliOlio.setMuuta($(elem).attr("muuta"));
 	peliOlio.setRatkaisija($(elem).attr("ratkaisija"));
 	
-
 	// Pelin numero tilastoissa:
 	var pelinNro = $(elem).attr("nro");
 
@@ -1010,10 +771,17 @@ function getTarkatTiedotPelista(elem, pelattiinko, pvm, peliInd){
 			}
 			pelaajaOliot[pelaajanNimi].setSahlyPeliTulos(pvm, 0, "paikalla");
 
+	// Lisätään edustus
+	pelaajaOliot[pelaajanNimi].lisaaJoukkueEdustus(pelaajanJoukkue);
+
+	// Lisää eka
+	pelaajaOliot[pelaajanNimi].setEkaJoukkue(pelaajanJoukkue);
+
+
 			// Lisätään tiedot pelistä, jos voitti
 			if(pelaajanJoukkue === voittajaJoukkue){
 				//SetSahlyPeliTulos(pvm, nro, paikallaolo, tulos, joukkue)
-				pelaajaOliot[pelaajanNimi].setSahlyPeliTulos(pvm, pelinNro, "paikalla", "voitto", pelaajanJoukkue);			
+				pelaajaOliot[pelaajanNimi].setSahlyPeliTulos(pvm, pelinNro, "paikalla", "voitto", pelaajanJoukkue);	
 
 			} else if(pelaajanJoukkue === tappioJoukkue){	// hävisi
 				pelaajaOliot[pelaajanNimi].setSahlyPeliTulos(pvm, pelinNro, "paikalla", "tappio", pelaajanJoukkue);			
@@ -1045,67 +813,14 @@ function getTarkatTiedotPelista(elem, pelattiinko, pvm, peliInd){
 	return peliOlio;
 }
 
-// Tätä kutsutaan, kun valitaan valintaselektorista haluttu pelikausi
+
+
+// Kun vaihdetaan kausien-listalta pelikausi, tämä asettaa päivämäärien kenttiin kauden alku- ja loppupäivät
+// (kutsutaan index.html-tiedostossa)
 function vaihdaKausi(){
 
 	$('#pieninPaivaInput').val(pelikaudetOliot[$('#kausiValinta').val()].getAloitusPvm());
 	$('#suurinPaivaInput').val(pelikaudetOliot[$('#kausiValinta').val()].getLopetusPvm());
-
 }
 
-function getRatkaisijat(){
 
-	// Avain: Pelaajan nimi, Arvo: taulukko[monestiko oli ratkaisujoukkueessa, ratkaisuja]
-	var palautus = {};
-
-	// Käydään läpi sählykerrat
-	for(var pvm in sahlyOliot){
-
-		// Ratkaisijat voi olla vain tarkkojen tietojen peleistä
-		if(sahlyOliot[pvm].getTietojenTyyppi() === "tarkat"){
-
-			// Käydään läpi pelit
-			var pelit = sahlyOliot[pvm].getPelit();
-
-			for(var i=0; i<pelit.length; i++){
-
-				var peli = pelit[i];
-				var rat = peli.getRatkaisija();
-
-				// Jos on ratkaisija
-				if(typeof rat !== 'undefined'){
-					
-					var voittajat = peli.getVoittajajoukkueenPelaajat();
-					
-					// Lisätään voittajajoukkueen pelaajille 1 osallistuminen lisää
-					for(var j=0; j<voittajat.length; j++){
-						
-						// Jos tämä voittajajoukkueessa ollut on jo palautuksissa
-						if(voittajat[j] in palautus ){
-							// Lisätään yksi osallistuminen lisää
-							var data = palautus[voittajat[j]];								
-							palautus[voittajat[j]] = [data[0]+1, data[1]];
-
-						}	else {
-
-							// Ei ole aikaisempaa tietoa, joten lisätään nyt
-							palautus[voittajat[j]] = Array();
-							palautus[voittajat[j]] = [1,0];
-//								alert("Lisättiin " + voittajat[j]);
-						}			
-					} //END for(voittajat)
-
-					// Lisätään ratkaisija
-					var ratkaisija = palautus[rat];
-//	alert("lisätään: " + rat);
-					palautus[rat] = [ ratkaisija[0], ratkaisija[1]+1 ];
-				}//END if(typeof rat !== 'undefined')
-			}
-		}
-
-	}
-
-	// Tulostetaan
-	//alert(JSON.stringify(palautus));
-	return palautus;
-}

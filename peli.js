@@ -170,7 +170,7 @@ function GetJoukkueenNumero(joukkueenNimi){
 	} else if(this.joukkue2 === joukkueenNimi){
 		return 2;
 	} else {
-		alert("Virhe! Peli-oliossa: Joukkueen nimi " + joukkueenNimi + " ei ollut kumpikaan joukkue: " + this.joukkue1 + ", " + this.joukkue2);
+		return ""; //alert("Virhe! Peli-oliossa: Joukkueen nimi " + joukkueenNimi + " ei ollut kumpikaan joukkue: " + this.joukkue1 + ", " + this.joukkue2);
 	}
 }
 
