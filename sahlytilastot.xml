@@ -7472,9 +7472,9 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 
 	</sahly>		
 
-<sahly pvm="2018-05-15" paikka="" alkoi="22:00" loppui="Markukselta tuli tilastot. Ei varmuutta oliko muitakin, mutta ainakin nämä. Niklas Liivien maalilla ja Paidoilla oli puuveska." muuta="" maalivahteja="1" pelattiinko="kyllä">
+	<sahly pvm="2018-05-15" paikka="" alkoi="22:00" loppui="Markukselta tuli tilastot. Ei varmuutta oliko muitakin, mutta ainakin nämä. Niklas Liivien maalilla ja Paidoilla oli puuveska." muuta="" maalivahteja="1" pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="" maalit2="" muuta="" ratkaisija="Otto2">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="15" muuta="" ratkaisija="Otto2">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Aatos</pelaaja>
 				<pelaaja joukkue="paidat">Antonis</pelaaja>
@@ -7491,6 +7491,45 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Niklas</pelaaja>
 				<pelaaja joukkue="liivit">Otto2</pelaaja>
 				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2018-05-22" paikka="" alkoi="22:00" loppui="Niklas oli maalivahtina ja vaihtoi ekan pelin jälkeen puolta. Toisella puolella oli puuveska. Liivit pelasi toisen pelin 6:lla kenttäpelaajalla eli ylivoimalla, koska Otto oli loukkaantunut." muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="6" muuta="" ratkaisija="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="13" maalit2="11" muuta="" ratkaisija="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
 			</pelaajat>
 		</peli>
 
