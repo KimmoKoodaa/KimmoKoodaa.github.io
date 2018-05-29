@@ -7498,7 +7498,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 
 	<sahly pvm="2018-05-22" paikka="" alkoi="22:00" loppui="Niklas oli maalivahtina ja vaihtoi ekan pelin jälkeen puolta. Toisella puolella oli puuveska. Liivit pelasi toisen pelin 6:lla kenttäpelaajalla eli ylivoimalla, koska Otto oli loukkaantunut." muuta="" maalivahteja="2" pelattiinko="kyllä">
 
-		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="6" muuta="" ratkaisija="">
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="6" muuta="">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Joni</pelaaja>
@@ -7515,7 +7515,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="13" maalit2="11" muuta="" ratkaisija="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="13" maalit2="11" muuta="">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Henkka</pelaaja>
 				<pelaaja joukkue="paidat">Joni</pelaaja>
