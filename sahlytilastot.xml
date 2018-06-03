@@ -7533,7 +7533,25 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 
-	</sahly>									
+	</sahly>
+
+	<sahly pvm="2018-05-29" paikka="" alkoi="22:00" loppui="Niklas pelasi Liivien maalilla ja Paidoilla oli puuveska. Otto2 saapui hieman myöhässä, jonka jälkeen Paidoilla oli kaikki 4 kenttäpelaajaa samaan aikaan kentällä (eli ylivoima) koko loppuajan." muuta="" maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="20" muuta="" ratkaisija="Martti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>				
 	</sahlyt>
 </tilastot>
 
