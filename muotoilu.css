@@ -22,6 +22,9 @@ h5{
 	background-color:#E8E8E8;
 }
 */
+#kaudenTilastot{
+	text-align: center;
+}
 
 .nav-tabs > li.active > a,  .nav-tabs > li.active > a:focus {
 	color:black;
