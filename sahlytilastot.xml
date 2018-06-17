@@ -8,6 +8,7 @@
 		<pelikausi nimi="Talvikausi 2016-2017" nimiLyhyt="Talvi 16-17" pvmAloitus="2016-08-09" pvmLopetus="2017-06-06"></pelikausi>
 		<pelikausi nimi="Kesäkausi 2017" nimiLyhyt="Kesä 17" pvmAloitus="2017-06-13" pvmLopetus="2017-08-08"></pelikausi>
 		<pelikausi nimi="Talvikausi 2017-2018" nimiLyhyt="Talvi 17-18" pvmAloitus="2017-08-15" pvmLopetus="2018-06-05"></pelikausi>
+		<pelikausi nimi="Kesäkausi 2018" nimiLyhyt="Kesä 18" pvmAloitus="2018-06-12" pvmLopetus="2018-08-07"></pelikausi>		
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
@@ -7569,6 +7570,23 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Markus</pelaaja>
 				<pelaaja joukkue="liivit">Niko</pelaaja>
 				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+	<sahly pvm="2018-06-12" paikka="" alkoi="20:00" loppui="Kesäkauden ensimmäinen peli. Molemmilla puuveskat." muuta="" maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="22" maalit2="23" muuta="" ratkaisija="Kimmo">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
 				<pelaaja joukkue="liivit">Ville</pelaaja>
 			</pelaajat>
 		</peli>
