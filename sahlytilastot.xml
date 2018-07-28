@@ -62,10 +62,11 @@
 		<pelaaja kutsumanimi="Matti" tilastonimi="Matti" kuvaus="Matti on se yks huipputyyppi. Olisko Antin tuttuja. Aika nopea ja hyvä pelaamaan." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Mika" tilastonimi="Mika" kuvaus="Mika on se yks huipputyyppi. Hyvä pelaaja. Käy aina silloin tällöin ja sitten ei pitkään aikaan. Kjellin tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Miki" tilastonimi="Miki" kuvaus="Miki on se yks huipputyyppi. Antin kaveri, jonka nimi oli vissiin Miki tai jotain. Oli kerran pelaamassa." ominaisuudet="" muuta=""/>
-		<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas2" kuvaus="Niclas2 on se yks huipputyyppi. Aikaisemmin Niclas, mutta muutettiin Niclas2 6.12.2017." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niklas" tilastonimi="Niklas" kuvaus="Niklas on se yks huipputyyppi. Kimmo2:n tuttuja. Pelaa nykyisin aina maalivahtina. Aikaisemmin Niclas2, mutta muutettiin Niklas 6.12.2017." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas2" kuvaus="Niclas2 on se yks huipputyyppi. Aikaisemmin Niclas, mutta muutettiin Niclas2 6.12.2017." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Niklas" tilastonimi="Niklas3" kuvaus="Niklas3 on se yks huipputyyppi. Isokokoinen jässikkä oli ekaa kertaa kesällä 2018. Ei varmaankaan kenenkään tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niko" tilastonimi="Niko" kuvaus="Niko on se yks huipputyyppi. Uusi vuonna 2017, vissiin jonkun kaveri." ominaisuudet="" muuta=""/>
-<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto" kuvaus="Otto on se yks huipputyyppi. Pitä, pitää, pitää, pitää ... ja sitten tekee aika usein maalin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Osku" tilastonimi="Osku" kuvaus="Osku on se yks huipputyyppi. Maken tuttuja. Hyvä pelaaja." ominaisuudet="" muuta=""/>
@@ -7591,7 +7592,83 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 
+	</sahly>
+	<sahly pvm="2018-06-19" paikka="" alkoi="20:00" loppui="" muuta="Joku muisteli, että 13 pelaajaa." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-06-26" paikka="" alkoi="20:00" loppui="Molemmilla puuveskat. Make2 oli ekaa kertaa sitten kesän 2017. Ihan uusi Niklas oli myös." muuta="" maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="12" maalit2="8" muuta="" ratkaisija="Timo">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo2</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Make2</pelaaja>
+				<pelaaja joukkue="liivit">Niklas3</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="tasapeli" maalit1="15" maalit2="15" muuta="" ratkaisija="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Niklas3</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo2</pelaaja>
+				<pelaaja joukkue="liivit">Make2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
 	</sahly>			
+					
+	<sahly pvm="2018-07-03" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-07-10" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-07-17" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-07-24" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
 	</sahlyt>
 </tilastot>
 
