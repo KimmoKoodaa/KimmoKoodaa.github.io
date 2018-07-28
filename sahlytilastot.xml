@@ -7632,43 +7632,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>			
-					
-	<sahly pvm="2018-07-03" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
-		<perustiedot>
-			<pelaajia></pelaajia>
-			<kimmo>poissa</kimmo>
-			<visa></visa>
-			<muuta></muuta>
-		</perustiedot>
-	</sahly>
-
-	<sahly pvm="2018-07-10" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
-		<perustiedot>
-			<pelaajia></pelaajia>
-			<kimmo>poissa</kimmo>
-			<visa></visa>
-			<muuta></muuta>
-		</perustiedot>
-	</sahly>
-
-	<sahly pvm="2018-07-17" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
-		<perustiedot>
-			<pelaajia></pelaajia>
-			<kimmo>poissa</kimmo>
-			<visa></visa>
-			<muuta></muuta>
-		</perustiedot>
-	</sahly>
-
-	<sahly pvm="2018-07-24" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="">
-		<perustiedot>
-			<pelaajia></pelaajia>
-			<kimmo>poissa</kimmo>
-			<visa></visa>
-			<muuta></muuta>
-		</perustiedot>
-	</sahly>
-
+				
 	</sahlyt>
 </tilastot>
 
