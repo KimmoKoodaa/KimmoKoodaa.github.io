@@ -94,6 +94,8 @@
 		<pelaaja kutsumanimi="tuntematon8" tilastonimi="tuntematon8" kuvaus="Tuntematon8 on se yks huipputyyppi. Hyvä pelaaja. Olisiko Kimmo2:n tuttuja?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon9" tilastonimi="tuntematon9" kuvaus="Tuntematon9 on se yks huipputyyppi. Nuorehko. Hyvä pelaaja. Olisiko Jonin tuttuja? Ainakin ne jutteli ennen peliä?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon10" tilastonimi="tuntematon10" kuvaus="Tuntematon10 on se yks huipputyyppi. Ilmeiseti Joelin tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon11" tilastonimi="tuntematon11" kuvaus="Tuntematon11 on se yks huipputyyppi. Oli kesällä 2018 finaalissa, mutta onko ollut aikaisemmin?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="tuntematon12" tilastonimi="tuntematon12" kuvaus="Tuntematon12 on se yks huipputyyppi. Oli kesällä 2018 finaalissa, mutta onko ollut aikaisemmin?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tuomas" tilastonimi="Tuomas" kuvaus="Tuomas on se yks huipputyyppi. Se vähän Niclaksen tai Antin näköinen sälli." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville" kuvaus="Ville on se yks huipputyyppi. Antin ja Janin kaveri. Huutelee joskus hämäilymielessä vastustajille: 'Täällä'. Oli aiemmin Ville2, mutta 6.12.2017 muutettiin Ville" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville2" kuvaus="Ville2 on se yks huipputyyppi. Kimmo2:n koulukaveri. Pitkä. Hyvä. Pelaa vähän kuin Pekka. Oli aikaisemmin Ville, mutta 6.12.2017 muutettiin Ville2" ominaisuudet="" muuta=""/>
@@ -7632,7 +7634,70 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>			
-				
+
+	<sahly pvm="2018-07-03" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-07-10" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-07-17" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-07-24" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-07-31" paikka="" alkoi="20:00" loppui="" muuta="Ei mitään tietoa." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2018-08-07" paikka="" alkoi="20:00" loppui="Kesän 2018 Tapsa Cup finaali. Markus hoiti tilastoinnin. Paikalla ilmeisesti pari tuntematonta. Lopputulos on otettu videosta. Ratkaisijasta ei ole tietoa." muuta="" maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="17" maalit2="14" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kari2</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon11</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon12</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>			
+
 	</sahlyt>
 </tilastot>
 
