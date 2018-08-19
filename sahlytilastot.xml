@@ -8,7 +8,8 @@
 		<pelikausi nimi="Talvikausi 2016-2017" nimiLyhyt="Talvi 16-17" pvmAloitus="2016-08-09" pvmLopetus="2017-06-06"></pelikausi>
 		<pelikausi nimi="Kesäkausi 2017" nimiLyhyt="Kesä 17" pvmAloitus="2017-06-13" pvmLopetus="2017-08-08"></pelikausi>
 		<pelikausi nimi="Talvikausi 2017-2018" nimiLyhyt="Talvi 17-18" pvmAloitus="2017-08-15" pvmLopetus="2018-06-05"></pelikausi>
-		<pelikausi nimi="Kesäkausi 2018" nimiLyhyt="Kesä 18" pvmAloitus="2018-06-12" pvmLopetus="2018-08-07"></pelikausi>		
+		<pelikausi nimi="Kesäkausi 2018" nimiLyhyt="Kesä 18" pvmAloitus="2018-06-12" pvmLopetus="2018-08-07"></pelikausi>
+		<pelikausi nimi="Talvikausi 2018-2019" nimiLyhyt="Talvi 18-19" pvmAloitus="2018-08-14" pvmLopetus="2019-05-31"></pelikausi>
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
@@ -7697,7 +7698,15 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>			
-
+	<sahly pvm="2018-08-14" paikka="" alkoi="22:00" loppui="" muuta="Talvikauden eka peli, mutta vain kolme pelaajaa. Porukka oli vissiin vielä juhlimassa/suremassa finaalia." maalivahteja="0" pelattiinko="ei">
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu">
+			<pelaajat>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Make</pelaaja>
+				<pelaaja joukkue="">Tapsa</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>	
 	</sahlyt>
 </tilastot>
 
