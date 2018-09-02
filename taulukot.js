@@ -23,7 +23,7 @@ function lisaaPelaajanJoukkueEdustusTaulukko(pelaajanNimi){
 	// Lisätään HTML-taulukko HTML-sivulle
 	$("#valitunJoukkueEdustusId").empty();
 	$("#valitunJoukkueEdustusId").append(taulukko);
-	$("#valitunEkaJoukkueId").append("Tämän pelaajan ensimmäinen joukkue oli " + pelaajaOliot[pelaajanNimi].getEkaJoukkue());
+	$("#valitunEkaJoukkueId").empty().append("Tämän pelaajan ensimmäinen joukkue oli " + pelaajaOliot[pelaajanNimi].getEkaJoukkue());
 }
 
 //2017:
