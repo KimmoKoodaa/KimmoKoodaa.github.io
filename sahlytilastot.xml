@@ -7735,7 +7735,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 
-		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="9" muuta="">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="9" muuta="" ratkaisija="Ville">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Kimmo</pelaaja>
 				<pelaaja joukkue="paidat">Lasse</pelaaja>
