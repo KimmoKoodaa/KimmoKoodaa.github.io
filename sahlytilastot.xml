@@ -13,6 +13,7 @@
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Aki" tilastonimi="Aki" kuvaus="Aki on se yks huipputyyppi. Jonin kaveri, joka oli kerran kesällä 2018." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antoni" tilastonimi="Antoni" kuvaus="Antoni on se yks huipputyyppi. Nuorehko. Pelaa aika täysillä. Ei varmaa, onko kenenkään tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antonis" tilastonimi="Antonis" kuvaus="Antonis on se yks huipputyyppi. Nuori uusi pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antti" tilastonimi="Antti" kuvaus="Antti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -56,6 +57,7 @@
 		<pelaaja kutsumanimi="Maija" tilastonimi="Maija" kuvaus="Maija on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Make" tilastonimi="Make" kuvaus="Make on se yks huipputyyppi. Tekee joukkueet aina kun on paikalla. Osaako mennä itse parempaan joukkueeseen?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Make" tilastonimi="Make2" kuvaus="Make2 on se yks huipputyyppi. Oisko Villen kaveri. Harmaa paita, kun oli kesällä 2017 ekan kerran." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Marko" tilastonimi="Marko" kuvaus="Marko on se yks huipputyyppi. Tuntee Kallen, jonka kanssa on pelannut futsalia." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Markus" tilastonimi="Markus" kuvaus="Markus on se yks huipputyyppi. Kutsuvieraat ja Markus on aina myöhässä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Martti" tilastonimi="Martti" kuvaus="Martti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Martti" tilastonimi="Martti2" kuvaus="Martti2 on se yks huipputyyppi. Ipan jonkilainen tuttu. Hyvä pelaaja, kuten ensimmäinen Marttikin." ominaisuudet="" muuta=""/>
@@ -96,7 +98,6 @@
 		<pelaaja kutsumanimi="tuntematon9" tilastonimi="tuntematon9" kuvaus="Tuntematon9 on se yks huipputyyppi. Nuorehko. Hyvä pelaaja. Olisiko Jonin tuttuja? Ainakin ne jutteli ennen peliä?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon10" tilastonimi="tuntematon10" kuvaus="Tuntematon10 on se yks huipputyyppi. Ilmeiseti Joelin tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon11" tilastonimi="tuntematon11" kuvaus="Tuntematon11 on se yks huipputyyppi. Oli kesällä 2018 finaalissa, mutta onko ollut aikaisemmin?" ominaisuudet="" muuta=""/>
-		<pelaaja kutsumanimi="tuntematon12" tilastonimi="tuntematon12" kuvaus="Tuntematon12 on se yks huipputyyppi. Oli kesällä 2018 finaalissa, mutta onko ollut aikaisemmin?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tuomas" tilastonimi="Tuomas" kuvaus="Tuomas on se yks huipputyyppi. Se vähän Niclaksen tai Antin näköinen sälli." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville" kuvaus="Ville on se yks huipputyyppi. Antin ja Janin kaveri. Huutelee joskus hämäilymielessä vastustajille: 'Täällä'. Oli aiemmin Ville2, mutta 6.12.2017 muutettiin Ville" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville2" kuvaus="Ville2 on se yks huipputyyppi. Kimmo2:n koulukaveri. Pitkä. Hyvä. Pelaa vähän kuin Pekka. Oli aikaisemmin Ville, mutta 6.12.2017 muutettiin Ville2" ominaisuudet="" muuta=""/>
@@ -7681,7 +7682,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 		</perustiedot>
 	</sahly>
 
-	<sahly pvm="2018-08-07" paikka="" alkoi="20:00" loppui="Kesän 2018 Tapsa Cup finaali. Markus hoiti tilastoinnin. Paikalla ilmeisesti pari tuntematonta. Lopputulos on otettu videosta. Ratkaisijasta ei ole tietoa." muuta="" maalivahteja="0" pelattiinko="kyllä">
+	<sahly pvm="2018-08-07" paikka="" alkoi="20:00" loppui="Kesän 2018 Tapsa Cup finaali. Markus hoiti tilastoinnin. Paikalla oli Jonin kaveri Aki ja joku uusi, jonka nimeä ei tiedetä. Videolla näkyy lopputulos 17-14, mutta Joni kertoi myöhemmin, että tuli murskavoitto eli Paidoilla meni kai kerran ympäri. Siksi laitettiin 37-14. Ratkaisijasta ei ole tietoa." muuta="" maalivahteja="0" pelattiinko="kyllä">
 
 		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="17" maalit2="14" muuta="">
 			<pelaajat>
@@ -7693,8 +7694,8 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Markus</pelaaja>
 				<pelaaja joukkue="liivit">Antonis</pelaaja>
 				<pelaaja joukkue="liivit">Tommi</pelaaja>
+				<pelaaja joukkue="liivit">Aki</pelaaja>
 				<pelaaja joukkue="liivit">tuntematon11</pelaaja>
-				<pelaaja joukkue="liivit">tuntematon12</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>			
@@ -7716,6 +7717,37 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>	
 	</sahly>
+	
+	<sahly pvm="2018-08-28" paikka="" alkoi="22:00" loppui="Lassen comeback! Pelasi hyvin. Liiveillä puuveska." muuta="" maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="19" muuta="" ratkaisija="Markus">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Marko</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="9" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Marko</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>		
 	</sahlyt>
 </tilastot>
 
