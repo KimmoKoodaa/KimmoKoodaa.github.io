@@ -86,6 +86,7 @@
 		<pelaaja kutsumanimi="Timo" tilastonimi="Timo2" kuvaus="Timo2 on se yks huipputyyppi. Jykevämpi Timo. Maken kaveri. Palvelusvuosiltaan nuorempi Timo." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Toivo" tilastonimi="Toivo" kuvaus="Toivo on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="TAIsa" tilastonimi="TAIsa" kuvaus="TAIsa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Tomi" tilastonimi="Tomi" kuvaus="Tomi on se yks huipputyyppi. Antin tuttuja. Pelasi ekaa kertaa viiteentoista vuoteen, siis ylipäätänsä. Täällä pelasi ekaa kertaa.." ominaisuudet="" muuta=""/>	
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi" kuvaus="Tommi on se yks huipputyyppi. Markuksen serkku. Pyörähtelee tosi nopeasti ja pelaa muutenkin tosi hyvin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi2" kuvaus="Tommi2 on se yks huipputyyppi. Se, joka ei juuri talvella käy, mutta joinakin kesinä aina ilmestyy jossain vaiheessa. Ihan hyvä pelaaja. Pelaakohan se myös futsalia?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Toni" tilastonimi="Toni" kuvaus="Toni on se yks huipputyyppi. Maken tuttuja. Kesällä 2017 ekan kerran. Silloin valkoinen t-paita." ominaisuudet="" muuta=""/>
@@ -7757,7 +7758,59 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="">Timo</pelaaja>
 			</pelaajat>
 		</peli>	
-	</sahly>	
+	</sahly>
+		
+	<sahly pvm="2018-09-11" paikka="" alkoi="22:00" loppui="Lasse maalilaa ja toisella puolella oli puuveska." muuta="" maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="26" maalit2="23" muuta="" ratkaisija="Lauri3">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Tomi</pelaaja>
+
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Marko</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
+
+	<sahly pvm="2018-09-18" paikka="" alkoi="22:00" loppui="Lasse maalilaa ja toisella puolella oli puuveska. Paidoilla oli 3 kentällä ja liiveillä 4 eli paidat pelasivat alivoimalla koko ajan." muuta="" maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="14" maalit2="20" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+			</pelaajat>
+		</peli>
+
+	<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="4" maalit2="6" muuta="" ratkaisija="Ipa">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Ipa</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
 
