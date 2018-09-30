@@ -7811,6 +7811,48 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+
+	<sahly pvm="2018-09-25" paikka="" alkoi="22:00" loppui="Ei maalivahteja vaan puuveskat. Myös Lasse oli kentällä. Kaikki pelaajat oli samaan aikaan kentällä eli ei vaihtomiehiä. Make oli myös paikalla, mutta se lähti, koska silloin pelaajia oli vain 6. Joni ja Lasse tulivat hetkeä myöhemmin." muuta="" maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="4" maalit2="5" muuta="" ratkaisija="Tommi">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Marko</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="2" maalit2="5" muuta="" ratkaisija="Otto2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Marko</pelaaja>
+
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="1" maalit2="5" muuta="" ratkaisija="Tommi">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Marko</pelaaja>
+
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tommi</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
 
