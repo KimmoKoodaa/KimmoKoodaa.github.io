@@ -87,6 +87,7 @@
 		<pelaaja kutsumanimi="Toivo" tilastonimi="Toivo" kuvaus="Toivo on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="TAIsa" tilastonimi="TAIsa" kuvaus="TAIsa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tomi" tilastonimi="Tomi" kuvaus="Tomi on se yks huipputyyppi. Antin tuttuja. Pelasi ekaa kertaa viiteentoista vuoteen, siis ylipäätänsä. Täällä pelasi ekaa kertaa.." ominaisuudet="" muuta=""/>	
+		<pelaaja kutsumanimi="Tomppa" tilastonimi="Tomppa" kuvaus="Onko Tomppa ja Tomi sama mies eli Antin kaveri sellainen partasuu?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi" kuvaus="Tommi on se yks huipputyyppi. Markuksen serkku. Pyörähtelee tosi nopeasti ja pelaa muutenkin tosi hyvin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tommi" tilastonimi="Tommi2" kuvaus="Tommi2 on se yks huipputyyppi. Se, joka ei juuri talvella käy, mutta joinakin kesinä aina ilmestyy jossain vaiheessa. Ihan hyvä pelaaja. Pelaakohan se myös futsalia?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Toni" tilastonimi="Toni" kuvaus="Toni on se yks huipputyyppi. Maken tuttuja. Kesällä 2017 ekan kerran. Silloin valkoinen t-paita." ominaisuudet="" muuta=""/>
@@ -7852,6 +7853,29 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Tommi</pelaaja>
 			</pelaajat>
 		</peli>
+	</sahly>
+		
+	<sahly pvm="2018-10-02" paikka="" alkoi="22:00" loppui="Lasse ja Otto2 maalivahteina. Tapsa teki tilastot. Onko Hannu se aikaisemmin ollut Hannu? Onko Tomppa se Tomi, joka oli aiemmin syksyllä vai Markuksen serkkupoika?" muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Marko</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Hannu</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Tomppa</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+			</pelaajat>
+		</peli>
+
 	</sahly>
 	</sahlyt>
 </tilastot>
