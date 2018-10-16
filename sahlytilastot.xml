@@ -22,6 +22,7 @@
 		<pelaaja kutsumanimi="Erik" tilastonimi="Erik" kuvaus="Erik on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Foto" tilastonimi="Foto" kuvaus="Foto on se yks huipputyyppi. Janne3:n tuttuja. Ei tunne Anttia." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu" kuvaus="Hannu on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu2" kuvaus="Oliko uusi tyyppi, joka oli lokakuussa 2018? Antin kaveri? Vai oliko tämä aikaisempi Hannu?" ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Heikki" tilastonimi="Heikki" kuvaus="Heikki on se yks huipputyyppi. Villen tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Henkka" tilastonimi="Henkka" kuvaus="Henkka on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Iltsu" tilastonimi="Iltsu" kuvaus="Iltsu on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -7867,7 +7868,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="paidat">Otto2</pelaaja>
 				<pelaaja joukkue="paidat">Tapsa</pelaaja>
 
-				<pelaaja joukkue="liivit">Hannu</pelaaja>
+				<pelaaja joukkue="liivit">Hannu2</pelaaja>
 				<pelaaja joukkue="liivit">Ville</pelaaja>
 				<pelaaja joukkue="liivit">Make</pelaaja>
 				<pelaaja joukkue="liivit">Lasse</pelaaja>
@@ -7877,6 +7878,23 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 		</peli>
 
 	</sahly>
+	<sahly pvm="2018-10-09" paikka="" alkoi="22:00" loppui="Oli niin vähän porukkaa, että oli puuveskat. Kimmo teki 8 maalia ja syötti ainakin 2. Teki Paitojen 4 ensimmäistä maalia ja syötti viidennen, kun Kjell teki maalin. Sai keltaisen kortin tuuletettuaan hattutemppua. Teki myös voittomaalin." muuta="" maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="17" maalit2="16" muuta="" ratkaisija="Kimmo">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>	
 	</sahlyt>
 </tilastot>
 
