@@ -179,7 +179,12 @@ function haeUutiset(){
 				
 		//			$('#uutisotsikotDiv').append(uutisPvmTeksti);
 					$('#uutisotsikotDiv').append(uutisotsikkoNappi);
-					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");					
+					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
+				
+					// Tämä lisätään pääuutiseksi
+					if(otsikko === "Kuntosähly kriisissä, vain Sinä voit pelastaa sen"){
+						$('#finaaliteksti').append(sisalto);
+					}		
 				});
 			
 		});
