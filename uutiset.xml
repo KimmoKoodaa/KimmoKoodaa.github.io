@@ -25,7 +25,7 @@
 		<sisalto>
 			<![CDATA[
 				<h1>Kuntosähly kriisissä, vain Sinä voit pelastaa sen</h1>
-				<p style="color: grey">Päivitetty 22.10.2018 klo 11:22: Lisätty videolinkki loppuun</p>
+				<p>Päivitetty 23.10.2018 klo 16:27: Muokattu videolinkkiä lopussa</p>
 				
 				<p>
 				<figure>
@@ -63,11 +63,13 @@
 
 				<p>Odotteluun ei ole enää aikaa. Jos pelaajamäärä ei ala lähiaikoina kasvamaan, lähtee se laskuun. Siellä on muutama pelaaja, joka käy melkein aina ja sitten seitsemän, jotka käy melkein joka toinen kerta. Jos pelaajia ei ole, tämä porukka alkaa käymään yhä harvemmin. Silloin on koko homma vaarassa hiipua kokoon. Jos vielä viivytät paluun tekemistä, ei siellä välttämättä ole joukkuetta, johon palata.</p>
 
-				<p>Nyt on viimeinen hetki toimia! Otatko haasteen vastaan? Kaikki on sinusta kiinni!</p>
+				<p>Nyt on viimeinen hetki toimia!<br>Otatko haasteen vastaan?<br>Kaikki on sinusta kiinni!</p>
 
-				<a href="https://www.youtube.com/watch?v=F_JF8oSxXtM"><u><h4>Time to play The Game!</h4></u></a>
+				<h4><br>Time to play The Game!</h4>
 
-				<p>So ... yeah. <strong>Tiistaina pelamaan!</strong></p>				
+				<iframe  src="https://www.youtube.com/embed/F_JF8oSxXtM" frameborder="0" allowfullscreen></iframe>
+
+				<p><br>So ... yeah. <strong>Tänään pelamaan!</strong></p>
 			]]>
 		</sisalto>
 	</uutinen>
