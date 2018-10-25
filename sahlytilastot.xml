@@ -22,7 +22,6 @@
 		<pelaaja kutsumanimi="Erik" tilastonimi="Erik" kuvaus="Erik on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Foto" tilastonimi="Foto" kuvaus="Foto on se yks huipputyyppi. Janne3:n tuttuja. Ei tunne Anttia." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu" kuvaus="Hannu on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
-		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu2" kuvaus="Oliko uusi tyyppi, joka oli lokakuussa 2018? Antin kaveri? Vai oliko tämä aikaisempi Hannu?" ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Heikki" tilastonimi="Heikki" kuvaus="Heikki on se yks huipputyyppi. Villen tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Henkka" tilastonimi="Henkka" kuvaus="Henkka on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Iltsu" tilastonimi="Iltsu" kuvaus="Iltsu on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -7856,7 +7855,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 		</peli>
 	</sahly>
 		
-	<sahly pvm="2018-10-02" paikka="" alkoi="22:00" loppui="Lasse ja Otto2 maalivahteina. Tapsa teki tilastot. Onko Hannu se aikaisemmin ollut Hannu? Onko Tomppa se Tomi, joka oli aiemmin syksyllä vai Markuksen serkkupoika?" muuta="" maalivahteja="2" pelattiinko="kyllä">
+	<sahly pvm="2018-10-02" paikka="" alkoi="22:00" loppui="Lasse ja Otto2 maalivahteina. Tapsa teki tilastot. Hannu on se Markuksen kaveri, joka on aina silloin tällöin. Onko Tomppa se Tomi, joka oli aiemmin syksyllä (ainakaan ei ollut Markuksen serkkupoika)?" muuta="" maalivahteja="2" pelattiinko="kyllä">
 
 		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="" maalit2="" muuta="">
 			<pelaajat>
@@ -7868,7 +7867,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="paidat">Otto2</pelaaja>
 				<pelaaja joukkue="paidat">Tapsa</pelaaja>
 
-				<pelaaja joukkue="liivit">Hannu2</pelaaja>
+				<pelaaja joukkue="liivit">Hannu</pelaaja>
 				<pelaaja joukkue="liivit">Ville</pelaaja>
 				<pelaaja joukkue="liivit">Make</pelaaja>
 				<pelaaja joukkue="liivit">Lasse</pelaaja>
@@ -7959,6 +7958,69 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Kjell</pelaaja>
 				<pelaaja joukkue="liivit">Lasse</pelaaja>
 				<pelaaja joukkue="liivit">Make</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+	<sahly pvm="2018-10-23" paikka="" alkoi="22:00" loppui="Lasse maalissa, toisella puolella puuveska. Hannu lähti toisen pelin alkuvaiheessa, mutta pelasi siis kuitenkin siinä pelissä." muuta="" maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="9" muuta="" ratkaisija="Lauri3">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="7" maalit2="10" muuta="" ratkaisija="Tapsa">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="6" maalit2="2" muuta="" ratkaisija="Otto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+
 			</pelaajat>
 		</peli>
 	</sahly>
