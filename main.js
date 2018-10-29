@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Kuntosähly kriisissä, vain Sinä voit pelastaa sen"){
+					if(otsikko === "Vetoomus auttoi - väkeä oli kuin pipoa!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
