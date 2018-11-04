@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Vetoomus auttoi - väkeä oli kuin pipoa!"){
+					if(otsikko === "Pelaajia edelleen runsaasti - Katso ja kuuntele myös videot!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
