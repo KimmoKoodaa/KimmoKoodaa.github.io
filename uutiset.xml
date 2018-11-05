@@ -50,7 +50,7 @@
 				<p>Ensimmäinen peli lähti käyntiin Paitojen vahvassa hallinnassa. Niklas aloitti kauden erittäin vahvasti, mikä varmasti hankaloitti Liivien peliä entisestään.</p>
 				
 			<video class="img-responsive" poster="avaus-poster.png" controls>
-				<source src="epaonninen_avaus.mp4" type="video/mp4">				
+				<source src="epaonninen avaus.mp4" type="video/mp4">				
 			</video>
 			<p style="color: grey">Video: Paidat hallitsivat pelin alkua</p>
 
