@@ -308,7 +308,7 @@ function piirraPelaajatViikoittain(data){
 					kursori = str + " pelaajaa";
 
 				} else { // Pelien määrä
-					kursori = str + " peliä";
+					kursori = str + " maalivahtia";
 				}
 				// Palautus eli mitä näkyy, kun hiirellä osoitetaan kaaviota
 				return "<div class='osoitus'>" + kursori + "</div>";			
@@ -487,7 +487,7 @@ function piirraPelaajat(){
 					kursori = str + " pelaajaa";
 
 				} else { // Pelien määrä
-					kursori = str + " peliä";
+					kursori = str + " maalivahtia";
 				}
 				// Palautus eli mitä näkyy, kun hiirellä osoitetaan kaaviota
 				return "<div class='osoitus'>" + kursori + "</div>";			
