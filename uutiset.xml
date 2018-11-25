@@ -139,7 +139,7 @@
 
 				<p>Ensimmäinen peli lähti käyntiin Paitojen vahvassa hallinnassa. Niklas aloitti kauden erittäin vahvasti, mikä varmasti hankaloitti Liivien peliä entisestään.</p>
 				
-			<video class="img-responsive" poster="avaus-poster.png" controls>
+			<video class="img-responsive" poster="avaus-poster.png" controls="true">
 				<source src="epaonninen avaus.mp4" type="video/mp4">				
 			</video>
 			<p style="color: grey">Video: Paidat hallitsivat pelin alkua</p>
@@ -157,7 +157,7 @@
 			<p>Toiseen peliin lähdettiin selvästi tasaisemmissa merkeissä. Pelin alkupuolella Paidat johti jo 3 - 0, mutta sitten Liivit sai pelistä kiinni ja alkoitti maalitehtailun.</p>
 		
 
-			<video class="img-responsive" poster="hieno-kuvio-poster.png" controls>
+			<video class="img-responsive" poster="hieno-kuvio-poster.png" controls="true">
 				<source src="hieno_maali.mp4" type="video/mp4">				
 			</video>
 			<p style="color: grey">Video: Liivit kutoi kasaan hienon kuvion</p>
@@ -170,14 +170,14 @@
 
 			<p>Pelin edetessä kävi kuitenkin selväksi, että toinen peli olisi Liivien. Kuten alla olevasta videosta näkyy, Liivien suoritukset alkoivat muistuttamaan jo erään taalaliigassa urheilevan suomalaisnuorukaisen maalintekoa.</p>
 
-			<video class="img-responsive" poster="lamari-poster.png" controls>
+			<video class="img-responsive" poster="lamari-poster.png" controls="true">
 				<source src="Lamarimaali-b.mp4" type="video/mp4">				
 			</video>
 			<p style="color: grey">Video: Huikea lämäri. (Miksei Markus puolusta vaan kävelee vain ohi?)</p>
 				
 			<p>Aivan pelin lopussa jo yliajalla pelattaessa taistelu kävi kuumana, kun Paidat yritti kiriä umpeen Liivien yhden maalin johtoa. Vanha taistelupari Markus ja Antti ottivat yhteen (katso video alla).</p>
 
-			<video class="img-responsive" poster="taistelua-lopussa-poster.png" controls>
+			<video class="img-responsive" poster="taistelua-lopussa-poster.png" controls="true">
 				<source src="taistelu.mp4" type="video/mp4">				
 			</video>
 			<p style="color: grey">Video: Taistellen loppuun asti</p>
