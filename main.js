@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Pelaajia edelleen runsaasti - Katso ja kuuntele myös videot!"){
+					if(otsikko === "Maalivahtipeluutukseen esitetty radikaali muutos - Katso myös uusimmat videot!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
