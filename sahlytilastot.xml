@@ -8195,6 +8195,29 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+
+	<sahly pvm="2018-11-20" paikka="" alkoi="22:00" loppui="Otto2 oli Liiveillä koko ajan maalivahtina. Paidoilla Ville aloitti maalissa ja pelasi ensimmäisen puolikkaan. Toisen puolikkaan pelasi Antti." muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="22" maalit2="18" muuta="" ratkaisija="Markus">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Tomi</pelaaja>
+			</pelaajat>
+		</peli>
+		
+	</sahly>
 	</sahlyt>
 </tilastot>
 
