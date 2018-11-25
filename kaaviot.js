@@ -264,7 +264,7 @@ function piirraPelaajatViikoittain(data){
 					
 		series: [
 			{ label: 'Pelaajia' },
-			{ label: 'Pelien määrä' }
+			{ label: 'Maalivahtien määrä' }
 		],
 
 		legend: { 
@@ -443,7 +443,7 @@ function piirraPelaajat(){
 					
 		series: [
 			{ label: 'Pelaajia' },
-			{ label: 'Pelien määrä' }
+			{ label: 'Maalivahtien määrä' }
 		],
 
 		legend: { 
@@ -880,7 +880,7 @@ function piirraPelienMaaraJaVoittoprosentti(){
 					
 		series: [
 			{ label: 'Pelaajia' ,  showLine:false,  markerOptions: { size: 7, style:"circle" }},
-			{ label: 'Pelien määrä' }
+			{ label: 'Maalivahtien määrä' }
 		],
 	
 		axes: {
@@ -960,7 +960,7 @@ function piirraPelienMaaraJaVoittoprosentti2(dataAP){
 					
 		series: [
 			{ label: 'Pelaajia' ,  showLine:false,  markerOptions: { size: 7, style:"circle" }},
-			{ label: 'Pelien määrä' }
+			{ label: 'Maalivahtien määrä' }
 		],
 	
 		axes: {
