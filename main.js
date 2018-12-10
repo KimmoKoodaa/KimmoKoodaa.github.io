@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Ennätysmäärä pelaajia - Katso ja kuuntele myös uusimmat videot!"){
+					if(otsikko === "Make mokena - Katso ja kuuntele uusimmat videot!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
