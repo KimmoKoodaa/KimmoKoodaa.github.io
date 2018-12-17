@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Make mokena - Katso ja kuuntele uusimmat videot!"){
+					if(otsikko === "Villen viimeinen peli, puhetta paidan nostamisesta kattoon - Katso myös uudet videot!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
