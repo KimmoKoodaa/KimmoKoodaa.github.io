@@ -8333,6 +8333,40 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2018-12-18" paikka="" alkoi="22:00" loppui="Niklas ja Otto2 maalivahteina." muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="17" maalit2="20" muuta="" ratkaisija="Dani">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Ipa</pelaaja>
+				<pelaaja joukkue="paidat">Kari</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Dani</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+
+			</pelaajat>
+		</peli>
+		
+	</sahly>
+
+	<sahly pvm="2018-12-25" paikka="" alkoi="22:00" loppui="" muuta="Joulu, joten ei pelattu." maalivahteja="0" pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu.">
+			<pelaajat>				
+			</pelaajat>
+		</peli>
+	</sahly>	
 	</sahlyt>
 </tilastot>
 
