@@ -148,31 +148,6 @@
 
 				<p><br></p>
 
-				<h3>Pisimmät tappioputket</h3>
-
-				<p>Make teki vuoden aikana kaikkien aikojen pisimmän tappioputken häviämällä ensimmäisenä pelaajana 10 peliä putkeen. Kaikki tilastot huomioiden viisi pelaajaa on hävinnyt 9 peliä. Joni ja Niklas pääsivät siis lähelle ennätyslukemia.</p>
-
-				<p>
-				<br>
-				<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-6">
-				<table class="table sarakkeenLevennys">
-						<thead>
-							<tr><th>Nimi</th><th>Tappioputki</th></tr>
-						</thead>
-						<tbody >
-							<tr><td>Make</td><td>10</td></tr>
-							<tr><td>Joni</td><td>9</td></tr>
-							<tr><td>Niklas</td><td>8</td></tr>
-						</tbody>
-				</table>
-				</div>
-				<div class="col-md-5"></div>
-				</div>
-				</p>
-
-
 				<h3>Korkein voittoprosentti</h3>
 
 				<p>Muutama henkilö pelasi ottelun tai pari voittaen ne kaikki. Tässä on otettu huomioon vain ne, jotka pelasivat vähintään kolme peliä. Korkein voittoprosentti oli Lassella ja Kimmo2:lla, jotka voittivat 71 % pelaamistaan peleistä. Tosin Lasse pelasi melkein kaksi kertaa yhtä monta peliä kuin Kimmo2. Kolmanneksi paras voittoprosentti oli Otolla. Lasse pärjää tässä tilastossa kaudesta toiseen, joten tulos ei ole yllättävä.</p>
@@ -196,8 +171,6 @@
 				<div class="col-md-5"></div>
 				</div>
 				</p>
-
-
 
 				<h3>Eniten voittomaaleja</h3>
 
@@ -254,7 +227,6 @@
 				<div class="col-md-5"></div>
 				</div>
 				</p>
-
 
 
 				<h3>Tapsa Cup finaalit</h3>
