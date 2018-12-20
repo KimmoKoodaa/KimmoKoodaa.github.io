@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Villen viimeinen peli, puhetta paidan nostamisesta kattoon - Katso myös uudet videot!"){
+					if(otsikko === "Yhteenveto vuodesta 2018"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
