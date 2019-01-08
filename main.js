@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Hyökkääjä-ikoni Villen viimeinen runkosarjapeli päättyi voittoon"){
+					if(otsikko === "Vuosi on vaihtunut, katso tärpit vuodelle 2019"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
