@@ -525,7 +525,7 @@ function piirraPelaajatVuosittain(){
 
 	// Luodaan selitteet ja niiden värit
 	var selitteet = [];
-	var kaikkiVarit = ['#ff0080', '#85802b', '#00749F','#FFA500', '#000000', '#00FF00','#ff6600', '#ff0000'];
+	var kaikkiVarit = ['#ff0080', '#85802b', '#00749F','#FFA500', '#000000', '#00FF00','#ff6600', '#66ffff'];
 	var varit = [];
 	for(var i=0; i<vuodet.length; i++){
 		selitteet.push("Vuosi " + vuodet[i]);
@@ -688,7 +688,7 @@ function piirraPelaajatKuukaudenKeskiarvo(){
 	
 	// Luodaan selitteet ja niiden värit
 	var selitteet = [];
-	var kaikkiVarit = ['#ff0080', '#85802b', '#00749F','#FFA500', '#000000', '#00FF00','#ff6600', '#ff0000'];
+	var kaikkiVarit = ['#ff0080', '#85802b', '#00749F','#FFA500', '#000000', '#00FF00','#ff6600', '#66ffff'];
 
 	for(var i=0; i<vuodet.length; i++){
 		selitteet.push("Vuosi " + vuodet[i]);
