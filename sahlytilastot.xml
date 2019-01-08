@@ -8367,6 +8367,13 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			<pelaajat>				
 			</pelaajat>
 		</peli>
+	</sahly>
+	<sahly pvm="2019-01-01" paikka="" alkoi="22:00" loppui="" muuta="Uusivuosi, joten ei pelaattu." maalivahteja="0" pelattiinko="ei">
+
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu.">
+			<pelaajat>				
+			</pelaajat>
+		</peli>
 	</sahly>	
 	</sahlyt>
 </tilastot>
