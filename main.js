@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Vuosi on vaihtunut, katso tärpit vuodelle 2019"){
+					if(otsikko === "Taistelu paritilastojen piikkipaikasta jatkui kiivaana"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
