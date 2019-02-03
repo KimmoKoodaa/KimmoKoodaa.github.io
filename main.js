@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Taistelu paritilastojen piikkipaikasta jatkui kiivaana"){
+					if(otsikko === "Draamaa kentällä - Onko Kjellin ura ohi?"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
