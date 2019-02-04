@@ -8,6 +8,26 @@
     body{font-size: 14px;}
 }
 
+/* 2019 */
+.beakingLaatikko {
+
+	border-style: solid;
+	border-width: 3px;
+	border-color: red; 
+	background-color: yellow; 
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.beakingNewsTeksti {
+	font-size: 1.3em;
+	color: red; 
+}
+
+.breakingLinkki { 
+
+	color: black; 
+}
 
 h5{
     font-size: 1.4em;
