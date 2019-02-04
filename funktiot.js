@@ -1,6 +1,11 @@
 /*
 	Sekalaisia funktioita
 */
+// 2019
+function avaaUutinen(nimi){
+	uutinen = uutinenOliot[nimi];
+	$('#finaaliteksti').empty().append(uutinen.getSisalto()); 
+}
 
 function vaihdaTab(tabinNimi){
 		//alert("vaihdaTab " + tabinNimi);
