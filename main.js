@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Draamaa kentällä - Onko Kjellin ura ohi?"){
+					if(otsikko === "Puolueeton raportti Paidat vs. Liivit 5.2.2019"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
