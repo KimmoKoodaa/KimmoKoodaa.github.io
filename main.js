@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Puolueeton raportti Paidat vs. Liivit 5.2.2019"){
+					if(otsikko === "Objektiivinen raportti Paidat vs. Liivit 12.2.2019"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
