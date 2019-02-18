@@ -772,7 +772,8 @@ function getTarkatTiedotPelista(elem, pelattiinko, pvm, peliInd){
 			// Lisätään varmuuden vuoksi jokaisen pelin kohdalla, koska voi olla missanut jonkun pelin
 			// Jos pelaajan nimeä ei ole pelaajaluettelossa
 			if( !(pelaajanNimi in pelaajaOliot) ){
-				alert("Pelaaja puuttuu xml-tiedostosta pelaajat-tägin kohdalta: " + pelaajanNimi + ". Lisää tiedot xml-tiedostoon.");
+				//alert("Pelaaja puuttuu xml-tiedostosta pelaajat-tägin kohdalta: " + pelaajanNimi + ". Lisää tiedot xml-tiedostoon.");
+				alert("Tapahtui joku ohimenevä häiriö. Ei ehtinyt ladata kaikkia tietoja. Päivitäpäs sivu (esim. F5), niin sitten varmaankin toimii.");
 			}
 			pelaajaOliot[pelaajanNimi].setSahlyPeliTulos(pvm, 0, "paikalla");
 
