@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Objektiivinen raportti Paidat vs. Liivit 12.2.2019"){
+					if(otsikko === "Vuoden pelaajaennätys rikki - Katso myös uudet videot!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
