@@ -8602,6 +8602,31 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2019-02-19" paikka="" alkoi="22:00" loppui="Lasse maalilla. Aloitti Paidoilla, vaihtoi puolivälissä Liiveille." muuta="" maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="13" maalit2="20" muuta="" ratkaisija="Joni">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Juha2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+
+			</pelaajat>
+		</peli>		
+	</sahly>
 
 	<sahly pvm="2019-02-26" paikka="" alkoi="22:00" loppui="Lasse ja Tomi maalivahteina." muuta="" maalivahteja="2" pelattiinko="kyllä">
 
@@ -8640,6 +8665,51 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Lasse</pelaaja>
 				<pelaaja joukkue="liivit">Martti</pelaaja>
 				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2019-03-05" paikka="" alkoi="22:00" loppui="Lasse ja Joni maalivahteina." muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="19" muuta="" ratkaisija="Tommi">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Dani</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+		
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="11" muuta="" ratkaisija="Dani">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Dani</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>
