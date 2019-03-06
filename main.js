@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Pelit jatkuivat vauhdikkaina - Katso myös Kjellin tekemät videot!"){
+					if(otsikko === "Vuoden pelaajaennätys rikki - Katso myös uudet videot!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
