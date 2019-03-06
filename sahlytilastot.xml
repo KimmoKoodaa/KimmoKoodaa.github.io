@@ -44,6 +44,7 @@
 		<pelaaja kutsumanimi="Jouni" tilastonimi="Jouni" kuvaus="Jouni on se yks huipputyyppi. Vähän vanhempi peluri. Sellainen isokokoinen jässikkä. Liekö Jarin kaveri, kun ilmestyivät samalla kerralla." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jude" tilastonimi="Jude" kuvaus="Jude on se yks huipputyyppi. Vanhaa kaartia." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Juha" tilastonimi="Juha" kuvaus="Juha on se yks huipputyyppi. Sen pisimmän Markuksen (joka ei ole näissä tilastoissa) kavereita." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Juha" tilastonimi="Juha2" kuvaus="Juha2 on se yks huipputyyppi. Lauri3:n kaveri. Oli kerran joskus kesän tai syksyn 2018 aikana." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Kalle" tilastonimi="Kalle" kuvaus="Kalle on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Kari" tilastonimi="Kari" kuvaus="Kari on se yks huipputyyppi. Nuorempi Kari. Ipan kavereita." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Kari" tilastonimi="Kari2" kuvaus="Kari2 on se yks huipputyyppi. Silmälasipäinen jässikkä. Pelaa aika hyvin ja aika kovaa. Markuksen tuttuja." ominaisuudet="" muuta=""/>
@@ -8604,7 +8605,29 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 		</peli>
 	</sahly>
 		
+	<sahly pvm="2019-02-19" paikka="" alkoi="22:00" loppui="" muuta="Lasse maalilla. Aloitti Paidoilla, vaihtoi puolivälissä Liiveille." maalivahteja="1" pelattiinko="kyllä">
 
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="13" maalit2="20" muuta="" ratkaisija="Joni">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tapsa</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Juha2</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 
 	<sahly pvm="2019-02-26" paikka="" alkoi="22:00" loppui="Lasse ja Tomi maalivahteina." muuta="" maalivahteja="2" pelattiinko="kyllä">
 
