@@ -8714,7 +8714,14 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
-
+	<sahly pvm="2019-03-12" paikka="" alkoi="22:00" loppui="" muuta="Paikalla: Antonis, Kimmo, Lasse, Make, Martti, Otto. Lasse oli maalilla ja pelattiin yhteen maaliin. Ei käytetty liivejä. Joukkueessa A oli Martti ja Otto. Joukkueessa B Antonis, Kimmo, Make. Muuten vain pelailtiin, mutta finaali päättyi 3-2, kun joukkue B voitti. Make teki viimeisen maalin. Peliä ei tilastoitu." maalivahteja="1" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>6</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
 	</sahlyt>
 </tilastot>
 
