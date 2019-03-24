@@ -8714,6 +8714,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+		
 	<sahly pvm="2019-03-12" paikka="" alkoi="22:00" loppui="" muuta="Paikalla: Antonis, Kimmo, Lasse, Make, Martti, Otto. Lasse oli maalilla ja pelattiin yhteen maaliin. Ei käytetty liivejä. Joukkueessa A oli Martti ja Otto. Joukkueessa B Antonis, Kimmo, Make. Muuten vain pelailtiin, mutta finaali päättyi 3-2, kun joukkue B voitti. Make teki viimeisen maalin. Peliä ei tilastoitu." maalivahteja="1" pelattiinko="kyllä">
 		<perustiedot>
 			<pelaajia>6</pelaajia>
@@ -8721,6 +8722,26 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			<visa>poissa</visa>
 			<muuta></muuta>
 		</perustiedot>
+	</sahly>
+		
+	<sahly pvm="2019-03-19" paikka="" alkoi="22:00" loppui="Lasse oli Paitojen maalivahti. Liiveillä maalissa aloitti Kjell ja puolivälissä Antonis tuli tilalle maalivahdiksi." muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="26" maalit2="25" muuta="" ratkaisija="Otto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+
+				<pelaaja joukkue="liivit">Aatos</pelaaja>
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+			</pelaajat>
+		</peli>
+		
 	</sahly>
 	</sahlyt>
 </tilastot>
