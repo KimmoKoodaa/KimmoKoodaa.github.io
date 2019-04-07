@@ -82,6 +82,7 @@
 		<pelaaja kutsumanimi="Saku" tilastonimi="Saku" kuvaus="Saku on se yks huipputyyppi. Sellainen partasuu, joka pelaa enimmäkseen kesäisin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Sami" tilastonimi="Sami" kuvaus="Sami on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Samu" tilastonimi="Samu" kuvaus="Samu on se yks huipputyyppi. Vanhimpaa kaartia. Lienee aloittanut nämä pelit jo 90-luvulla?" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Santtu" tilastonimi="Santtu" kuvaus="Santtu on se yks huipputyyppi. Antin kavereita. Maalivahti. Eka merkintä 04/2019 mutta oli Antin mukaan joskus pari vuotta aiemmin." ominaisuudet="" muuta=""/>		
 		<pelaaja kutsumanimi="Serj" tilastonimi="Serj" kuvaus="Serj on se yks huipputyyppi. Markuksen tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tanel" tilastonimi="Tanel" kuvaus="Tanel on se yks huipputyyppi. Uusi vuonna 2017. Antin tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tapsa" tilastonimi="Tapsa" kuvaus="Tapsa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -8781,6 +8782,48 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Lasse</pelaaja>
 				<pelaaja joukkue="liivit">Markus</pelaaja>
 				<pelaaja joukkue="liivit">Tommi</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2019-04-02" paikka="" alkoi="22:00" loppui="Lasse ja uusi mies Santtu (Antin kaveri) olivat maalivahteina." muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="20" maalit2="10" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Santtu</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tomi</pelaaja>
+			</pelaajat>
+		</peli>
+		
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="5" maalit2="3" muuta="" ratkaisija="Kjell">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Tomi</pelaaja>
+				<pelaaja joukkue="paidat">Santtu</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>
