@@ -9,7 +9,7 @@
 		<pelikausi nimi="Kesäkausi 2017" nimiLyhyt="Kesä 17" pvmAloitus="2017-06-13" pvmLopetus="2017-08-08"></pelikausi>
 		<pelikausi nimi="Talvikausi 2017-2018" nimiLyhyt="Talvi 17-18" pvmAloitus="2017-08-15" pvmLopetus="2018-06-05"></pelikausi>
 		<pelikausi nimi="Kesäkausi 2018" nimiLyhyt="Kesä 18" pvmAloitus="2018-06-12" pvmLopetus="2018-08-07"></pelikausi>
-		<pelikausi nimi="Talvikausi 2018-2019" nimiLyhyt="Talvi 18-19" pvmAloitus="2018-08-14" pvmLopetus="2019-05-31"></pelikausi>
+		<pelikausi nimi="Talvikausi 2018-2019" nimiLyhyt="Talvi 18-19" pvmAloitus="2018-08-14" pvmLopetus="2019-06-04"></pelikausi>
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
@@ -8843,9 +8843,29 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Lasse</pelaaja>
 				<pelaaja joukkue="liivit">Tapsa</pelaaja>
 			</pelaajat>
-		</peli>
-		
+		</peli>		
 	</sahly>
+		
+	<sahly pvm="2019-04-16" paikka="" alkoi="22:00" loppui="Santtu ja Lasse olivat maalivahteina." muuta="" maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="10" maalit2="20" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Santtu</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>		
+	</sahly>
+		
 	</sahlyt>
 </tilastot>
 
