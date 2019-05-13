@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Tummia pilviä Tapsa-cup finaalin yllä - Katso myös Kjellin tekemä video"){
+					if(otsikko === "Talvikauden 2018 – 2019 Tapsa Cup finaali pelataan 4.6.2019"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
