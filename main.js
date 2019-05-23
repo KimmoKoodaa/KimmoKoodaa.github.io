@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Talvikauden 2018 – 2019 Tapsa Cup finaali pelataan 4.6.2019"){
+					if(otsikko === "Skandaali! Antonis on nyt Villeä kokeneempi pelimies!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
