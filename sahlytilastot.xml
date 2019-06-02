@@ -9008,6 +9008,23 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+	<sahly pvm="2019-05-28" paikka="" alkoi="22:00" loppui="Puuveskat. Kimmo aloitti Paidoilla. Silloin Paidoilla kaikki pelasivat eli oli ylioima koko ajan. Kun Otto2 loukkaantui pelin loppupuolella, Kimmo vaihtoi liiveille. Kimmolle myös ratkaisumaali. Ville oli pelaamassa pitkästä aikaa." muuta="" maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="19" maalit2="21" muuta="" ratkaisija="Kimmo">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Joni</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 
 	</sahlyt>
 </tilastot>
