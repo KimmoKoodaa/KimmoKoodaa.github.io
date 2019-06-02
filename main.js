@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Skandaali! Antonis on nyt Villeä kokeneempi pelimies!"){
+					if(otsikko === "Finaali! Se on finaali ens tiistaina!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
