@@ -10,6 +10,24 @@
 
 /* 2019 */
 
+.torjunnatTable {
+  border: 1px solid black;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.torjunnatTable th {
+  border: 1px solid black;
+	padding: 5px;
+}
+
+.torjunnatTable td {
+  border: 1px solid black;
+	padding: 5px;
+}
+
+
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
