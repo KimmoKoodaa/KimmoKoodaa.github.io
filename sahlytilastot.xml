@@ -10,6 +10,7 @@
 		<pelikausi nimi="Talvikausi 2017-2018" nimiLyhyt="Talvi 17-18" pvmAloitus="2017-08-15" pvmLopetus="2018-06-05"></pelikausi>
 		<pelikausi nimi="Kesäkausi 2018" nimiLyhyt="Kesä 18" pvmAloitus="2018-06-12" pvmLopetus="2018-08-07"></pelikausi>
 		<pelikausi nimi="Talvikausi 2018-2019" nimiLyhyt="Talvi 18-19" pvmAloitus="2018-08-14" pvmLopetus="2019-06-04"></pelikausi>
+		<pelikausi nimi="Kesäkausi 2019" nimiLyhyt="Kesä 19" pvmAloitus="2019-06-11" pvmLopetus="2019-08-06"></pelikausi>
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
@@ -106,6 +107,7 @@
 		<pelaaja kutsumanimi="tuntematon11" tilastonimi="tuntematon11" kuvaus="Tuntematon11 on se yks huipputyyppi. Oli kesällä 2018 finaalissa, mutta onko ollut aikaisemmin?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="tuntematon12" tilastonimi="tuntematon12" kuvaus="Tuntematon12 on se yks huipputyyppi. Ei kenenkään tuttu. Hyvä pelaaja ja ahkera juoksija. Oli maaliskuussa 2019." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Tuomas" tilastonimi="Tuomas" kuvaus="Tuomas on se yks huipputyyppi. Se vähän Niclaksen tai Antin näköinen sälli." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Tuukka" tilastonimi="Tuukka" kuvaus="Tuukka on se yks huipputyyppi. Uusi mies kesällä 19. Ei kenenkään tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville" kuvaus="Ville on se yks huipputyyppi. Antin ja Janin kaveri. Huutelee joskus hämäilymielessä vastustajille: 'Täällä'. Oli aiemmin Ville2, mutta 6.12.2017 muutettiin Ville" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville2" kuvaus="Ville2 on se yks huipputyyppi. Kimmo2:n koulukaveri. Pitkä. Hyvä. Pelaa vähän kuin Pekka. Oli aikaisemmin Ville, mutta 6.12.2017 muutettiin Ville2" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Visa" tilastonimi="Visa" kuvaus="Visa on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
@@ -9049,7 +9051,46 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+	<sahly pvm="2019-06-11" paikka="" alkoi="20:00" muuta="Lasse ja Niklas olivat maalivahteina. Uusi mies Tuukka. Lisäksi Markuksen pari työkaveria, joita ei tilastoitu. Yhteensä pelaajia siis 15, vaikka 13 tilastoitiin. Otto2 syötti Villelle ekassa maalissa, toisen maalin toisesta syöttäjästä ei tietoa." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="9" maalit2="20" muuta="" ratkaisija="Antonis" syottaja="Ville">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
 		
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="15" maalit2="11" muuta="" ratkaisija="Antti" syottaja="Timo">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
 
