@@ -15,6 +15,115 @@
 		</sisalto>
 	</uutinen>
 -->
+	<uutinen otsikko="Uusi kausi tuo uudistuksia" pvm="2019-06-16">
+		<lyhyesti>
+			<![CDATA[
+			Lyhennelmä puuttuu.
+			]]>
+		</lyhyesti>
+		<sisalto>
+			<![CDATA[
+
+			<h1>Kesäkausi 2019 alkoi - uudistuksen tuulet puhaltavat</h1>
+			<p style="color: grey">Julkaistu 16.6.2019</p>
+
+			<p>
+				<figure>
+				<img class="img-responsive" src="kansikuva.png">
+				<figcaption style="color: dimgrey">Kuva: Uusi kausi alkoi vauhdikkaasti (arkistokuva)</figcaption>
+				<br>
+				</figure>
+			</p>
+
+			<p>Kesäkausi 2019 alkoi 11.6. kello 20 ja toi mukanaan uudistuksia. Jatkossa pyritään laskemaan myös maalivahtien torjunnat, jos se onnistuu helposti eikä häiritse peliä. Tapsa Cup finaali on jatkossa tarkoitus pelata vain kerran vuodessa eli touko-kesäkuun vaihteessa. Kesäkaudella pelataan myös finaali ihan normaalisti elokuussa, mutta se on tarkoitus nimetä uudestaan. Uutta nimeä ollaan miettimässä, joten ehdota jos keksit hyvän nimen. Saatujen tietojen mukaan kesän finaalissa kapteeneina ovat Ville ja Markus.</p>
+
+			<h2>Nyt lasketaan myös torjunnat!</h2>
+
+			<p>Jotta elämä ei olisi liian helppoa, nyt on keksitty laskea myös maalivahtien torjunnat! Kaikenlaista sitä nykyään. Ajatusta ehdotettiin Niklakselle ja Lasselle ja yllättäen molemmat innostuivat siitä. 11.6. pelatussa pelissä maalivahdit laskivat ottamiaan torjuntoja ja ne merkittiin pelin aikana ylös. Kun torjuntoihin yhdistettiin maalit, saatiin maalivahtien torjuntaprosentit. Vaikka laskeminen toi hieman lisää häsläystä, olivat molemmat maalivahdit halukkaita jatkamaan sitä tulevaisuudessakin. Lasse suorastaan innostui asiasta, koska tuohan se lisää motivaatiota maalivahdille.</p>
+
+			<p>Illan aikana pelaattiin kaksi peliä ja tilastot löytyvät alla olevasta kaaviosta. Torjunnat siis laskettiin, ja laukaukset ovat maalien ja torjuntojen summa. Torjuntaprosentti saadaan jakamalla torjuntojen määrä laukausien määrällä.</p> 
+
+			<div class="row">
+				<div class="col-md-1"></div>
+					<div class="col-md-6">
+
+						<table class="torjunnatTable">
+								<thead>
+									<tr><th></th><th colspan="3">Niklas</th><th colspan="3">Lasse</th></tr>
+									<tr>
+										<th>Peli</th>
+										<th>Torjunnat</th>
+										<th>Laukaukset</th>
+										<th>Torjuntapros.</th>
+										<th>Torjunnat</th>
+										<th>Laukaukset</th>
+										<th>Torjuntapros.</th>
+									</tr>
+								</thead>
+								<tbody >									
+									<tr>
+										<td>1</td>
+										<td>8</td>
+										<td>28</td>
+										<td>28,6 %</td>
+										<td>16</td>
+										<td>25</td>
+										<td>64,0 %</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>10</td>
+										<td>21</td>
+										<td>47,6 %</td>
+										<td>27</td>
+										<td>42</td>
+										<td>64,3 %</td>
+									</tr>
+									<tr>
+										<td><b>yht.</b></td>
+										<td><b>18</b></td>
+										<td><b>49</b></td>
+										<td><b>36,7 %</b></td>
+										<td><b>43</b></td>
+										<td><b>67</b></td>
+										<td><b>64,2 %</b></td>
+									</tr>
+								</tbody>
+						</table>
+
+					</div>
+				<div class="col-md-5"></div>
+			</div>
+			<p style="color: dimgrey">Taulukko: 11.6. pelattujen kahden pelin maalivahtitilastot</p>
+
+			<p>Koska nämä tilastot ovat ensimmäiset laatuaan, on vaikea sanoa, mikä on normaalia ja minkälaisia numeroita voi odottaa. Siksi tarkempia johtopäätösiä ei kannata tehdä kahden pelin perusteella vaan lisää dataa kaivataan.</p>
+
+			<p>Ensimmäinen peli oli Niklakselle vaikea, joten torjuntaprosentti jäi alle 30. Toisessa päässä Lasselle lauottiin suurin piirtein yhtä monta laukausta, mutta Lassen onnistui torjumaan niistä 64 %.</p>
+
+			<p><br>Molempia pelejä ei pelattu aivan samoin kokoonpanoin. Ensimmäisessä pelissä Antonis ja Antti olivat Lassen joukkueessa, kun taas Martti ja Otto olivat Niklaksen joukkueessa. Toiseen peliin Antonis ja Antti sekä Martti ja Otto vaihtoivat joukkuetta.</p>
+
+			<p>Toiseen peliin Niklas pääsi mukaan jo selvästi paremmin, ja torjuntaprosentti oli siinä jo melkein 50 %. Laukauksia tuli vähän vähemmän toisessa ottelussa. Lasse puolestaan joutui pallosateeseen, kun laukausten määrä nousi 25:stä 42:een. Yllättävää (ehkä sattumaa) on se, että Lassen torjuntaprosentti oli lähes sama molemmissa otteluissa: 64 ja 64,3 %.</p>
+
+			<p>No, mistä johtuu se, että Lasselle lauottiin toisessa pelissä niin paljon? Johtuiko se siitä, että innokkaasti hyökkäävät Antonis ja Antti pelasivat toisessa ottelussa Lassea vastaan? Vai eivätkö Lassen joukkueeseen liittyneet Martti ja Otto puolustaneet? Toisaalta, toisessa pelissä Lasselle lauottiin enemmän, mutta ei mitenkään paremmin, koska torjuntaprosentti oli sama. Kahden ottelun perusteella ei kannata tehdä liikaa johtopäätöksiä, mutta tällaisia asioita voi miettiä, jos torjunnat on tiedossa pitkältä aikaväliltä.</p>
+
+			<h2>Kesäkauden finaalille uusi nimi</h2>
+
+			<p>Useampikin pelaaja on kokenut, että sarjan pääfinaali - Tapsa Cup finaali - pitäisi pelata vain kerran vuodessa, kuten muissakin sarjoissa on tapana. Siksi jatkossa Tapsa Cup finaali on tarkoitus pelata normaalisti touko-kesäkuun vaihteessa ja kesäkaudelle keksittäisiin uusi nimi. Samalla myös aiemmin pelatut kesäkauden finaalit muutettaisiin samannimisiksi. Tämän jälkeen pelaajilla olisi Tapsa Cup mestaruuksia vähemmän, kun nämä kesämestaruudet korvaisivat osan niistä.</p>
+
+			<p><b>Kaikki voivat miettiä uutta nimeä kesäfinaalille.</b> Päätös uudesta nimestä tehdään kesän aikan jossain vaiheessa ennen elokuun finaalia. Voi olla, että päätös runnotaan kasaan jo lähiviikkoina. Yhden ehdotuksen mukaan kesäkautta kutsuttaisiin nimellä <i>Kesäliiga</i> ja mestaruutta nimellä <i>Kesäliigan mestaruus</i>. Liian hienoa nimeä sille ei ehkä kannata keksiä, jotta se ei jättäisi Tapsa Cup:a varjoonsa.</p>
+
+			<h2>Ville ja Markus seuraavat kapteenit</h2>
+
+			<p>Pelikentille voitokkaan paluun tehnyt tuore Tapsa Cup mestari Ville on julistautunut kesän finaalin kapteeniksi. Saatujen tietojen mukaan toisena kapteenina on toinen tuore mestari Markus. Emme tavoittaneet edellisessä finaalissa Paitojen tappiojoukkuetta kipparoinutta Anttia kommenttia varten, mutta oletamme hänen sanovan:</p>
+
+			<p> - Ihan sama mulle.</p>
+
+			<p>Kuka sitten onkaan kapteenina, on hänen syytä muistaa se kaikkein tärkein kapteenille asetettu vaatimus: hänen täytyy ilmestyä paikalle finaaliin. Kesälaitumilta käsin ei kapteenina voi olla.</p>
+				
+			]]>
+		</sisalto>
+	</uutinen>	
+	
 <uutinen otsikko="Huikea finaali 4.6.2019" pvm="2019-06-10">
 		<lyhyesti>
 			<![CDATA[
