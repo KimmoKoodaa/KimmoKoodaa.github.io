@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Uusi kausi tuo uudistuksia"){
+					if(otsikko === "Huikea finaali 4.6.2019"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
