@@ -84,15 +84,15 @@
 
 	border-style: solid;
 	border-width: 3px;
-	border-color: red; 
-	background-color: yellow; 
+	border-color: green; 
+	background-color: #99ff99;
 	font-size: 1.5em;
 	cursor: pointer;
 }
 
 .beakingNewsTeksti {
 	font-size: 1.3em;
-	color: red; 
+	color: black; 
 }
 
 .breakingLinkki { 
