@@ -9091,6 +9091,49 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+	<sahly pvm="2019-06-18" paikka="" alkoi="20:00" muuta="Lasse ja Niklas maalivahteina." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="27" maalit2="30" muuta="" ratkaisija="Markus" syottaja="Martti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+
+	<sahly pvm="2019-06-25" paikka="" alkoi="20:00" muuta="Lasse ja Niklas maalivahteina. 2 Markuksen ja Timon työkaveria ulkomailta, Paidoilla silmälasipäinen ja liiveillä se toinen. Yhteensä siis 17 pelaajaa." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="7" maalit2="22" muuta="" ratkaisija="Antonis">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Aatos</pelaaja>
+				<pelaaja joukkue="paidat">Joel</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Toivo</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Lauri3</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Make2</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
 
