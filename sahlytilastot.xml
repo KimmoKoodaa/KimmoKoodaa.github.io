@@ -15,6 +15,7 @@
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Aki" tilastonimi="Aki" kuvaus="Aki on se yks huipputyyppi. Jonin kaveri, joka oli kerran kesällä 2018." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Anton" tilastonimi="Anton" kuvaus="Anton on se yks huipputyyppi. Vahva jässikkä. Ilmeisesti siellä töissä. Ekan kerran kesällä 2019." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antoni" tilastonimi="Antoni" kuvaus="Antoni on se yks huipputyyppi. Nuorehko. Pelaa aika täysillä. Ei varmaa, onko kenenkään tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antonis" tilastonimi="Antonis" kuvaus="Antonis on se yks huipputyyppi. Nuori uusi pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Antti" tilastonimi="Antti" kuvaus="Antti on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -9134,6 +9135,48 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2019-07-02" paikka="" alkoi="20:00" loppui="" muuta="Make muisteli, että toisella joukkueella oli vaihtomies eli suunnilleen 13." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>13</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2019-07-09" paikka="" alkoi="20:00" loppui="" muuta="Make muisteli, että 12 pelaajaa." maalivahteja="" pelattiinko="kyllä">
+		<perustiedot>
+			<pelaajia>12</pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2019-07-16" paikka="" alkoi="20:00" muuta="Lasse ja Niklas maalivahteina. Anton oli uusi mies, tosin saattoi olla myös edellisellä tai sitä edellisellä kerralla." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="21" maalit2="20" muuta="" ratkaisija="Make">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Anton</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Jude</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Make2</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tuomas</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+		
 	</sahlyt>
 </tilastot>
 
