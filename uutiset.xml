@@ -17,7 +17,7 @@
 -->
 	
 
-	<uutinen otsikko="Maalivahtitilastot" pvm="2019-06-27">
+	<uutinen otsikko="Maalivahtitilastot" pvm="2019-07-22">
 		<lyhyesti>
 			<![CDATA[
 			Lyhennelmä puuttuu.
@@ -27,7 +27,7 @@
 			<![CDATA[
 
 			<h1>Maalivahtitilastot</h1>
-			<p style="color: grey">Julkaistu 27.6.2019</p>
+			<p style="color: grey">Julkaistu 22.7.2019</p>
 
 			<p>
 				<figure>
@@ -99,14 +99,24 @@
 										<td>90,1 %</td>
 									</tr>
 									<tr>
+										<td>16.7.</td>
+										<td>1</td>
+										<td>22</td>
+										<td>42</td>
+										<td>52,4 %</td>
+										<td>42</td>
+										<td>63</td>
+										<td>66,6 %</td>
+									</tr>
+									<tr>
 										<td><b>yht.</b></td>
 										<td></td>
-										<td><b>70</b></td>
-										<td><b>148</b></td>
-										<td><b>47,3 %</b></td>
-										<td><b>160</b></td>
-										<td><b>221</b></td>
-										<td><b>72,4 %</b></td>
+										<td><b>92</b></td>
+										<td><b>190</b></td>
+										<td><b>48,4 %</b></td>
+										<td><b>202</b></td>
+										<td><b>284</b></td>
+										<td><b>71,1 %</b></td>
 									</tr>
 								</tbody>
 						</table>
