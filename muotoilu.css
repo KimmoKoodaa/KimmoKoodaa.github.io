@@ -10,6 +10,10 @@
 
 /* 2019 */
 
+body{
+	font-size: 120%;	
+}
+
 .torjunnatTable {
   border: 1px solid black;
 	padding: 5px;
