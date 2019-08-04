@@ -128,7 +128,7 @@
 		</sisalto>
 	</uutinen>
 	
-	<uutinen otsikko="Maalivahtitilastot" pvm="2019-07-22">
+	<uutinen otsikko="Kesäkauden 2019 maalivahtitilastot" pvm="2019-08-04"> 
 		<lyhyesti>
 			<![CDATA[
 			Lyhennelmä puuttuu.
@@ -136,24 +136,23 @@
 		</lyhyesti>
 		<sisalto>
 			<![CDATA[
-
-			<h1>Maalivahtitilastot</h1>
-			<p style="color: grey">Julkaistu 22.7.2019</p>
-
+			<h1>Kesäkauden 2019 runkosarja ohi - Finaali ensi tiistaina</h1>
+			<p style="color: grey">Julkaistu 4.8.2019</p>
 			<p>
 				<figure>
 				<img class="img-responsive" src="kansi-2018-12-11.png">
-				<figcaption style="color: dimgrey">Kuva: Lasse joutui pallosateeseen, mutta torjui 90% vedoista (arkistokuva)</figcaption>
+				<figcaption style="color: dimgrey">Kuva: Lasse oli jälleen torjuntavastuussa kesällä 2019 (arkistokuva)</figcaption>
 				<br>
 				</figure>
 			</p>
 	
-			<p>Kesän mielenkiintoisin uudistus tähän mennessä on ollut maalivahtien torjuntojen laskeminen. Sivuja ei ole vielä ehditty kehittämään siten, että torjunnat olisivat muiden tilastojen seassa, joten ne lisätään tälle sivulle.</p>
+			<p>Kesän yksi mielenkiintoisimmista uudistusksista on ollut maalivahtien torjuntojen laskeminen. Sivuja ei ole vielä ehditty kehittämään siten, että torjunnat olisivat muiden tilastojen seassa, joten ne on lisätty tähän alle. Päävastuussa maaleilla olivat tälläkin kaudella Lasse ja Niklas, joiden tilastot löytyvät alla olevasta taulukosta.
+
+			<p>Lassen ja Niklaksen lisäkseen myös Antti pelasi yhden ottelun 23.7. Ja mallikkaasti pelasikin. Antin maalia kohti lauottiin 96 kertaa, joista Antti torjui 76. Torjuntaprosentti hänellä oli 79,1 %.</p>
 
 			<div class="row">
 				<div class="col-md-1"></div>
 					<div class="col-md-6">
-
 						<table class="torjunnatTable">
 								<thead>
 									<tr><th></th><th></th><th colspan="3">Niklas</th><th colspan="3">Lasse</th></tr>
@@ -220,33 +219,37 @@
 										<td>66,6 %</td>
 									</tr>
 									<tr>
+										<td>23.7.</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>37</td>
+										<td>45</td>
+										<td>82,2 %</td>
+									</tr>
+									<tr>
 										<td><b>yht.</b></td>
 										<td></td>
 										<td><b>92</b></td>
 										<td><b>190</b></td>
 										<td><b>48,4 %</b></td>
-										<td><b>202</b></td>
-										<td><b>284</b></td>
-										<td><b>71,1 %</b></td>
+										<td><b>239</b></td>
+										<td><b>329</b></td>
+										<td><b>72,6 %</b></td>
 									</tr>
 								</tbody>
 						</table>
-
 					</div>
 				<div class="col-md-5"></div>
 			</div>
 			<p style="color: dimgrey">Taulukko: Kaikki tilastoidut maalivahtitilastot</p>
 			
-			<p>Tilastoinnissa on ollut omat hankaluutensa, kuten mikä on torjunta ja miten laskuissa pysytään mukana, kun pitäisi myös torjua siinä samalla. Hankaluudet ovat kuitenkin vähitelleen helpottamassa ja tilastointi alkaa toimimaan.</p>
-
-			<p>Torjuntaprosentti on molemmilla maalivahdeilla noususuunnassa. Niklaksella se on noin 50 %. Lasse oli melkein 65 % vauhdissa viime viikolle asti, kunnes yltyi huikeaan 90,1 %:n torjuntaprosenttiin tällä viikolla. Kaikenkaikkiaan torjuntaprosentti on Lassella jo 72 %.</p>
-
-			<p>Jostain syystä Lasselle lauotaan selvästi enemmän kuin Niklakselle. Keskimäärin Lasselle on lauottu lähes 75 kertaa illassa kun Niklakselle vain noin 50. Mistä se johtuu vai onko se vain tilastoharha, kun pelejä on näin vähän?</p>
-		
-			<p>Kesäkaudella on nyt pelattu 4 peliä, joista kumpikin maalivahti on voittanut nyt 2. Maalivahtien taisto käy kuumana ja on suorastaan leimahtanut liekkeihin. Jää nähtäväksi jatkuuko sama tahti kesäkauden finaaliin asti, <b>jolle edelleen mietitään uutta nimeä</b>.</p>
 			]]>
 		</sisalto>
 	</uutinen>
+	
+	
 
 	<uutinen otsikko="Uusi kausi tuo uudistuksia" pvm="2019-06-16">
 		<lyhyesti>
@@ -257,7 +260,7 @@
 		<sisalto>
 			<![CDATA[
 
-			<a class="breakingLinkki" style="text-decoration:none;" onclick="avaaUutinen('Maalivahtitilastot2019-07-22')">
+		<!--	<a class="breakingLinkki" style="text-decoration:none;" onclick="avaaUutinen('Maalivahtitilastot2019-07-22')">
 				<p class="beakingLaatikko">
 					&nbsp;<br>
 					<span class="beakingNewsTeksti">&nbsp;&nbsp;Sattaa kiinnostaa: </span>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -266,7 +269,7 @@
 				</p>
 			</a>
 			<p><br>&nbsp;<br></p>
-
+		-->
 			<h1>Kesäkausi 2019 alkoi - uudistuksen tuulet puhaltavat</h1>
 			<p style="color: grey">Julkaistu 16.6.2019</p>
 
