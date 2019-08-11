@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "All Star -ottelu 6.8. on kesäkauden finaali!"){
+					if(otsikko === "All Star -peli kaikkien aikojen trilleri!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
