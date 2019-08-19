@@ -9241,6 +9241,25 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2019-08-13" paikka="" alkoi="22:00" muuta="Talvikauden 2019-20 eka kerta. Maalilla Lasse ja Niklas." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="16" maalit2="21" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Hannu</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
 
