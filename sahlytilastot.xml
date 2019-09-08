@@ -11,6 +11,7 @@
 		<pelikausi nimi="Kesäkausi 2018" nimiLyhyt="Kesä 18" pvmAloitus="2018-06-12" pvmLopetus="2018-08-07"></pelikausi>
 		<pelikausi nimi="Talvikausi 2018-2019" nimiLyhyt="Talvi 18-19" pvmAloitus="2018-08-14" pvmLopetus="2019-06-04"></pelikausi>
 		<pelikausi nimi="Kesäkausi 2019" nimiLyhyt="Kesä 19" pvmAloitus="2019-06-11" pvmLopetus="2019-08-06"></pelikausi>
+		<pelikausi nimi="Talvikausi 2019-2020" nimiLyhyt="Talvi 19-20" pvmAloitus="2019-08-13" pvmLopetus=""></pelikausi>
 	</pelikaudet>
 	<pelaajat>
 		<pelaaja kutsumanimi="Aatos" tilastonimi="Aatos" kuvaus="Aatos on se yks huipputyyppi. Lauri3:n tuttuja." ominaisuudet="" muuta=""/>
@@ -9280,7 +9281,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 		</peli>
 	</sahly>
 
-	<sahly pvm="2019-08-27" paikka="" alkoi="22:00" loppui="" muuta="" maalivahteja="" pelattiinko="">
+	<sahly pvm="2019-08-27" paikka="" alkoi="22:00" loppui="" muuta="" maalivahteja="" pelattiinko="kyllä">
 		<perustiedot>
 			<pelaajia></pelaajia>
 			<kimmo>poissa</kimmo>
