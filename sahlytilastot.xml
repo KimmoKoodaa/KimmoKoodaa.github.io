@@ -39,6 +39,7 @@
 		<pelaaja kutsumanimi="Janne" tilastonimi="Janne3" kuvaus="Janne3 on se yks huipputyyppi. Antin tuttuja. Antin ikäluokkaa. Oli kesällä 2017 ekan kerran." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jari" tilastonimi="Jari" kuvaus="Jari on se yks huipputyyppi. Vähän vanhempi peluri. Liekö Jounin kaveri tai ilmestyivät ainakin samaan aikaan." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jartsa" tilastonimi="Jartsa" kuvaus="Jartsa on se yks huipputyyppi. Antin, Ipan, Jannen kaveri." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jess" tilastonimi="Jess" kuvaus="Jess on se yks huipputyyppi. Lauri3:n tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joel" tilastonimi="Joel" kuvaus="Joel on se yks huipputyyppi. Otto2:n tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joni" tilastonimi="Joni" kuvaus="Joni on se yks huipputyyppi. Se silmälasipäinen" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jorma" tilastonimi="Jorma" kuvaus="Jorma on se yks huipputyyppi. Jos Tapsaa ei oteta huomioon, Jorma lienee palvelusvuosiltaan (eli pelivuosiltaan) vanhin." ominaisuudet="" muuta=""/>
@@ -74,6 +75,7 @@
 		<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas2" kuvaus="Niclas2 on se yks huipputyyppi. Aikaisemmin Niclas, mutta muutettiin Niclas2 6.12.2017." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niklas" tilastonimi="Niklas3" kuvaus="Niklas3 on se yks huipputyyppi. Isokokoinen jässikkä oli ekaa kertaa kesällä 2018. Ei varmaankaan kenenkään tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niko" tilastonimi="Niko" kuvaus="Niko on se yks huipputyyppi. Uusi vuonna 2017, vissiin jonkun kaveri." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Nipa" tilastonimi="Nipa" kuvaus="Jess on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto" kuvaus="Otto on se yks huipputyyppi. Pitä, pitää, pitää, pitää ... ja sitten tekee aika usein maalin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
@@ -9276,6 +9278,81 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Otto2</pelaaja>
 			</pelaajat>
 		</peli>
+	</sahly>
+
+	<sahly pvm="2019-08-27" paikka="" alkoi="22:00" loppui="" muuta="" maalivahteja="" pelattiinko="">
+		<perustiedot>
+			<pelaajia></pelaajia>
+			<kimmo>poissa</kimmo>
+			<visa></visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
+
+	<sahly pvm="2019-09-03" paikka="" alkoi="22:00" muuta="Kjell teki tilastot. Lasse oli maalivahtina ja vaihtoi välillä joukkuetta. Toisessa maalissa oli puuveska." maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="1" maalit2="10" muuta="" ratkaisija="Otto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Jess</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+		
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="10" muuta="" ratkaisija="Markus">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Jess</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="1" maalit2="8" muuta="">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Jess</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lauri3</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Joni</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Timo</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+			</pelaajat>
+		</peli>		
 	</sahly>
 	</sahlyt>
 </tilastot>
