@@ -15,7 +15,7 @@
 		</sisalto>
 	</uutinen>
 -->
-	<uutinen otsikko="Maalivahtitilastot 19.8.2019" pvm="2019-08-19"> 
+	<uutinen otsikko="Maalivahtitilastot 25.9.2019" pvm="2019-09-24"> 
 		<lyhyesti>
 			<![CDATA[
 			Lyhennelmä puuttuu.
@@ -23,8 +23,8 @@
 		</lyhyesti>
 		<sisalto>
 			<![CDATA[
-			<h1>Maalivahtitilastot 19.8.2019</h1>
-			<p style="color: grey">Julkaistu 19.8.2019</p>
+			<h1>Maalivahtitilastot 25.9.2019</h1>
+			<p style="color: grey">Julkaistu 30.9.2019</p>
 			<p>
 				<figure>
 				<img class="img-responsive" src="kansi-2018-12-11.png">
@@ -33,7 +33,7 @@
 				</figure>
 			</p>
 	
-			<p>Torjuntoja on tilastoitu Lasselta, Niklakselta ja Antilta. Antti pelasi ensimmäisen ottelunsa maalilla 23.7., jolloin Antin maalia kohti lauottiin 96 kertaa, joista Antti torjui 76. Torjuntaprosentti hänellä oli 79,1 %. Toisen kerran hän torjui finaalissa 6.8., jolloin hänen maalia kohti lauottiin 97 kertaa, joista Antti torjui 83. Torjuntaprosentti oli silloin 85,6 %. Yhteensä Antin torjuntaprosentti on 82,4 %. Lassen ja Niklaksen torjunnat ovat alla olevassa taulukossa.</p>
+			<p>Torjuntoja on tilastoitu Lasselta, Niklakselta ja Antilta. Antonis oli myös maalivahtina 17.9. mutta torjuntoja ei silloin häneltä laskettu. Antti pelasi ensimmäisen ottelunsa maalilla 23.7., jolloin Antin maalia kohti lauottiin 96 kertaa, joista Antti torjui 76. Torjuntaprosentti hänellä oli 79,1 %. Toisen kerran hän torjui finaalissa 6.8., jolloin hänen maalia kohti lauottiin 97 kertaa, joista Antti torjui 83. Torjuntaprosentti oli silloin 85,6 %. Yhteensä Antin torjuntaprosentti on 82,4 %. Lassen ja Niklaksen torjunnat ovat alla olevassa taulukossa.</p>
 
 			<div class="row">
 				<div class="col-md-1"></div>
@@ -134,14 +134,54 @@
 										<td>67,3 %</td>
 									</tr>
 									<tr>
+										<td>17.9.</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>43</td>
+										<td>66</td>
+										<td>65,2 %</td>
+									</tr>
+									<tr>
+										<td>24.9.</td>
+										<td>1</td>
+										<td>12</td>
+										<td>32</td>
+										<td>35 %</td>
+										<td>36</td>
+										<td>48</td>
+										<td>75,0 %</td>
+									</tr>
+									<tr>
+										<td>24.9.</td>
+										<td>2</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>2</td>
+										<td>3</td>
+										<td>66,6 %</td>
+									</tr>
+									<tr>
+										<td>24.9.</td>
+										<td>2</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>14</td>
+										<td>21</td>
+										<td>66,6 %</td>
+									</tr>
+									<tr>
 										<td><b>yht.</b></td>
 										<td></td>
-										<td><b>118</b></td>
-										<td><b>237</b></td>
-										<td><b>49,8 %</b></td>
-										<td><b>307</b></td>
-										<td><b>427</b></td>
-										<td><b>71,9 %</b></td>
+										<td><b>130</b></td>
+										<td><b>269</b></td>
+										<td><b>48,3 %</b></td>
+										<td><b>402</b></td>
+										<td><b>565</b></td>
+										<td><b>71,2 %</b></td>
 									</tr>
 								</tbody>
 						</table>
@@ -152,7 +192,7 @@
 			
 			]]>
 		</sisalto>
-	</uutinen>
+	</uutinen>	
 	
 	<uutinen otsikko="All Star -peli kaikkien aikojen trilleri!" pvm="2019-08-11">
 		<lyhyesti>
