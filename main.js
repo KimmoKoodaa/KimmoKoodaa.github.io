@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "All Star -peli kaikkien aikojen trilleri!"){
+					if(otsikko === "Lokalatkinta toi kauteen vaihtelua"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
