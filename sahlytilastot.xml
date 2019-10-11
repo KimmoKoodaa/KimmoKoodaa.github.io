@@ -9473,6 +9473,16 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 		</peli>	
 	</sahly>
 
+	<sahly pvm="2019-10-01" paikka="" alkoi="22:00" loppui="" muuta="" maalivahteja="0" pelattiinko="ei">
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu">
+			<pelaajat>
+				<pelaaja joukkue="">Antonis</pelaaja>
+				<pelaaja joukkue="">Kimmo</pelaaja>
+				<pelaaja joukkue="">Lasse</pelaaja>
+				<pelaaja joukkue="">Otto2</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>	
 	</sahlyt>
 </tilastot>
 
