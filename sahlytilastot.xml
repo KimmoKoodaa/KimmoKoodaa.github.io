@@ -76,7 +76,7 @@
 		<pelaaja kutsumanimi="Niclas" tilastonimi="Niclas2" kuvaus="Niclas2 on se yks huipputyyppi. Aikaisemmin Niclas, mutta muutettiin Niclas2 6.12.2017." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niklas" tilastonimi="Niklas3" kuvaus="Niklas3 on se yks huipputyyppi. Isokokoinen jässikkä oli ekaa kertaa kesällä 2018. Ei varmaankaan kenenkään tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niko" tilastonimi="Niko" kuvaus="Niko on se yks huipputyyppi. Uusi vuonna 2017, vissiin jonkun kaveri." ominaisuudet="" muuta=""/>
-		<pelaaja kutsumanimi="Nipa" tilastonimi="Nipa" kuvaus="Jess on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Nipa" tilastonimi="Nipa" kuvaus="Nipa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto" kuvaus="Otto on se yks huipputyyppi. Pitä, pitää, pitää, pitää ... ja sitten tekee aika usein maalin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
@@ -9512,6 +9512,63 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+
+	<sahly pvm="2019-10-22" paikka="" alkoi="22:00" muuta="Lasse yksin maalivahtina. Lopussa porukkaa alkoi loukkaantumaan, joten viimeinen peli pelattiin pienemmällä porukalla. Siinä oli Liiveillä kaikki pelaajat samaan aikaan kentällä." maalivahteja="1" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="5" muuta="" ratkaisija="Antonis">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Nipa</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="" ratkaisija="Otto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Jude</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Nipa</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="3" maalit2="4" muuta="" ratkaisija="Markus">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Nipa</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>	
+	</sahly>
+
 
 	</sahlyt>
 </tilastot>
