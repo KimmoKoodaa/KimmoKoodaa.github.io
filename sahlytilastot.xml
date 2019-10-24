@@ -9533,7 +9533,7 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 
-		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="" ratkaisija="Otto">
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="8" muuta="" ratkaisija="Otto">
 			<pelaajat>
 				<pelaaja joukkue="paidat">Antonis</pelaaja>
 				<pelaaja joukkue="paidat">Lasse</pelaaja>
