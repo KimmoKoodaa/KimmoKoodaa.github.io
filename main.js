@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Lokalatkinta toi kauteen vaihtelua"){
+					if(otsikko === "Lokalätkintä toi kauteen vaihtelua"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
