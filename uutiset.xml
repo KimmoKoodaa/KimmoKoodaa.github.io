@@ -15,6 +15,205 @@
 		</sisalto>
 	</uutinen>
 -->
+	<uutinen otsikko="Maalivahtitilastot 30.10.2019" pvm="2019-10-30"> 
+		<lyhyesti>
+			<![CDATA[
+			Lyhennelmä puuttuu.
+			]]>
+		</lyhyesti>
+		<sisalto>
+			<![CDATA[
+			<h1>Maalivahtitilastot 30.10.2019</h1>
+			<p style="color: grey">Julkaistu 3.11.2019</p>
+			<p>
+				<figure>
+				<img class="img-responsive" src="kansi-2018-12-11.png">
+				<figcaption style="color: dimgrey">Kuva: Lasse oli jälleen torjuntavastuussa kesällä 2019 (arkistokuva)</figcaption>
+				<br>
+				</figure>
+			</p>
+	
+			<p>Torjuntoja on tilastoitu Lasselta, Niklakselta ja Antilta. Antonis oli myös maalivahtina 17.9. mutta torjuntoja ei silloin häneltä laskettu. Antti pelasi ensimmäisen ottelunsa maalilla 23.7., jolloin Antin maalia kohti lauottiin 96 kertaa, joista Antti torjui 76. Torjuntaprosentti hänellä oli 79,1 %. Toisen kerran hän torjui finaalissa 6.8., jolloin hänen maalia kohti lauottiin 97 kertaa, joista Antti torjui 83. Torjuntaprosentti oli silloin 85,6 %. Yhteensä Antin torjuntaprosentti on 82,4 %. Lassen ja Niklaksen torjunnat ovat alla olevassa taulukossa.</p>
+
+			<div class="row">
+				<div class="col-md-1"></div>
+					<div class="col-md-6">
+						<table class="torjunnatTable">
+								<thead>
+									<tr><th></th><th></th><th colspan="3">Niklas</th><th colspan="3">Lasse</th></tr>
+									<tr>
+										<th>Pvm</th>
+										<th>Peli</th>
+										<th>Torjunnat</th>
+										<th>Laukaukset</th>
+										<th>Torjuntapros.</th>
+										<th>Torjunnat</th>
+										<th>Laukaukset</th>
+										<th>Torjuntapros.</th>
+									</tr>
+								</thead>
+								<tbody >									
+									<tr>
+										<td>11.6.</td>
+										<td>1</td>
+										<td>8</td>
+										<td>28</td>
+										<td>28,6 %</td>
+										<td>16</td>
+										<td>25</td>
+										<td>64,0 %</td>
+									</tr>
+									<tr>
+										<td>11.6.</td>
+										<td>2</td>
+										<td>10</td>
+										<td>21</td>
+										<td>47,6 %</td>
+										<td>27</td>
+										<td>42</td>
+										<td>64,3 %</td>
+									</tr>								
+									<tr>
+										<td>18.6.</td>
+										<td>1</td>
+										<td>27</td>
+										<td>52</td>
+										<td>51,9 %</td>
+										<td>53</td>
+										<td>83</td>
+										<td>63,9 %</td>
+									</tr>
+									<tr>
+										<td>25.6.</td>
+										<td>1</td>
+										<td>25</td>
+										<td>47</td>
+										<td>53,2 %</td>
+										<td>64</td>
+										<td>71</td>
+										<td>90,1 %</td>
+									</tr>
+									<tr>
+										<td>16.7.</td>
+										<td>1</td>
+										<td>22</td>
+										<td>42</td>
+										<td>52,4 %</td>
+										<td>42</td>
+										<td>63</td>
+										<td>66,6 %</td>
+									</tr>
+									<tr>
+										<td>23.7.</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>37</td>
+										<td>45</td>
+										<td>82,2 %</td>
+									</tr>
+									<tr>
+										<td>6.8.</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>35</td>
+										<td>49</td>
+										<td>71,4 %</td>
+									</tr>
+									<tr>
+										<td>13.8.</td>
+										<td>1</td>
+										<td>26</td>
+										<td>47</td>
+										<td>55,3 %</td>
+										<td>33</td>
+										<td>49</td>
+										<td>67,3 %</td>
+									</tr>
+									<tr>
+										<td>17.9.</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>43</td>
+										<td>66</td>
+										<td>65,2 %</td>
+									</tr>
+									<tr>
+										<td>24.9.</td>
+										<td>1</td>
+										<td>12</td>
+										<td>32</td>
+										<td>35 %</td>
+										<td>36</td>
+										<td>48</td>
+										<td>75,0 %</td>
+									</tr>
+									<tr>
+										<td>24.9.</td>
+										<td>2</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>2</td>
+										<td>3</td>
+										<td>66,6 %</td>
+									</tr>
+									<tr>
+										<td>24.9.</td>
+										<td>3</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>14</td>
+										<td>21</td>
+										<td>66,6 %</td>
+									</tr>
+									<tr>
+										<td>29.10.</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>22</td>
+										<td>31</td>
+										<td>71,0 %</td>
+									</tr>
+									<tr>
+										<td>29.10.</td>
+										<td>2</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>23</td>
+										<td>32</td>
+										<td>71,8 %</td>
+									</tr>
+									<tr>
+										<td><b>yht.</b></td>
+										<td></td>
+										<td><b>130</b></td>
+										<td><b>269</b></td>
+										<td><b>48,3 %</b></td>
+										<td><b>447</b></td>
+										<td><b>628</b></td>
+										<td><b>71,2 %</b></td>
+									</tr>
+									
+								</tbody>
+						</table>
+					</div>
+				<div class="col-md-5"></div>
+			</div>
+			<p style="color: dimgrey">Taulukko: Kaikki tilastoidut maalivahtitilastot</p>
+			
+			]]>
+		</sisalto>
+	</uutinen>
 	
 	<uutinen otsikko="Lokalätkintä toi kauteen vaihtelua" pvm="2019-10-11">
 		<lyhyesti>
