@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Lokalätkintä toi kauteen vaihtelua"){
+					if(otsikko === "Maalivahtitilastot 30.10.2019"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
