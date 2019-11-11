@@ -118,7 +118,7 @@
 					</div>
 				<div class="col-md-5"></div>
 			</div>
-			<p style="color: dimgrey">Taulukko: Antin ja Antoniksen torjunnat</p>
+			<p style="color: dimgrey">Taulukko: Antin ja Antoniksen tilastot</p>
 
 
 			<div class="row">
@@ -295,7 +295,7 @@
 					</div>
 				<div class="col-md-5"></div>
 			</div>
-			<p style="color: dimgrey">Taulukko: Kaikki tilastoidut maalivahtitilastot</p>
+			<p style="color: dimgrey">Taulukko: Lassen ja Niklaksen tilastot</p>
 			
 			]]>
 		</sisalto>
