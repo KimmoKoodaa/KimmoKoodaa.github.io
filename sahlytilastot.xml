@@ -9656,9 +9656,25 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 				<pelaaja joukkue="liivit">Ville</pelaaja>
 			</pelaajat>
 		</peli>
-
-
 	</sahly>
+		
+	<sahly pvm="2019-11-12" paikka="" alkoi="22:00" muuta="Niklas ja Lasse olivat maalivahteina koko ajan." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="24" maalit2="17" muuta="" ratkaisija="Nipa">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
+		
 	</sahlyt>
 </tilastot>
 
