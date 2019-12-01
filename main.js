@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Maalivahtitilastot 20.11.2019"){
+					if(otsikko === "Mainilan laukauksista 80 vuotta - myös Helsingissä lauottiin"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
