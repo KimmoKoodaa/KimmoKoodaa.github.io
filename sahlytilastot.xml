@@ -9708,6 +9708,23 @@ Pelissä 1 joukkueet olivat vähän epätasaiset ja pelissä 2 tilanne meni oike
 			</pelaajat>
 		</peli>
 	</sahly>
+	<sahly pvm="2019-11-26" paikka="" alkoi="22:00" muuta="Kaikki pelaajat olivat kentällä eli Liivit pelasi alivoimalla." maalivahteja="0" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="15" maalit2="16" muuta="" ratkaisija="Nipa">
+			<pelaajat>
+
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Nipa</pelaaja>
+			</pelaajat>
+		</peli>
+
+	</sahly>
 		
 	</sahlyt>
 </tilastot>
