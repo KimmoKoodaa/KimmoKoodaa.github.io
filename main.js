@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Mainilan laukauksista 80 vuotta - myös Helsingissä lauottiin"){
+					if(otsikko === "Itsenäisyyspäivän 6.12.2019 ylennykset sählytilastoissa"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
