@@ -10703,7 +10703,8 @@
 				<pelaaja joukkue="liivit">Martti</pelaaja>
 				<pelaaja joukkue="liivit">Nipa</pelaaja>
 			</pelaajat>
-		</peli>
+		</peli>		
+	</sahly>
 
 	<sahly pvm="2019-12-03" paikka="" alkoi="22:00" muuta="Puuveskat, kaikki ihmiset kentällä. Uusi mies oli kai Nipan tuttuja." maalivahteja="0" pelattiinko="kyllä">
 
@@ -10721,9 +10722,6 @@
 				<pelaaja joukkue="liivit">Nipa</pelaaja>
 			</pelaajat>
 		</peli>
-
-	</sahly>
-
 	</sahly>
 
 	</sahlyt>
