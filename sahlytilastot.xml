@@ -77,7 +77,7 @@
 		<pelaaja kutsumanimi="Niklas" tilastonimi="Niklas3" kuvaus="Niklas3 on se yks huipputyyppi. Isokokoinen jässikkä oli ekaa kertaa kesällä 2018. Ei varmaankaan kenenkään tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Niko" tilastonimi="Niko" kuvaus="Niko on se yks huipputyyppi. Uusi vuonna 2017, vissiin jonkun kaveri." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Nipa" tilastonimi="Nipa" kuvaus="Nipa on se yks huipputyyppi." ominaisuudet="" muuta=""/>
-<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto" kuvaus="Otto on se yks huipputyyppi. Pitä, pitää, pitää, pitää ... ja sitten tekee aika usein maalin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Osku" tilastonimi="Osku" kuvaus="Osku on se yks huipputyyppi. Maken tuttuja. Hyvä pelaaja." ominaisuudet="" muuta=""/>
@@ -10716,10 +10716,10 @@
 				<pelaaja joukkue="paidat">Lasse</pelaaja>
 				<pelaaja joukkue="paidat">Martti</pelaaja>
 
-				<pelaaja joukkue="liivit">Nipa</pelaaja>
-				<pelaaja joukkue="liivit">Otto2</pelaaja>
 				<pelaaja joukkue="liivit">Henkka</pelaaja>
 				<pelaaja joukkue="liivit">Nipa</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">tuntematon13</pelaaja>
 			</pelaajat>
 		</peli>
 	</sahly>
