@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "2010-luku loppuu 17.12. - luvassa huikea finaali"){
+					if(otsikko === "Vuosikymmen finaaliottelu tiistaina"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
