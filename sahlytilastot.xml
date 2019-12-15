@@ -10723,6 +10723,72 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2019-12-10" paikka="" alkoi="22:00" muuta="Lasse maalilla ja toisella puollella puuveska. Paidoilla pelasi myös se silmälasipäinen aasialainen naisvahvistus, joka on Timon ja Markuksen tuttuja." maalivahteja="1" pelattiinko="kyllä">
 
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="8" maalit2="10" muuta="" ratkaisija="Henkka">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="23" laukaukset="31" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="7" maalit2="4" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="11" laukaukset="18" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="7" maalit2="2" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Make</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antonis</pelaaja>
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="17" laukaukset="19" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+	</sahly>
+		
 	</sahlyt>
 </tilastot>
