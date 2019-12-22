@@ -43,6 +43,7 @@
 		<pelaaja kutsumanimi="Jess" tilastonimi="Jess" kuvaus="Jess on se yks huipputyyppi. Laurin tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joel" tilastonimi="Joel" kuvaus="Joel on se yks huipputyyppi. Otto2:n tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joni" tilastonimi="Joni" kuvaus="Joni on se yks huipputyyppi. Se silmälasipäinen" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Joonatan" tilastonimi="Joonatan" kuvaus="Joonatan on se yks huipputyyppi. Ekan kerran 17.12.19." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jorma" tilastonimi="Jorma" kuvaus="Jorma on se yks huipputyyppi. Jos Tapsaa ei oteta huomioon, Jorma lienee palvelusvuosiltaan (eli pelivuosiltaan) vanhin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jose" tilastonimi="Jose" kuvaus="Jose on se yks huipputyyppi." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jouni" tilastonimi="Jouni" kuvaus="Jouni on se yks huipputyyppi. Vähän vanhempi peluri. Sellainen isokokoinen jässikkä. Liekö Jarin kaveri, kun ilmestyivät samalla kerralla." ominaisuudet="" muuta=""/>
@@ -80,6 +81,7 @@
 		<pelaaja kutsumanimi="Olli" tilastonimi="Olli" kuvaus="Olli on se yks huipputyyppi. Ennen nimellä tuntematon7. Sellainen vähän vanhempi. Lähtee aika usein kesken pois klo 23. On ehkä saattanut olla joskus ennen tilastoinnin aloitusta tai sitten ei." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto" kuvaus="Otto on se yks huipputyyppi. Pitä, pitää, pitää, pitää ... ja sitten tekee aika usein maalin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Otto" tilastonimi="Otto2" kuvaus="Otto2 on se yks huipputyyppi. Vetelee aika kovia. Joelin tuttuja." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Oskari" tilastonimi="Oskari" kuvaus="Oskari on se yks huipputyyppi. Ilmeisesti henkilökuntaa." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Osku" tilastonimi="Osku" kuvaus="Osku on se yks huipputyyppi. Maken tuttuja. Hyvä pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Pekka" tilastonimi="Pekka" kuvaus="Pekka on se yks huipputyyppi. Pelaa aina täysillä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Rainer" tilastonimi="Rainer" kuvaus="Rainer on se yks huipputyyppi. Kimmon, Visan ja Otto2:n tuttuja. Ulkomaanvahvistus." ominaisuudet="" muuta=""/>
@@ -10789,6 +10791,37 @@
 			</maalivahdit>
 		</peli>
 	</sahly>
-		
+
+	<sahly pvm="2019-12-17" paikka="" alkoi="22:00" muuta="2010-luvun viimeinen ottelu eli vuosikymmenfinaali. Lasse ja Antti olivat maalivahteina koko ajan. Oskari ja Joonatan uusia. Ilmeisesti Oskari tuli kentälle tilanteessa 7-1 vai mitenköhän se oli. Tommi teki ratkaisumaalin ja ilmeisesti vuosikymmenen viimeisen maalin." maalivahteja="2" pelattiinko="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="16" maalit2="12" muuta="" ratkaisija="Tommi">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antonis</pelaaja>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Oskari</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+
+				<pelaaja joukkue="liivit">Henkka</pelaaja>
+				<pelaaja joukkue="liivit">Joonatan</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Lauri</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Toivo</pelaaja>
+				<pelaaja joukkue="liivit">Tuukka</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Antti" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="74" laukaukset="86" muuta=""></maalivahti>
+				<maalivahti nimi="Lasse" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="40" laukaukset="56" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+	</sahly>
+
 	</sahlyt>
 </tilastot>
