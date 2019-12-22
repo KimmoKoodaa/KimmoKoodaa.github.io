@@ -112,7 +112,7 @@
 		</sisalto>
 	</uutinen>
 	
-	<uutinen otsikko="Maalivahtitilastot 11.12.2019" pvm="2019-12-15"> 
+	<uutinen otsikko="Maalivahtitilastot vuonna 2019" pvm="2019-12-22"> 
 		<lyhyesti>
 			<![CDATA[
 			Lyhennelmä puuttuu.
@@ -120,8 +120,8 @@
 		</lyhyesti>
 		<sisalto>
 			<![CDATA[
-			<h1>Maalivahtitilastot 11.12.2019</h1>
-			<p style="color: grey">Julkaistu 15.12.2019</p>
+			<h1>Maalivahtitilastot vuonna 2019</h1>
+			<p style="color: grey">Julkaistu 22.12.2019</p>
 			<p>
 				<figure>
 				<img class="img-responsive" src="kansi-2018-12-11.png">
@@ -351,13 +351,23 @@
 										<td>89,5 %</td>
 									</tr>
 									<tr>
+										<td>17.12.</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>40</td>
+										<td>56</td>
+										<td>71,4 %</td>
+									</tr>
+									<tr>
 										<td><b>yht.</b></td>
 										<td></td>
 										<td><b>130</b></td>
 										<td><b>269</b></td>
 										<td><b>48,3 %</b></td>
-										<td><b>600</b></td>
-										<td><b>838</b></td>
+										<td><b>640</b></td>
+										<td><b>894</b></td>
 										<td><b>71,6 %</b></td>
 									</tr>									
 								</tbody>
@@ -406,7 +416,7 @@
 										<td></td>
 									</tr>
 									<tr>
-										<td>1.11.</td>
+										<td>5.11.</td>
 										<td>1</td>
 										<td></td>
 										<td></td>
@@ -416,7 +426,7 @@
 										<td>81,8 %</td>
 									</tr>
 									<tr>
-										<td>1.11.</td>
+										<td>5.11.</td>
 										<td>2</td>
 										<td></td>
 										<td></td>
@@ -426,7 +436,7 @@
 										<td>64,7 %</td>
 									</tr>
 									<tr>
-										<td>1.11.</td>
+										<td>5.11.</td>
 										<td>3</td>
 										<td></td>
 										<td></td>
@@ -436,11 +446,21 @@
 										<td>66,6 %</td>
 									</tr>
 									<tr>
+										<td>17.12.</td>
+										<td>1</td>
+										<td>74</td>
+										<td>86</td>
+										<td>86,0 %</td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
 										<td><b>yht.</b></td>
 										<td></td>
-										<td><b>159</b></td>
-										<td><b>193</b></td>
-										<td><b>82,3 %</b></td>
+										<td><b>233</b></td>
+										<td><b>279</b></td>
+										<td><b>83,5 %</b></td>
 										<td><b>51</b></td>
 										<td><b>72</b></td>
 										<td><b>70,8 %</b></td>
