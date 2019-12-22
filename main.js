@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Vuosikymmenen finaaliottelu tiistaina"){
+					if(otsikko === "Paidat teki sen – Vuosikymmenen maailmanmestari!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
