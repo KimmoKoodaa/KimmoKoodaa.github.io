@@ -43,6 +43,7 @@
 		<pelaaja kutsumanimi="Jess" tilastonimi="Jess" kuvaus="Jess on se yks huipputyyppi. Laurin tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joel" tilastonimi="Joel" kuvaus="Joel on se yks huipputyyppi. Otto2:n tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joni" tilastonimi="Joni" kuvaus="Joni on se yks huipputyyppi. Se silmälasipäinen" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Joona" tilastonimi="Joona" kuvaus="Joona on se yks huipputyyppi. Markuksen tuttuja. Ekan kerran 14.1.20" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Joonatan" tilastonimi="Joonatan" kuvaus="Joonatan on se yks huipputyyppi. Ekan kerran 17.12.19." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jorma" tilastonimi="Jorma" kuvaus="Jorma on se yks huipputyyppi. Jos Tapsaa ei oteta huomioon, Jorma lienee palvelusvuosiltaan (eli pelivuosiltaan) vanhin." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jose" tilastonimi="Jose" kuvaus="Jose on se yks huipputyyppi." ominaisuudet="" muuta=""/>
@@ -117,6 +118,7 @@
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville" kuvaus="Ville on se yks huipputyyppi. Antin ja Janin kaveri. Huutelee joskus hämäilymielessä vastustajille: Täällä. Oli aiemmin Ville2, mutta 6.12.2017 muutettiin Ville" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville2" kuvaus="Ville2 on se yks huipputyyppi. Kimmo2:n koulukaveri. Pitkä. Hyvä. Pelaa vähän kuin Pekka. Oli aikaisemmin Ville, mutta 6.12.2017 muutettiin Ville2" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Visa" tilastonimi="Visa" kuvaus="Visa on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Väyrynen" tilastonimi="Väyrynen" kuvaus="Väyrynen on se yks huipputyyppi. Markuksen tuttuja. Ekan kerran 14.1.20" ominaisuudet="" muuta=""/>
 	</pelaajat>
 
 	<sahlyt>
@@ -10885,8 +10887,31 @@
 				<pelaaja joukkue="liivit">Tapsa</pelaaja>
 			</pelaajat>
 		</peli>
+	</sahly>
 
-	</sahly>	
+	<sahly pvm="2020-01-14" paikka="" alkoi="22:00" muuta="Puuveskat molemilla maaleilla." maalivahteja="0" pelattiinko="kyllä" halliauki="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="27" maalit2="21" muuta="" ratkaisija="Ville">
+			<pelaajat>
+
+				<pelaaja joukkue="paidat">Henkka</pelaaja>
+				<pelaaja joukkue="paidat">Joona</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Tommi</pelaaja>
+				<pelaaja joukkue="paidat">Ville</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joonatan</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Nipa</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Väyrynen</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 
 	</sahlyt>
 </tilastot>
