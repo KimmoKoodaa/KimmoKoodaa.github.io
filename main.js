@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Kokemus näkyi 20-luvun ensimmäisissä otteluissa"){
+					if(otsikko === "Tähtiketju jälleen voittoon - Nyt alivoimalla!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
