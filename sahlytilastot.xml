@@ -34,6 +34,7 @@
 		<pelaaja kutsumanimi="Ilmaveivi" tilastonimi="Ilmaveivi" kuvaus="Ilmaveivi on se yks huipputyyppi. Ei ole oikeasti Ilmaveivi nimeltään, mutta tunnistaa ilmaveivistä. Se, joka loukkasi nilkkaansa silloin kerran. En tiedä nimeä." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jaakko" tilastonimi="Jaakko" kuvaus="Jaakko on se yks huipputyyppi. Oiskohan Ipan kavereita?" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Jaakko" tilastonimi="Jaakko2" kuvaus="Jaakko2 on se yks huipputyyppi. Otto2:n tuttu. Hyvä pelaaja. Pelannut juniorina korkealla tasolla, mutta sen jälkeen laiskemmin. Taidot edelleen tallessa." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Jan" tilastonimi="Jan" kuvaus="Jan on se yks huipputyyppi. Markuksen tuttuja. Ei ollut pelannut pitkään aikaan. Tammikuussa 2020 ekan kerran." ominaisuudet="" muuta="" aloittiaikaisemmin="ei"/>
 		<pelaaja kutsumanimi="Jani" tilastonimi="Jani" kuvaus="Jani on se yks huipputyyppi. Antin ja Villen kaveri." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Janne" tilastonimi="Janne" kuvaus="Janne on se yks huipputyyppi. Vanhempi Janne." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Janne" tilastonimi="Janne2" kuvaus="Janne2 on se yks huipputyyppi. Nuorempi Janne. Ipan kavereita alunperin." ominaisuudet="" muuta=""/>
@@ -10912,6 +10913,21 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2020-01-21" paikka="" alkoi="22:00" muuta="Puuveskat molemilla maaleilla. Liiveillä kaikki 4 pelaajaa koko ajan kentällä eli ylivoima. Jan ensimmäistä kertaa." maalivahteja="0" pelattiinko="kyllä" halliauki="kyllä">
 
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="25" maalit2="21" muuta="" ratkaisija="Markus">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+
+				<pelaaja joukkue="liivit">Jan</pelaaja>
+				<pelaaja joukkue="liivit">Kimmo</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
