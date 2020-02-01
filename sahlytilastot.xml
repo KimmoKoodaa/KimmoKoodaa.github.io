@@ -23,6 +23,7 @@
 		<pelaaja kutsumanimi="Dani" tilastonimi="Dani" kuvaus="Dani on se yks huipputyyppi. Toivon kavereita ja ikäluokkaa. Hyvä pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Daniel" tilastonimi="Daniel" kuvaus="Daniel on se yks huipputyyppi. Melko uusi mies. Hyvä pelaaja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Dimitri" tilastonimi="Dimitri" kuvaus="Dimitri on se yks huipputyyppi." ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Eemeli" tilastonimi="Eemeli" kuvaus="Eemeli on se yks huipputyyppi. Markuksen tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Erik" tilastonimi="Erik" kuvaus="Erik on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Foto" tilastonimi="Foto" kuvaus="Foto on se yks huipputyyppi. Janne3:n tuttuja. Ei tunne Anttia." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Hannu" tilastonimi="Hannu" kuvaus="Hannu on se yks huipputyyppi. Markuksen tuttu." ominaisuudet="" muuta=""/>
@@ -10927,6 +10928,35 @@
 				<pelaaja joukkue="liivit">Kjell</pelaaja>
 				<pelaaja joukkue="liivit">Make</pelaaja>
 			</pelaajat>
+		</peli>
+	</sahly>
+		
+	<sahly pvm="2020-01-28" paikka="" alkoi="22:00" muuta="Antti ja Lasse maalivahteina." maalivahteja="2" pelattiinko="kyllä" halliauki="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="22" maalit2="16" muuta="" ratkaisija="Otto">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joona</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Martti</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Eemeli</pelaaja>
+				<pelaaja joukkue="liivit">Joonatan</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Tuukka</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+				<pelaaja joukkue="liivit">Väyrynen</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="43" laukaukset="59" muuta=""></maalivahti>
+				<maalivahti nimi="Antti" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
 		</peli>
 	</sahly>
 	</sahlyt>
