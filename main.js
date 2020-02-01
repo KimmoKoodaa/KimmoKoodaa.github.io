@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Tähtiketju jälleen voittoon - Nyt alivoimalla!"){
+					if(otsikko === "Vauhdikas ja tasainen ottelu tammikuun illassa"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
