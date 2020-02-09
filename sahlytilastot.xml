@@ -10959,5 +10959,24 @@
 			</maalivahdit>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2020-02-04" paikka="" alkoi="22:00" muuta="Puuveskat molemilla maaleilla. Joona tuli paikalle työkiireiden takia vasta klo 23." maalivahteja="0" pelattiinko="kyllä" halliauki="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="18" maalit2="17" muuta="" ratkaisija="Markus">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Timo</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Joona</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+		</peli>
+	</sahly>
 	</sahlyt>
 </tilastot>
