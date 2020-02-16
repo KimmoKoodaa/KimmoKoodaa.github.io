@@ -119,6 +119,7 @@
 		<pelaaja kutsumanimi="Tuukka" tilastonimi="Tuukka" kuvaus="Tuukka on se yks huipputyyppi. Uusi mies kesällä 19. Ei kenenkään tuttuja." ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville" kuvaus="Ville on se yks huipputyyppi. Antin ja Janin kaveri. Huutelee joskus hämäilymielessä vastustajille: Täällä. Oli aiemmin Ville2, mutta 6.12.2017 muutettiin Ville" ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Ville" tilastonimi="Ville2" kuvaus="Ville2 on se yks huipputyyppi. Kimmo2:n koulukaveri. Pitkä. Hyvä. Pelaa vähän kuin Pekka. Oli aikaisemmin Ville, mutta 6.12.2017 muutettiin Ville2" ominaisuudet="" muuta=""/>
+		<pelaaja kutsumanimi="Ville" tilastonimi="Ville3" kuvaus="Ville3 on se yks huipputyyppi. Tuukan tuttuja. Ekan kerran helmikuussa 2020." ominaisuudet="" muuta="" aloittiaikaisemmin="ei"/>		
 		<pelaaja kutsumanimi="Visa" tilastonimi="Visa" kuvaus="Visa on se yks huipputyyppi. " ominaisuudet="" muuta=""/>
 		<pelaaja kutsumanimi="Väyrynen" tilastonimi="Väyrynen" kuvaus="Väyrynen on se yks huipputyyppi. Markuksen tuttuja. Ekan kerran 14.1.20" ominaisuudet="" muuta=""/>
 	</pelaajat>
@@ -10978,5 +10979,33 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2020-02-11" paikka="" alkoi="22:00" muuta="Lasse ja Niklas maalilla." maalivahteja="2" pelattiinko="kyllä" halliauki="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="20" maalit2="23" muuta="" ratkaisija="Nipa">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joona</pelaaja>
+				<pelaaja joukkue="paidat">Joonatan</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Nipa</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Ville3</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="43" laukaukset="66" muuta=""></maalivahti>
+				<maalivahti nimi="Niklas" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+	</sahly>
+
 	</sahlyt>
 </tilastot>
