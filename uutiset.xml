@@ -124,7 +124,7 @@
 		</sisalto>
 	</uutinen>
 
-	<uutinen otsikko="Maalivahtitilastot 1.2.2020" pvm="2020-02-01"> 
+	<uutinen otsikko="Maalivahtitilastot 12.2.2020" pvm="2020-02-16"> 
 		<lyhyesti>
 			<![CDATA[
 			Lyhennelmä puuttuu.
@@ -132,8 +132,8 @@
 		</lyhyesti>
 		<sisalto>
 			<![CDATA[
-			<h1>Maalivahtitilastot vuonna 1.2.2020</h1>
-			<p style="color: grey">Julkaistu 1.2.2020</p>
+			<h1>Maalivahtitilastot vuonna 12.2.2020</h1>
+			<p style="color: grey">Julkaistu 16.2.2020</p>
 			<p>
 				<figure>
 				<img class="img-responsive" src="kansi-2018-12-11.png">
@@ -383,14 +383,24 @@
 										<td>72,9 %</td>
 									</tr>
 									<tr>
+										<td>11.2.20</td>
+										<td>1</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>43</td>
+										<td>66</td>
+										<td>65,2 %</td>
+									</tr>
+									<tr>
 										<td><b>yht.</b></td>
 										<td></td>
 										<td><b>130</b></td>
 										<td><b>269</b></td>
 										<td><b>48,3 %</b></td>
-										<td><b>683</b></td>
-										<td><b>953</b></td>
-										<td><b>71,7 %</b></td>
+										<td><b>726</b></td>
+										<td><b>1019</b></td>
+										<td><b>71,2 %</b></td>
 									</tr>									
 								</tbody>
 						</table>
@@ -497,6 +507,8 @@
 			]]>
 		</sisalto>
 	</uutinen>
+
+
 
 	<uutinen otsikko="Tähtiketju jälleen voittoon - Nyt alivoimalla!" pvm="2020-01-26">
 		<lyhyesti>
