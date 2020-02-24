@@ -11006,6 +11006,38 @@
 			</maalivahdit>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2020-02-18" paikka="" alkoi="22:00" muuta="Lasse ja Niklas taas maalilla." maalivahteja="2" pelattiinko="kyllä" halliauki="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="23" maalit2="17" muuta="" ratkaisija="Otto2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Hannu</pelaaja>
+				<pelaaja joukkue="paidat">Joonatan</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Otto</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+				<pelaaja joukkue="paidat">Tuukka</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Joona</pelaaja>
+				<pelaaja joukkue="liivit">Kjell</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Martti</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Tapsa</pelaaja>
+				<pelaaja joukkue="liivit">Ville</pelaaja>
+				<pelaaja joukkue="liivit">Väyrynen</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" torjunnat="53" laukaukset="70" muuta=""></maalivahti>
+				<maalivahti nimi="Niklas" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+	</sahly>
+
 
 	</sahlyt>
 </tilastot>
