@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Vauhdikas ja tasainen ottelu tammikuun illassa"){
+					if(otsikko === "Osallistujamäärä rikkoi jälleen vuosikymmenen ennätyksen"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
