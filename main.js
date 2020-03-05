@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Kuntosählyn paikallisderby keräsi taas runsaasti pelaajia"){
+					if(otsikko === "Vanhan konkarin paluu - Uran kaikkein kohtalokkain peli"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
