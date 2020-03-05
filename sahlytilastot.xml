@@ -11066,6 +11066,51 @@
 			</maalivahdit>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2020-03-03" paikka="" alkoi="22:00" muuta="Niklas maalilla, toisessa maalissa puuveska." maalivahteja="1" pelattiinko="kyllä" halliauki="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="7" maalit2="20" muuta="" ratkaisija="Otto2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joona</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Ville3</pelaaja>
+				<pelaaja joukkue="paidat">Väyrynen</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tuukka</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Niklas" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="6" maalit2="16" muuta="" ratkaisija="Otto2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joona</pelaaja>
+				<pelaaja joukkue="paidat">Kimmo</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Nipa</pelaaja>
+				<pelaaja joukkue="paidat">Ville3</pelaaja>
+				<pelaaja joukkue="paidat">Väyrynen</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Otto</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+				<pelaaja joukkue="liivit">Tuukka</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Niklas" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+	</sahly>
 
 	</sahlyt>
 </tilastot>
