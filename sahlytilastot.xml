@@ -11112,5 +11112,65 @@
 		</peli>
 	</sahly>
 
+	<sahly pvm="2020-03-10" paikka="" alkoi="22:00" muuta="Niklas ja Lasse maalilla." maalivahteja="2" pelattiinko="kyllä" halliauki="kyllä">
+
+		<peli nro="1" joukkue1="paidat" joukkue2="liivit" voittaja="liivit" maalit1="7" maalit2="10" muuta="" ratkaisija="Otto2">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joonatan</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+
+				<pelaaja joukkue="liivit">Joona</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+				<maalivahti nimi="Niklas" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+
+		<peli nro="2" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="2" muuta="" ratkaisija="Antti">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Antti</pelaaja>
+				<pelaaja joukkue="paidat">Joonatan</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Lasse</pelaaja>
+				<pelaaja joukkue="paidat">Markus</pelaaja>
+
+				<pelaaja joukkue="liivit">Joona</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Niklas</pelaaja>
+				<pelaaja joukkue="liivit">Otto2</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Lasse" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+				<maalivahti nimi="Niklas" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+
+		<peli nro="3" joukkue1="paidat" joukkue2="liivit" voittaja="paidat" maalit1="10" maalit2="5" muuta="" ratkaisija="Joona">
+			<pelaajat>
+				<pelaaja joukkue="paidat">Joona</pelaaja>
+				<pelaaja joukkue="paidat">Joonatan</pelaaja>
+				<pelaaja joukkue="paidat">Kjell</pelaaja>
+				<pelaaja joukkue="paidat">Niklas</pelaaja>
+				<pelaaja joukkue="paidat">Otto2</pelaaja>
+
+				<pelaaja joukkue="liivit">Antti</pelaaja>
+				<pelaaja joukkue="liivit">Lasse</pelaaja>
+				<pelaaja joukkue="liivit">Make</pelaaja>
+				<pelaaja joukkue="liivit">Markus</pelaaja>
+			</pelaajat>
+			<maalivahdit>
+				<maalivahti nimi="Niklas" joukkue="paidat" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+				<maalivahti nimi="Lasse" joukkue="liivit" prosenttiosuusmaalilla="100" monesko="1" maalivahteja="1" muuta=""></maalivahti>
+			</maalivahdit>
+		</peli>
+	</sahly>
+
 	</sahlyt>
 </tilastot>
