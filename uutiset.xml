@@ -15,7 +15,79 @@
 		</sisalto>
 	</uutinen>
 -->
-<uutinen otsikko="Vanhan konkarin paluu - Uran kaikkein kohtalokkain peli" pvm="2020-03-05">
+	
+	<uutinen otsikko="Koronavirus tulee - onko kuntosähly valmiina?" pvm="2020-03-13">
+		<lyhyesti>
+			<![CDATA[
+			Lyhennelmä puuttuu.
+			]]>
+		</lyhyesti>
+		<sisalto>
+			<![CDATA[
+
+			<h1>Koronavirus tulee - onko kuntosähly valmiina?</h1>
+
+			<p style="color: grey">Julkaistu 13.3.2020</p>
+
+			<p>
+				<figure>
+				<img class="img-responsive" src="tuleeko-korona.png">
+				<figcaption style="color: dimgrey">Kuva: Koronavirus saattaa hiipiä sählykentille ihan huomaamatta.</figcaption>
+				<br>
+				</figure>
+			</p>
+
+			<p>Koronavirusepidemia laajentui pandemiaksi 11.3. Epidemia on yleistymässä myös Suomessa ja se alkaa vaikuttamaan niin arkielämään kuin myös moniin suuriin urheilutapahtumiin. <b>12.3. liitto ilmoitti, että kuntosählyn pelit jatkuvat normaalisti</b>, mutta jossain vaiheessa epidemia saattaa ilmestyä myös sählykentille. Perjantain kolmastoista päivä kunniaksi haastattelimme asiantuntijaa selventämään tilannetta kuntosählyn näkökulmasta.</p>
+
+			<p><b>Asiantuntijamme on työskennellyt THL:ssä suunnittelijana ja on toiminut sotilasepidemian polttopisteessä. Hänellä lääketieteellinen koulutuksensa on 19 vuoden takaa.</b></p>
+
+			<p>Työskentelin joskus ennen vanhaan THL:ssä suunnittelijan tehtävänimikkeellä. Suunnittelijan englanninkielinen virallinen käännös on Planning officer, joten jotkut ehkä haluavat puhua THL-upseerista. Valitettavasti en onnistunut viemään tätä ajatusta siellä läpi, kun muut keskittyivät näihin terveydenhuollon asioihin. Vissiin ihan hyvä niin. Tehtäväni THL:ssä liittyivät tarttuviin tauteihin ja epidemioihin ei millään tavalla.</p>
+
+			<p>Olin varusmiehenä puolen vuoden ajan Viestirykmentissä Riihimäellä. Kuten kaikki tietävät, Puolustusvoimien aivokalvontulehdusepidemian keskipiste on perinteisesti ollut Viestirykmentin ja Panssariprikaatin tienoilla. Meidän aikanamme kukaan ei saanut aivokalvontulehdusta Viestirykmentissä, joten mission accomplished! Olen käynyt SPR:n EA1:n 19 vuotta sitten. Ai, pitääkö se uusia kolmen vuoden välein? No, laita siihen sitten, että sen uusiminen on unohtunut kuusi kertaa.</p>
+
+			<p><b>Jos koronakuume nousee, mitä pelaajan kannattaa tehdä? Kannattaako koronavirukseen sairastuneen tulla pelaamaan. Entä jos paikalla on 7 ja tarvittaisiin vielä se yksi? Kantsiiko kuitenkin sinnitellä?</b></p>
+
+			<p>Ensi alkuun on syytä tehdä selväksi nämä termit, koska maallikoiden puheissa ne menevät usein sekaisin. Koronakuumeella tarkoitetaan yllättävää ja intensiivistä innostumista Korona-pelin pelaamisesta. Eli vähän sama asia kuin autokuume mutta edullisempi. Koronakuumetta esiintyy yleensä sateisina kesäpäivinä, kun on menty kesämökille eikä sateen takia voidakaan tehdä mitään ulkona. Sitten löydetään vanha Korona-peli ja saadaan tartunta. Koronakuumetta voi hoitaa monella tavalla ja usein se paranee myös ilman hoitoa ajan kanssa. Kuumeen kestoa voi yrittää lyhentää esimerkiksi kehotuksilla: "Vieläkö sä sitä pelaat? Eikös se jo riitä? Tee jotain muuta välillä." Myös sählyn pelaaminen on joissakin tapauksissa ollut hyväksi potilaalle, kun hän pääsee hetkeksi eroon Korona-pöydästä. Tällä perusteella koronakuume ei ole este sählyn pelaamiselle.</p>
+
+			<p>Koronavirus COVID-19 on sitten ihan erilainen oikeasti vakava tauti, jonka todentamiseen käytetään testiä. Koronavirukseen sairastuneen ei pidä pelata sählyä! Oireita ovat mm. kuume, yskä, hengitysvaikeus, lihaskivut, väsymys ja päänsärky. Oirekuvaus on ongelmallinen, koska kuumuus, hengästyminen, lihaskivut ja väsymys kuuluvat normaaliin kuntosählyyn myös terveille henkilöille. Ja jos Markus on pelaamassa, aiheutuu tutkimusten mukaan myös täysin terveille henkilöille päänsärkyä ainakin pelin jossain vaiheessa.</p>
+
+			<p>Riippumatta siitä onko urheilijalla oikeasti koronavirus vai ihan normaali flunssa, ei pelaamaan kannata tulla sairaana. Kyse on myös siitä, että näin korkealla tasolla kun urheillaan, puolikuntoinen pelaaja ei pysy millään vauhdissa mukana. Pelaajatarkkailijat arvioivat pelaajia jatkuvasti finaalin draftia varten ja huonot suoritukset alentavat pelaajan rankingia. Pysy siis poissa, jos olet sairas.</p>
+
+			<p>Tilanne kehittyy ja muuttuu jatkuvasti, joten yleisohjeena asiantuntijamme suosittelee etsimään tietoa koronaviruksesta ihan muualta kuin Github-sivuilta. Hyviä lähteitä ovat esim. valtamedia ja THL.</p>
+
+			<p><b>Onko organisaatiolla valtuuksia estää tiettyjen pelaajien pelaaminen turvallisuussyistä?</b></p>
+
+			<p>Asiasta on käyty kulissien takaista keskustelua, mutta lopullista päätöstä ei ole tehty.</p>
+
+			<p>Koronavirukseen sairastuneita on jahdattu maailmalla kohonneen lämpötilan perusteella, joten eräs radikaali ajatus on kieltää tulikuumien pelaajien pelaaminen. Pelaajan normaali voittoprosentti vaihtelee välillä 40 - 60 %. Jos voittoprosentti on yli 60 %, voidaan puhua tulikuumasta pelaajasta. Seuraavilla pelaajilla (voittoprosentti nimen jälkeen) voittoprosentti tämän kauden peleissä on yli 60 %: Oskari 100 %, Tommi 100 %, Timo 89 %, Martti 74 %, Lasse 68 % ja Otto 62 %. Tällä perusteella 33 % kauden peleistä voittaneen Antin pelit eivät siis ole uhattuna. Liivien joukkueenjohdosta toistettiin jälleen, että Antille lisää voimaharjoittelua.</p>
+
+			<h2>Tapsa Cup finaali</h2>
+
+			<p><b>Vaikka Tapsa Cup finaalin pelipäivää ei ole vielä lyöty lukkoon, on se perinteisesti ollut touko-kesäkuun vaihteessa. Kysyimme areenalta, mikä on tilanne järjestelyiden suhteen?</b></p>
+
+			<p>Finaali on kiinnostanut urheilukansaa aina eikä tämä vuosi ole poikkeus. Vaikka tarkkaa pelipäivää ei ole vielä lyöty lukkoon eikä edes tiedetä mitkä joukkueet siinä pelaavat, ei katsomossa ole enää yhtään vapaata paikkaa. 12.3. maan hallitus kielsi (vai oliko se vain suositus) yli viidensadan henkilön yleisötapahtumat toukokuun loppuun asti. Urheiluasiantuntijat tietävät, mitä sellainen kielto tarkoittaa Tapsa Cup finaalin suhteen.</p>
+
+			<p><b>Verkkosivuilla lukee Tapsa Cup-välilehdellä: "<i>Jos kauden viimeisellä kerralla ei pelata, jää finaali kokonaan pelaamatta eikä sitä edeltänyttä kertaa lueta finaaliksi.</i>". Onko tosiaan niin, että Tapsa Cup finaali voi jäädä pelaamatta vuonna 2020, jos tilanne menee oikein huonoksi? Eli mikä on pahin skenaario?</b></p>
+
+			<p>Tällä hetkellä kukaan ei vielä ole puhunut Tapsa Cup finaalin perumisesta eikä edes siirtämisestä, mutta asiaan on syytä varautua, koska monia saman tason urheilutapahtumia on jo peruttu tai viivästetty. F1, NHL, NBA, hiihtely, jääkiekon MM, jalkapallon EM ja olympialaiset, nämä kaikki ovat olleet liipaisimella. Tapsa Cup finaali voi nousta samalle tasolle myös muissa kuin urheilullisissa asioissa, vaikka useimmilla on vielä vahva usko, että ei tässä mittään.</p>
+
+			<p>Kuntosählyn peruskirjassa tosiaan lukee: "<i>Jos kauden viimeisellä kerralla ei pelata, jää finaali kokonaan pelaamatta eikä sitä edeltänyttä kertaa lueta finaaliksi.</i>. Kukaan ei sitä ole vielä koskaan haastanut. Ajatus on, että kun vuoro on viimeisen kerran klo 22, niin silloin on Tapsa Cup finaali. Jos finaalia ei voida pelata touko-kesäkuun vaihteessa sen takia kun porukka on kotona (osa oikeasti sairaana ja loput foliohattu päässä syömässä säilykelihapullia ja teippaamassa ikkunankarmeja ilmatiiviiksi) niin milloin se voitaisiin pelata? Kenelläkään ei ole kristallipalloa, mutta tässä vähän spekulointia.</p>
+
+			<p>Nyt maaliskuun puolivälissä koronavirusepidemia on menossa huonompaan suuntaan, joidenkin mielestä vasta alkamassa, joten tilanne ei varmaankaan ole yhtään parempi maalis-huhtikuussa kuin se on touko-kesäkuussa. Siksi ei ole järkevää ainakaan aikaistaa finaalia, koska harva sitä haluaisikaan.</p>
+
+			<p>Jos finaalia ei voida pelata normaaliin aikaan touko-kesäkuun vaihteessa, ei tilanne ehkä parane niin sopivasti, että se voitaisiin pelata kesäkuun aikana. Heinäkuussa on taas monilla kesäloma ja muita menoja, joten se on siinä mielessä vähän huonoa aikaa. Toki kesä tuo taas joitain uusia kausipelaajia, mikä on hyvä juttu.</p>
+
+			<p>Tapsa Cup finaali on niin arvokas tilaisuus, että sen ajankohta pitää tietää hyvissä ajoin. Sopivan henkisen tilan ja mediapöhinän rakentaminen kestää viikkoja. Joukkueiden kapteenitkin tarvitsevat aikaa hengen luomiseen ja vastustajan mollaamiseen. Ei voida vain yhtäkkiä päättää, että pelataan se nyt. Yksi mahdollisuus on korvata kesäkauden finaali eli All Star ottelu Tapsa Cup finaalilla. Silloin pahin lienee ohi ja kaikki tietävät milloin finaali on. Kesäkauden finaalihan on silloin kun pelataan viimeisen kerran klo 20 eli elokuun puolivälissä.</p>
+
+			<h2>Tilanne kehittyy jatkuvasti</h2>
+
+			<p>Tässä olleet kommentit on kirjoitettu julkaisuhetken tietojen mukaan. Tilanne kehittyy jatkuvasti, joten uutisointia on syytä seurata lähiaikoina.</p>
+
+			]]>
+		</sisalto>
+	</uutinen>
+
+	<uutinen otsikko="Vanhan konkarin paluu - Uran kaikkein kohtalokkain peli" pvm="2020-03-05">
 		<lyhyesti>
 			<![CDATA[
 			Lyhennelmä puuttuu.
