@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Vanhan konkarin paluu - Uran kaikkein kohtalokkain peli"){
+					if(otsikko === "Koronavirus tulee - onko kuntosähly valmiina?"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
