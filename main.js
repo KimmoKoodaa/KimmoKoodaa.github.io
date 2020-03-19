@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Koronavirus tulee - onko kuntosähly valmiina?"){
+					if(otsikko === "Korona tuli, sählyt meni: runkosarja on keskeytetty"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
