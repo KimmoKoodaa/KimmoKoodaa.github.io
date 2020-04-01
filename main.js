@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Korona tuli, sählyt meni: runkosarja on keskeytetty"){
+					if(otsikko === "Sensaatio: Villen ennätys rikki - pisin voittoputki nyt 18!"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
