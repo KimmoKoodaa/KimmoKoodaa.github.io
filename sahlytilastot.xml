@@ -11172,14 +11172,21 @@
 		</peli>
 	</sahly>
 		
-	<sahly pvm="2020-03-17" paikka="" alkoi="22:00" loppui="" muuta="COVID-19, joten halli kiinni eikä pelattu." maalivahteja="0" pelattiinko="ei" halliauki="ei">
+	<sahly pvm="2020-03-17" paikka="" alkoi="22:00" loppui="" muuta="Koronaviruksen takia ei pelattu. Halli oli kyllä auki." maalivahteja="0" pelattiinko="ei" halliauki="kyllä">
 		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu.">
 			<pelaajat>				
 			</pelaajat>
 		</peli>
 	</sahly>
 
-	<sahly pvm="2020-03-24" paikka="" alkoi="22:00" loppui="" muuta="COVID-19, joten halli kiinni eikä pelattu." maalivahteja="0" pelattiinko="ei" halliauki="ei">
+	<sahly pvm="2020-03-24" paikka="" alkoi="22:00" loppui="" muuta="Koronaviruksen takia ei pelattu. Halli oli kyllä auki." maalivahteja="0" pelattiinko="ei" halliauki="kyllä">
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu.">
+			<pelaajat>				
+			</pelaajat>
+		</peli>
+	</sahly>
+		
+	<sahly pvm="2020-03-31" paikka="" alkoi="22:00" loppui="" muuta="Koronaviruksen takia ei pelattu. Halli oli kyllä auki." maalivahteja="0" pelattiinko="ei" halliauki="kyllä">
 		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu.">
 			<pelaajat>				
 			</pelaajat>
