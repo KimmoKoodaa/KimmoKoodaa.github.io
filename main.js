@@ -182,7 +182,7 @@ function haeUutiset(){
 					$('#uutisotsikotDiv').append("<tr><td>&nbsp;</td></tr>");
 				
 					// Tämä lisätään pääuutiseksi
-					if(otsikko === "Sensaatio: Villen ennätys rikki - pisin voittoputki nyt 18!"){
+					if(otsikko === "Kuntosählyn paikallisderby keräsi taas runsaasti pelaajia"){
 						$('#finaaliteksti').append(sisalto);
 					}		
 				});
