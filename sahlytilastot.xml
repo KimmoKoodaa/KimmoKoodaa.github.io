@@ -11227,6 +11227,13 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2020-05-12" paikka="" alkoi="22:00" loppui="" muuta="Koronaviruksen takia kaikki jäivät kotiin. Halli oli kyllä auki, joten ei sitä tiedä vaikka siellä olisi ollut ihan uutta porukkaa." maalivahteja="0" pelattiinko="ei" halliauki="kyllä">
+		<peli nro="" joukkue1="" joukkue2="" voittaja="" maalit1="" maalit2="" muuta="Ei pelattu.">
+			<pelaajat>				
+			</pelaajat>
+		</peli>
+	</sahly>
 
 	</sahlyt>
 </tilastot>
