@@ -11234,6 +11234,15 @@
 			</pelaajat>
 		</peli>
 	</sahly>
+		
+	<sahly pvm="2020-05-19" paikka="" alkoi="22:00" loppui="" muuta="Ensimmäinen ottelu Koronaepidemian aiheuttaman tauon jälkeen. Paikalla olivat Antti, Lasse, Make, Markus, Otto2 ja Tuukka. Antin, Lassen ja Otto2:n muodostama Paidat1 voitti illan kaikki 4 ottelua, joten Paidat2 hävisi. Pelejä ei tilastoitu." maalivahteja="0" pelattiinko="kyllä" halliauki="kyllä">
+		<perustiedot>
+			<pelaajia>6</pelaajia>
+			<kimmo>paikalla</kimmo>
+			<visa>poissa</visa>
+			<muuta></muuta>
+		</perustiedot>
+	</sahly>
 
 	</sahlyt>
 </tilastot>
